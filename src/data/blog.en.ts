@@ -892,7 +892,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-02",
     body: [
       {
         type: "p",
@@ -992,6 +992,30 @@ export const postsEn: BlogPost[] = [
         type: "p",
         text: "Mozaik Med's run or Hot Girls Walk Club, because neither requires advance sign-up, costs nothing, and needs no gear. Once you're past your first visit, it becomes much easier to try a court-based sport too, where you already have to message someone in advance.",
       },
+      { type: "h2", text: "What if you're looking for a specific sports partner, not a team?" },
+      {
+        type: "p",
+        text: "Most of the clubs above are group formats: you show up, and the group itself gives you company. But a few sports, tennis, padel, squash, and pickleball among them, don't work that way: instead of joining a group, you need to find one specific person to play against. A club isn't necessarily the answer there, a sports-partner-finding platform is.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "PályaPartner",
+            note: "A free Hungarian sports-partner finder where you set your sport, level, and location on your profile and pick from nearby players. It covers seventeen sports, from tennis and padel to running and basketball, and most of its users are in Budapest.",
+            href: "https://www.palyapartner.hu/",
+          },
+          {
+            name: "Playtomic",
+            note: "An international app focused mainly on padel and tennis: it shows nearby courts and open matches posted by other players that you can join if they're short a fourth or need an opponent. Several Budapest padel clubs are partners, including BUDAPADEL.",
+            href: "https://playtomic.com/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "The difference from a club is that you're not joining a community, you're coordinating with one specific person for one specific time. If you'd rather have a regular, recurring crowd, stick with the club format instead, like Budapest Racquet Society or PickMeBall Club, where the community handles the matching for you.",
+      },
       {
         type: "citation",
         text: "Running Club Check-In: twelve practical tips for welcoming new members to a running club",
@@ -1015,6 +1039,10 @@ export const postsEn: BlogPost[] = [
           {
             q: "Do I need to bring gear to the first session?",
             a: "For running and walking, just shoes. For street basketball, nothing. For pickleball and bike polo there's usually loaner gear, but it's worth checking with the club in advance.",
+          },
+          {
+            q: "Where do I find a specific sports partner, not a team, in Budapest?",
+            a: "Through a sports-partner finder app like PályaPartner or Playtomic, where you coordinate directly with one player based on your level and location, instead of joining an entire group.",
           },
         ],
       },
@@ -3287,6 +3315,95 @@ export const postsEn: BlogPost[] = [
             a: "We haven't found a free, membership-fee-free community specifically dedicated to this. If that changes and a genuine free group shows up, we'll update this article and our club list too.",
           },
         ],
+      },
+    ],
+  },
+  {
+    slug: "is-there-casual-football-in-budapest",
+    title: "Is there casual football in Budapest that anyone can join?",
+    metaTitle: "Is there casual football in Budapest?",
+    description:
+      "Football in Budapest is organized differently from running or board games: there's no genuinely free, just-show-up club. There is a free platform for one-off matches though, and we cover that too.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    body: [
+      {
+        type: "p",
+        text: "The short answer is not the way you're used to from running or board games. We didn't find a single active, free, casual community where you can just show up to a match. Football in Budapest is structured fundamentally differently, and there's a reason for that.",
+      },
+      { type: "h2", text: "Why is this different from running or hiking?" },
+      {
+        type: "p",
+        text: "Most hobby sports communities in Budapest (running, hiking, street basketball) can stay free and open because they're not tied to a fixed headcount: one more or fewer person doesn't break anything. Football doesn't work that way, since a match needs an exact number of players and an already-formed team, so joining almost always means either joining a specific team or entering a paid, organized setup.",
+      },
+      { type: "h2", text: "What real options are there?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Grundfoci.hu",
+            note: "A marketplace for amateur football teams in and around Budapest: teams looking for players, players looking for a team. Not a community you walk into, but a database where you send an application to a team near you.",
+            href: "http://www.grundfoci.hu/",
+          },
+          {
+            name: "Pestifoci.hu",
+            note: "An amateur football news and team-listing site where you can browse which Budapest teams are looking for players. Just as team-based as Grundfoci, not built around casual, one-off participation.",
+            href: "https://pestifoci.hu/index.php/csapatlista",
+          },
+          {
+            name: "Amazon Foci SE",
+            note: "A women's and girls' futsal community running since 2015, with a free trial session for your first time. This is the closest thing to the format you'd expect from other sports, but after the trial it's club membership, not casual drop-in play.",
+            href: "https://amazonfoci.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "What if you just want to play casually, without a team?" },
+      {
+        type: "p",
+        text: "Casual one-off matches get posted all the time across Budapest Facebook groups and pages (\"need two more for Friday's five-a-side\"), but they're scattered across different pages with no single place to track them. There's one platform, though, that solves exactly this problem in one spot.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "TeamGames.hu",
+            note: "A free teammate and player finder, not just for football: once you register, you can filter by county and city to see who near you is looking for a playing partner at your level, for a one-off session or a recurring one. It's effectively a structured version of what people otherwise post in scattered Facebook groups.",
+            href: "https://teamgames.hu/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "The difference from a club is that you're not joining a standing community, you're finding new people for one specific match each time. If you're after a fixed, recurring team instead, Grundfoci's or Pestifoci's team listings fit that purpose better.",
+      },
+      {
+        type: "citation",
+        text: "GyakoriKérdések: how to join an amateur football team in Budapest",
+        href: "https://www.gyakorikerdesek.hu/sport-mozgas__labdajatekok__2217570-egy-amator-budapesti-focicsapatba-szeretnek-jatszani-hogyan-lehet-jelentkezni",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Is there a free, just-show-up casual football community in Budapest?",
+            a: "Not in the form of a club with a stable Instagram or website presence. For casual, team-free play there is a free option, though: TeamGames.hu, where you can find players for a specific match without belonging to a fixed team.",
+          },
+          {
+            q: "How do I start if I don't have a team?",
+            a: "Browse the team listings on Grundfoci.hu or Pestifoci.hu for teams specifically looking for new players, and apply directly to them.",
+          },
+          {
+            q: "How much does it cost to play football in Budapest without your own team?",
+            a: "For casual, team-free matches, participants typically split the pitch rental cost, usually a few thousand forints per person. Joining an actual team usually means a membership fee or a regular contribution instead.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If this changes and a genuine, free, open casual football community shows up in Budapest, we'll update this article and our club list too.",
       },
     ],
   },

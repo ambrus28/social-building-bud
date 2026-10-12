@@ -5,7 +5,8 @@
  */
 const SCHEDULE_EN: Record<string, string> = {
   Hétvégente: "Weekends",
-  "Kedd és csütörtök este, vasárnap reggel": "Tue & Thu evenings, Sun mornings",
+  "Kedd és csütörtök este, vasárnap reggel, Szabadság tér és Margitsziget":
+    "Tue & Thu evenings, Sun mornings, Liberty Square and Margaret Island",
   "Szombat esténként": "Saturday evenings",
   Havonta: "Monthly",
   "Keddenként, Margitsziget": "Tuesdays, Margaret Island",

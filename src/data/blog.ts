@@ -909,7 +909,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-02",
     body: [
       {
         type: "p",
@@ -1009,6 +1009,30 @@ export const posts: BlogPost[] = [
         type: "p",
         text: "A Mozaik Med futással vagy a Hot Girls Walk Clubbal, mert ezeknél nincs előzetes jelentkezés, nincs költség, és nem kell felszerelés. Ha egyszer túl vagy az első alkalmon, onnantól sokkal könnyebb lesz egy pályás sportot is kipróbálni, ahol már írni kell valakinek előre.",
       },
+      { type: "h2", text: "Mi van, ha konkrétan egy sportpartnert keresel, nem csapatot?" },
+      {
+        type: "p",
+        text: "A fenti klubok nagy része csoportos formátum: megjelensz, és a csoport maga ad társaságot. Van viszont néhány sportág, a teniszhez, a padelhez, a squashhoz vagy a pickleballhoz hasonlóan, ahol nem egy csoportba kell beállnod, hanem konkrétan egy embert kell találnod, akivel lepályázol. Erre nem feltétlenül egy klub a megoldás, hanem egy sportpartner-kereső platform.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "PályaPartner",
+            note: "Ingyenes, magyar sportpartner-kereső, ahol a profilodhoz beállítod a sportágad, a szinted és a helyszínt, és a közeledben lévő játékosok közül választhatsz. Tizenhét sportágat fed le, a teniszen és a padelen túl futástól a kosárlabdáig, és a legtöbb felhasználója Budapesten van.",
+            href: "https://www.palyapartner.hu/",
+          },
+          {
+            name: "Playtomic",
+            note: "Nemzetközi app, elsősorban padelhez és teniszhez: megmutatja a közeli pályákat és a nyitott, más játékosok által meghirdetett meccseket, amikhez csatlakozhatsz, ha hiányzik egy negyedik vagy egy ellenfél. Budapesten több padelklub is partnere, köztük a BUDAPADEL.",
+            href: "https://playtomic.com/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A különbség a klubokhoz képest az, hogy itt nem egy közösséghez csatlakozol, hanem egy konkrét emberrel egyeztetsz egy konkrét időpontra. Ha inkább a rendszeres, visszatérő társaságot keresed, maradj a klubos formátumnál, mint a Budapest Racquet Society vagy a PickMeBall Club, ahol a közösség szervezi meg helyetted a párosítást.",
+      },
       {
         type: "citation",
         text: "Running Club Check-In: tizenkét gyakorlati tipp, hogyan fogadj be új tagokat egy futóklubban",
@@ -1032,6 +1056,10 @@ export const posts: BlogPost[] = [
           {
             q: "Kell felszerelést vinnem az első alkalomra?",
             a: "A futáshoz és a sétához csak cipő kell. Az utcai kosárlabdához semmi. A pickleballhoz és a bike polóhoz jellemzően van kölcsönfelszerelés, de ezt érdemes előre megkérdezni a klubtól.",
+          },
+          {
+            q: "Hol találok konkrétan egy sportpartnert, nem csapatot, Budapesten?",
+            a: "Egy sportpartner-kereső appal, mint a PályaPartner vagy a Playtomic, ahol a szinted és a helyszíned alapján közvetlenül egy játékossal egyeztetsz, nem egy egész csoporthoz csatlakozol.",
           },
         ],
       },
@@ -3304,6 +3332,95 @@ export const posts: BlogPost[] = [
             a: "Jelenleg nem találtunk kifejezetten erre szakosodott, ingyenes, tagdíj nélküli közösséget. Ha ez változik, és felbukkan egy valódi, ingyenes csoport, frissítjük ezt a cikket és a klublistánkat is.",
           },
         ],
+      },
+    ],
+  },
+  {
+    slug: "van-hobbi-foci-lehetoseg-budapesten",
+    title: "Van hobbi foci lehetőség Budapesten, amihez bárki csatlakozhat?",
+    metaTitle: "Van hobbi foci Budapesten?",
+    description:
+      "A foci Budapesten másként szerveződik, mint a futás vagy a társasjáték: nincs igazán ingyenes, csak-gyere-ki klub. Van viszont egy ingyenes platform alkalmi meccsekhez, ezt is megmutatjuk.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    body: [
+      {
+        type: "p",
+        text: "A rövid válasz: nem úgy, ahogy a futásnál vagy a társasjátéknál megszoktad. Nem találtunk egyetlen aktív, ingyenes, laza közösséget sem, ahova elég csak megjelenni egy meccsre. A foci Budapesten alapvetően másképp van felépítve, és ennek megvan a maga oka.",
+      },
+      { type: "h2", text: "Miért más ez, mint a futás vagy a túrázás?" },
+      {
+        type: "p",
+        text: "A legtöbb budapesti hobbi sportközösség (futás, túrázás, utcai kosárlabda) azért tud ingyenes és nyitott lenni, mert nincs fix létszámhoz kötve: eggyel több vagy kevesebb ember nem borítja fel az egészet. A focinál ez másképp működik, mert egy mérkőzéshez pontos létszám és egy már összeszokott csapat kell, ezért a belépés szinte mindig vagy egy csapathoz való csatlakozást, vagy egy fizetős, szervezett keretet jelent.",
+      },
+      { type: "h2", text: "Milyen valódi lehetőségek vannak?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Grundfoci.hu",
+            note: "Amatőr focicsapatok piactere Budapesten és környékén: csapatok keresnek játékosokat, játékosok keresnek csapatot. Nem egy közösség, amibe besétálsz, hanem egy adatbázis, ahol jelentkezést küldhetsz egy hozzád közeli csapatnak.",
+            href: "http://www.grundfoci.hu/",
+          },
+          {
+            name: "Pestifoci.hu",
+            note: "Amatőr focihírek és csapatlista oldala, ahol végig tudod nézni, mely budapesti csapatok keresnek játékosokat. Hasonlóan csapat-alapú, mint a Grundfoci, nem egyéni, alkalmi részvételre épül.",
+            href: "https://pestifoci.hu/index.php/csapatlista",
+          },
+          {
+            name: "Amazon Foci SE",
+            note: "Női és lány futsal közösség 2015 óta, ingyenes próba-edzéssel az első alkalomra. Ez a legközelebb áll ahhoz a formátumhoz, amit más sportoknál megszoktunk, de utána már klubtagságról van szó, nem alkalmi részvételről.",
+            href: "https://amazonfoci.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mi van, ha csak alkalmanként, csapat nélkül focizgatnál?" },
+      {
+        type: "p",
+        text: "Erre a célra sok budapesti Facebook-csoportban és -oldalon posztolnak alkalmi hirdetéseket („hiányzik két ember pénteki focihoz”), de ezek szétszórtan, oldalanként máshol jelennek meg, és nehéz megbízhatóan nyomon követni őket. Van viszont egy platform, ami pontosan ezt a problémát oldja meg egy helyen.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "TeamGames.hu",
+            note: "Ingyenes csapattárs- és játékoskereső oldal, nem csak focihoz: bejelentkezés után megye és város szerint szűrve látod, ki keres hozzád hasonló szinten játszótársat egy adott időpontra, akár egyszeri alkalomra, akár rendszeresen. Pontosan azt helyettesíti strukturáltan, amit máshol Facebook-csoportokban posztolgatnak az emberek.",
+            href: "https://teamgames.hu/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A különbség egy klubhoz képest az, hogy itt nem egy állandó közösséghez csatlakozol, hanem alkalmanként új embereket találsz egy adott meccshez. Ha mégis egy fix, visszatérő csapatot keresel, a Grundfoci vagy a Pestifoci csapatlistája jobban illik erre a célra.",
+      },
+      {
+        type: "citation",
+        text: "GyakoriKérdések: hogyan lehet csatlakozni egy amatőr budapesti focicsapathoz",
+        href: "https://www.gyakorikerdesek.hu/sport-mozgas__labdajatekok__2217570-egy-amator-budapesti-focicsapatba-szeretnek-jatszani-hogyan-lehet-jelentkezni",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Van ingyenes, csak-gyere-ki hobbi foci közösség Budapesten?",
+            a: "Egy stabil, Instagramon vagy weboldalon hirdető klub formájában nem találtunk ilyet. Az alkalmi, csapat nélküli részvételre viszont van ingyenes megoldás: a TeamGames.hu, ahol egy adott időpontra kereshetsz játékostársakat, anélkül hogy egy fix csapathoz kellene tartoznod.",
+          },
+          {
+            q: "Hogyan kezdjek, ha nincs csapatom?",
+            a: "A Grundfoci.hu vagy a Pestifoci.hu csapatlistáján böngészve találhatsz olyan csapatokat, amelyek kifejezetten új játékosokat keresnek, és jelentkezhetsz náluk.",
+          },
+          {
+            q: "Mibe kerül focizni Budapesten, ha nincs saját csapatod?",
+            a: "Alkalmi, csapat nélküli mérkőzéseknél jellemzően a pályabérlet osztják el a résztvevők között, ez fejenként pár ezer forint. Egy csapathoz csatlakozva ez tagdíj vagy rendszeres hozzájárulás formájában jelentkezhet.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha ez változik, és felbukkan egy valódi, ingyenes, nyitott hobbi foci közösség Budapesten, frissítjük ezt a cikket és a klublistánkat is.",
       },
     ],
   },
