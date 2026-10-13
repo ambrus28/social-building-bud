@@ -44,6 +44,7 @@ const HU_TO_EN: Record<string, string> = {
   "30-utan-nehez-barator-talalni-budapesten": "hard-to-make-friends-after-30-in-budapest",
   "van-outdoor-boulder-lehetoseg-budapesten": "is-there-outdoor-bouldering-in-budapest",
   "van-hobbi-foci-lehetoseg-budapesten": "is-there-casual-football-in-budapest",
+  "szeretnek-ismerkedni-budapesten-melyik-forma-illik-hozzad": "i-want-to-meet-people-in-budapest-which-format-fits-you",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(

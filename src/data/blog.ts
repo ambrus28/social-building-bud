@@ -3424,6 +3424,167 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "szeretnek-ismerkedni-budapesten-melyik-forma-illik-hozzad",
+    title: "Szeretnék ismerkedni Budapesten: melyik közösségi forma illik hozzád?",
+    metaTitle: "Szeretnék ismerkedni Budapesten: melyik forma illik hozzád?",
+    description:
+      "Nem kell előre tudnod, milyen tevékenységet keresel. Ez az útmutató az ismerkedési stílusod alapján mutatja meg, melyik budapesti közösségi kategóriával érdemes kezdened.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    body: [
+      {
+        type: "p",
+        text: "„Szeretnék ismerkedni” gyakran megakad ott, hogy nem tudod, mivel kezdd. Nem kell előre eldöntened, melyik konkrét tevékenység a tiéd: elég, ha azt tudod, milyen formában érzed magad a legkevésbé feszélyezve mások között. Ez az útmutató erre épít, nem a tevékenységre, hanem az ismerkedési stílusodra.",
+      },
+      { type: "h2", text: "Ha mozgás közben ismerkednél a legszívesebben" },
+      {
+        type: "p",
+        text: "Sokaknak könnyebb úgy beszélgetni, ha közben történik is valami: nem kell szemkontaktust tartani, és mindig van közös téma, a mai táv vagy a következő emelkedő. Ha ez rád illik, a mozgásalapú kategóriák a legjobb kezdés.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Sport",
+            note: "Futóklubok, utcai kosárlabda, kerékpáros és ütős sportok közösségei, a legtöbb ingyenes és kezdőbarát.",
+            href: "/klubok/sport",
+          },
+          {
+            name: "Túra / Természetjárás",
+            note: "Vezetett túrák a budai hegyekben, ahol a hosszú együtt töltött idő magától oldja a kezdeti feszültséget.",
+            href: "/klubok/tura-termeszetjaras",
+          },
+          {
+            name: "Tánc",
+            note: "Social dance alkalmak, ahova nem párban kell érkezni: a partnerváltás maga a közösségi forma.",
+            href: "/klubok/tanc",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha inkább ülve, beszélgetve ismerkednél" },
+      {
+        type: "p",
+        text: "Van, akinek pont a mozgás a zavaró tényező, és sokkal jobban érzi magát egy asztal körül, ahol a beszélgetés maga a program, nem egy mellékes velejárója valaminek.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Társasjáték",
+            note: "A játék adja a beszélgetési alapot, tehát nem neked kell társalgást kezdeményezned.",
+            href: "/klubok/tarsasjatek",
+          },
+          {
+            name: "Könyvklub",
+            note: "Előre tudod, miről lesz szó, ami sokaknak pont az a biztonsági háló, ami miatt egyáltalán elmernek menni először.",
+            href: "/klubok/konyvklub",
+          },
+          {
+            name: "Nyilvános beszéd",
+            note: "Strukturált, kiszámítható formátum, ahol vendégként, hallgatóként is be lehet ülni egy alkalomra.",
+            href: "/klubok/nyilvanos-beszed",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha nemzetközi közegben, nyelvet is gyakorolva ismerkednél" },
+      {
+        type: "p",
+        text: "Ha szívesebben ismerkednél olyanokkal, akik maguk is most építik a budapesti kapcsolati hálójukat, a nemzetközi, expateket és helyieket vegyítő közösségek jó választás, mert ott mindenki azzal a szándékkal érkezik, hogy ismeretlenekkel beszélgessen.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Nyelvcsere / Networking",
+            note: "Rotáló beszélgetések helyiekkel és külföldiekkel, nyelvtudástól függetlenül.",
+            href: "/klubok/nyelvcsere-networking",
+          },
+          {
+            name: "Networking / Digitális Nomád",
+            note: "Azoknak, akik most érkeztek Budapestre dolgozni, és gyors, sűrű ismerkedést keresnek.",
+            href: "/klubok/networking-digitalis-nomad",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha egy adott élethelyzethez illő közösséget keresnél" },
+      {
+        type: "p",
+        text: "Néha nem a tevékenység számít, hanem az, hogy olyanok között legyél, akik hasonló élethelyzetben vannak, mint te. Ezekben a kategóriákban az ismerkedés alapja maga a közös élethelyzet.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Női közösség",
+            note: "Közös séták és beszélgetős alkalmak, kifejezetten nőknek.",
+            href: "/klubok/noi-kozosseg",
+          },
+          {
+            name: "Szülők / Családok",
+            note: "Nappali találkozók, ahova gyerekkel együtt lehet menni.",
+            href: "/klubok/szulok-csaladok",
+          },
+          {
+            name: "LMBTQ+ Közösség",
+            note: "Biztonságos, befogadó tér, ahol nem kell magyarázkodni.",
+            href: "/klubok/lmbtq-kozosseg",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha a lelki feltöltődés is szempont, nem csak a társaság" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Jóga / Wellness",
+            note: "Szabadtéri jógaórák és wellness-alkalmak, amelyeket gyakran alkoholmentes társasági program követ.",
+            href: "/klubok/joga-wellness",
+          },
+          {
+            name: "Meditáció / Spiritualitás",
+            note: "Önismereti közösségek, vallástól és szervezettől függetlenül.",
+            href: "/klubok/meditacio-spiritualitas",
+          },
+          {
+            name: "Katolikus Közösségek",
+            note: "Imacsoportok, kórusok és beszélgetős közösségek, amelyek sok helyen kifejezetten várják az újakat.",
+            href: "/klubok/katolikus-kozossegek",
+          },
+        ],
+      },
+      { type: "h2", text: "Mi van, ha egyik kategória sem ugrik be azonnal?" },
+      {
+        type: "p",
+        text: "Ez nem jelenti azt, hogy nincs neked való forma, csak azt, hogy még nem tudod pontosan, mit keresel. Ilyenkor érdemes a legalacsonyabb belépési küszöbű alkalommal kezdeni, ahol nincs költség, nincs felszerelés, és nem kell előre jelentkezni, és onnan tovább lépni, ha nem az első csoport jön be igazán.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: miért nehezebb felnőttként barátkozni, és mit lehet tenni ellene",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mi van, ha több kategória is illik rám?",
+            a: "Ez teljesen rendben van, sőt ajánlott is: két-három párhuzamos próbálkozás gyorsabban megmutatja, melyik forma illik hozzád, mint ha végigvárnál egyet, mielőtt a következőt kipróbálnád.",
+          },
+          {
+            q: "Fizetnem kell azért, hogy ismerkedjek egy ilyen közösségben?",
+            a: "A legtöbb itt felsorolt kategóriában a böngészés és a csatlakozás ingyenes. Ahol mégis van költség, például pályabérlésnél, azt a klub saját oldalán tünteti fel.",
+          },
+          {
+            q: "Mennyi idő alatt alakul ki valódi ismeretség?",
+            a: "Reálisan két-három alkalom ugyanannál a csoportnál. Az első alkalom szinte sosem hozza az első mély kapcsolatot, és ez teljesen normális.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

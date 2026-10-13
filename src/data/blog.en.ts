@@ -3407,4 +3407,165 @@ export const postsEn: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "i-want-to-meet-people-in-budapest-which-format-fits-you",
+    title: "I want to meet people in Budapest: which community format fits you?",
+    metaTitle: "I want to meet people in Budapest: which format fits you?",
+    description:
+      "You don't need to know the activity in advance. This guide starts from how you like to meet people and points you to the right Budapest community category.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    body: [
+      {
+        type: "p",
+        text: "\"I want to meet people\" often stalls right at the start, because you don't know what to pick. You don't need to decide on a specific activity first: it's enough to know what format makes you feel the least self-conscious around others. This guide builds on that, your style of meeting people, not the activity itself.",
+      },
+      { type: "h2", text: "If you'd rather meet people while moving" },
+      {
+        type: "p",
+        text: "For a lot of people, conversation is easier when something is happening at the same time: you don't have to hold eye contact, and there's always a shared topic, today's distance or the next climb. If that's you, movement-based categories are the best starting point.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Sports",
+            note: "Running clubs, street basketball, cycling, and racquet sport communities, most of them free and beginner-friendly.",
+            href: "/en/clubs/sports",
+          },
+          {
+            name: "Hiking",
+            note: "Guided hikes in the Buda Hills, where the long time spent together naturally dissolves the initial awkwardness.",
+            href: "/en/clubs/hiking",
+          },
+          {
+            name: "Dance",
+            note: "Social dance nights you don't need to arrive at as a couple for: switching partners is the whole format.",
+            href: "/en/clubs/dance",
+          },
+        ],
+      },
+      { type: "h2", text: "If you'd rather meet people sitting down, talking" },
+      {
+        type: "p",
+        text: "Some people find movement the distracting part, and feel much more at ease around a table, where the conversation itself is the point, not a side effect of something else.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Board Games",
+            note: "The game itself gives you something to talk about, so you don't have to start the conversation yourself.",
+            href: "/en/clubs/board-games",
+          },
+          {
+            name: "Book Club",
+            note: "You know what the topic will be in advance, which for a lot of people is exactly the safety net that makes showing up the first time possible at all.",
+            href: "/en/clubs/book-club",
+          },
+          {
+            name: "Public Speaking",
+            note: "A structured, predictable format where you can sit in as a guest listener for a session.",
+            href: "/en/clubs/public-speaking",
+          },
+        ],
+      },
+      { type: "h2", text: "If you'd rather meet people in an international crowd, practicing a language too" },
+      {
+        type: "p",
+        text: "If you'd rather meet people who are themselves still building their social circle in Budapest, international communities mixing expats and locals are a good fit, because everyone there shows up with the same intention: talking to strangers.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Language Exchange / Networking",
+            note: "Rotating conversations with locals and foreigners, regardless of your language level.",
+            href: "/en/clubs/language-exchange",
+          },
+          {
+            name: "Digital Nomads",
+            note: "For people who just arrived in Budapest to work and want to meet people quickly and often.",
+            href: "/en/clubs/digital-nomads",
+          },
+        ],
+      },
+      { type: "h2", text: "If you're looking for a community that fits a specific life situation" },
+      {
+        type: "p",
+        text: "Sometimes it's not the activity that matters, it's being around people in a similar life situation to yours. In these categories, that shared situation is itself the basis for meeting people.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Women's Community",
+            note: "Group walks and conversation-focused meetups, specifically for women.",
+            href: "/en/clubs/womens-community",
+          },
+          {
+            name: "Parents / Families",
+            note: "Daytime meetups you can bring your kid along to.",
+            href: "/en/clubs/parents-families",
+          },
+          {
+            name: "LGBTQ+ Community",
+            note: "A safe, welcoming space where you don't have to explain yourself.",
+            href: "/en/clubs/lgbtq",
+          },
+        ],
+      },
+      { type: "h2", text: "If inner recharge matters too, not just company" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Yoga / Wellness",
+            note: "Outdoor yoga sessions and wellness meetups, often followed by an alcohol-free social get-together.",
+            href: "/en/clubs/yoga-wellness",
+          },
+          {
+            name: "Meditation / Spirituality",
+            note: "Self-discovery communities, independent of religion or organization.",
+            href: "/en/clubs/meditation",
+          },
+          {
+            name: "Catholic Communities",
+            note: "Prayer groups, choirs, and discussion-based communities, many of which genuinely welcome newcomers.",
+            href: "/en/clubs/catholic-communities",
+          },
+        ],
+      },
+      { type: "h2", text: "What if none of these categories immediately click?" },
+      {
+        type: "p",
+        text: "That doesn't mean there's no format for you, just that you don't yet know exactly what you're looking for. In that case, start with whichever session has the lowest barrier to entry, no cost, no gear, no sign-up required, and move on from there if the first group doesn't feel right.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: why making friends gets harder as an adult, and what to do about it",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What if more than one category fits me?",
+            a: "That's completely fine, and actually recommended: two or three parallel attempts show you faster which format fits you than waiting to finish one before trying the next.",
+          },
+          {
+            q: "Do I have to pay to meet people in one of these communities?",
+            a: "In most of the categories listed here, browsing and joining are free. Where there is a cost, for example court rental, the club states it on its own page.",
+          },
+          {
+            q: "How long does it take to form a real acquaintance?",
+            a: "Realistically two to three sessions with the same group. The first session almost never produces the first deep connection, and that's completely normal.",
+          },
+        ],
+      },
+    ],
+  },
 ];
