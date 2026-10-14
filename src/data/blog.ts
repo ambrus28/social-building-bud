@@ -3595,8 +3595,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "esik-az-eso-vagy-hideg-van-mit-csinalj-a-kozossegeddel",
-    title: "Esik az eső vagy hideg van? Mit csinálj, ha a közösséged kültéri",
-    metaTitle: "Esik az eső, hideg van: mi legyen a kültéri közösséggel?",
+    title: "Kültéri közösségek Budapesten rossz időben: mit csinálj, ha esik vagy hideg van?",
+    metaTitle: "Kültéri közösségek Budapesten rossz időben",
     description:
       "A futás, a túra és a szabadtéri jóga mind időjárásfüggő. Végigvesszük, melyik kültéri közösség megy tovább rossz időben is, és mihez fordulj, ha mégsem.",
     kind: "guide",

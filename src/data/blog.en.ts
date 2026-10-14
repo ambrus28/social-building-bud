@@ -3570,8 +3570,8 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "its-raining-or-cold-what-to-do-with-your-outdoor-community",
-    title: "It's raining or cold? What to do when your community is outdoors",
-    metaTitle: "Raining or cold: what to do with your outdoor community?",
+    title: "Outdoor communities in Budapest in bad weather: what to do when it's raining or cold",
+    metaTitle: "Outdoor communities in Budapest in bad weather",
     description:
       "Running, hiking, and outdoor yoga are all weather-dependent. We cover which outdoor communities keep going in bad weather, and what to turn to when they don't.",
     kind: "guide",
