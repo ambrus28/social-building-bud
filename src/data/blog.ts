@@ -2886,6 +2886,10 @@ export const posts: BlogPost[] = [
             q: "Mi van, ha a keresett téma túl niche, és semmit nem találok?",
             a: "Ilyenkor érdemes egy tágabb, rokon kategóriában keresni, és onnan rákérdezni, van-e valaki, aki tud a szűkebb témádhoz illő csoportról. A legtöbb niche közösség szóbeszéden keresztül terjed, nem nyilvános hirdetésen.",
           },
+          {
+            q: "Hol tudok ismerkedni Budapesten?",
+            a: "Induláshoz nézd át a Budapesti Közösségek kategóriánkénti listáját: ott egy helyen látod, milyen aktív, ingyenesen látogatható közösségek vannak a városban, Instagram- vagy weboldal-linkkel.",
+          },
         ],
       },
     ],
@@ -3426,8 +3430,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "szeretnek-ismerkedni-budapesten-melyik-forma-illik-hozzad",
-    title: "Szeretnék ismerkedni Budapesten: melyik közösségi forma illik hozzád?",
-    metaTitle: "Szeretnék ismerkedni Budapesten: melyik forma illik hozzád?",
+    title: "Hol tudok ismerkedni Budapesten? Melyik közösségi forma illik hozzád?",
+    metaTitle: "Hol tudok ismerkedni Budapesten?",
     description:
       "Nem kell előre tudnod, milyen tevékenységet keresel. Ez az útmutató az ismerkedési stílusod alapján mutatja meg, melyik budapesti közösségi kategóriával érdemes kezdened.",
     kind: "guide",
@@ -3438,7 +3442,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "„Szeretnék ismerkedni” gyakran megakad ott, hogy nem tudod, mivel kezdd. Nem kell előre eldöntened, melyik konkrét tevékenység a tiéd: elég, ha azt tudod, milyen formában érzed magad a legkevésbé feszélyezve mások között. Ez az útmutató erre épít, nem a tevékenységre, hanem az ismerkedési stílusodra.",
+        text: "A „hol tudok ismerkedni Budapesten” kérdés gyakran megakad ott, hogy nem tudod, mivel kezdd. Nem kell előre eldöntened, melyik konkrét tevékenység a tiéd: elég, ha azt tudod, milyen formában érzed magad a legkevésbé feszélyezve mások között. Ez az útmutató erre épít, nem a tevékenységre, hanem az ismerkedési stílusodra.",
       },
       { type: "h2", text: "Ha mozgás közben ismerkednél a legszívesebben" },
       {
@@ -3574,12 +3578,105 @@ export const posts: BlogPost[] = [
             a: "Ez teljesen rendben van, sőt ajánlott is: két-három párhuzamos próbálkozás gyorsabban megmutatja, melyik forma illik hozzád, mint ha végigvárnál egyet, mielőtt a következőt kipróbálnád.",
           },
           {
+            q: "Hol tudok ismerkedni Budapesten?",
+            a: "A fenti kategóriák bármelyikében, attól függően, milyen formában érzed magad a legkevésbé feszélyezve mások között. Nem kell előre tudnod a konkrét tevékenységet, elég az ismerkedési stílusodból kiindulni.",
+          },
+          {
             q: "Fizetnem kell azért, hogy ismerkedjek egy ilyen közösségben?",
             a: "A legtöbb itt felsorolt kategóriában a böngészés és a csatlakozás ingyenes. Ahol mégis van költség, például pályabérlésnél, azt a klub saját oldalán tünteti fel.",
           },
           {
             q: "Mennyi idő alatt alakul ki valódi ismeretség?",
             a: "Reálisan két-három alkalom ugyanannál a csoportnál. Az első alkalom szinte sosem hozza az első mély kapcsolatot, és ez teljesen normális.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "esik-az-eso-vagy-hideg-van-mit-csinalj-a-kozossegeddel",
+    title: "Esik az eső vagy hideg van? Mit csinálj, ha a közösséged kültéri",
+    metaTitle: "Esik az eső, hideg van: mi legyen a kültéri közösséggel?",
+    description:
+      "A futás, a túra és a szabadtéri jóga mind időjárásfüggő. Végigvesszük, melyik kültéri közösség megy tovább rossz időben is, és mihez fordulj, ha mégsem.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    body: [
+      {
+        type: "p",
+        text: "Ha a közösséged kültéri, az ősz és a tél hónapjaiban rendszeresen szembe fogsz nézni ezzel a kérdéssel: elmenjek esőben is, vagy inkább kihagyom? A probléma nem csak az egy alkalom, hanem az, hogy a kihagyott alkalmak könnyen sorozattá válnak, és a rendszeresség az, ami egyáltalán közösséggé teszi a dolgot.",
+      },
+      { type: "h2", text: "Melyik kültéri közösségek bírják jobban a rossz időt?" },
+      {
+        type: "p",
+        text: "A futóklubok jellemzően a legellenállóbbak: enyhe esőben vagy hidegben a legtöbb csoport megy tovább, és csak valódi extrém időjárásnál (jegesedés, zivatar) mondják le az alkalmat. A túrázás ennél érzékenyebb, mert a terep is számít, nem csak a kényelem: sáros, csúszós ösvényen más a kockázat, mint egy városi járdán. A szabadtéri jóga és a kötetlen sétás közösségek a legidőjárás-érzékenyebbek, mert ott a program lényege maga a kültéri élmény, amit nehéz esőben reprodukálni.",
+      },
+      {
+        type: "table",
+        headers: ["Közösségtípus", "Mennyire időjárásálló", "Mit érdemes tenni"],
+        rows: [
+          ["Futóklub", "Elég ellenálló", "Csak extrém időben kérdezz rá előre"],
+          ["Túrázás", "Közepesen érzékeny", "Nézd meg az útvonal állapotát is, ne csak az eget"],
+          ["Szabadtéri jóga, séta", "Nagyon érzékeny", "Számíts rá, hogy rossz időben gyakran elmarad"],
+          ["Utcai kosárlabda, bike polo", "Közepesen érzékeny", "Nedves pályán a játék jellege is megváltozik"],
+        ],
+      },
+      { type: "h2", text: "Mihez fordulj, ha a kültéri alkalmad mégis elmarad?" },
+      {
+        type: "p",
+        text: "Ahelyett, hogy kihagynál egy hetet, érdemes legyen egy B-terved: egy beltéri közösség, amit ilyenkor be tudsz iktatni, hogy a rendszeresség ne szakadjon meg teljesen.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Társasjáték",
+            note: "Teljesen időjárásfüggetlen, mindig beltéri helyszíneken zajlik, és rendszerint heti vagy annál sűrűbb alkalmai vannak.",
+            href: "/klubok/tarsasjatek",
+          },
+          {
+            name: "Könyvklub",
+            note: "Havi rendszerességű, de pont emiatt jó kiegészítő: ha a heti kültéri programod elmarad, a könyvklub egy stabil, mindig beltéri fix pont marad.",
+            href: "/klubok/konyvklub",
+          },
+          {
+            name: "Nyilvános beszéd",
+            note: "Strukturált, beltéri alkalmak, amik sosem függenek az időjárástól.",
+            href: "/klubok/nyilvanos-beszed",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha kifejezetten mozogni szeretnél rossz időben is, az olyan sportoknál, mint a padel, a tenisz vagy a pickleball, sok pálya fedett, tehát ezek a közösségek gyakorlatilag időjárásfüggetlenek, bár pályaköltséggel járnak. Ha pedig a boulderezés érdekelne, egy beltéri boulder terem (Fless, Mountex, Spider Club) egész évben ugyanúgy elérhető, függetlenül attól, mi van kint.",
+      },
+      { type: "h2", text: "Érdemes-e előre rákérdezni a szervezőnél?" },
+      {
+        type: "p",
+        text: "Igen, különösen, ha messziről utaznál oda. A legtöbb közösség az Instagram-sztorijában vagy egy rövid posztban jelzi, ha az adott alkalom elmarad vagy helyszínt vált rossz idő miatt, úgyhogy érdemes az indulás előtt pár órával megnézni a profiljukat, mielőtt kiindulnál.",
+      },
+      {
+        type: "citation",
+        text: "Running Club Check-In: hogyan kommunikálj időjárás miatti lemondást a tagjaidnak",
+        href: "https://runningclubcheckin.com/welcome-new-running-club-members/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "A legtöbb futóklub lemondja az alkalmat esőben?",
+            a: "Jellemzően nem, enyhe esőben a legtöbb csoport megy tovább. Csak extrém időjárásnál (zivatar, jegesedés) szokták lemondani, és ezt általában Instagramon jelzik előre.",
+          },
+          {
+            q: "Mi a legjobb beltéri alternatíva, ha a kültéri közösségem elmarad?",
+            a: "A társasjáték-közösségek a legmegbízhatóbbak, mert teljesen időjárásfüggetlenek, és a legtöbbnek heti rendszerességű alkalma van.",
+          },
+          {
+            q: "Érdemes-e egész télre leállni a kültéri közösségekkel?",
+            a: "Nem feltétlenül. Sok futóklub és túracsoport egész télen aktív marad, csak a legextrémebb napokon marad el az alkalom. Ha viszont a program maga (szabadtéri jóga, séta) kifejezetten az időjárásra épül, reálisabb, ha egy beltéri közösséget iktatsz be erre a néhány hónapra.",
           },
         ],
       },

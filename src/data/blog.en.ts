@@ -3409,8 +3409,8 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "i-want-to-meet-people-in-budapest-which-format-fits-you",
-    title: "I want to meet people in Budapest: which community format fits you?",
-    metaTitle: "I want to meet people in Budapest: which format fits you?",
+    title: "Where can I meet people in Budapest? Which community format fits you?",
+    metaTitle: "Where can I meet people in Budapest?",
     description:
       "You don't need to know the activity in advance. This guide starts from how you like to meet people and points you to the right Budapest community category.",
     kind: "guide",
@@ -3421,7 +3421,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "\"I want to meet people\" often stalls right at the start, because you don't know what to pick. You don't need to decide on a specific activity first: it's enough to know what format makes you feel the least self-conscious around others. This guide builds on that, your style of meeting people, not the activity itself.",
+        text: "\"Where can I meet people in Budapest\" often stalls right at the start, because you don't know what to pick. You don't need to decide on a specific activity first: it's enough to know what format makes you feel the least self-conscious around others. This guide builds on that, your style of meeting people, not the activity itself.",
       },
       { type: "h2", text: "If you'd rather meet people while moving" },
       {
@@ -3563,6 +3563,95 @@ export const postsEn: BlogPost[] = [
           {
             q: "How long does it take to form a real acquaintance?",
             a: "Realistically two to three sessions with the same group. The first session almost never produces the first deep connection, and that's completely normal.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "its-raining-or-cold-what-to-do-with-your-outdoor-community",
+    title: "It's raining or cold? What to do when your community is outdoors",
+    metaTitle: "Raining or cold: what to do with your outdoor community?",
+    description:
+      "Running, hiking, and outdoor yoga are all weather-dependent. We cover which outdoor communities keep going in bad weather, and what to turn to when they don't.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    body: [
+      {
+        type: "p",
+        text: "If your community is outdoors, autumn and winter will keep putting this question in front of you: go anyway in the rain, or skip it? The real problem isn't the one missed session, it's that skipped sessions easily turn into a streak, and that regularity is what makes it a community in the first place.",
+      },
+      { type: "h2", text: "Which outdoor communities hold up better in bad weather?" },
+      {
+        type: "p",
+        text: "Running clubs are typically the most resilient: in light rain or cold, most groups keep going, and only call it off in genuinely extreme weather (icing, thunderstorms). Hiking is more sensitive, because terrain matters too, not just comfort, a muddy, slippery trail carries a different risk than a city sidewalk. Outdoor yoga and casual walking groups are the most weather-sensitive of all, because the outdoor experience itself is the whole point, which is hard to replicate in the rain.",
+      },
+      {
+        type: "table",
+        headers: ["Community type", "Weather resilience", "What to do"],
+        rows: [
+          ["Running club", "Fairly resilient", "Only check in advance for extreme weather"],
+          ["Hiking", "Moderately sensitive", "Check trail conditions too, not just the sky"],
+          ["Outdoor yoga, walking", "Very sensitive", "Expect it to be cancelled often in bad weather"],
+          ["Street basketball, bike polo", "Moderately sensitive", "A wet court changes the nature of the game too"],
+        ],
+      },
+      { type: "h2", text: "What to turn to when your outdoor session falls through?" },
+      {
+        type: "p",
+        text: "Instead of skipping a week, it's worth having a backup: an indoor community you can slot in so your routine doesn't break entirely.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Board Games",
+            note: "Completely weather-independent, always held at indoor venues, and usually weekly or more frequent.",
+            href: "/en/clubs/board-games",
+          },
+          {
+            name: "Book Club",
+            note: "Monthly rather than weekly, but that's exactly why it's a good backup: a stable, always-indoor fixed point if your weekly outdoor session falls through.",
+            href: "/en/clubs/book-club",
+          },
+          {
+            name: "Public Speaking",
+            note: "Structured, indoor sessions that never depend on the weather.",
+            href: "/en/clubs/public-speaking",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If you specifically want to move in bad weather too, sports like padel, tennis, or pickleball often have covered courts, so those communities are essentially weather-independent, though they come with a court fee. If bouldering interests you, an indoor gym (Fless, Mountex, Spider Club) is available year-round regardless of what's happening outside.",
+      },
+      { type: "h2", text: "Is it worth checking with the organizer in advance?" },
+      {
+        type: "p",
+        text: "Yes, especially if you're traveling a distance to get there. Most communities post on Instagram stories or a short update if a given session is cancelled or moved due to bad weather, so it's worth checking their profile a couple of hours before heading out.",
+      },
+      {
+        type: "citation",
+        text: "Running Club Check-In: how to communicate a weather cancellation to your members",
+        href: "https://runningclubcheckin.com/welcome-new-running-club-members/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Do most running clubs cancel in the rain?",
+            a: "Typically not, in light rain most groups keep going. They usually only cancel for extreme weather (thunderstorms, icing), and this is normally posted on Instagram in advance.",
+          },
+          {
+            q: "What's the best indoor alternative if my outdoor community falls through?",
+            a: "Board game communities are the most reliable, since they're completely weather-independent and most meet weekly.",
+          },
+          {
+            q: "Is it worth pausing outdoor communities entirely for winter?",
+            a: "Not necessarily. Many running clubs and hiking groups stay active all winter, only cancelling on the most extreme days. But if the activity itself depends on the weather (outdoor yoga, walks), it's more realistic to slot in an indoor community for those few months.",
           },
         ],
       },
