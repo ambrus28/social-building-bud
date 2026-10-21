@@ -12,6 +12,7 @@ const SCHEDULE_EN: Record<string, string> = {
   "Keddenként, Margitsziget": "Tuesdays, Margaret Island",
   "Havonta, vezetett túrák": "Monthly, guided hikes",
   "Hetente, Puskás Aréna melletti pálya": "Weekly, court next to Puskás Aréna",
+  "Szerda este, kéthetente szombat reggel": "Wednesday evenings, every other Saturday morning",
 };
 
 export function getScheduleEn(schedule: string | null | undefined): string | null {

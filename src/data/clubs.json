@@ -600,5 +600,19 @@
     "image_url": "/images/clubs/tanc-brazil-tanc-leticia.jpg",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "new-balance-run-club-budapest",
+    "name": "New Balance Run Club Budapest",
+    "category": "Sport",
+    "district": null,
+    "description": "Ingyenes, edzők által vezetett futóközösség 2023 augusztusa óta: szerdánként 18:30-kor és kéthetente szombaton 9:00-kor tartanak közös futást. Fő bázisuk a Testnevelési Egyetem Csörsz utcai futópályája, de gyakran a Margitszigeten és a budai hegyekben is gyűlnek. Minden szinten várnak, regisztráció nélkül.",
+    "description_en": "A free, coach-led running community since August 2023, meeting on Wednesdays at 18:30 and every other Saturday at 9:00. Their main base is the Hungarian University of Sports Science track on Csörsz utca, but they often gather on Margaret Island and in the Buda hills too. All levels welcome, no sign-up needed.",
+    "schedule": "Szerda este, kéthetente szombat reggel",
+    "website_url": "https://newbalance.hu/new_balance_run_club",
+    "instagram_url": "https://www.instagram.com/newbalance_runclub_budapest/",
+    "image_url": "/images/clubs/sport-new-balance-run-club-budapest.jpg",
+    "featured": false,
+    "type": "Közösség"
   }
 ]

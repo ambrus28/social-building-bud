@@ -29,18 +29,22 @@ export const DEFAULT_AUTHOR = "Budapesti Közösségek szerkesztősége";
 export const posts: BlogPost[] = [
   {
     slug: "legjobb-futoklubok-budapesten",
-    title: "6 legjobb futóklub Budapesten kezdőknek és haladóknak",
+    title: "7 legjobb futóklub Budapesten kezdőknek és haladóknak",
     description:
-      "Női futóklub, kávézós futás, kerületi közösség és ingyenes szigeti futóest: hat valódi budapesti futóklub, amelyhez bárki csatlakozhat.",
+      "Női futóklub, kávézós futás, edzői vezetésű márkaklub, kerületi közösség és ingyenes szigeti futóest: hét valódi budapesti futóklub, amelyhez bárki csatlakozhat, és miért épp most nőnek ennyire.",
     kind: "listicle",
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-08-20",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
-        text: "Ha futóklubot keresel Budapesten, valljuk be, ritkán a személyes rekordodért csatlakozol, sokkal inkább azért, mert a közös futás egyszerre mozgás és társaság. Nem kell versenyzőnek lenned ahhoz, hogy örömöd legyen benne: a legtöbb budapesti futóközösség tudatosan a vegyes szintű, beszélgetős tempót részesíti előnyben a teljesítménnyel szemben. Ez a hat klub mind valódi, aktív budapesti közösség, mindegyikhez ingyenesen csatlakozhatsz, klubtagság vagy előzetes futótapasztalat nélkül.",
+        text: "Ha futóklubot keresel Budapesten, valljuk be, ritkán a személyes rekordodért csatlakozol, sokkal inkább azért, mert a közös futás egyszerre mozgás és társaság. Nem kell versenyzőnek lenned ahhoz, hogy örömöd legyen benne: a legtöbb budapesti futóközösség tudatosan a vegyes szintű, beszélgetős tempót részesíti előnyben a teljesítménnyel szemben. Ez a hét klub mind valódi, aktív budapesti közösség, mindegyikhez ingyenesen csatlakozhatsz, klubtagság vagy előzetes futótapasztalat nélkül.",
+      },
+      {
+        type: "p",
+        text: "A budapesti futóklubok az utóbbi időben látványosan felfutottak: a HVG szeptemberi cikke szerint a futóklubok egyre inkább közösségi terekké válnak, ahol a kilométerek után kávé, beszélgetés és barátság következik. Ezt a listát ezért frissítettük egy újabb klubbal, és a Running Latte Club mostani fejleményeivel.",
       },
       {
         type: "clublist",
@@ -62,8 +66,13 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Running Latte Club",
-            note: "Nem hagyományos klubhelyiséghez kötött közösség, hanem baráti találkozópont: a közös futást mindig kávézással köti össze. Ideális, ha a társasági rész legalább annyira fontos neked, mint maga a mozgás.",
+            note: "Nem hagyományos klubhelyiséghez kötött közösség, hanem baráti találkozópont: a közös futást mindig kávézással köti össze. A HVG szerint néhány év alatt több ezer fős nemzetközi közösséget épített Budapesten, és a Latte Race 2027 nevű eseménnyel most egy egész futófesztivált építenek köré. A Runner’s Mag interjúja szerint a klub a kezdetektől ingyenes, és ez a jövőben sem változik. Ideális, ha a társasági rész legalább annyira fontos neked, mint maga a mozgás.",
             href: "https://www.instagram.com/runninglatteclub/",
+          },
+          {
+            name: "New Balance Run Club Budapest",
+            note: "Edzők által vezetett, ingyenes márkaklub 2023 augusztusa óta: szerdánként 18:30-kor és kéthetente szombaton 9:00-kor futnak, fő bázisuk a Testnevelési Egyetem Csörsz utcai futópályája, de gyakran a Margitszigeten és a budai hegyekben is gyűlnek. Az oldaluk szerint minden szintet várnak, és nem kell előre feliratkozni, elég kényelmes ruhában megjelenni. Ha strukturáltabb, edzői vezetésű alkalmat keresel, ez a leginkább erre épülő a hét közül. Az aktuális helyszínt érdemes az Instagramjukon ellenőrizni.",
+            href: "https://newbalance.hu/new_balance_run_club",
           },
           {
             name: "Run Crew Budapest",
@@ -80,7 +89,26 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyik futóklubot válaszd?" },
       {
         type: "p",
-        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség.",
+        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
+      },
+      { type: "h2", text: "Miért nőnek most ennyire a futóklubok?" },
+      {
+        type: "p",
+        text: "A HVG szeptemberi cikke szerint ma már nem feltétlenül azért futunk, hogy gyorsabbak vagy fittebbek legyünk, hanem néha azért, hogy végre találkozzunk valakivel. A futóklubok egyre inkább közösségi terekké válnak, ahol a futás után kávé, beszélgetés és barátság következik. A Runner’s Mag februári cikksorozata ugyanezt a mintát mutatja a Running Latte Club, a Run Crew és a Mozaik Med példáján: mindhárom a valódi kapcsolatok kialakulására épít, nem csak az edzésre.",
+      },
+      {
+        type: "p",
+        text: "Ez a gyakorlatban azt jelenti, hogy a legtöbb klubnál a futás a keret, nem a cél. Ezért működnek jól kezdőknek és egyedül érkezőknek is: a hangsúly azon van, hogy legyen kivel találkozni, nem azon, hogy ki a gyorsabb.",
+      },
+      {
+        type: "citation",
+        text: "HVG: A futás új közösségi életet indított el, most fesztivált építenek köré Budapesten (Running Latte Club)",
+        href: "https://hvg.hu/elet/20260922_running-latte-club-futas-sport-kave-kornyei-viktoria-nyari-attila",
+      },
+      {
+        type: "citation",
+        text: "Runner’s Mag Hungary: három futóklub Budapesten, akik újraírják a közösségi futásról alkotott képet",
+        href: "https://runnersmag.hu/kozossegi-futasok-budapest-runninglatte-runcrew-mozaikmed/",
       },
       {
         type: "citation",
@@ -96,7 +124,11 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Fizetni kell-e ezekhez a futóklubokhoz?",
-            a: "Nem, mind a hat klub ingyenesen látogatható, klubtagsági díj nélkül, legfeljebb a saját felszerelést kell megoldani.",
+            a: "Nem, mind a hét klub ingyenesen látogatható, klubtagsági díj nélkül, legfeljebb a saját felszerelést kell megoldani.",
+          },
+          {
+            q: "Miért népszerűek ennyire a futóklubok Budapesten?",
+            a: "Mert a futás ma már legalább annyira közösségi program, mint sport: a legtöbb klub a közös futás után kávéval, beszélgetéssel és találkozókkal teszi teljessé az alkalmat, így könnyen lehet vele új embereket megismerni.",
           },
         ],
       },

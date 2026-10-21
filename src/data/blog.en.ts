@@ -12,18 +12,22 @@ export const DEFAULT_AUTHOR_EN = "Budapesti Közösségek editorial team";
 export const postsEn: BlogPost[] = [
   {
     slug: "best-running-clubs-budapest",
-    title: "6 best running clubs in Budapest for beginners and experienced runners",
+    title: "7 best running clubs in Budapest for beginners and experienced runners",
     description:
-      "A women-only run club, a run-then-coffee crew, a neighborhood club, and a free island run: six real Budapest running clubs anyone can join.",
+      "A women-only run club, a run-then-coffee crew, a coach-led brand club, a neighborhood club, and a free island run: seven real Budapest running clubs anyone can join, and why they are booming right now.",
     kind: "listicle",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-08-20",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
-        text: "If you're looking for a running club in Budapest, let's be honest, you're rarely joining for a personal best. It's more that running together is exercise and company at once. You don't need to be competitive to enjoy it: most Budapest running communities deliberately favor a mixed-pace, chatty tempo over performance. All six clubs below are real, active Budapest communities you can join for free, no club membership or prior running experience required.",
+        text: "If you're looking for a running club in Budapest, let's be honest, you're rarely joining for a personal best. It's more that running together is exercise and company at once. You don't need to be competitive to enjoy it: most Budapest running communities deliberately favor a mixed-pace, chatty tempo over performance. All seven clubs below are real, active Budapest communities you can join for free, no club membership or prior running experience required.",
+      },
+      {
+        type: "p",
+        text: "Budapest running clubs have taken off visibly lately: according to a September HVG article, running clubs are increasingly becoming social spaces where the kilometers are followed by coffee, conversation and friendship. We updated this list with one more club and the latest on Running Latte Club.",
       },
       {
         type: "clublist",
@@ -45,8 +49,13 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Running Latte Club",
-            note: "Not a community tied to a clubhouse, but a friendly meeting point: it always pairs the group run with coffee afterward. Ideal if the social side matters to you at least as much as the movement.",
+            note: "Not a community tied to a clubhouse, but a friendly meeting point: it always pairs the group run with coffee afterward. According to HVG it built an international community of several thousand people in Budapest within a few years, and with the Latte Race 2027 event it is now building a whole running festival around it. Runner’s Mag reports that the club has been free from the start and will stay that way. Ideal if the social side matters to you at least as much as the movement.",
             href: "https://www.instagram.com/runninglatteclub/",
+          },
+          {
+            name: "New Balance Run Club Budapest",
+            note: "A free, coach-led brand club since August 2023: it runs on Wednesdays at 18:30 and every other Saturday at 9:00, with its main base at the Hungarian University of Sports Science track on Csörsz utca, though it often gathers on Margaret Island and in the Buda hills too. According to the club, all levels are welcome and no sign-up is needed, just show up in comfortable clothes. If you want coaching and a predictable weekly rhythm, this is the most structured of the seven. Check their Instagram for the current meeting point.",
+            href: "https://newbalance.hu/new_balance_run_club",
           },
           {
             name: "Run Crew Budapest",
@@ -63,7 +72,26 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which running club should you pick?" },
       {
         type: "p",
-        text: "If you're a total beginner, the Mozaik Med island run or Angyalföldi Futóklub are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that.",
+        text: "If you're a total beginner, the Mozaik Med island run or Angyalföldi Futóklub are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
+      },
+      { type: "h2", text: "Why are running clubs growing so fast right now?" },
+      {
+        type: "p",
+        text: "According to a September HVG article, we no longer necessarily run to get faster, thinner or fitter, sometimes we run to finally meet someone. Running clubs are increasingly becoming social spaces where the kilometers are followed by coffee, conversation and friendship. A February series in Runner’s Mag Hungary shows the same pattern through Running Latte Club, Run Crew and Mozaik Med: all three build on real connections between runners, not just on training.",
+      },
+      {
+        type: "p",
+        text: "In practice, this means that at most clubs the run is the frame, not the goal. That is why they work well for beginners and for people arriving alone: the emphasis is on having someone to meet, not on who is faster.",
+      },
+      {
+        type: "citation",
+        text: "HVG (in Hungarian): running created a new social life, and now a festival is being built around it in Budapest (Running Latte Club)",
+        href: "https://hvg.hu/elet/20260922_running-latte-club-futas-sport-kave-kornyei-viktoria-nyari-attila",
+      },
+      {
+        type: "citation",
+        text: "Runner’s Mag Hungary (in Hungarian): three Budapest running clubs rewriting the picture of community running",
+        href: "https://runnersmag.hu/kozossegi-futasok-budapest-runninglatte-runcrew-mozaikmed/",
       },
       {
         type: "citation",
@@ -79,7 +107,11 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Do these running clubs cost anything?",
-            a: "No, all six clubs are free to attend, with no membership fee. The only thing you need to sort out yourself is your own gear.",
+            a: "No, all seven clubs are free to attend, with no membership fee. The only thing you need to sort out yourself is your own gear.",
+          },
+          {
+            q: "Why are running clubs so popular in Budapest right now?",
+            a: "Because running is now as much a social activity as a sport: most clubs round out the group run with coffee, conversation and meetups, which makes it an easy way to meet new people.",
           },
         ],
       },
