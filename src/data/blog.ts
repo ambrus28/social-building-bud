@@ -2261,7 +2261,7 @@ export const posts: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -2280,11 +2280,16 @@ export const posts: BlogPost[] = [
             note: "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral. A formátum lényege, hogy egy akcióra is beállhatsz, nem kell tagnak lenned vagy előre elköteleződnöd. Kerékpár kell hozzá, de nem versenytempó: a lényeg a szállítás, nem a sebesség. Az aktuális akciókat a saját oldalukon és Instagramon hirdetik.",
             href: "https://bikemaffia.com/",
           },
+          {
+            name: "Magyar Élelmiszerbank Egyesület",
+            note: "Nagy, bejáratott szervezet, nem laza közösség: az oldaluk szerint 21 éve működik, és az ország legnagyobb adományraktárát üzemelteti. Önkéntesként többféle feladatban segíthetsz, például raktári munkában, irodai adminisztrációban, fuvarozásban, címkézésben, dobozolásban vagy készételmentésben. Magánemberként és vállalati csapattal is lehet jelentkezni. A jelentkezés az oldalukon keresztül megy, a pontos időigényt és az aktuális lehetőségeket érdemes ott megkérdezni, mert ezek változhatnak.",
+            href: "https://www.elelmiszerbank.hu/onkentesseg/",
+          },
         ],
       },
       {
         type: "p",
-        text: "Ebben a kategóriában jelenleg egy szervezet szerepel a listánkban, ami kevés ahhoz képest, hány önkéntes kezdeményezés működik Budapesten. A többségük viszont nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
+        text: "A klublistánkban ebben a kategóriában jelenleg egy közösség szerepel, a Budapest Bike Maffia, ami kevés ahhoz képest, hány önkéntes kezdeményezés működik Budapesten. Az Élelmiszerbank ezért csak itt, a cikkben szerepel: nem informális közösség, hanem nagy szervezet. A többi kezdeményezés többsége pedig nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
       },
       { type: "h2", text: "Milyen típusú önkéntes munkák léteznek?" },
       {
@@ -2333,6 +2338,10 @@ export const posts: BlogPost[] = [
           {
             q: "Jó ez arra, hogy embereket ismerjek meg?",
             a: "Igen, sőt ez az egyik legjobb formátum erre. Van közös cél és van közös feladat, tehát nem kell társalgási témát keresni, a beszélgetés munka közben alakul.",
+          },
+          {
+            q: "Hol önkénteskedhetek élelmiszerbanknál Budapesten?",
+            a: "A Magyar Élelmiszerbank Egyesületnél, az oldalukon található jelentkezésen keresztül. Raktári, adminisztrációs, fuvarozási és készételmentési feladatokban is segíthetsz, az aktuális időigényről és lehetőségekről az egyesület ad pontos tájékoztatást.",
           },
         ],
       },
@@ -3299,14 +3308,14 @@ export const posts: BlogPost[] = [
   {
     slug: "van-outdoor-boulder-lehetoseg-budapesten",
     title: "Van outdoor boulder lehetőség Budapesten? Valódi szabadtéri helyszínek",
-    metaTitle: "Van outdoor boulder Budapesten?",
+    metaTitle: "Boulder Budapesten: szabadtéri helyszínek és beltéri termek",
     description:
-      "Budapest elsősorban a termeiről ismert, de a budai-hegyekben valódi, természetes sziklás boulder helyszínek is vannak. Végigvesszük, hol, és miért nincs hozzá ingyenes közösség.",
+      "Budapest elsősorban a termeiről ismert, de a budai-hegyekben valódi, természetes sziklás boulder helyszínek is vannak. Végigvesszük, hol, miért nincs hozzá ingyenes közösség, és melyik beltéri terembe mehetsz helyette.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -3347,6 +3356,41 @@ export const posts: BlogPost[] = [
         type: "p",
         text: "Ha kezdőként először csak kipróbálnád, egyszerűbb egy beltéri boulder teremben indulni (ott nincs engedély vagy tagság, csak belépőjegy), és onnan érdemes tájékozódni egy sziklamászó egyesületnél, ha a szabadtéri verzió is érdekel. A legtöbb egyesület (pl. Gi Falmászó Klub, Krea-Túra) szervez outdoor túrákat a tagjainak, cserébe éves tagdíjért és az MHSSZ-engedélyért.",
       },
+      { type: "h2", text: "Beltéri boulder termek Budapesten" },
+      {
+        type: "p",
+        text: "Ha egyszerűen csak boulderezni szeretnél, és nem feltétlenül sziklán, a beltéri termek a legegyszerűbb belépők: nem kell hozzájuk engedély vagy tagság, elég a belépőjegy. Az alábbi termek mind működő budapesti helyek, az árakat és a nyitvatartást a saját oldalukon érdemes ellenőrizni.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Mountex Boulder",
+            note: "A Váci úton működő terem, az oldaluk szerint több mint 100 különböző nehézségű úttal, amelyeknek egy-egy szektorát hetente átépítik. Hétköznap korán reggeltől késő estig, hétvégén is nyitva tart, és specialty kávét is lehet inni.",
+            href: "https://mountex.hu/szolgaltatasok/boulder",
+          },
+          {
+            name: "Monkey Boulder",
+            note: "Óbudai mászóterem, az oldaluk szerint több mint 100 mászóúttal, kezdő és haladó utakkal hat nehézségi szinten, és helyben kölcsönözhető mászócipővel.",
+            href: "https://monkeyboulder.hu/",
+          },
+          {
+            name: "Fless",
+            note: "Boulder terem Zuglóban és Budán, saját megfogalmazásuk szerint barátságos közösséggel és különböző nehézségű boulderekkel.",
+            href: "https://www.fless.hu/",
+          },
+          {
+            name: "Spider Club",
+            note: "Az óbudai Fényes Adolf utcai mászóközpont, ahol a kötélmászó falak mellett külön boulder terem is van. A nyitvatartás forrásonként eltér, ezért indulás előtt érdemes megnézni az oldalukat.",
+            href: "https://www.spiderclub.hu/",
+          },
+          {
+            name: "Boulder Academy Budapest",
+            note: "A Lurdy Házban, a Könyves Kálmán körúton működő terem, amely a termi mászás mellett szervezett outdoor túrákat is kínál.",
+            href: "https://www.boulderacademy.hu/en/programok",
+          },
+        ],
+      },
       {
         type: "citation",
         text: "Magyar Hegy- és Sportmászó Szövetség: sziklamászás és az ehhez szükséges engedély",
@@ -3376,12 +3420,12 @@ export const posts: BlogPost[] = [
     title: "Van hobbi foci lehetőség Budapesten, amihez bárki csatlakozhat?",
     metaTitle: "Van hobbi foci Budapesten?",
     description:
-      "A foci Budapesten másként szerveződik, mint a futás vagy a társasjáték: nincs igazán ingyenes, csak-gyere-ki klub. Van viszont egy ingyenes platform alkalmi meccsekhez, ezt is megmutatjuk.",
+      "A foci Budapesten másként szerveződik, mint a futás vagy a társasjáték: nincs igazán ingyenes, csak-gyere-ki klub. Van viszont egy ingyenes platform alkalmi meccsekhez, és a női foci kezdőknek is külön lehetőségeket kínál, ezeket is megmutatjuk.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-12",
-    updatedAt: "2026-10-12",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -3410,6 +3454,26 @@ export const posts: BlogPost[] = [
             name: "Amazon Foci SE",
             note: "Női és lány futsal közösség 2015 óta, ingyenes próba-edzéssel az első alkalomra. Ez a legközelebb áll ahhoz a formátumhoz, amit más sportoknál megszoktunk, de utána már klubtagságról van szó, nem alkalmi részvételről.",
             href: "https://amazonfoci.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Női foci Budapesten: hova mehetsz kezdőként?" },
+      {
+        type: "p",
+        text: "Az amatőr női foci keresett téma, és a női hobbicsapatok általában kifejezetten várják a teljesen kezdő játékosokat is. Ezeknél a belépés ugyanúgy csapathoz csatlakozást jelent, mint máshol, de a hangulat és a szint kezdőbarát.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Amazon Foci SE",
+            note: "Az oldaluk szerint 2015 óta működő női és lány futsal-egyesület, felnőtt szabadidős csoportokkal. A teljesen kezdő felnőtt csoport hétfőn és szerdán 18:00 és 19:30 között edz a XI. kerületi Futball Arénában (Fehérvári út), és ingyenes próbaedzésre bármikor mehetsz.",
+            href: "https://amazonfoci.hu/",
+          },
+          {
+            name: "Cselszik női focicsapat",
+            note: "Önmagát hobbicsapatnak nevező, baráti hangulatú női csapat, amelynek tagjai 20 és 55 év közöttiek, de idősebb és fiatalabb játékosokat is várnak. Az oldaluk szerint a keret nagyjából 60 fős, a tudásszint nagyon vegyes, és a teljesen kezdő, lelkes jelentkezőket is szívesen fogadják. A részvétel feltételeiről és a díjról érdemes közvetlenül náluk érdeklődni.",
+            href: "https://www.cselszik.hu/",
           },
         ],
       },

@@ -2248,7 +2248,7 @@ export const postsEn: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -2267,11 +2267,16 @@ export const postsEn: BlogPost[] = [
             note: "A civic community that organizes free charity actions by bike, open for anyone to join. The whole point of the format is that you can join for a single action, no membership or advance commitment needed. You need a bike, but not racing speed: the point is delivery, not pace. Current actions are advertised on their own site and on Instagram.",
             href: "https://bikemaffia.com/",
           },
+          {
+            name: "Hungarian Food Bank Association (Magyar Élelmiszerbank Egyesület)",
+            note: "A large, established organization rather than a casual community: according to its own site it has operated for 21 years and runs the country's largest donation warehouse. As a volunteer you can help with warehouse work, office administration, transport, labeling, boxing or rescuing prepared food. Both individuals and company teams can sign up. Sign-up goes through their site, and it's worth asking there about the exact time commitment and current openings, since these can change. The site is in Hungarian.",
+            href: "https://www.elelmiszerbank.hu/onkentesseg/",
+          },
         ],
       },
       {
         type: "p",
-        text: "This category currently has one organization on our list, which is little compared to how many volunteer initiatives actually run in Budapest. Most of them, though, don't advertise as a community but through one-off calls that are hard to keep track of.",
+        text: "Our club list currently has one community in this category, Budapest Bike Maffia, which is little compared to how many volunteer initiatives actually run in Budapest. The Food Bank appears only here in the article, since it is a large organization rather than an informal community. Most other initiatives, though, don't advertise as a community but through one-off calls that are hard to keep track of.",
       },
       { type: "h2", text: "What types of volunteer work exist?" },
       {
@@ -2320,6 +2325,10 @@ export const postsEn: BlogPost[] = [
           {
             q: "Is this good for meeting people?",
             a: "Yes, in fact it's one of the best formats for it. There's a shared goal and a shared task, so you don't need to hunt for a conversation topic, it develops naturally while you work.",
+          },
+          {
+            q: "Where can I volunteer at a food bank in Budapest?",
+            a: "At the Hungarian Food Bank Association (Magyar Élelmiszerbank Egyesület), through the sign-up on their site. You can help with warehouse, administrative, transport and prepared-food rescue tasks, and the association can tell you the current time commitment and openings.",
           },
         ],
       },
@@ -3282,14 +3291,14 @@ export const postsEn: BlogPost[] = [
   {
     slug: "is-there-outdoor-bouldering-in-budapest",
     title: "Is there outdoor bouldering in Budapest? Real natural locations",
-    metaTitle: "Is there outdoor bouldering in Budapest?",
+    metaTitle: "Bouldering in Budapest: outdoor spots and indoor gyms",
     description:
-      "Budapest is mostly known for its indoor bouldering gyms, but the Buda Hills have real, natural limestone bouldering spots too. We cover where, and why there's no free community built around it.",
+      "Budapest is mostly known for its indoor bouldering gyms, but the Buda Hills have real, natural limestone bouldering spots too. We cover where, why there's no free community built around it, and which indoor gym to try instead.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -3330,6 +3339,41 @@ export const postsEn: BlogPost[] = [
         type: "p",
         text: "If you're a beginner just trying it out, it's simpler to start at an indoor bouldering gym first (no permit or membership needed, just an entry ticket), and look into a climbing association afterward if you want the outdoor version too. Most associations (such as Gi Falmászó Klub or Krea-Túra) run outdoor trips for their members, in exchange for an annual membership fee and the MHSSZ permit.",
       },
+      { type: "h2", text: "Indoor bouldering gyms in Budapest" },
+      {
+        type: "p",
+        text: "If you simply want to boulder, and not necessarily on rock, indoor gyms are the easiest way in: no permit or membership needed, just an entry ticket. All the gyms below are operating Budapest venues, and it's worth checking prices and opening hours on their own sites.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Mountex Boulder",
+            note: "A gym on Váci út with, according to its own site, over 100 routes of varying difficulty, a sector or two rebuilt every week. It's open from early morning to late evening on weekdays and on weekends too, and you can get specialty coffee there as well.",
+            href: "https://mountex.hu/szolgaltatasok/boulder",
+          },
+          {
+            name: "Monkey Boulder",
+            note: "A climbing gym in Óbuda with, according to its site, over 100 routes, beginner and advanced routes across six difficulty levels, and climbing shoes you can rent on site.",
+            href: "https://monkeyboulder.hu/",
+          },
+          {
+            name: "Fless",
+            note: "A bouldering gym in Zugló and Buda that describes itself as having a friendly community and boulders of different difficulty levels.",
+            href: "https://www.fless.hu/",
+          },
+          {
+            name: "Spider Club",
+            note: "A climbing center on Fényes Adolf utca in Óbuda with a separate boulder hall alongside its rope-climbing walls. Opening hours differ between sources, so check their site before going.",
+            href: "https://www.spiderclub.hu/",
+          },
+          {
+            name: "Boulder Academy Budapest",
+            note: "A gym at Lurdy Ház on Könyves Kálmán körút that also offers organized outdoor trips on top of indoor climbing.",
+            href: "https://www.boulderacademy.hu/en/programok",
+          },
+        ],
+      },
       {
         type: "citation",
         text: "Hungarian Mountaineering and Sport Climbing Association (MHSSZ): rock climbing and the permit it requires",
@@ -3359,12 +3403,12 @@ export const postsEn: BlogPost[] = [
     title: "Is there casual football in Budapest that anyone can join?",
     metaTitle: "Is there casual football in Budapest?",
     description:
-      "Football in Budapest is organized differently from running or board games: there's no genuinely free, just-show-up club. There is a free platform for one-off matches though, and we cover that too.",
+      "Football in Budapest is organized differently from running or board games: there's no genuinely free, just-show-up club. There is a free platform for one-off matches though, and women's football has beginner-friendly options of its own, which we cover too.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-12",
-    updatedAt: "2026-10-12",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -3393,6 +3437,26 @@ export const postsEn: BlogPost[] = [
             name: "Amazon Foci SE",
             note: "A women's and girls' futsal community running since 2015, with a free trial session for your first time. This is the closest thing to the format you'd expect from other sports, but after the trial it's club membership, not casual drop-in play.",
             href: "https://amazonfoci.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Women's football in Budapest: where can a beginner go?" },
+      {
+        type: "p",
+        text: "Amateur women's football is a popular search, and women's hobby teams generally welcome complete beginners. Joining still means joining a team, as elsewhere, but the atmosphere and level are beginner-friendly.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Amazon Foci SE",
+            note: "According to its own site, a women's and girls' futsal association running since 2015, with adult recreational groups. The complete-beginner adult group trains on Mondays and Wednesdays from 18:00 to 19:30 at the Futball Aréna in District XI (Fehérvári út), and you can go to a free trial session any time. The site is in Hungarian with an English version.",
+            href: "https://amazonfoci.hu/",
+          },
+          {
+            name: "Cselszik women's football team",
+            note: "A friendly team that calls itself a hobby team, with members aged 20 to 55 and a welcome for older and younger players too. According to its site the squad is around 60 people, skill levels vary widely, and complete beginners who are keen are welcome. For the conditions and fees, it's best to ask them directly. The site is in Hungarian.",
+            href: "https://www.cselszik.hu/",
           },
         ],
       },
