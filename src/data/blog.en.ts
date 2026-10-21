@@ -483,14 +483,14 @@ export const postsEn: BlogPost[] = [
   {
     slug: "yoga-meditation-communities-budapest-for-beginners",
     title: "Yoga and meditation in Budapest for beginners: 4 communities you can start with zero experience",
-    metaTitle: "Yoga and meditation in Budapest for beginners",
+    metaTitle: "Yoga in Budapest for beginners: 4 communities to start with",
     description:
-      "Outdoor yoga, a wellness community, and self-development meditation in Budapest: four real communities that are friendly to beginners.",
+      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, a wellness community and meditation groups: four real communities that welcome zero experience.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-21",
     body: [
       {
         type: "p",
@@ -541,6 +541,10 @@ export const postsEn: BlogPost[] = [
           {
             q: "Do these communities cost anything?",
             a: "Most sessions listed here are free or donation-based, unlike paid yoga studios, which count as a separate, commercial service.",
+          },
+          {
+            q: "Where can I find yoga classes in Budapest as a beginner?",
+            a: "A community session is the easiest start: outdoor classes on Margaret Island with Margitszigeti Jóga, or the Conscious Budapest wellness meetups. For regular studio classes in English, see the We Love Budapest list linked above.",
           },
         ],
       },
