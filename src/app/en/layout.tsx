@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Anton, Caveat, Inter } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import SiteHeaderEn from "@/components/SiteHeaderEn";
 import SiteFooterEn from "@/components/SiteFooterEn";
 import "../globals.css";
@@ -118,6 +119,7 @@ export default function RootLayoutEn({
         <SiteHeaderEn />
         <main className="flex-1">{children}</main>
         <SiteFooterEn />
+        <Analytics />
       </body>
     </html>
   );
