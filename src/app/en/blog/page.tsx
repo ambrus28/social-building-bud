@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   twitter: { title: TITLE, description: DESCRIPTION },
 };
 
+// Reverse first so same-day posts keep newest-added first after the stable date sort.
+const newestFirst = [...postsEn].reverse().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
 function tiltFor(seed: string): number {
   let hash = 0;
   for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) % 100;
@@ -33,7 +36,7 @@ export default function BlogIndexPageEn() {
       <p className="mb-10 max-w-xl text-ink/60">{DESCRIPTION}</p>
 
       <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2">
-        {postsEn.map((post) => (
+        {newestFirst.map((post) => (
           <Link
             key={post.slug}
             href={`/en/blog/${post.slug}`}

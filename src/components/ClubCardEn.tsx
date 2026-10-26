@@ -6,6 +6,8 @@ import { getCategoryDotClass } from "@/lib/categoryColors";
 import { getClubLogoUrl } from "@/lib/clubImage";
 import { getScheduleEn } from "@/lib/scheduleEn";
 import ClubLinkButtonEn from "./ClubLinkButtonEn";
+import { getDistrictEn } from "@/lib/districtEn";
+import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
 function tiltFor(seed: string): number {
   let hash = 0;
@@ -65,8 +67,9 @@ export default function ClubCardEn({ club }: { club: Club }) {
               <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass()}`} aria-hidden="true" />
               {categoryEn.name}
             </Link>
-            {club.district && <span>📍 {club.district}</span>}
+            {club.district && <span>📍 {getDistrictEn(club.district)}</span>}
             {scheduleEn && <span>🕐 {scheduleEn}</span>}
+            {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "en")}</span>}
           </div>
           <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description_en}</p>
           <div className="flex flex-wrap items-center gap-1.5 pt-1">

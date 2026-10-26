@@ -26,6 +26,16 @@ const SCHEDULE_EN: Record<string, string> = {
   "Havonta többször": "Several times a month",
   "1-2 hetente, hétvégén": "Every 1-2 weeks, at weekends",
   "Hétfő, kedd és csütörtök este": "Monday, Tuesday and Thursday evenings",
+  "Havi naptár szerint": "Per monthly calendar",
+  "Havonta több hétvégi túra": "Several weekend hikes a month",
+  "Havonta, utolsó péntek": "Monthly, last Friday",
+  "Hétfő és kedd este, szombat reggel": "Monday and Tuesday evenings, Saturday mornings",
+  "Kedd este, naptár szerint": "Tuesday evenings, per calendar",
+  "Szerda este": "Wednesday evenings",
+  "Szerda este és vasárnap délelőtt": "Wednesday evenings and Sunday mornings",
+  "Szerda este, hétvégén reggel": "Wednesday evenings, weekend mornings",
+  "Szombatonként": "Saturdays",
+  "Tavasztól őszig": "Spring to autumn",
 };
 
 export function getScheduleEn(schedule: string | null | undefined): string | null {

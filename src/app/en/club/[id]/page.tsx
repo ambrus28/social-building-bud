@@ -7,6 +7,8 @@ import ClubLinkButtonEn from "@/components/ClubLinkButtonEn";
 import { clubs, getClubById } from "@/data/clubs";
 import { categoryHrefEn, getCategoryEn } from "@/lib/categoriesEn";
 import { getScheduleEn } from "@/lib/scheduleEn";
+import { getDistrictEn } from "@/lib/districtEn";
+import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -76,7 +78,14 @@ export default async function ClubPageEn({ params }: Props) {
     },
     {
       q: "Does joining cost anything?",
-      a: "This site is free, and most listed communities charge no membership fee either. If a community does have a participation fee, it states this on its own page.",
+      a:
+        club.cost === "free"
+          ? `No, taking part in ${club.name} is free. If the venue is a café or bar, you only pay for your own order.`
+          : club.cost === "donation"
+            ? `There's no fixed fee: ${club.name} runs on donations, so you give what you want or what they suggest. Details are in the description above and on the community's own page.`
+            : club.cost === "paid"
+              ? `Yes, ${club.name} charges a participation or membership fee. The current price is on the community's own page, and the first session is often free or discounted.`
+              : "This site is free, and most listed communities charge no membership fee either. If a community does have a participation fee, it states this on its own page.",
     },
   ];
 
@@ -110,7 +119,7 @@ export default async function ClubPageEn({ params }: Props) {
         address: {
           "@type": "PostalAddress",
           addressLocality: "Budapest",
-          addressRegion: club.district,
+          addressRegion: getDistrictEn(club.district),
           addressCountry: "HU",
         },
       }),
@@ -177,8 +186,9 @@ export default async function ClubPageEn({ params }: Props) {
             >
               {categoryEn.name}
             </Link>
-            {club.district && <span>📍 {club.district}</span>}
+            {club.district && <span>📍 {getDistrictEn(club.district)}</span>}
             {scheduleEn && <span>🕐 {scheduleEn}</span>}
+            {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "en")}</span>}
             <span>{club.type === "Közösség" ? "Community" : "Venue"}</span>
           </div>
 

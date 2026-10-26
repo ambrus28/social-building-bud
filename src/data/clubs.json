@@ -4,14 +4,15 @@
     "name": "Bridget Runners Budapest",
     "category": "Sport",
     "district": null,
-    "description": "Budapest első női futóklubja, közös hétvégi futásokkal és brunch-csal, kezdőknek is barátságos.",
-    "description_en": "Budapest's first women-only running club, with weekend group runs and brunch afterward, friendly to beginners too.",
-    "schedule": "Hétvégente",
+    "description": "Budapest első, tisztán női futóklubja, amelyet 2024 tavaszán alapított Viki és Zsófi. Fix nap helyett minden hónap elején kiadják a havi naptárt, a futások helyszíne változik a Margitszigettől a Hősök teréig, és sokszor brunch vagy közös program követi őket. A részvétel ingyenes, kezdőknek is barátságos, jelentkezni Straván vagy Instagramon lehet.",
+    "description_en": "Budapest's first women-only running club, founded in spring 2024 by Viki and Zsófi. Instead of a fixed day, they publish a monthly calendar at the start of each month; meeting points vary from Margaret Island to Heroes' Square, and runs are often followed by brunch or a social. Free and beginner-friendly; sign up on Strava or via Instagram.",
+    "schedule": "Havi naptár szerint",
     "website_url": "https://linktr.ee/bridgetrunners",
     "instagram_url": null,
     "image_url": "/images/clubs/sport-bridget-runners-budapest.jpg",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "runners-high-budapest",
@@ -32,9 +33,9 @@
     "name": "Angyalföldi Futóklub",
     "category": "Sport",
     "district": "XIII. kerület",
-    "description": "Kerületi futóklub kezdőknek és haladóknak egyaránt.",
-    "description_en": "A neighborhood running club for beginners and experienced runners alike.",
-    "schedule": null,
+    "description": "2020 óta működő kerületi futóklub, ma az ATTE szakosztálya, edzővel tartott futásokkal a XIII. kerületi Kubala László park futókörén. Kedden 18:00-kor és szombaton 9:00-kor van közös edzés, hétfőn 18:30-tól pedig az anyukáknak szóló Anya Futni Ment csoport fut. A teljesen kezdőket is várják.",
+    "description_en": "A district running club since 2020, now a section of ATTE, with coach-led runs on the Kubala László park track in District XIII. Group sessions run on Tuesdays at 18:00 and Saturdays at 9:00, and the Anya Futni Ment mothers' group runs on Mondays from 18:30. Complete beginners are welcome.",
+    "schedule": "Hétfő és kedd este, szombat reggel",
     "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
     "instagram_url": null,
     "image_url": "/images/clubs/sport-angyalfoldi-futoklub.jpg",
@@ -42,26 +43,12 @@
     "type": "Közösség"
   },
   {
-    "id": "budapest-language-exchange",
-    "name": "Budapest Language Exchange (BPLX)",
-    "category": "Nyelvcsere / Networking",
-    "district": null,
-    "description": "2012 óta működő nyelvcsere közösség, ahol helyiek és külföldiek gyakorolhatnak nyelveket egymással.",
-    "description_en": "A language exchange community running since 2012, where locals and foreigners practice languages with each other.",
-    "schedule": null,
-    "website_url": "https://www.meetup.com/budapest/",
-    "instagram_url": null,
-    "image_url": "/images/clubs/nyelvcsere-networking-budapest-language-exchange.jpg",
-    "featured": true,
-    "type": "Közösség"
-  },
-  {
     "id": "international-socializing-budapest",
     "name": "International Socializing in Budapest",
     "category": "Nyelvcsere / Networking",
-    "district": null,
-    "description": "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre.",
-    "description_en": "A weekly Saturday evening meetup for locals, expats and travelers to practice languages and meet people.",
+    "district": "VIII. kerület",
+    "description": "Minden szombaton 20 órától tartott angol nyelvű ismerkedős est a VIII. kerületi Kovász Kultúrbárban (Krúdy utca 8.), helyieknek, expatoknak és utazóknak. A Meetup-csoportnak több mint 4000 tagja van, a közönség jellemzően húszas-harmincas. Jó belépő, ha nemzetközi társaságban gyakorolnád az angolt vagy új embereket ismernél meg.",
+    "description_en": "An English-language social evening every Saturday from 20:00 at Kovász Kultúrbár (Krúdy utca 8, District VIII), for locals, expats and travellers. The Meetup group has more than 4,000 members, mostly in their twenties and thirties. A good way in if you want to practise English or meet people in an international crowd.",
     "schedule": "Szombat esténként",
     "website_url": "https://www.meetup.com/international-socializing-in-budapest/",
     "instagram_url": null,
@@ -74,14 +61,15 @@
     "name": "Unicorn Book Club",
     "category": "Könyvklub",
     "district": null,
-    "description": "Non-fiction fókuszú könyvklub havi rendszerességű beszélgetésekkel Budapesten.",
-    "description_en": "A non-fiction focused book club with monthly discussions in Budapest.",
+    "description": "Havonta egyszer, jellemzően vasárnap este tartott, non-fiction és önfejlesztő könyvekre épülő könyvklub: vendégelőadás, kiscsoportos beszélgetés, a könyv értékelése, utána kötetlen ismerkedés. Nem kell előre elolvasnod a könyvet, és egyedül is mehetsz. Jegyes esemény, magyar nyelven, a helyszín alkalmanként változik.",
+    "description_en": "A monthly book club, usually on a Sunday evening, built around non-fiction and self-development books: a guest talk, small-group discussion, rating the book, then informal socialising. You don't have to have read the book, and solo attendees are welcome. It's a ticketed event in Hungarian, and the venue changes each time.",
     "schedule": "Havonta",
     "website_url": "https://unicornbookclub.hu/",
     "instagram_url": null,
     "image_url": "/images/clubs/konyvklub-unicorn-book-club-budapest.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "konyvklub-budapesten",
@@ -102,22 +90,23 @@
     "name": "Túrázók Baráti Köre",
     "category": "Túra / Természetjárás",
     "district": null,
-    "description": "Természetjáró egyesület rendszeres közös túrákkal minden szintű túrázónak.",
-    "description_en": "A hiking association with regular group hikes for every skill level.",
-    "schedule": null,
+    "description": "Bejegyzett természetjáró egyesület, amely havonta több hétvégi egynapos túrát szervez túravezetőkkel, a Budai-hegységtől távolabbi tájakig, emellett városi sétákat és többnapos utakat is. Az aktuális program és a változások a honlapjukon jelennek meg. A túrákért részvételi díjat kérnek, buszos utaknál ebben benne van az utazás is.",
+    "description_en": "A registered hiking association running several guided weekend day hikes a month, from the Buda Hills to further afield, plus city walks and multi-day trips. The current programme and any changes are posted on their website. Hikes carry a participation fee, which covers travel on coach trips.",
+    "schedule": "Havonta több hétvégi túra",
     "website_url": "https://turakor.hu/",
     "instagram_url": null,
     "image_url": "/images/clubs/tura-termeszetjaras-turazok-baratikore.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "latinfo",
     "name": "Latinfo",
     "category": "Tánc",
     "district": null,
-    "description": "Latin táncos események gyűjtőoldala Budapesten: salsa, bachata és egyéb social dance alkalmak egy helyen.",
-    "description_en": "A directory of Latin dance events in Budapest: salsa, bachata and other social dance nights in one place.",
+    "description": "Nem egy klub, hanem a budapesti latin táncélet naptára: salsa, bachata, kizomba és zouk bulik, gyakorlások és táncórák egy helyen, minden héten több alkalommal. Szűrhetsz stílusra, DJ-re és oktatóra, és az eseményeket a saját naptáradba is átteheted. Az árak és a belépők eseményenként eltérnek.",
+    "description_en": "Not a club but the calendar of Budapest's Latin dance scene: salsa, bachata, kizomba and zouk socials, practicas and classes in one place, several times a week. You can filter by style, DJ and teacher, and export events to your own calendar. Prices and entry vary by event.",
     "schedule": null,
     "website_url": "https://latinfo.hu/events/",
     "instagram_url": null,
@@ -129,37 +118,39 @@
     "id": "margitszigeti-joga",
     "name": "Margitszigeti Jóga",
     "category": "Jóga / Wellness",
-    "district": null,
-    "description": "Közösségi szabadtéri jógaórák a Margitszigeten, tíz éve működő, barátságos csapattal.",
-    "description_en": "Community outdoor yoga classes on Margaret Island, run by a friendly team for ten years.",
-    "schedule": null,
+    "district": "XIII. kerület",
+    "description": "Szabadtéri közösségi jógaórák a Margitszigeten, a Nagyréten, a víztorony közelében. Tavasztól őszig tartanak órákat, télen jellemzően szünetel, ezért indulás előtt nézd meg az aktuális időpontokat az Instagramjukon. Az órák adományalapúak, regisztráció nem kell, saját matracot érdemes vinni.",
+    "description_en": "Outdoor community yoga on Margaret Island, on the Nagyrét lawn near the water tower. Classes run from spring to autumn and usually pause in winter, so check current times on their Instagram before going. Classes are donation-based, no registration needed; bring your own mat.",
+    "schedule": "Tavasztól őszig",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/margitszigetijoga.hu/",
     "image_url": "/images/clubs/joga-wellness-margitszigeti-joga.jpg",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "donation"
   },
   {
     "id": "i-bike-budapest",
     "name": "I Bike Budapest (Kerékpárosklub)",
     "category": "Sport",
     "district": null,
-    "description": "Kerékpáros közösség és érdekvédelmi klub, amely rendszeres közös felvonulásokat és túrákat szervez.",
-    "description_en": "A cycling community and advocacy club that organizes regular group rides and tours.",
+    "description": "2002 óta működő kerékpáros érdekvédelmi egyesület közel 2000 taggal, amely a budapesti biciklis infrastruktúráért és a bringások érdekeiért lobbizik. A közösségi oldala a klubestek, a bringás reggelik és a tagi programok. Tagdíjas egyesület, de a nyilvános eseményeik egy részére tagság nélkül is el lehet menni.",
+    "description_en": "A cycling advocacy association since 2002 with nearly 2,000 members, lobbying for better cycling infrastructure and cyclists' interests in Budapest. Its community side is club evenings, cyclists' breakfasts and member events. Membership is paid, though some public events are open to non-members.",
     "schedule": null,
     "website_url": "https://kerekparosklub.hu/",
     "instagram_url": null,
     "image_url": "/images/clubs/sport-i-bike-budapest.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "the-cafe-club-budapest",
     "name": "The Café Club Budapest",
     "category": "Sport",
     "district": null,
-    "description": "Motoros és kávérajongó közösség, amely közös túrákat szervez, bárkit szívesen látnak stílustól függetlenül.",
-    "description_en": "A community for motorcycle and coffee enthusiasts that organizes group rides, welcoming anyone regardless of style.",
+    "description": "2015-ben Instagram-oldalként indult motoros közösség, amely stílustól és márkától függetlenül bárkit szívesen lát. Éjszakai motorozásokat, hétvégi kávés túrákat és szezonzáró filmvetítéseket szervez, nyaranta pedig a havi The Moto Social találkozókon is ott vannak, amelyekre ingyenes a belépés.",
+    "description_en": "A motorcycle community that started as an Instagram page in 2015 and welcomes riders of any style or brand. It runs night rides, weekend café rides and end-of-season film screenings, and in summer takes part in the monthly The Moto Social meetups, which are free to attend.",
     "schedule": null,
     "website_url": "https://www.facebook.com/thecafeclubbudapest/",
     "instagram_url": null,
@@ -200,28 +191,30 @@
     "name": "Running Latte Club",
     "category": "Sport",
     "district": null,
-    "description": "Futóközösség, amely a közös futást kávézással köti össze: nem klubhelyiség, hanem baráti találkozópontok.",
-    "description_en": "A running community that pairs group runs with coffee afterward, not a clubhouse, just friendly meeting points.",
-    "schedule": null,
+    "description": "2024 februárjában indult futóközösség, amely mára több ezer regisztrált taggal Budapest egyik legnagyobb futóklubja, egy-egy közös futáson 80-120 emberrel. Hetente kétszer futnak, szerda este és hétvégén reggel, jellemzően 5-7 km-t minden tempóban, utána közös kávéval. A csatlakozás ingyenes, a kommunikáció angol nyelvű.",
+    "description_en": "A running community launched in February 2024 that has grown into one of Budapest's biggest run clubs, with several thousand registered members and 80-120 people at a typical group run. They run twice a week, on Wednesday evenings and weekend mornings, usually 5-7 km at every pace, with coffee afterwards. Free to join; communication is in English.",
+    "schedule": "Szerda este, hétvégén reggel",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runninglatteclub/",
     "image_url": "/images/clubs/sport-running-latte-club.jpg",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "bikas-park-streetball",
     "name": "Bikás Park Streetball",
     "category": "Sport",
     "district": "XI. kerület",
-    "description": "Utcai kosárlabda közösség a Bikás parki pályákon, ahol bárki csatlakozhat egy spontán meccshez.",
-    "description_en": "A street basketball community at the Bikás Park courts, where anyone can join a pickup game.",
+    "description": "Nem szervezett klub, hanem Budapest egyik legforgalmasabb nyilvános kosárpályája a XI. kerületi Bikás parkban, az M4-es metró megállójánál, több pályával. Leginkább szombatonként telik meg, amikor akár hat csapat is váltja egymást, és bárki beállhat egy spontán meccsbe. A pályák használata ingyenes.",
+    "description_en": "Not an organised club but one of Budapest's busiest public basketball courts, in Bikás Park in District XI at the M4 metro stop, with several courts. It fills up most on Saturdays, when up to six teams rotate, and anyone can join a pickup game. Using the courts is free.",
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/bikas_park/",
     "image_url": "/images/clubs/sport-bikas-park-streetball.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "budapest-personal-growth-meetup",
@@ -242,14 +235,15 @@
     "name": "Startup Hungary",
     "category": "Startup / Tech",
     "district": null,
-    "description": "Vállalkozó-vezette közösség, amely évi 50+ eseménnyel (First Monday, workshopok, alapítói vacsorák) pörgeti a magyar startup ökoszisztémát.",
-    "description_en": "A founder-led community that drives the Hungarian startup ecosystem with 50+ events a year (First Monday, workshops, founder dinners).",
+    "description": "Vállalkozók által vezetett közösség, amely a magyar startup ökoszisztémát építi: havonta tartják a First Monday estéket befektetőkkel és alapítókkal, emellett workshopokat és alapítói programokat szerveznek. A First Monday jegyes esemény, a havi hírlevelük ingyenes.",
+    "description_en": "A founder-led community building Hungary's startup ecosystem: it runs monthly First Monday evenings with investors and founders, plus workshops and founder programmes. First Monday is a ticketed event; their monthly newsletter is free.",
     "schedule": null,
     "website_url": "https://www.startuphungary.io/",
     "instagram_url": "https://www.instagram.com/startup_hungary/",
     "image_url": "/images/clubs/startup-tech-startup-hungary-budapest.jpg",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "ai-meetup-budapest",
@@ -270,8 +264,8 @@
     "name": "Feminista Meetup Budapest",
     "category": "Női közösség",
     "district": null,
-    "description": "Feminista közösségi találkozók, ahol az érdeklődők beszélgethetnek és kapcsolódhatnak egymáshoz.",
-    "description_en": "Feminist community meetups where attendees can talk and connect with each other.",
+    "description": "2023-ban könyvklubként indult feminista közösség, amely mára könyv- és filmklubként működik a Közkincs Könyvtárban, angol nyelven. A találkozókon egy-egy könyvről vagy filmről beszélgetnek, és nyitottak az új érdeklődőkre. Az időpontokat Instagramon hirdetik, magyar nyelvű könyvklub indítását is tervezik.",
+    "description_en": "A feminist community that began as a book club in 2023 and now runs as a book and film club at Közkincs Library, in English. Meetings discuss a book or film, and newcomers are welcome. Dates are posted on Instagram, and a Hungarian-language book club is planned.",
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/feministameetup/",
@@ -297,10 +291,10 @@
     "id": "tia-game-cave",
     "name": "TIA Game Cave",
     "category": "Társasjáték",
-    "district": null,
-    "description": "Ingyenes belépésű társasjáték-közösség 14-99 éveseknek: nincs tagsági díj, csak csatlakozni kell.",
-    "description_en": "A free-entry board game community for ages 14 to 99: no membership fee, just show up.",
-    "schedule": null,
+    "district": "IX. kerület",
+    "description": "A Tudatos Ifjúságért Alapítvány társasjáték-klubja minden hónap utolsó péntekén 18 órától a IX. kerületi Bokréta utcai irodájukban. A játékokat ők biztosítják, de a sajátodat is viheted, és szeretettel várnak mindenkit. Előzetesen egy online űrlapon kell jelentkezni.",
+    "description_en": "Tudatos Ifjúságért Foundation's board game club, on the last Friday of every month from 18:00 at their office on Bokréta utca in District IX. They provide the games, though you can bring your own, and everyone is welcome. Sign up in advance via an online form.",
+    "schedule": "Havonta, utolsó péntek",
     "website_url": "https://www.facebook.com/groups/263358474501496/",
     "instagram_url": null,
     "image_url": "/images/clubs/tarsasjatek-tia-game-cave.jpg",
@@ -312,14 +306,15 @@
     "name": "Budapest Bike Maffia",
     "category": "Önkéntesség / Közösségi akció",
     "district": null,
-    "description": "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral.",
-    "description_en": "A civic community that organizes free charity actions by bike, open for anyone to join.",
+    "description": "2011 karácsonya óta működő civil közösség, amely rászorulóknak gyűjt, készít és kerékpárral szállít ki ételcsomagokat, a Vitamin Kommandó akcióiban hetente kétszer. Önkéntesként egy-egy alkalomra is beállhatsz szendvicset készíteni vagy kiszállítani, tagság nélkül. A részvétel ingyenes, az aktuális akciókat a honlapjukon és Instagramon hirdetik.",
+    "description_en": "A civic community since Christmas 2011 that collects, prepares and delivers food parcels to people in need by bike, with Vitamin Kommandó actions twice a week. As a volunteer you can join a single session to make sandwiches or deliver, no membership needed. Free to take part; current actions are posted on their website and Instagram.",
     "schedule": null,
     "website_url": "https://bikemaffia.com/",
     "instagram_url": "https://www.instagram.com/budapest_bike_maffia/",
     "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-budapest-bike-maffia.png",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "run-crew-budapest",
@@ -340,28 +335,30 @@
     "name": "Mozaik Med közösségi futás",
     "category": "Sport",
     "district": null,
-    "description": "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül.",
-    "description_en": "A free community run every Tuesday on Margaret Island, open to any pace.",
-    "schedule": "Keddenként, Margitsziget",
+    "description": "Sportorvosok által vezetett, ingyenes közösségi futás a Margitszigeten 2025 márciusa óta: kedden 17:45-kor gyűlnek, bemelegítés után több tempócsoportban futnak, a végén nyújtás. Az alkalmak nem minden héten vannak, ezért nézd meg a naptárukat, és 2026 óta előzetesen regisztrálni kell az Aktív Budapest oldalán.",
+    "description_en": "A free community run on Margaret Island led by sports doctors since March 2025: they meet on Tuesdays at 17:45, run in several pace groups after a warm-up, and finish with stretching. Sessions aren't every week, so check their calendar, and since 2026 advance registration on Aktív Budapest is required.",
+    "schedule": "Kedd este, naptár szerint",
     "website_url": "https://mozaikmed.hu/",
     "instagram_url": "https://www.instagram.com/mozaikmed/",
     "image_url": "/images/clubs/sport-mozaik-med-futas-margitsziget.png",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "just-connect",
     "name": "Just Connect",
     "category": "Túra / Természetjárás",
     "district": null,
-    "description": "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze jófej, nyitott embereket.",
-    "description_en": "An offline event series that brings open, easygoing people together through mountain hikes and casual meetups.",
+    "description": "Offline közösségi eseménysorozat, amely mára főleg szingliknek szervez korosztály szerinti ismerkedős esteket, emellett társasjáték-esteket, futás és brunch alkalmakat és nemzetközi esteket a VIII. kerületi Mixát udvarban és más helyszíneken. A honlapjuk szerint több mint 3000 résztvevőjük volt már. Az események jegyesek.",
+    "description_en": "An offline event series that now mainly runs age-banded social evenings for singles, plus board game nights, run and brunch meetups and international evenings at Mixát udvar in District VIII and other venues. Their site says more than 3,000 people have attended. Events are ticketed.",
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/justconnect.hu/",
     "image_url": "/images/clubs/tura-termeszetjaras-just-connect.jpg",
     "featured": true,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "moms-community-budapest",
@@ -389,7 +386,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/nyilvanos-beszed-toastmasters-magyarorszag.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "artemis-compass",
@@ -410,14 +408,15 @@
     "name": "Havervagy",
     "category": "Nyelvcsere / Networking",
     "district": null,
-    "description": "Közösség nyitott, hasonló gondolkodású embereknek, akik szeretnének új barátokat találni: rendszeres közösségi buliknak és programoknak ad otthont.",
-    "description_en": "A community for open, like-minded people looking to make new friends, hosting regular social events and gatherings.",
+    "description": "2009 óta működő barátkozós közösség közel 40 000 taggal, Budapesten és több vidéki városban. Az estéken idegenek ülnek le négy-öt fős asztaloknál, és 25-30 percenként cserélődnek, így egy este alatt sok emberrel beszélgethetsz. Emellett kirándulásokat és előadásokat is szerveznek, a programok jegyesek.",
+    "description_en": "A friendship-making community since 2009 with nearly 40,000 members, in Budapest and several other cities. At their evenings, strangers sit at tables of four or five and rotate every 25-30 minutes, so you meet a lot of people in one night. They also run trips and talks; events are ticketed.",
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/havervagy/",
     "image_url": "/images/clubs/nyelvcsere-networking-havervagy.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "profi-med-performance-kozosseg",
@@ -438,14 +437,15 @@
     "name": "Katolikus Közösségek",
     "category": "Katolikus Közösségek",
     "district": null,
-    "description": "Katolikus közösségeket összegyűjtő portál: imacsoportok, kórusok, beszélgetős és hitmélyítő közösségek Budapesten és országszerte.",
-    "description_en": "A directory of Catholic communities: prayer groups, choirs, and faith-focused discussion groups across Budapest and Hungary.",
+    "description": "Katolikus közösségeket összegyűjtő, ingyenes portál több mint 60 regisztrált közösséggel: imacsoportok, kórusok, beszélgetős és hitmélyítő körök Budapesten és országszerte. Településre és lelkiségi mozgalomra is szűrhetsz, így könnyebb megtalálni a hozzád közeli csoportot, mint plébániáról plébániára járva.",
+    "description_en": "A free directory of Catholic communities with more than 60 registered groups: prayer groups, choirs, discussion and faith-formation circles in Budapest and across Hungary. You can filter by town and spiritual movement, which makes finding a group near you far easier than going parish by parish.",
     "schedule": null,
     "website_url": "https://kozossegek.hu/",
     "instagram_url": null,
     "image_url": "/images/clubs/katolikus-kozossegek-katolikus-kozossegek.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "socialgirlsbudapest",
@@ -459,30 +459,32 @@
     "instagram_url": "https://www.instagram.com/socialgirlsbudapest/",
     "image_url": "/images/clubs/noi-kozosseg-socialgirlsbudapest.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "budapest-hikers",
     "name": "Budapest Hikers",
     "category": "Túra / Természetjárás",
     "district": null,
-    "description": "Nemzetközi közösség, amely havi rendszerességgel szervez vezetett túrákat Budapest környéki festői helyszínekre, minden szinten.",
-    "description_en": "An international community that runs monthly guided hikes to scenic spots around Budapest, for every level.",
+    "description": "Nemzetközi, angol nyelvű túraközösség, amely havonta egy-egy szervezett túrát indít Budapest környékére és távolabbi tájakra, akár Ausztriába is, jellemzően 30-70 résztvevővel. A túrák fizetősek, az ár tartalmazza a tapasztalt túravezetést, az utazást és egy kis harapnivalót. Minden szinten várnak.",
+    "description_en": "An international, English-speaking hiking community that runs one organised hike a month around Budapest and further afield, even into Austria, typically with 30-70 people. Hikes are paid, and the price covers experienced guides, travel and a snack selection. All levels welcome.",
     "schedule": "Havonta, vezetett túrák",
     "website_url": "https://budapesthikers.com/",
     "instagram_url": null,
     "image_url": "/images/clubs/tura-termeszetjaras-budapest-hikers.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "budapest-bike-polo",
     "name": "Budapest Bike Polo",
     "category": "Sport",
-    "district": null,
-    "description": "Kerékpáros pólóklub minden szinten: heti rendszerességű edzések és meccsek a Puskás Aréna melletti pályán, kezdőket is szívesen látnak.",
-    "description_en": "A bike polo club for every level: weekly practices and matches next to Puskás Aréna, beginners welcome.",
-    "schedule": "Hetente, Puskás Aréna melletti pálya",
+    "district": "XIV. kerület",
+    "description": "Kerékpáros póló közösség a Puskás Aréna parkjának szabadtéri pályáján: szerdánként 19 és 22 óra között kötetlen játék és gyakorlás, vasárnap 10 és 14 óra között hosszabb közösségi játék, ami kezdőknek is ideális. Felszerelést előre üzenve kölcsön is kérhetsz, az időpontok az időjárástól függően változhatnak.",
+    "description_en": "A bike polo community on the outdoor court in Puskás Aréna Park: pickup games and practice on Wednesdays from 19:00 to 22:00, and a longer community game on Sundays from 10:00 to 14:00, which is ideal for beginners. You can borrow gear if you message ahead, and times may change with the weather.",
+    "schedule": "Szerda este és vasárnap délelőtt",
     "website_url": "https://www.budapestbikepolo.hu/",
     "instagram_url": "https://www.instagram.com/budapestbikepolo/",
     "image_url": "/images/clubs/sport-budapest-bike-polo.jpg",
@@ -521,27 +523,13 @@
     "id": "board-games-in-english",
     "name": "Board Games in English",
     "category": "Társasjáték",
-    "district": null,
-    "description": "Nemzetközi társasjáték-közösség Budapesten, amely rendszeresen találkozik különböző társasjáték-bárokban és kávézókban.",
-    "description_en": "An international board game community in Budapest that meets regularly at various game bars and cafés.",
-    "schedule": null,
+    "district": "VI. kerület",
+    "description": "Nemzetközi, angol nyelvű társasjáték-közösség több mint 2000 taggal, amely jellemzően szerdánként 18 órától a VI. kerületi Vault 51 Gamer Barban (Ó utca 51.) játszik, alkalmanként más helyszíneken is. Modern klasszikusok, kooperatív, stratégiai és szójátékok kerülnek elő, alkalmanként 15-25 emberrel. Jó hely angolgyakorlásra és barátkozásra.",
+    "description_en": "An international, English-speaking board game community with more than 2,000 members, usually playing on Wednesdays from 18:00 at Vault 51 Gamer Bar (Ó utca 51, District VI), occasionally elsewhere. Expect modern classics, co-op, strategy and word games, with 15-25 people a session. A good place to practise English and make friends.",
+    "schedule": "Szerda este",
     "website_url": "https://www.meetup.com/board-games-in-english/",
     "instagram_url": null,
     "image_url": "/images/clubs/tarsasjatek-board-games-in-english.jpg",
-    "featured": false,
-    "type": "Közösség"
-  },
-  {
-    "id": "conscious-budapest",
-    "name": "Conscious Budapest",
-    "category": "Jóga / Wellness",
-    "district": null,
-    "description": "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal, valódi kapcsolódás jegyében.",
-    "description_en": "A wellness community built around yoga, breathwork, alcohol-free social events and group walks, in the spirit of genuine connection.",
-    "schedule": null,
-    "website_url": "https://www.meetup.com/yogamindfulnessbudapest/",
-    "instagram_url": null,
-    "image_url": "/images/clubs/joga-wellness-conscious-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -557,7 +545,8 @@
     "instagram_url": "https://www.instagram.com/chempz_app/",
     "image_url": "/images/clubs/sport-chempz.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "pickmeball-club",
@@ -592,14 +581,15 @@
     "name": "Saturday Dance Class (women)",
     "category": "Tánc",
     "district": "IX. kerület",
-    "description": "Csak nőknek szóló, szombatonkénti tánctanfolyam brazil funkkal és egyéb brazil ritmusokkal, pop zenével kísérve. A foglalkozás angolul és portugálul zajlik, nincs fix ár, mindenki annyit fizet, amennyit szeretne.",
-    "description_en": "A women-only Saturday dance class built around Brazilian funk and other Brazilian rhythms, mixed with pop music. Taught in English and Portuguese, with a pay-what-you-want model instead of a fixed price.",
-    "schedule": null,
+    "description": "Csak nőknek szóló brazil tánc- és fitdance-órák szombatonként a IX. kerületi Ipar utcában, kezdőknek és haladóknak, brazil funkra és pop zenére. Az órák fizetősek, alkalmanként vagy bérlettel, időnként pedig van egy-egy pay what you want alkalom. Az órák angolul és portugálul zajlanak, előre kell foglalni.",
+    "description_en": "Women-only Brazilian dance and fitdance classes on Saturdays on Ipar utca in District IX, for beginners and experienced dancers, to Brazilian funk and pop. Classes are paid per session or with a pass, with an occasional pay-what-you-want session. They run in English and Portuguese and need booking in advance.",
+    "schedule": "Szombatonként",
     "website_url": "https://linktr.ee/Leleticiah",
     "instagram_url": "https://instagram.com/braziliandancer.leti",
     "image_url": "/images/clubs/tanc-brazil-tanc-leticia.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "paid"
   },
   {
     "id": "new-balance-run-club-budapest",
@@ -627,7 +617,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/lmbtq-kozosseg-szimpozion-klub.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "donation"
   },
   {
     "id": "heti-betevo",
@@ -641,7 +632,8 @@
     "instagram_url": "https://www.instagram.com/hetibetevo/",
     "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-heti-betevo.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "magyar-elelmiszerbank",
@@ -655,7 +647,8 @@
     "instagram_url": "https://www.instagram.com/elelmiszerbank/",
     "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-magyar-elelmiszerbank.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "budavari-baba-mama-klub",
@@ -669,7 +662,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/szulok-csaladok-budavari-baba-mama-klub.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "cseppecskek-baba-mama-klub",
@@ -683,7 +677,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/szulok-csaladok-cseppecskek-baba-mama-klub.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "input-fiatal-felnott-kozosseg",
@@ -697,7 +692,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/katolikus-kozossegek-input-fiatal-felnott-kozosseg.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "sant-egidio-kozosseg-budapest",
@@ -711,7 +707,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/katolikus-kozossegek-sant-egidio-kozosseg-budapest.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "garmin-running-club",
@@ -725,7 +722,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/sport-garmin-running-club.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "runanas",
@@ -739,7 +737,8 @@
     "instagram_url": "https://www.instagram.com/runanasactiveclub/",
     "image_url": "/images/clubs/sport-runanas.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "obudai-futoedzes",
@@ -753,7 +752,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/sport-obudai-futoedzes.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "obudai-nordic-walking-klub",
@@ -767,7 +767,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/sport-obudai-nordic-walking-klub.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "budapest-silent-book-club",
@@ -781,7 +782,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/konyvklub-budapest-silent-book-club.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "gyemant-ut-angol-meditacio",
@@ -795,7 +797,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/meditacio-spiritualitas-gyemant-ut-angol-meditacio.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "devbp",
@@ -809,7 +812,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/startup-tech-devbp.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "gradient-hiking",
@@ -823,7 +827,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/tura-termeszetjaras-gradient-hiking.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "h13-kultpont-joga-es-tai-chi",
@@ -837,7 +842,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/joga-wellness-h13-kultpont-joga-es-tai-chi.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "anduril-tarsasjatek-klub",
@@ -851,7 +857,8 @@
     "instagram_url": null,
     "image_url": "/images/clubs/tarsasjatek-anduril-tarsasjatek-klub.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   },
   {
     "id": "casual-board-games-and-beers",
@@ -865,6 +872,7 @@
     "instagram_url": null,
     "image_url": "/images/clubs/tarsasjatek-casual-board-games-and-beers.jpg",
     "featured": false,
-    "type": "Közösség"
+    "type": "Közösség",
+    "cost": "free"
   }
 ]

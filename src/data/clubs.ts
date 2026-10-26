@@ -2,6 +2,8 @@ import clubsData from "./clubs.json";
 
 export type ClubType = "Helyszín" | "Közösség";
 
+export type ClubCost = "free" | "donation" | "paid";
+
 export type Club = {
   id: string;
   name: string;
@@ -15,6 +17,8 @@ export type Club = {
    * Hiányozhat, ilyenkor sehol nem jelenik meg.
    */
   schedule?: string | null;
+  /** A részvétel költsége, ha ellenőriztük; hiányzik, ha nem tudjuk biztosan. */
+  cost?: ClubCost | null;
   website_url: string | null;
   instagram_url: string | null;
   image_url: string;

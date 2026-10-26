@@ -34,7 +34,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest's first women-only running club. Weekend group runs are usually followed by brunch, so it's as much about conversation and meeting people as it is about running. Beginner-friendly: the group runs at several paces, so nobody gets left behind alone.",
+            note: "Budapest's first women-only running club. Group runs, set in a monthly calendar, are often followed by brunch or a social, so it's as much about conversation and meeting people as it is about running. Beginner-friendly: the group runs at several paces, so nobody gets left behind alone.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -64,7 +64,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Mozaik Med community run",
-            note: "A free community run every Tuesday on Margaret Island, any pace welcome. No sign-up, no expectations: you just show up at the stated time and place and join the group.",
+            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island, any pace welcome. It isn't every week, so check their calendar, and since 2026 you need to register in advance on Aktív Budapest, but there's no skill requirement.",
             href: "https://mozaikmed.hu/",
           },
         ],
@@ -220,28 +220,23 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "language-exchange-networking-communities-budapest",
-    title: "4 communities in Budapest where you can practice a language and meet new people",
-    metaTitle: "Language exchange in Budapest: 4 communities to try",
+    title: "3 communities in Budapest where you can practice a language and meet new people",
+    metaTitle: "Language exchange in Budapest: 3 communities to try",
     description:
       "Local and international communities where you can practice a language and meet digital nomads, expats, or just open-minded people in Budapest.",
     kind: "listicle",
     category: "Nyelvcsere / Networking",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-08-27",
-    updatedAt: "2026-08-27",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
-        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in real, live conversation. These four communities are all active, free to attend, and all built around the same idea: bringing new people together, whether through a shared language or simply shared openness.",
+        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in real, live conversation. These three communities are all active, and all built around the same idea: bringing new people together, whether through a shared language or simply shared openness.",
       },
       {
         type: "clublist",
         items: [
-          {
-            name: "Budapest Language Exchange (BPLX)",
-            note: "A well-established language exchange community running since 2012, where locals and foreigners practice languages with each other. Thanks to its long history the format is well refined: evenings typically run in small groups with rotating conversation partners.",
-            href: "https://www.meetup.com/budapest/",
-          },
           {
             name: "International Socializing in Budapest",
             note: "A weekly Saturday evening meetup for locals, expats and travelers to practice languages and meet people. The focus is less on structured language learning and more on a relaxed, international social experience.",
@@ -262,7 +257,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which one should you pick if you actually want to practice a language?" },
       {
         type: "p",
-        text: "If practicing a specific language is the actual goal, Budapest Language Exchange (BPLX) is the oldest and most refined format for it, since its whole structure is built around rotating conversations. If you'd rather have a relaxed, language-agnostic way to meet people in an international setting, International Socializing in Budapest's Saturday evenings suit you better. Budapest Digital Nomads is mainly good for those who'd also like to connect professionally with other foreigners, while Havervagy is for anyone simply looking for a new circle of friends, regardless of language or profession.",
+        text: "If practicing a language is the actual goal, International Socializing in Budapest's Saturday evenings are the best starting point, since locals, expats and travellers mix there, so it's easy to strike up a conversation in English or Hungarian. Budapest Digital Nomads is mainly good for those who'd also like to connect professionally with other foreigners, while Havervagy is for anyone simply looking for a new circle of friends, regardless of language or profession.",
       },
       {
         type: "citation",
@@ -298,7 +293,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -309,7 +304,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run every Tuesday on Margaret Island, any pace welcome. Most participants arrive alone too, so nobody stands out for it.",
+            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island (per their calendar, with advance registration), any pace welcome. Most participants arrive alone too, so nobody stands out for it.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -324,7 +319,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Margitszigeti Jóga",
-            note: "Community outdoor yoga classes on Margaret Island, run by a friendly team for ten years. The regular, repeating time slot makes it easy to run into familiar faces again.",
+            note: "Donation-based community outdoor yoga on Margaret Island from spring to autumn, run by a friendly team. The regular, repeating time slot makes it easy to run into familiar faces again.",
             href: "https://www.instagram.com/margitszigetijoga.hu/",
           },
           {
@@ -517,10 +512,10 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "yoga-meditation-communities-budapest-for-beginners",
-    title: "Yoga and meditation in Budapest for beginners: 5 communities you can start with zero experience",
-    metaTitle: "Yoga in Budapest for beginners: 5 communities to start with",
+    title: "Yoga and meditation in Budapest for beginners: 4 communities you can start with zero experience",
+    metaTitle: "Yoga in Budapest for beginners: 4 communities to start with",
     description:
-      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, indoor yoga and tai chi, a wellness community and meditation groups: five real communities that welcome zero experience.",
+      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, indoor yoga and tai chi, and meditation groups: four real communities that welcome zero experience.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
@@ -529,20 +524,15 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Yoga and meditation can seem intimidatingly expert-level at first glance, yet most Budapest communities are aimed precisely at people who've never tried it before. All five communities here welcome beginners, and none require an expensive studio pass or prior knowledge.",
+        text: "Yoga and meditation can seem intimidatingly expert-level at first glance, yet most Budapest communities are aimed precisely at people who've never tried it before. All four communities here welcome beginners, and none require an expensive studio pass or prior knowledge.",
       },
       {
         type: "clublist",
         items: [
           {
             name: "Margitszigeti Jóga",
-            note: "Community outdoor yoga classes on Margaret Island, run by a friendly team for ten years. Being outdoors makes the mood more casual than a closed studio, which is an easier entry point for a lot of people.",
+            note: "Donation-based community outdoor yoga on Margaret Island from spring to autumn, run by a friendly team. Being outdoors makes the mood more casual than a closed studio, which is an easier entry point for a lot of people.",
             href: "https://www.instagram.com/margitszigetijoga.hu/",
-          },
-          {
-            name: "Conscious Budapest",
-            note: "A wellness community with yoga, breathwork, alcohol-free social events and group walks. The goal is genuine, deep connection, not just the physical practice.",
-            href: "https://www.meetup.com/yogamindfulnessbudapest/",
           },
           {
             name: "H13 Kultpont yoga and tai chi",
@@ -564,15 +554,15 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which one should you pick if you're a complete beginner?" },
       {
         type: "p",
-        text: "If the physical practice is what draws you, Margitszigeti Jóga is the least demanding start, since it's outdoors, relaxed, and requires no prior knowledge. If the social, community side matters more, Conscious Budapest's broader program (walks, tea gatherings and sauna alongside yoga) suits you better. If you'd like to go in a more reflective, self-development direction, Budapest Personal Growth Meetup or Artemis Compass is the better pick.",
+        text: "If the physical practice is what draws you, Margitszigeti Jóga is the least demanding start, since it's outdoors, relaxed, and requires no prior knowledge. If you'd like to practise indoors at a fixed time through the winter, H13 Kultpont's weekly yoga and tai chi classes are the most convenient. If you'd like to go in a more reflective, self-development direction, Budapest Personal Growth Meetup or Artemis Compass is the better pick.",
       },
       { type: "h2", text: "What kind of yoga classes will you actually find?" },
       {
         type: "list",
         items: [
           "Outdoor Hatha flow: a slower, beginner-friendly style with held postures, the format Margitszigeti Jóga builds its sessions around.",
-          "Breathwork and gentle movement: short guided breathing exercises combined with light stretching, part of Conscious Budapest's wider wellness sessions.",
-          "Seated meditation: no physical practice at all, just guided stillness, offered alongside yoga at Conscious Budapest and as the sole focus at Budapest Personal Growth Meetup.",
+          "Tai chi and qigong: slow, breath-led movement sequences, offered on Tuesdays at H13 Kultpont.",
+          "Seated meditation: no physical practice at all, just guided stillness, the main focus at Budapest Personal Growth Meetup.",
           "Walking and nature-based practice: movement meditation outdoors instead of a studio session, Artemis Compass's main format.",
         ],
       },
@@ -598,7 +588,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Where can I find yoga classes in Budapest as a beginner?",
-            a: "A community session is the easiest start: outdoor classes on Margaret Island with Margitszigeti Jóga, or the Conscious Budapest wellness meetups. For regular studio classes in English, see the We Love Budapest list linked above.",
+            a: "A community session is the easiest start: outdoor classes on Margaret Island with Margitszigeti Jóga, or the free weekly classes at H13 Kultpont. For regular studio classes in English, see the We Love Budapest list linked above.",
           },
           {
             q: "What's the difference between a yoga class and a yoga community like these?",
@@ -776,7 +766,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -802,7 +792,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run every Tuesday on Margaret Island, any pace welcome.",
+            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island, any pace welcome. Sessions follow their calendar and need advance registration.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -986,7 +976,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1020,13 +1010,13 @@ export const postsEn: BlogPost[] = [
         type: "table",
         headers: ["Club", "Sport", "Cost", "Sign-up required"],
         rows: [
-          ["Mozaik Med community run", "Running", "Free", "No"],
+          ["Mozaik Med community run", "Running", "Free", "Yes, online"],
           ["Run Crew Budapest", "Running", "Free", "No"],
-          ["Bridget Runners Budapest", "Running, for women", "Free", "No"],
+          ["Bridget Runners Budapest", "Running, for women", "Free", "Yes, on Strava"],
           ["Bikás Park Streetball", "Basketball", "Free", "No"],
           ["Hot Girls Walk Club", "Walking, for women", "Free", "No"],
-          ["Budapest Hikers", "Hiking", "Cost of travel", "Usually yes"],
-          ["Budapest Bike Polo", "Bike polo", "Free", "Worth a heads-up"],
+          ["Budapest Hikers", "Hiking", "21,500-24,000 Ft", "Usually yes"],
+          ["Budapest Bike Polo", "Bike polo", "Ask them", "Worth a heads-up"],
           ["PickMeBall Club", "Pickleball", "Court fee", "Yes"],
           ["Budapest Racquet Society", "Tennis", "Court fee", "Yes"],
         ],
@@ -1036,7 +1026,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run every Tuesday on Margaret Island. Their description specifically highlights that you can join at any pace, so there's no situation where you fall behind and have to catch up. No sign-up, you just need to show up at the stated time, which is the lowest barrier to entry on this whole list.",
+            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island. Their description specifically highlights that you can join at any pace, so there's no situation where you fall behind and have to catch up. You need to register in advance on Aktív Budapest, but beyond that there are no conditions.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1046,7 +1036,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest's first women-only running club, with weekend group runs followed by brunch. Their description specifically markets itself as beginner-friendly, and the weekend timing means no rushing after work. If you're worried a mixed club would run too fast as a woman, this is the best starting point.",
+            note: "Budapest's first women-only running club, with group runs set in a monthly calendar, often followed by brunch or a social. Their description specifically markets itself as beginner-friendly, and it's free. If you're worried a mixed club would run too fast as a woman, this is the best starting point.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -1252,7 +1242,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-13",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1286,7 +1276,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run every Tuesday on Margaret Island. No sign-up and no skill requirement, anyone can join regardless of pace, which makes it exactly the kind of session you can walk into the very first time.",
+            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island. There's no skill requirement and anyone can join regardless of pace; you just register in advance on Aktív Budapest, which makes it exactly the kind of session you can go to the very first time.",
             href: "https://www.instagram.com/mozaikmed/",
           },
           {
@@ -1546,7 +1536,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "I Bike Budapest (Kerékpárosklub)",
-            note: "A cycling community and advocacy club that organizes regular group rides and tours. Their website is a full news source on Budapest cycling events, and their contact details are public on it too.",
+            note: "A cycling advocacy association since 2002 that runs club evenings, cyclists' breakfasts and member events. Their website is a full news source on Budapest cycling events, and their contact details are public on it too.",
             href: "https://kerekparosklub.hu/",
           },
           {
@@ -1719,7 +1709,7 @@ export const postsEn: BlogPost[] = [
     category: "Női közösség",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1745,7 +1735,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest's first women-only running club, with weekend group runs followed by brunch. Their description markets itself as beginner-friendly, and the weekend timing means no rushing after work. Because of the shared meal after running, there's genuinely time to talk here, not just a lap and straight home.",
+            note: "Budapest's first women-only running club, with group runs set in a monthly calendar, often followed by brunch or a social. Their description markets itself as beginner-friendly, and it's free. Because of the shared meal after running, there's genuinely time to talk here, not just a lap and straight home.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -2180,25 +2170,29 @@ export const postsEn: BlogPost[] = [
         type: "p",
         text: "Another common misconception is that you have to learn to meditate at home first before you're allowed to go to a group. It's actually easier the other way around: it's much simpler to start in a group, because there's structure and guidance.",
       },
-      { type: "h2", text: "Budapest meditation and self-development communities" },
+      {
+        type: "p",
+        text: "We cover the two independent self-development communities (Budapest Personal Growth Meetup and Artemis Compass) club by club in our Yoga and meditation in Budapest for beginners post. Here we recommend one weekly meditation with a fixed time, then look at the styles you'll come across and what to expect if you're going to your very first session.",
+      },
+      { type: "h2", text: "Where can you start this week?" },
       {
         type: "clublist",
         items: [
-          {
-            name: "Budapest Personal Growth Meetup",
-            note: "An open meditation and self-development community, independent of any religion or organization, meeting at varying locations. Independence here is a stated principle, not an afterthought, which as a beginner is the most important thing to know. Meetings are advertised on Meetup, so you can see the time and headcount in advance.",
-            href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
-          },
-          {
-            name: "Artemis Compass",
-            note: "Nature-connected self-development programs, where the quiet of the outdoors provides the frame. This format is for you if sitting in a room makes it hard to switch off, but a walk in the forest doesn't. These are longer, typically half-day or full-day programs, not one-hour evening sessions.",
-            href: "https://www.facebook.com/profile.php?id=61574524619037",
-          },
           {
             name: "Diamond Way English meditation",
             note: "The Diamond Way Buddhist Centre's guided meditation, every Thursday at 19:00 on Rózsák tere in District VII, in English. After a short introduction you meditate together for 30-40 minutes, and newcomers can arrive at 18:30 for a brief orientation. It's a Buddhist centre, but anyone can come, and nobody is expected to join anything. Free.",
             href: "https://www.buddhizmusma.hu/english-meditation",
           },
+        ],
+      },
+      { type: "h2", text: "What meditation styles will you meet in a Budapest group?" },
+      {
+        type: "list",
+        items: [
+          "Mindfulness: you focus on your breath or bodily sensations and gently come back when your mind wanders. This is the most common beginner format.",
+          "Guided visualisation: the leader talks you through an imagined journey or situation, which needs less independent concentration than sitting in silence.",
+          "Breath-focused practice: built on specific breathing techniques, often in shorter, more intense blocks.",
+          "Movement meditation: walking, stretching or a simple sequence of movements, for people who find it hard to switch off while sitting still.",
         ],
       },
       { type: "h2", text: "What should you expect the first time?" },
@@ -2876,7 +2870,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2902,7 +2896,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Bridget Runners Budapest",
-            note: "A weekly, fixed-time running community where the regulars know each other, and the same crowd is waiting week after week.",
+            note: "A women's running community that runs regularly to a monthly calendar, where the regulars know each other and the same crowd is waiting time after time.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -3191,7 +3185,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3214,11 +3208,6 @@ export const postsEn: BlogPost[] = [
       {
         type: "clublist",
         items: [
-          {
-            name: "Budapest Language Exchange (BPLX)",
-            note: "A weekly, rotating-conversation format that's easy to join alone, with a genuinely mixed-age crowd.",
-            href: "https://www.meetup.com/budapest/",
-          },
           {
             name: "TIA Game Cave",
             note: "A free board game community where the game itself gives you something to talk about, so you don't have to start a conversation from nothing.",
@@ -3946,7 +3935,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Mozaik Med community run",
-            note: "Every Tuesday on Margaret Island, any pace, no sign-up. If a coached session feels too structured, this is the more relaxed way in.",
+            note: "Tuesday evenings, though not every week, on Margaret Island, led by sports doctors and at any pace. Free, but since 2026 you need to register in advance on Aktív Budapest; current dates are in their calendar.",
             href: "/en/club/mozaik-med-futas",
           },
           {

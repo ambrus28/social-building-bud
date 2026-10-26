@@ -6,6 +6,7 @@ import ClubCard from "@/components/ClubCard";
 import ClubLinkButton from "@/components/ClubLinkButton";
 import { clubs, getClubById } from "@/data/clubs";
 import { categoryHref } from "@/lib/slug";
+import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -74,7 +75,14 @@ export default async function ClubPage({ params }: Props) {
     },
     {
       q: "Kerül valamibe a csatlakozás?",
-      a: "Ez az oldal ingyenes, és a listázott közösségek nagy része sem kér tagdíjat. Ha egy közösségnek mégis van részvételi díja, azt a saját oldalán tünteti fel.",
+      a:
+        club.cost === "free"
+          ? `Nem, a ${club.name} programjain ingyenes a részvétel. Ha a helyszín kávézó vagy söröző, legfeljebb a saját fogyasztásodat fizeted.`
+          : club.cost === "donation"
+            ? `Fix díj nincs, a ${club.name} adományalapon működik: annyit adsz, amennyit szeretnél, vagy amennyit javasolnak. A részleteket a fenti leírásban és a közösség saját oldalán találod.`
+            : club.cost === "paid"
+              ? `Igen, a ${club.name} részvételi díjat vagy tagdíjat kér. Az aktuális árat a közösség saját oldalán találod, sokszor az első alkalom ingyenes vagy kedvezményes.`
+              : "Ez az oldal ingyenes, és a listázott közösségek nagy része sem kér tagdíjat. Ha egy közösségnek mégis van részvételi díja, azt a saját oldalán tünteti fel.",
     },
   ];
 
@@ -176,6 +184,7 @@ export default async function ClubPage({ params }: Props) {
             </Link>
             {club.district && <span>📍 {club.district}</span>}
             {club.schedule && <span>🕐 {club.schedule}</span>}
+            {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "hu")}</span>}
             <span>{club.type}</span>
           </div>
 

@@ -51,7 +51,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest első, tisztán női futóklubja. A közös hétvégi futásokat rendszerint közös brunch követi, így legalább annyira a beszélgetésről és az ismerkedésről szól, mint a futásról. Kezdőknek is barátságos: a csoport több tempóban fut, senki nem marad le egyedül.",
+            note: "Budapest első, tisztán női futóklubja. A havi naptár szerinti közös futásokat sokszor brunch vagy közös program követi, így legalább annyira a beszélgetésről és az ismerkedésről szól, mint a futásról. Kezdőknek is barátságos: a csoport több tempóban fut, senki nem marad le egyedül.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -81,7 +81,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, bármilyen futótempóval. Nincs regisztráció, nincs elvárás: egyszerűen megjelensz a megadott időpontban és helyszínen, és csatlakozol a csoporthoz.",
+            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten, bármilyen futótempóval. Nem minden héten van, ezért nézd meg a naptárukat, és 2026 óta előre regisztrálni kell az Aktív Budapest oldalán, de szintfeltétel nincs.",
             href: "https://mozaikmed.hu/",
           },
         ],
@@ -237,28 +237,23 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "nyelvcsere-networking-kozossegek-budapesten",
-    title: "4 közösség Budapesten, ahol nyelvet gyakorolhatsz és új embereket ismerhetsz meg",
-    metaTitle: "Nyelvcsere Budapesten: 4 közösség, ahol gyakorolhatsz",
+    title: "3 közösség Budapesten, ahol nyelvet gyakorolhatsz és új embereket ismerhetsz meg",
+    metaTitle: "Nyelvcsere Budapesten: 3 közösség, ahol gyakorolhatsz",
     description:
       "Helyi és nemzetközi közösségek, ahol nyelvet gyakorolhatsz, digitális nomádokkal, expatokkal vagy egyszerűen nyitott emberekkel ismerkedhetsz Budapesten.",
     kind: "listicle",
     category: "Nyelvcsere / Networking",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-27",
-    updatedAt: "2026-08-27",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
-        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet valódi, élő beszélgetésben. Ez a négy közösség mind aktív, ingyenesen látogatható, és mindegyiknek az a lényege, hogy új emberekkel hozzon össze, akár egy közös nyelv, akár egyszerűen a közös nyitottság mentén.",
+        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet valódi, élő beszélgetésben. Ez a három közösség mind aktív, és mindegyiknek az a lényege, hogy új emberekkel hozzon össze, akár egy közös nyelv, akár egyszerűen a közös nyitottság mentén.",
       },
       {
         type: "clublist",
         items: [
-          {
-            name: "Budapest Language Exchange (BPLX)",
-            note: "2012 óta működő, jól bejáratott nyelvcsere közösség, ahol helyiek és külföldiek gyakorolhatnak nyelveket egymással. A hosszú múlt miatt a formátum kiforrott: általában kis csoportokban, rotáló beszélgetőpartnerekkel zajlik az est.",
-            href: "https://www.meetup.com/budapest/",
-          },
           {
             name: "International Socializing in Budapest",
             note: "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre. A hangsúly kevésbé a strukturált nyelvtanuláson, inkább a laza, nemzetközi társasági élményen van.",
@@ -279,7 +274,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyiket válaszd, ha tényleg nyelvet gyakorolnál?" },
       {
         type: "p",
-        text: "Ha konkrétan nyelvgyakorlás a cél, a Budapest Language Exchange (BPLX) a legrégebbi és legkiforrottabb formátum erre, hiszen a struktúrája a rotáló beszélgetésekre épül. Ha inkább laza, nyelvfüggetlen ismerkedésre vágysz nemzetközi közegben, az International Socializing in Budapest szombat esti alkalmai jobban illenek hozzád. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is kapcsolódnának más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától függetlenül.",
+        text: "Ha konkrétan nyelvgyakorlás a cél, az International Socializing in Budapest szombat esti alkalmai a legjobb kiindulópont, mert ott helyiek, expatok és utazók keverednek, így angolul és magyarul is könnyen szóba elegyedhetsz. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is kapcsolódnának más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától függetlenül.",
       },
       {
         type: "citation",
@@ -315,7 +310,7 @@ export const posts: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -326,7 +321,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, bármilyen futótempóval. A résztvevők nagy része maga is egyedül érkezik, így senki nem lóg ki a sorból.",
+            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten (naptár szerint, előzetes regisztrációval), bármilyen futótempóval. A résztvevők nagy része maga is egyedül érkezik, így senki nem lóg ki a sorból.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -341,7 +336,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Margitszigeti Jóga",
-            note: "Közösségi szabadtéri jógaórák a Margitszigeten, tíz éve működő, barátságos csapattal. A rendszeres, ismétlődő időpontok miatt könnyű visszajáró arcokkal újra találkozni.",
+            note: "Adományalapú közösségi szabadtéri jógaórák a Margitszigeten tavasztól őszig, barátságos csapattal. A rendszeres, ismétlődő időpontok miatt könnyű visszajáró arcokkal újra találkozni.",
             href: "https://www.instagram.com/margitszigetijoga.hu/",
           },
           {
@@ -543,10 +538,10 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "joga-meditacio-kozossegek-kezdoknek",
-    title: "Jóga és meditáció Budapesten kezdőknek: 5 közösség, ahol nulla tapasztalattal is elindulhatsz",
-    metaTitle: "Jóga és meditáció Budapesten kezdőknek: 5 közösség",
+    title: "Jóga és meditáció Budapesten kezdőknek: 4 közösség, ahol nulla tapasztalattal is elindulhatsz",
+    metaTitle: "Jóga és meditáció Budapesten kezdőknek: 4 közösség",
     description:
-      "Szabadtéri és fedett jóga, tai chi, wellness-közösség és önismereti meditáció Budapesten: öt valódi közösség, amely kezdőknek is barátságos.",
+      "Szabadtéri és fedett jóga, tai chi és önismereti meditáció Budapesten: négy valódi közösség, amely kezdőknek is barátságos.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR,
@@ -555,20 +550,15 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Ez az öt közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
+        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Ez a négy közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
       },
       {
         type: "clublist",
         items: [
           {
             name: "Margitszigeti Jóga",
-            note: "Közösségi szabadtéri jógaórák a Margitszigeten, tíz éve működő, barátságos csapattal. A szabadtéri jelleg miatt kötetlenebb a hangulat, mint egy zárt stúdióban, ami sokak számára könnyebb belépési pontot jelent.",
+            note: "Adományalapú közösségi szabadtéri jógaórák a Margitszigeten tavasztól őszig, barátságos csapattal. A szabadtéri jelleg miatt kötetlenebb a hangulat, mint egy zárt stúdióban, ami sokak számára könnyebb belépési pontot jelent.",
             href: "https://www.instagram.com/margitszigetijoga.hu/",
-          },
-          {
-            name: "Conscious Budapest",
-            note: "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal. A cél a valódi, mély kapcsolódás, nem csak a fizikai gyakorlat.",
-            href: "https://www.meetup.com/yogamindfulnessbudapest/",
           },
           {
             name: "H13 Kultpont jóga és tai chi",
@@ -590,7 +580,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyiket válaszd, ha teljesen kezdő vagy?" },
       {
         type: "p",
-        text: "Ha a fizikai gyakorlat áll közelebb hozzád, a Margitszigeti Jóga a legkevésbé megterhelő kezdés, mert szabadtéri, laza hangulatú, és nem igényel semmilyen előzetes tudást. Ha inkább a társasági, közösségi élmény a fontos, a Conscious Budapest szélesebb programkínálata (jóga mellett séták, teázások, szauna) jobban illik hozzád. Ha pedig az önismereti, elmélyültebb irányba mennél, a Budapest Personal Growth Meetup vagy az Artemis Compass a jobb választás.",
+        text: "Ha a fizikai gyakorlat áll közelebb hozzád, a Margitszigeti Jóga a legkevésbé megterhelő kezdés, mert szabadtéri, laza hangulatú, és nem igényel semmilyen előzetes tudást. Ha télen is fedett helyen, fix időpontban gyakorolnál, a H13 Kultpont heti jóga- és tai chi alkalmai a legkényelmesebbek. Ha pedig az önismereti, elmélyültebb irányba mennél, a Budapest Personal Growth Meetup vagy az Artemis Compass a jobb választás.",
       },
       {
         type: "citation",
@@ -780,7 +770,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -806,7 +796,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül.",
+            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül. Az alkalmak naptár szerint vannak, és előre regisztrálni kell.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -990,7 +980,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1024,13 +1014,13 @@ export const posts: BlogPost[] = [
         type: "table",
         headers: ["Klub", "Sportág", "Költség", "Előzetes jelentkezés"],
         rows: [
-          ["Mozaik Med közösségi futás", "Futás", "Ingyenes", "Nem kell"],
+          ["Mozaik Med közösségi futás", "Futás", "Ingyenes", "Igen, online"],
           ["Run Crew Budapest", "Futás", "Ingyenes", "Nem kell"],
-          ["Bridget Runners Budapest", "Futás, nőknek", "Ingyenes", "Nem kell"],
+          ["Bridget Runners Budapest", "Futás, nőknek", "Ingyenes", "Igen, Straván"],
           ["Bikás Park Streetball", "Kosárlabda", "Ingyenes", "Nem kell"],
           ["Hot Girls Walk Club", "Séta, nőknek", "Ingyenes", "Nem kell"],
-          ["Budapest Hikers", "Túra", "Utazás ára", "Jellemzően igen"],
-          ["Budapest Bike Polo", "Bike polo", "Ingyenes", "Érdemes szólni"],
+          ["Budapest Hikers", "Túra", "21 500-24 000 Ft", "Jellemzően igen"],
+          ["Budapest Bike Polo", "Bike polo", "Kérdezd meg", "Érdemes szólni"],
           ["PickMeBall Club", "Pickleball", "Pályaköltség", "Igen"],
           ["Budapest Racquet Society", "Tenisz", "Pályaköltség", "Igen"],
         ],
@@ -1040,7 +1030,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten. A leírásuk külön kiemeli, hogy bármilyen futótempóval csatlakozhatsz, tehát nincs az a helyzet, hogy lemaradsz és utánad kell jönni. Nincs nevezés, egyszerűen oda kell menni a megadott időpontban, ami a legalacsonyabb belépési küszöb az egész listán.",
+            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten. A leírásuk külön kiemeli, hogy bármilyen futótempóval csatlakozhatsz, tehát nincs az a helyzet, hogy lemaradsz és utánad kell jönni. Előre regisztrálni kell az Aktív Budapest oldalán, de ezen túl nincs semmilyen feltétel.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1050,7 +1040,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest első női futóklubja, közös hétvégi futásokkal és utána brunch-csal. A leírásuk kifejezetten kezdőbarátnak jelöli magát, és a hétvégi időzítés miatt nem kell munka után rohanni. Ha nőként tartasz attól, hogy egy vegyes klubban túl gyors lesz a tempó, ez a legjobb kiindulópont.",
+            note: "Budapest első női futóklubja, havi naptár szerinti közös futásokkal, utána sokszor brunch-csal vagy közös programmal. A leírásuk kifejezetten kezdőbarátnak jelöli magát, és ingyenes. Ha nőként tartasz attól, hogy egy vegyes klubban túl gyors lesz a tempó, ez a legjobb kiindulópont.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -1252,7 +1242,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-13",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1286,7 +1276,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten. Nincs nevezés és nincs szintfeltétel, bárki csatlakozhat futótempótól függetlenül, tehát tipikusan az a fajta alkalom, ahova az első alkalommal is be lehet esni.",
+            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten. Szintfeltétel nincs, bárki csatlakozhat futótempótól függetlenül, csak előre regisztrálni kell az Aktív Budapest oldalán, tehát tipikusan az a fajta alkalom, ahova az első alkalommal is nyugodtan mehetsz.",
             href: "https://www.instagram.com/mozaikmed/",
           },
           {
@@ -1546,7 +1536,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "I Bike Budapest (Kerékpárosklub)",
-            note: "Kerékpáros közösség és érdekvédelmi klub, amely rendszeres közös felvonulásokat és túrákat szervez. A weboldaluk teljes értékű hírforrás a budapesti kerékpáros eseményekről, és a kapcsolati adataik is nyilvánosak rajta.",
+            note: "2002 óta működő kerékpáros érdekvédelmi egyesület, amely klubesteket, bringás reggeliket és tagi programokat szervez. A weboldaluk teljes értékű hírforrás a budapesti kerékpáros eseményekről, és a kapcsolati adataik is nyilvánosak rajta.",
             href: "https://kerekparosklub.hu/",
           },
           {
@@ -1719,7 +1709,7 @@ export const posts: BlogPost[] = [
     category: "Női közösség",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1745,7 +1735,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest első női futóklubja, közös hétvégi futásokkal és utána brunch-csal. A leírásuk kezdőbarátnak jelöli magát, és a hétvégi időzítés miatt nem kell munka után rohanni. A futás utáni közös étkezés miatt itt tényleg van idő beszélgetni, nem csak lefutjátok a távot és hazamentek.",
+            note: "Budapest első női futóklubja, havi naptár szerinti közös futásokkal, utána sokszor brunch-csal vagy közös programmal. A leírásuk kezdőbarátnak jelöli magát, és ingyenes. A futás utáni közös étkezés miatt itt tényleg van idő beszélgetni, nem csak lefutjátok a távot és hazamentek.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -2880,7 +2870,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2906,7 +2896,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Bridget Runners Budapest",
-            note: "Heti rendszerességű, fix időpontú futóközösség, ahol a visszatérő tagok ismerik egymást, és hétről hétre ugyanaz a társaság vár.",
+            note: "Rendszeresen, havi naptár szerint futó női közösség, ahol a visszatérő tagok ismerik egymást, és alkalomról alkalomra ugyanaz a társaság vár.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -3199,7 +3189,7 @@ export const posts: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3222,11 +3212,6 @@ export const posts: BlogPost[] = [
       {
         type: "clublist",
         items: [
-          {
-            name: "Budapest Language Exchange (BPLX)",
-            note: "Heti rendszerességű, rotáló beszélgetéseken alapuló közösség, ahova egyedül is könnyű bekapcsolódni, és a résztvevők kor szerint is vegyesek.",
-            href: "https://www.meetup.com/budapest/",
-          },
           {
             name: "TIA Game Cave",
             note: "Ingyenes társasjáték-közösség, ahol a játék adja a beszélgetés alapját, tehát nem kell a semmiből társalgást kezdeni.",
@@ -3962,7 +3947,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Mozaik Med közösségi futás",
-            note: "Keddenként a Margitszigeten, bármilyen tempóval és regisztráció nélkül. Ha egy edzővel tartott edzés túl strukturáltnak tűnik, ez a lazább belépő.",
+            note: "Kedd esténként, de nem minden héten, a Margitszigeten, sportorvosok vezetésével és bármilyen tempóval. Ingyenes, de 2026 óta előre regisztrálni kell az Aktív Budapest oldalán, az aktuális dátumokat a naptárukban látod.",
             href: "/klub/mozaik-med-futas",
           },
           {
