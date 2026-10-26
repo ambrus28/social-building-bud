@@ -447,7 +447,7 @@ export const posts: BlogPost[] = [
     category: "Társasjáték",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -477,6 +477,15 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban járnál.",
+      },
+      {
+        type: "p",
+        text: "A társasjáték-közösségek nem véletlenül működnek ilyen jól ismerkedésre: egy 2025-ös japán kutatás kilenc társasjáték-kávézót vizsgálva azt találta, hogy ezek a helyek a megszokott kávézónál és kocsmánál is erősebb közösségi térként, az elszigeteltség ellenszereként működnek a látogatóik számára.",
+      },
+      {
+        type: "citation",
+        text: "Acta Ludologica: társasjáték-kávézók mint közösségi terek",
+        href: "https://actaludologica.com/from-play-to-belonging-board-game-cafes-as-mediators-for-social-wellness-and-community-building-in-japan/",
       },
       {
         type: "faq",
@@ -2096,7 +2105,7 @@ export const posts: BlogPost[] = [
     category: "Meditáció / Spiritualitás",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2106,20 +2115,18 @@ export const posts: BlogPost[] = [
         type: "p",
         text: "A másik gyakori tévhit, hogy előbb otthon meg kell tanulni meditálni, és csak utána szabad csoportba menni. Fordítva könnyebb: csoportban sokkal egyszerűbb elkezdeni, mert van keret és van vezetés.",
       },
-      { type: "h2", text: "Budapesti meditációs és önismereti közösségek" },
       {
-        type: "clublist",
+        type: "p",
+        text: "A két aktív, nyitott budapesti meditációs és önismereti közösséget (Budapest Personal Growth Meetup és Artemis Compass) klub szerint, részletesen a Jóga és meditáció Budapesten kezdőknek posztunkban mutatjuk be. Itt inkább azt nézzük meg, milyen stílusokkal találkozhatsz, és mire számíthatsz, ha most mennél el életedben először egy ilyen alkalomra.",
+      },
+      { type: "h2", text: "Milyen meditációs stílusokkal találkozhatsz egy budapesti csoportban?" },
+      {
+        type: "list",
         items: [
-          {
-            name: "Budapest Personal Growth Meetup",
-            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. A függetlenség itt kimondott alapelv, nem utólagos magyarázat, ami kezdőként a legfontosabb szempont. A találkozókat Meetupon hirdetik, tehát előre látod az időpontot és a létszámot.",
-            href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
-          },
-          {
-            name: "Artemis Compass",
-            note: "Természethez kapcsolódó önismereti programok, ahol a természet csendje és nyugalma adja a keretet. Ez a formátum akkor való neked, ha egy szobában ülve nehezen kapcsolódsz ki, viszont egy erdei séta közben igen. Hosszabb, jellemzően félnapos vagy egész napos programokról van szó, nem esti egyórás alkalmakról.",
-            href: "https://www.facebook.com/profile.php?id=61574524619037",
-          },
+          "Mindfulness / tudatos jelenlét: a légzésre vagy a testérzetekre figyelsz, és amikor elkalandozol, visszaterelsz. Ez a leggyakoribb kezdő formátum.",
+          "Vezetett vizualizáció: a vezető szóban irányít végig egy képzeletbeli úton vagy helyzeten, kevesebb önálló koncentrációt igényel, mint a csendes ülés.",
+          "Légzésfókuszú gyakorlat: konkrét légzéstechnikákra épül, gyakran rövidebb, intenzívebb szakaszokkal.",
+          "Mozgásos meditáció: séta, nyújtás vagy egyszerű mozdulatsor, azoknak, akik mozdulatlanul ülve nehezebben kapcsolódnak ki.",
         ],
       },
       { type: "h2", text: "Mire számíts az első alkalmon?" },

@@ -86,7 +86,7 @@ const SEO: Record<string, CategorySeo> = {
     description:
       "Meditációs csoportok és önismereti közösségek Budapesten, vallástól és szervezettől függetlenül. Ingyenes lista.",
     intro: [
-      "Sokan azért nem próbálnak ki egy meditációs csoportot, mert attól tartanak, hogy valamilyen szervezethez kell csatlakozniuk. Az itt listázott közösségek nagy része pont ezért hangsúlyozza, hogy független.",
+      "Ezen az oldalon a jelenleg aktív, nyitott budapesti meditációs és önismereti közösségeket gyűjtöttük össze, azoknak, akik egy konkrét csoportot keresnek, nem elméleti háttéranyagot.",
       "A formátumok eltérőek, a rövid csoportos üléstől a természetben tartott egész napos programokig. Előzetes gyakorlat sehol nem feltétel. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
     ],
   },
