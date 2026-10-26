@@ -130,7 +130,7 @@ export default async function BlogPostPageEn({
       </p>
 
       <div className="rounded-2xl bg-paper p-6 shadow-sm sm:p-8">
-        <BlogBody blocks={post.body} />
+        <BlogBody blocks={post.body} locale="en" />
       </div>
 
       <div className="mt-10 border-t-2 border-ink/10 pt-6">

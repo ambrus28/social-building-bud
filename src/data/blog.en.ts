@@ -490,7 +490,7 @@ export const postsEn: BlogPost[] = [
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -526,6 +526,20 @@ export const postsEn: BlogPost[] = [
         type: "p",
         text: "If the physical practice is what draws you, Margitszigeti Jóga is the least demanding start, since it's outdoors, relaxed, and requires no prior knowledge. If the social, community side matters more, Conscious Budapest's broader program (walks, tea gatherings and sauna alongside yoga) suits you better. If you'd like to go in a more reflective, self-development direction, Budapest Personal Growth Meetup or Artemis Compass is the better pick.",
       },
+      { type: "h2", text: "What kind of yoga classes will you actually find?" },
+      {
+        type: "list",
+        items: [
+          "Outdoor Hatha flow: a slower, beginner-friendly style with held postures, the format Margitszigeti Jóga builds its sessions around.",
+          "Breathwork and gentle movement: short guided breathing exercises combined with light stretching, part of Conscious Budapest's wider wellness sessions.",
+          "Seated meditation: no physical practice at all, just guided stillness, offered alongside yoga at Conscious Budapest and as the sole focus at Budapest Personal Growth Meetup.",
+          "Walking and nature-based practice: movement meditation outdoors instead of a studio session, Artemis Compass's main format.",
+        ],
+      },
+      {
+        type: "p",
+        text: "None of these are a paid drop-in class at a commercial studio: they're free or donation-based community sessions, which is also why none of them require booking a package in advance.",
+      },
       {
         type: "citation",
         text: "We Love Budapest: seven English-language yoga studios in Budapest, if you want to go deeper later",
@@ -545,6 +559,10 @@ export const postsEn: BlogPost[] = [
           {
             q: "Where can I find yoga classes in Budapest as a beginner?",
             a: "A community session is the easiest start: outdoor classes on Margaret Island with Margitszigeti Jóga, or the Conscious Budapest wellness meetups. For regular studio classes in English, see the We Love Budapest list linked above.",
+          },
+          {
+            q: "What's the difference between a yoga class and a yoga community like these?",
+            a: "A paid studio class is a fixed, booked slot with a single instructor and no social time built in. These communities are free or donation-based, meet regularly in the same spot, and usually build in time to talk before or after the practice, so you leave knowing people, not just having done a workout.",
           },
         ],
       },
@@ -3290,7 +3308,7 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "is-there-outdoor-bouldering-in-budapest",
-    title: "Is there outdoor bouldering in Budapest? Real natural locations",
+    title: "Bouldering in Budapest: real outdoor rock and the best indoor gyms",
     metaTitle: "Bouldering in Budapest: outdoor spots and indoor gyms",
     description:
       "Budapest is mostly known for its indoor bouldering gyms, but the Buda Hills have real, natural limestone bouldering spots too. We cover where, why there's no free community built around it, and which indoor gym to try instead.",
@@ -3298,7 +3316,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",

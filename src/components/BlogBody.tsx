@@ -1,6 +1,13 @@
 import type { BlogBlock } from "@/data/blog";
 
-export default function BlogBody({ blocks }: { blocks: BlogBlock[] }) {
+export default function BlogBody({
+  blocks,
+  locale = "hu",
+}: {
+  blocks: BlogBlock[];
+  locale?: "hu" | "en";
+}) {
+  const sourceLabel = locale === "en" ? "Source" : "Forrás";
   return (
     <div className="space-y-5 text-base leading-relaxed text-ink/90">
       {blocks.map((block, i) => {
@@ -63,7 +70,7 @@ export default function BlogBody({ blocks }: { blocks: BlogBlock[] }) {
             >
               <span aria-hidden="true">🔗</span>
               <span>
-                Forrás:{" "}
+                {sourceLabel}:{" "}
                 <a
                   href={block.href}
                   target="_blank"
