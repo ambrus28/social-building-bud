@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import BlogBody from "@/components/BlogBody";
 import { getPostBySlug, posts } from "@/data/blog";
 import { getEnBlogSlug } from "@/lib/blogSlugMap";
+import { categoryHref } from "@/lib/slug";
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -129,7 +130,7 @@ export default async function BlogPostPage({
 
       <div className="mt-10 border-t-2 border-ink/10 pt-6">
         <Link
-          href={post.category ? `/klubok?kategoria=${encodeURIComponent(post.category)}` : "/klubok"}
+          href={post.category ? categoryHref(post.category) : "/klubok"}
           className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
         >
           {post.category ? `${post.category} klubok böngészése` : "Klubok böngészése"} →

@@ -135,7 +135,7 @@ export default async function BlogPostPageEn({
 
       <div className="mt-10 border-t-2 border-ink/10 pt-6">
         <Link
-          href={categoryEn ? `/en/clubs?category=${categoryEn.slug}` : "/en/clubs"}
+          href={categoryEn ? `/en/clubs/${categoryEn.slug}` : "/en/clubs"}
           className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
         >
           {categoryEn ? `Browse ${categoryEn.name} clubs` : "Browse clubs"} →
