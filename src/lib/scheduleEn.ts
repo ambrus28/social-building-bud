@@ -23,6 +23,9 @@ const SCHEDULE_EN: Record<string, string> = {
   "Csütörtök este": "Thursday evenings",
   "Kedd este": "Tuesday evenings",
   "Hetente többször": "Several times a week",
+  "Havonta többször": "Several times a month",
+  "1-2 hetente, hétvégén": "Every 1-2 weeks, at weekends",
+  "Hétfő, kedd és csütörtök este": "Monday, Tuesday and Thursday evenings",
 };
 
 export function getScheduleEn(schedule: string | null | undefined): string | null {

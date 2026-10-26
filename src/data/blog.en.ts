@@ -422,19 +422,19 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "board-game-communities-budapest",
-    title: "3 board game communities in Budapest you can join for free",
-    metaTitle: "3 free board game communities in Budapest",
+    title: "5 board game communities in Budapest you can join for free",
+    metaTitle: "5 free board game communities in Budapest",
     description:
       "English- and Hungarian-language board game nights where you can try everything from modern classics to strategy games among new people.",
     kind: "listicle",
     category: "Társasjáték",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
-        text: "Board games are one of the best excuses to meet people, because the game itself gives you something to talk about, and you don't have to actively hunt for a conversation topic. Several active, free-to-attend board game communities run in Budapest, and we're featuring three you can join regardless of age or experience.",
+        text: "Board games are one of the best excuses to meet people, because the game itself gives you something to talk about, and you don't have to actively hunt for a conversation topic. Several active, free-to-attend board game communities run in Budapest, and we're featuring five you can join regardless of age or experience.",
       },
       {
         type: "clublist",
@@ -454,12 +454,22 @@ export const postsEn: BlogPost[] = [
             note: "An international board game community with over two thousand members that meets several times a week at various game bars and cafés. The selection ranges from modern classics (Ticket to Ride, Catan) to word and strategy games.",
             href: "https://www.meetup.com/board-games-in-english/",
           },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "The Hungarian Boardgamer Society's club, every Thursday from 18:00 to 23:00 on Visegrádi utca in District XIII, with nearly a thousand games. Game masters explain the rules, so you can sit down even if you've never played a modern board game. Free entry; check their Facebook page before going in case a session is cancelled. It runs in Hungarian.",
+            href: "https://tarsasjatekos.hu/klubok.html",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            note: "A relaxed, English-language board game night every Tuesday from 17:00 at Beer People in District VI, with no fixed start time, so you can drop by after work. Catan, Carcassonne, card games, chess and backgammon are all on the table. No participation fee; you just pay for your own drinks.",
+            href: "https://www.meetup.com/board-games-and-beers-casual-meetup/",
+          },
         ],
       },
       { type: "h2", text: "Which one should you pick if you've never been to a board game community?" },
       {
         type: "p",
-        text: "TIA Game Cave is the best starting point if you're after a free, Hungarian-language, membership-free setting. If you'd rather meet people in an international, English-speaking crowd, both Budapest Board Game Nights and Board Games in English are excellent choices: both regularly change venue, so there's always a reason for a new meetup. Board Games in English's larger size means there's a session happening almost every week if you'd like to go more often.",
+        text: "TIA Game Cave is the best starting point if you're after a free, Hungarian-language, membership-free setting. If you'd rather meet people in an international, English-speaking crowd, both Budapest Board Game Nights and Board Games in English are excellent choices: both regularly change venue, so there's always a reason for a new meetup. Board Games in English's larger size means there's a session happening almost every week if you'd like to go more often. If you want a big, permanent club with a huge game library and rules explained for you, Andúril's Thursday nights are the safest bet, and in English the Tuesday Casual Board Games and Beers is the most relaxed way in.",
       },
       {
         type: "faq",
@@ -482,10 +492,10 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "yoga-meditation-communities-budapest-for-beginners",
-    title: "Yoga and meditation in Budapest for beginners: 4 communities you can start with zero experience",
-    metaTitle: "Yoga in Budapest for beginners: 4 communities to start with",
+    title: "Yoga and meditation in Budapest for beginners: 5 communities you can start with zero experience",
+    metaTitle: "Yoga in Budapest for beginners: 5 communities to start with",
     description:
-      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, a wellness community and meditation groups: four real communities that welcome zero experience.",
+      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, indoor yoga and tai chi, a wellness community and meditation groups: five real communities that welcome zero experience.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
@@ -494,7 +504,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Yoga and meditation can seem intimidatingly expert-level at first glance, yet most Budapest communities are aimed precisely at people who've never tried it before. All four communities here welcome beginners, and none require an expensive studio pass or prior knowledge.",
+        text: "Yoga and meditation can seem intimidatingly expert-level at first glance, yet most Budapest communities are aimed precisely at people who've never tried it before. All five communities here welcome beginners, and none require an expensive studio pass or prior knowledge.",
       },
       {
         type: "clublist",
@@ -508,6 +518,11 @@ export const postsEn: BlogPost[] = [
             name: "Conscious Budapest",
             note: "A wellness community with yoga, breathwork, alcohol-free social events and group walks. The goal is genuine, deep connection, not just the physical practice.",
             href: "https://www.meetup.com/yogamindfulnessbudapest/",
+          },
+          {
+            name: "H13 Kultpont yoga and tai chi",
+            note: "Free weekly sessions at the H13 Kultpont community centre on Horánszky utca in District VIII: easy-to-follow yoga on Mondays from 18:30, relaxation yoga on Thursdays from 18:30, and tai chi and qigong on Tuesdays from 17:30. The best pick if you want to practise indoors at a fixed time through the winter. Free, but places are limited, so you need to register in advance; bring your own mat. Classes are in Hungarian.",
+            href: "https://h13.hu/",
           },
           {
             name: "Budapest Personal Growth Meetup",
@@ -1570,12 +1585,12 @@ export const postsEn: BlogPost[] = [
     title: "Hiking clubs in Budapest: where to join if you're a beginner?",
     metaTitle: "Hiking clubs in Budapest for beginners",
     description:
-      "Three Budapest hiking communities where you can join guided hikes at every level, plus what to bring the first time and how to pick a difficulty.",
+      "Four Budapest hiking communities where you can join guided hikes at every level, plus what to bring the first time and how to pick a difficulty.",
     kind: "listicle",
     category: "Túra / Természetjárás",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1603,6 +1618,11 @@ export const postsEn: BlogPost[] = [
             name: "Just Connect",
             note: "An offline event series that brings open people together through mountain hikes and casual meetups. Here the hike is more of an excuse to meet people than the point itself, so if you're specifically going to meet people, this is the most tailored of the three for that. Their programs are advertised on their own site and on Instagram.",
             href: "https://justconnect.hu/",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "A volunteer-run hiking group heading out roughly every one to two weeks at weekends to the Pilis, Börzsöny or Buda Hills. Difficulty varies from easy walks to 20+ km routes with serious climbing, so always check the distance in the listing. In summer there are sunset night hikes from Normafa too. Free to join; you only pay for public transport. Hikes are posted on Meetup and run in English.",
+            href: "https://www.meetup.com/gradient-hiking/",
           },
         ],
       },
@@ -1749,12 +1769,12 @@ export const postsEn: BlogPost[] = [
     title: "Book clubs in Budapest: where do you find fellow readers?",
     metaTitle: "Book clubs in Budapest",
     description:
-      "How a book club works, what to expect the first time, and which two Budapest reading circles you can join right now.",
+      "How a book club works, what to expect the first time, and which Budapest reading circles you can join right now.",
     kind: "guide",
     category: "Könyvklub",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1786,6 +1806,11 @@ export const postsEn: BlogPost[] = [
             name: "Könyvklub Budapesten",
             note: "A reading corner for book lovers, with shared discussions and recommendations. A looser, less formal setup, which is good if you don't want to commit to a mandatory monthly read and just want to meet people who love reading. Sessions and recommendations are advertised on Instagram.",
             href: "https://www.instagram.com/budapestolvasosarok/",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "A club with no assigned reading: everyone brings their own book, and after a short round of introductions you read together in silence for about an hour, then chat if you like. A good entry point if a classic book club's deadline puts you off. They hold several sessions a month in English and in Hungarian, including at the central Szabó Ervin Library and the Körút Library. Free, with advance sign-up on Meetup.",
+            href: "https://www.meetup.com/budapest-silent-book-club/",
           },
         ],
       },
@@ -1846,7 +1871,7 @@ export const postsEn: BlogPost[] = [
     category: "Startup / Tech",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1874,6 +1899,11 @@ export const postsEn: BlogPost[] = [
             name: "Budapest Digital Nomads",
             note: "Not a classic tech community but a digital nomad group, though a large share of its members work in IT or run an online business. Job leads, housing and regular social events all run through it. Useful if you've arrived as a foreigner and are looking for both professional and personal connections at once.",
             href: "https://www.facebook.com/groups/648464231947085/",
+          },
+          {
+            name: "DevBP",
+            note: "A monthly, English-language software engineering meetup: two talks per evening, for example on the developer job market or building AI products, then informal networking. The venue rotates between Budapest tech company offices. If you're a developer looking for a technical crowd rather than general networking, this is the most focused option. Free, but places are limited, so sign up in advance on Meetup.",
+            href: "https://www.meetup.com/devbp-meetup/",
           },
         ],
       },
@@ -2100,12 +2130,12 @@ export const postsEn: BlogPost[] = [
     title: "Meditation communities in Budapest for beginners",
     metaTitle: "Meditation communities in Budapest",
     description:
-      "Independent, religion-free meditation and self-development groups in Budapest where you can start with zero experience.",
+      "Meditation and self-development groups in Budapest where you can start with zero experience and no religious commitment.",
     kind: "guide",
     category: "Meditáció / Spiritualitás",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2128,6 +2158,11 @@ export const postsEn: BlogPost[] = [
             name: "Artemis Compass",
             note: "Nature-connected self-development programs, where the quiet of the outdoors provides the frame. This format is for you if sitting in a room makes it hard to switch off, but a walk in the forest doesn't. These are longer, typically half-day or full-day programs, not one-hour evening sessions.",
             href: "https://www.facebook.com/profile.php?id=61574524619037",
+          },
+          {
+            name: "Diamond Way English meditation",
+            note: "The Diamond Way Buddhist Centre's guided meditation, every Thursday at 19:00 on Rózsák tere in District VII, in English. After a short introduction you meditate together for 30-40 minutes, and newcomers can arrive at 18:30 for a brief orientation. It's a Buddhist centre, but anyone can come, and nobody is expected to join anything. Free.",
+            href: "https://www.buddhizmusma.hu/english-meditation",
           },
         ],
       },
@@ -2164,7 +2199,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Do I need to accept a particular belief or worldview?",
-            a: "The groups listed here are specifically independent, so no. Meditation here is a practice, not a worldview, and nobody expects you to accept anything.",
+            a: "No. The self-development groups are specifically independent, and Diamond Way is a Buddhist centre, but anyone can attend its meditation sessions without joining anything. Meditation here is a practice, not a worldview.",
           },
           {
             q: "Do I need prior experience?",

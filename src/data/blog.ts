@@ -439,8 +439,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "tarsasjatek-kozossegek-budapesten",
-    title: "3 társasjáték-közösség Budapesten, ahova ingyen csatlakozhatsz",
-    metaTitle: "3 ingyenes társasjáték-közösség Budapesten",
+    title: "5 társasjáték-közösség Budapesten, ahova ingyen csatlakozhatsz",
+    metaTitle: "5 ingyenes társasjáték-közösség Budapesten",
     description:
       "Angol nyelvű és magyar társasjáték-esték, ahol modern klasszikusoktól a stratégiai játékokig mindent kipróbálhatsz új emberek társaságában.",
     kind: "listicle",
@@ -451,7 +451,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A társasjáték az egyik legjobb ürügy az ismerkedésre, mert a játék önmagában ad beszélgetési alapot, és nem kell aktívan társalgási témát keresned. Budapesten több aktív, ingyenesen látogatható társasjáték-közösség működik, ebből mutatunk be hármat, amelyekhez kortól és tapasztalattól függetlenül csatlakozhatsz.",
+        text: "A társasjáték az egyik legjobb ürügy az ismerkedésre, mert a játék önmagában ad beszélgetési alapot, és nem kell aktívan társalgási témát keresned. Budapesten több aktív, ingyenesen látogatható társasjáték-közösség működik, ebből mutatunk be ötöt, amelyekhez kortól és tapasztalattól függetlenül csatlakozhatsz.",
       },
       {
         type: "clublist",
@@ -471,12 +471,22 @@ export const posts: BlogPost[] = [
             note: "Nemzetközi társasjáték-közösség több mint kétezer taggal, amely heti több alkalommal találkozik különböző társasjáték-bárokban és kávézókban. A kínálat a modern klasszikusoktól (Ticket to Ride, Catan) a szó- és stratégiai játékokig terjed.",
             href: "https://www.meetup.com/board-games-in-english/",
           },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "A Magyar Társasjátékos Egyesület klubja minden csütörtökön 18 és 23 óra között a XIII. kerületi Visegrádi utcában, közel ezer játékkal. Játékmesterek magyarázzák el a szabályokat, így akkor is nyugodtan beülhetsz, ha még egyetlen modern társast sem ismersz. A belépés ingyenes, indulás előtt érdemes a Facebook-oldalukon megnézni, nem marad-e el az alkalom.",
+            href: "https://tarsasjatekos.hu/klubok.html",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            note: "Laza, angol nyelvű társasjáték-est minden kedden 17 órától a VI. kerületi Beer People sörözőben, fix kezdés nélkül, tehát munka után is beeshetsz. Catan, Carcassonne, kártyajátékok, sakk és backgammon is van az asztalon. Részvételi díj nincs, csak a saját italodat fizeted.",
+            href: "https://www.meetup.com/board-games-and-beers-casual-meetup/",
+          },
         ],
       },
       { type: "h2", text: "Melyiket válaszd, ha még sosem jártál társasjáték-közösségben?" },
       {
         type: "p",
-        text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban járnál.",
+        text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban járnál. Ha egy nagy, állandó helyen működő klubot keresel rengeteg játékkal és szabálymagyarázattal, az Andúril csütörtöki estéje a legbiztosabb választás, angolul pedig a keddi Casual Board Games and Beers a leglazább belépő.",
       },
       {
         type: "p",
@@ -508,19 +518,19 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "joga-meditacio-kozossegek-kezdoknek",
-    title: "Jóga és meditáció Budapesten kezdőknek: 4 közösség, ahol nulla tapasztalattal is elindulhatsz",
-    metaTitle: "Jóga és meditáció Budapesten kezdőknek: 4 közösség",
+    title: "Jóga és meditáció Budapesten kezdőknek: 5 közösség, ahol nulla tapasztalattal is elindulhatsz",
+    metaTitle: "Jóga és meditáció Budapesten kezdőknek: 5 közösség",
     description:
-      "Szabadtéri jóga, wellness-közösség és önismereti meditáció Budapesten: négy valódi közösség, amely kezdőknek is barátságos.",
+      "Szabadtéri és fedett jóga, tai chi, wellness-közösség és önismereti meditáció Budapesten: öt valódi közösség, amely kezdőknek is barátságos.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
-        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Ez a négy közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
+        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Ez az öt közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
       },
       {
         type: "clublist",
@@ -534,6 +544,11 @@ export const posts: BlogPost[] = [
             name: "Conscious Budapest",
             note: "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal. A cél a valódi, mély kapcsolódás, nem csak a fizikai gyakorlat.",
             href: "https://www.meetup.com/yogamindfulnessbudapest/",
+          },
+          {
+            name: "H13 Kultpont jóga és tai chi",
+            note: "A józsefvárosi H13 Kultpont ingyenes heti alkalmai a Horánszky utcában: hétfőn 18:30-tól könnyen követhető hétindító jóga, csütörtökön 18:30-tól relaxációs jóga, kedden 17:30-tól tai chi és chi kung. Ez a legjobb választás, ha télen is fedett helyen, fix időpontban szeretnél gyakorolni. Ingyenes, de a létszám korlátozott, ezért előre regisztrálni kell, és saját matracot érdemes vinni.",
+            href: "https://h13.hu/",
           },
           {
             name: "Budapest Personal Growth Meetup",
@@ -1570,12 +1585,12 @@ export const posts: BlogPost[] = [
     title: "Túraklubok Budapesten: hova csatlakozz, ha kezdő vagy?",
     metaTitle: "Túraklubok Budapesten kezdőknek",
     description:
-      "Három budapesti túraközösség, ahol vezetett túrákra mehetsz minden szinten, plusz mit vigyél az első alkalomra és hogyan válassz nehézséget.",
+      "Négy budapesti túraközösség, ahol vezetett túrákra mehetsz minden szinten, plusz mit vigyél az első alkalomra és hogyan válassz nehézséget.",
     kind: "listicle",
     category: "Túra / Természetjárás",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1603,6 +1618,11 @@ export const posts: BlogPost[] = [
             name: "Just Connect",
             note: "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze nyitott embereket. Itt a túra inkább ürügy az ismerkedésre, mint önmagában a cél, tehát ha kifejezetten azért mennél, hogy embereket ismerj meg, ez a leginkább erre kihegyezett a három közül. A programjaikat a saját oldalukon és Instagramon hirdetik.",
             href: "https://justconnect.hu/",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "Önkéntesek által szervezett túracsoport, amely nagyjából 1-2 hetente hétvégén indul a Pilisbe, a Börzsönybe vagy a Budai-hegységbe. A nehézség változó, a könnyebb sétától a 20 km feletti, komoly szintemelkedésű túrákig, ezért mindig nézd meg a kiírásban a távot. Nyáron Normafáról induló naplementés éjszakai túrák is vannak. A részvétel ingyenes, csak a tömegközlekedést fizeted, a túrákat Meetupon hirdetik.",
+            href: "https://www.meetup.com/gradient-hiking/",
           },
         ],
       },
@@ -1749,12 +1769,12 @@ export const posts: BlogPost[] = [
     title: "Könyvklubok Budapesten: hol találsz olvasótársakat?",
     metaTitle: "Könyvklubok Budapesten",
     description:
-      "Hogyan működik egy könyvklub, mire számíts az első alkalmon, és melyik két budapesti olvasókörhöz csatlakozhatsz most.",
+      "Hogyan működik egy könyvklub, mire számíts az első alkalmon, és melyik budapesti olvasókörökhöz csatlakozhatsz most.",
     kind: "guide",
     category: "Könyvklub",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1786,6 +1806,11 @@ export const posts: BlogPost[] = [
             name: "Könyvklub Budapesten",
             note: "Olvasósarok könyvszerető embereknek, közös beszélgetésekkel és könyvajánlókkal. Lazább, kevésbé formalizált működés, ami akkor jó, ha nem szeretnél havi kötelező olvasmányt vállalni, csak olvasni szerető emberekkel találkoznál. Instagramon hirdetik az alkalmakat és az ajánlókat.",
             href: "https://www.instagram.com/budapestolvasosarok/",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "Olyan klub, ahol nincs kötelező olvasmány: mindenki a saját könyvét hozza, rövid bemutatkozás után nagyjából egy órát csendben olvastok együtt, utána lehet beszélgetni. Ez jó belépő, ha a klasszikus könyvklub határideje elriaszt. Havonta többször tartanak alkalmat magyarul és angolul is, többek között a Szabó Ervin Könyvtár központi épületében és a Körúti Könyvtárban. Ingyenes, a Meetupon kell előre jelentkezni.",
+            href: "https://www.meetup.com/budapest-silent-book-club/",
           },
         ],
       },
@@ -1846,7 +1871,7 @@ export const posts: BlogPost[] = [
     category: "Startup / Tech",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1874,6 +1899,11 @@ export const posts: BlogPost[] = [
             name: "Budapest Digital Nomads",
             note: "Nem klasszikus tech közösség, hanem digitális nomádok csoportja, de a tagság jelentős része IT-ban vagy online vállalkozásban dolgozik. Álláslehetőségek, szállás és rendszeres közösségi események is mennek benne. Akkor hasznos, ha külföldiként érkeztél, és egyszerre keresel szakmai és baráti kapcsolatokat.",
             href: "https://www.facebook.com/groups/648464231947085/",
+          },
+          {
+            name: "DevBP",
+            note: "Havonta megrendezett, angol nyelvű szoftverfejlesztői meetup: egy este két szakmai előadás, például a fejlesztői munkaerőpiacról vagy AI-alapú termékekről, utána kötetlen beszélgetés. A helyszín budapesti tech cégek irodái között változik. Ha fejlesztő vagy, és szakmai közeget keresel, nem csak networkinget, ez a legfókuszáltabb alkalom. Ingyenes, de korlátozott a létszám, ezért a Meetupon előre kell jelentkezni.",
+            href: "https://www.meetup.com/devbp-meetup/",
           },
         ],
       },
@@ -2100,7 +2130,7 @@ export const posts: BlogPost[] = [
     title: "Meditációs közösségek Budapesten kezdőknek",
     metaTitle: "Meditációs közösségek Budapesten",
     description:
-      "Független, vallástól mentes meditációs és önismereti csoportok Budapesten, ahol nulla tapasztalattal is elkezdheted.",
+      "Meditációs és önismereti csoportok Budapesten, ahol nulla tapasztalattal és vallási elköteleződés nélkül is elkezdheted.",
     kind: "guide",
     category: "Meditáció / Spiritualitás",
     author: DEFAULT_AUTHOR,
@@ -2117,7 +2147,18 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A két aktív, nyitott budapesti meditációs és önismereti közösséget (Budapest Personal Growth Meetup és Artemis Compass) klub szerint, részletesen a Jóga és meditáció Budapesten kezdőknek posztunkban mutatjuk be. Itt inkább azt nézzük meg, milyen stílusokkal találkozhatsz, és mire számíthatsz, ha most mennél el életedben először egy ilyen alkalomra.",
+        text: "A két független önismereti közösséget (Budapest Personal Growth Meetup és Artemis Compass) a Jóga és meditáció Budapesten kezdőknek posztunkban mutatjuk be részletesen, itt pedig egy heti, fix időpontú meditációt ajánlunk. Utána azt nézzük meg, milyen stílusokkal találkozhatsz, és mire számíthatsz, ha most mennél el életedben először egy ilyen alkalomra.",
+      },
+      { type: "h2", text: "Hol kezdheted el még ezen a héten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Gyémánt Út angol nyelvű meditáció",
+            note: "A Gyémánt Út Buddhista Központ vezetett meditációja minden csütörtökön 19 órakor a VII. kerületi Rózsák terén, angol nyelven. Rövid bevezető után 30-40 percig meditáltok együtt, újonnan érkezőknek 18:30-tól rövid ismertetőt is tartanak. Buddhista központról van szó, de az alkalomra bárki elmehet, és senkitől nem várják, hogy bárhová belépjen. Ingyenes, magyarul pedig minden este 19 órakor van meditáció ugyanitt.",
+            href: "https://www.buddhizmusma.hu/english-meditation",
+          },
+        ],
       },
       { type: "h2", text: "Milyen meditációs stílusokkal találkozhatsz egy budapesti csoportban?" },
       {
@@ -2162,7 +2203,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Kell valamilyen hitet vagy világnézetet elfogadnom?",
-            a: "A listánkban szereplő csoportok kifejezetten függetlenek, tehát nem. A meditáció itt gyakorlat, nem világnézet, és senki nem várja el, hogy bármit elfogadj.",
+            a: "Nem. Az önismereti csoportok kifejezetten függetlenek, a Gyémánt Út pedig buddhista központ, de a meditációs alkalmaira bárki elmehet anélkül, hogy bármihez csatlakozna. A meditáció itt gyakorlat, nem világnézet.",
           },
           {
             q: "Kell előzetes tapasztalat?",
