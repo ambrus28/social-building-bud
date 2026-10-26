@@ -3432,7 +3432,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-12",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3522,6 +3522,10 @@ export const posts: BlogPost[] = [
           {
             q: "Mibe kerül focizni Budapesten, ha nincs saját csapatod?",
             a: "Alkalmi, csapat nélküli mérkőzéseknél jellemzően a pályabérlet osztják el a résztvevők között, ez fejenként pár ezer forint. Egy csapathoz csatlakozva ez tagdíj vagy rendszeres hozzájárulás formájában jelentkezhet.",
+          },
+          {
+            q: "Van amatőr női foci Budapesten, ahova kezdőként is mehetek?",
+            a: "Igen, két ilyen csapatot ismerünk: az Amazon Foci SE heti két kezdő edzést tart a XI. kerületben ingyenes próbaalkalommal, a Cselszik pedig vegyes korosztályú, baráti hangulatú hobbicsapat, ahol a teljesen kezdőket is szívesen fogadják. Mindkettőnél csapathoz csatlakozol, nem alkalmi meccsre jársz.",
           },
         ],
       },

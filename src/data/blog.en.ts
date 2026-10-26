@@ -1116,7 +1116,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-13",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1193,6 +1193,10 @@ export const postsEn: BlogPost[] = [
           {
             q: "How long does it take to actually get to know someone?",
             a: "Realistically, three or four sessions with the same group. The first time is almost always a bit awkward, the second already brings familiar faces. That's why a recurring event is worth more than a one-off.",
+          },
+          {
+            q: "Is there a free alternative to InterNations in Budapest?",
+            a: "Not one that replaces it exactly, since InterNations's format (organized, venue-based networking events) is its own thing. For a free, no-membership way to find a casual, hobby-based crowd instead of a professional-networking one, Meetup and Instagram cover most of the same ground, and Budapesti Közösségek lets you browse what both of those have on offer in one place.",
           },
         ],
       },
