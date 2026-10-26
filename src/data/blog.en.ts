@@ -2188,7 +2188,7 @@ export const postsEn: BlogPost[] = [
     category: "LMBTQ+ Közösség",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2196,7 +2196,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This section will be short, because honestly, that's what it is: the number of publicly advertised, open LGBTQ+ communities in Budapest is limited. What we do know, we're giving you precisely.",
+        text: "The number of publicly advertised, open LGBTQ+ communities in Budapest isn't large, so we won't promise a long list. What we do know, we're giving you precisely, and only groups that are free or donation-based.",
       },
       { type: "h2", text: "An open community on our list" },
       {
@@ -2206,6 +2206,11 @@ export const postsEn: BlogPost[] = [
             name: "Dykes on Hikes Budapest",
             note: "A lesbian hiking community that organizes regular group hikes around Budapest. The hike format works particularly well here, because it's long, casual, and has neither an introduction round nor a drinking-heavy setting. Programs are advertised on Instagram, and they're open to new participants.",
             href: "https://www.instagram.com/dykesonhikes_budapest/",
+          },
+          {
+            name: "Szimpozion Klub",
+            note: "An LGBTQ+ social club running since 2002, set up specifically as an alternative to bars: every second Saturday from 19:30 they host a club evening in District VII, with music, conversation, film screenings and board games. If you'd rather not meet people in a drinking venue, this is the most natural place to start. There's no entry fee; they ask for a 1,500 Ft donation or some food or drink to share.",
+            href: "https://melegvagyok.hu/klub.html",
           },
         ],
       },
@@ -2246,7 +2251,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Are there open LGBTQ+ communities in Budapest?",
-            a: "There are, but the number that advertise publicly is limited. Our list currently has one hiking community, and it's also worth looking at internationally attended, activity-centered groups.",
+            a: "There are, but the number that advertise publicly is limited. Our list currently has a hiking community and a fortnightly Saturday-evening social club, and it's also worth looking at internationally attended, activity-centered groups.",
           },
           {
             q: "How do I know if a community is welcoming?",
@@ -2254,7 +2259,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Do I have to pay to participate?",
-            a: "The programs of the communities listed here are free. Any cost would be the travel there, typically a public transport ticket for a hike.",
+            a: "The hiking community's programs are free, and Szimpozion Klub is donation-based: no entry fee, they ask for a 1,500 Ft contribution or some food or drink to share. Beyond that, travel is typically the only cost.",
           },
         ],
       },
@@ -2270,7 +2275,7 @@ export const postsEn: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2290,6 +2295,11 @@ export const postsEn: BlogPost[] = [
             href: "https://bikemaffia.com/",
           },
           {
+            name: "Heti Betevő",
+            note: "A volunteer association that serves hot meals to people in need every Sunday. At Kisüzem in District VII they start preparing at 11:00 and hand out around 350 portions between 13:00 and 15:30, and at Gólya in District VIII they cook Sunday lunch for large families. You commit one Sunday at a time: sign up by email for District VII or through their Facebook group for District VIII, and they let you know whether there's a spot that weekend.",
+            href: "https://hetibetevo.hu/hogyan-segithetsz/jelentkezz-onkentesnek/",
+          },
+          {
             name: "Hungarian Food Bank Association (Magyar Élelmiszerbank Egyesület)",
             note: "A large, established organization rather than a casual community: according to its own site it has operated for 21 years and runs the country's largest donation warehouse. As a volunteer you can help with warehouse work, office administration, transport, labeling, boxing or rescuing prepared food. Both individuals and company teams can sign up. Sign-up goes through their site, and it's worth asking there about the exact time commitment and current openings, since these can change. The site is in Hungarian.",
             href: "https://www.elelmiszerbank.hu/onkentesseg/",
@@ -2298,7 +2308,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Our club list currently has one community in this category, Budapest Bike Maffia, which is little compared to how many volunteer initiatives actually run in Budapest. The Food Bank appears only here in the article, since it is a large organization rather than an informal community. Most other initiatives, though, don't advertise as a community but through one-off calls that are hard to keep track of.",
+        text: "All three of these are on our club list too, since each is free and open to one-off participation. Budapest has far more volunteering options than this, but most don't present themselves as a community; they run as occasional calls for help that are hard to keep track of.",
       },
       { type: "h2", text: "What types of volunteer work exist?" },
       {
@@ -2366,7 +2376,7 @@ export const postsEn: BlogPost[] = [
     category: "Szülők / Családok",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2385,11 +2395,21 @@ export const postsEn: BlogPost[] = [
             note: "A community for new moms and international mothers in Budapest, regularly organizing meetups and conversations for each other. The international focus matters because a parent who's moved abroad with family tends to become the most isolated: no work environment, no family nearby. Programs are advertised on Instagram.",
             href: "https://www.instagram.com/momscommunitybudapest/",
           },
+          {
+            name: "Budavári Baba-Mama Klub",
+            note: "A free playgroup for children aged 0-3 and their parents at the Márai Sándor Cultural Centre on Krisztina tér, on Wednesdays from 10:30, except during kindergarten holidays. Two facilitators run it and make a point of helping parents get to know each other, not just letting the children play. No booking needed, anyone can come.",
+            href: "https://maraikult.hu/esemeny/budavari-baba-mama-klub-2-2-2/",
+          },
+          {
+            name: "Cseppecskék Baba-Mama Klub",
+            note: "A music-based club for ages 0-4 and expecting mothers in Óbuda, every other Monday from 10:30. First the children do rhymes and try out instruments, then the mothers swap experiences in a discussion circle, which is often worth as much as the session itself. Free, donations welcome, register on their website. It's held in the hall of the Életvíz Baptist congregation.",
+            href: "https://obudabaptista.hu/baba-mama/",
+          },
         ],
       },
       {
         type: "p",
-        text: "This category currently has one community on our list. Many more actually exist in Budapest, but most organize at the district level in closed Facebook groups that are nearly impossible to find from the outside.",
+        text: "Many more parent communities exist in Budapest, but most organize at the district level, in closed Facebook groups or tucked into cultural centres' programme listings, which are hard to find from the outside. Both baby clubs above are like that, so it's worth checking the children's programmes at your own district's cultural centre too.",
       },
       { type: "h2", text: "Where else should you look for a district-level group?" },
       {
@@ -2528,7 +2548,7 @@ export const postsEn: BlogPost[] = [
     category: "Katolikus Közösségek",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2546,6 +2566,16 @@ export const postsEn: BlogPost[] = [
             name: "Katolikus Közösségek (Hungarian, \"Catholic Communities\")",
             note: "A directory of Catholic communities: prayer groups, choirs, and discussion and faith-focused groups across Budapest and Hungary. As a directory, it fills exactly the gap described above, letting you see in one place what types of communities exist and where. Worth starting here before going parish by parish on your own.",
             href: "https://kozossegek.hu/",
+          },
+          {
+            name: "Input young adult community",
+            note: "The community of the Jesuit Church of the Sacred Heart in District VIII for ages 25-33, meeting every Sunday after the 17:30 Mass, from 18:45 to 20:00. A good fit if you're past university, working, and looking for people your own age. The same church also hosts After8, a group for university students, and a youth choir for ages 18-35. It runs in Hungarian.",
+            href: "https://jezusszive.jezsuita.hu/kozossegeink",
+          },
+          {
+            name: "Sant'Egidio Community",
+            note: "The Budapest group of a Catholic community founded in Rome in 1968, based at the Kaniziusz Szent Péter Church on Gát utca in District IX. On Wednesdays and Fridays from 18:30 they hold a prayer evening followed by a shared dinner with guests in need, and younger members visit care homes. If you want hands-on helping alongside prayer, this community offers both at once. You can join at any time.",
+            href: "https://kozossegek.hu/kozosseg/szent-egyed-kozosseg-sant-egidio-community-352",
           },
         ],
       },

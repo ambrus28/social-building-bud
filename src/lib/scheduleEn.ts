@@ -1,7 +1,7 @@
 /**
  * English text for the small set of clubs that have a Hungarian `schedule`
  * string in clubs.json. Presentation-only lookup, not stored on the club
- * itself since it's just 8 short phrases.
+ * itself since it's just a handful of short phrases.
  */
 const SCHEDULE_EN: Record<string, string> = {
   Hétvégente: "Weekends",
@@ -13,6 +13,16 @@ const SCHEDULE_EN: Record<string, string> = {
   "Havonta, vezetett túrák": "Monthly, guided hikes",
   "Hetente, Puskás Aréna melletti pálya": "Weekly, court next to Puskás Aréna",
   "Szerda este, kéthetente szombat reggel": "Wednesday evenings, every other Saturday morning",
+  "Kéthetente szombat este": "Every other Saturday evening",
+  "Minden vasárnap": "Every Sunday",
+  "Szerda délelőtt": "Wednesday mornings",
+  "Kéthetente hétfő délelőtt": "Every other Monday morning",
+  "Vasárnap este": "Sunday evenings",
+  "Szerda és péntek este": "Wednesday and Friday evenings",
+  "Kedd és csütörtök este, kéthetente szombat reggel": "Tue & Thu evenings, every other Saturday morning",
+  "Csütörtök este": "Thursday evenings",
+  "Kedd este": "Tuesday evenings",
+  "Hetente többször": "Several times a week",
 };
 
 export function getScheduleEn(schedule: string | null | undefined): string | null {

@@ -2186,7 +2186,7 @@ export const posts: BlogPost[] = [
     category: "LMBTQ+ Közösség",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2194,9 +2194,9 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Ez a rész rövid lesz, mert őszintén az: a nyilvánosan hirdető, nyitott LMBTQ+ közösségek száma Budapesten korlátozott. Amit tudunk, azt viszont pontosan adjuk meg.",
+        text: "A nyilvánosan hirdető, nyitott LMBTQ+ közösségek száma Budapesten nem nagy, ezért nem ígérünk hosszú listát. Amit tudunk, azt viszont pontosan adjuk meg, és csak olyat, ami ingyenes vagy adományalapú.",
       },
-      { type: "h2", text: "Nyitott közösség a listánkban" },
+      { type: "h2", text: "Nyitott közösségek a listánkban" },
       {
         type: "clublist",
         items: [
@@ -2204,6 +2204,11 @@ export const posts: BlogPost[] = [
             name: "Dykes on Hikes Budapest",
             note: "Leszbikus túraközösség, amely rendszeres közös kirándulásokat szervez Budapest környékén. A túra formátum itt kifejezetten jól működik, mert hosszú, kötetlen, és nincs benne se bemutatkozókör, se ivós helyzet. A programokat Instagramon hirdetik, és nyitottak új résztvevőkre.",
             href: "https://www.instagram.com/dykesonhikes_budapest/",
+          },
+          {
+            name: "Szimpozion Klub",
+            note: "2002 óta működő LMBTQ+ társasági klub, amelyet kifejezetten a bárok alternatívájának szántak: minden második szombaton 19:30-tól tartanak klubestet a VII. kerületben, zenével, beszélgetéssel, filmvetítéssel és társasjátékkal. Ha nem szeretnél ivós helyen ismerkedni, ez a legkézenfekvőbb kezdés. Belépő nincs, 1500 Ft-os adományt vagy egy kis közös ételt, italt kérnek.",
+            href: "https://melegvagyok.hu/klub.html",
           },
         ],
       },
@@ -2244,7 +2249,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Vannak nyitott LMBTQ+ közösségek Budapesten?",
-            a: "Vannak, de a nyilvánosan hirdetők száma korlátozott. A listánkban jelenleg egy túraközösség szerepel, emellett érdemes a nemzetközi közönségű, tevékenységközpontú csoportokat is megnézni.",
+            a: "Vannak, de a nyilvánosan hirdetők száma korlátozott. A listánkban jelenleg egy túraközösség és egy kéthetente szombat esti társasági klub szerepel, emellett érdemes a nemzetközi közönségű, tevékenységközpontú csoportokat is megnézni.",
           },
           {
             q: "Honnan tudom, hogy egy közösség befogadó?",
@@ -2252,7 +2257,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Kell fizetni a részvételért?",
-            a: "A listánkban szereplő közösségek programjai ingyenesek. Ami költség felmerülhet, az az odautazás, túra esetén jellemzően egy tömegközlekedési jegy ára.",
+            a: "A túraközösség programjai ingyenesek, a Szimpozion Klub pedig adományalapú: belépő nincs, 1500 Ft-os hozzájárulást vagy egy kis közös ételt, italt kérnek. Ezen túl jellemzően csak az odautazás kerül pénzbe.",
           },
         ],
       },
@@ -2268,7 +2273,7 @@ export const posts: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2288,6 +2293,11 @@ export const posts: BlogPost[] = [
             href: "https://bikemaffia.com/",
           },
           {
+            name: "Heti Betevő",
+            note: "Önkéntes egyesület, amely minden vasárnap meleg ételt oszt rászorulóknak. A VII. kerületi Kisüzemben 11 órától készülnek, 13 és 15:30 között osztanak nagyjából 350 adagot, a VIII. kerületi Gólyában pedig nagycsaládoknak főznek vasárnapi ebédet. Vasárnaponként, egyenként vállalhatsz alkalmat: a VII. kerületi csoportba e-mailben, a VIII. kerületibe a Facebook-csoportjukon keresztül lehet jelentkezni, és ők jeleznek vissza, van-e hely az adott hétvégén.",
+            href: "https://hetibetevo.hu/hogyan-segithetsz/jelentkezz-onkentesnek/",
+          },
+          {
             name: "Magyar Élelmiszerbank Egyesület",
             note: "Nagy, bejáratott szervezet, nem laza közösség: az oldaluk szerint 21 éve működik, és az ország legnagyobb adományraktárát üzemelteti. Önkéntesként többféle feladatban segíthetsz, például raktári munkában, irodai adminisztrációban, fuvarozásban, címkézésben, dobozolásban vagy készételmentésben. Magánemberként és vállalati csapattal is lehet jelentkezni. A jelentkezés az oldalukon keresztül megy, a pontos időigényt és az aktuális lehetőségeket érdemes ott megkérdezni, mert ezek változhatnak.",
             href: "https://www.elelmiszerbank.hu/onkentesseg/",
@@ -2296,7 +2306,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A klublistánkban ebben a kategóriában jelenleg egy közösség szerepel, a Budapest Bike Maffia, ami kevés ahhoz képest, hány önkéntes kezdeményezés működik Budapesten. Az Élelmiszerbank ezért csak itt, a cikkben szerepel: nem informális közösség, hanem nagy szervezet. A többi kezdeményezés többsége pedig nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
+        text: "Ez a három kezdeményezés a klublistánkban is szerepel, mert mindhárom ingyenes, és eseti részvételre is nyitott. Budapesten persze ennél sokkal több önkéntes lehetőség van, de a többség nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
       },
       { type: "h2", text: "Milyen típusú önkéntes munkák léteznek?" },
       {
@@ -2364,7 +2374,7 @@ export const posts: BlogPost[] = [
     category: "Szülők / Családok",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2383,11 +2393,21 @@ export const posts: BlogPost[] = [
             note: "Közösség kismamáknak és külföldi anyukáknak Budapesten, ahol rendszeresen szerveznek találkozókat és beszélgetéseket egymásnak. A külföldi fókusz azért fontos, mert családdal külföldre költözve a szülő szokott a leginkább elszigetelődni: nincs munkahelyi közeg és nincs rokonság a közelben. A programokat Instagramon hirdetik.",
             href: "https://www.instagram.com/momscommunitybudapest/",
           },
+          {
+            name: "Budavári Baba-Mama Klub",
+            note: "Ingyenes játszócsoport 0-3 éveseknek és szüleiknek a Krisztina téri Márai Sándor Művelődési Házban, szerdánként 10:30-tól, óvodai szünetek kivételével. Két foglalkozásvezető tartja, akik kifejezetten arra figyelnek, hogy a szülők is megismerkedjenek egymással, ne csak a gyerekek játsszanak. Bejelentkezés nélkül, bárki mehet.",
+            href: "https://maraikult.hu/esemeny/budavari-baba-mama-klub-2-2-2/",
+          },
+          {
+            name: "Cseppecskék Baba-Mama Klub",
+            note: "Énekes-zenés klub 0-4 éveseknek és kismamáknak Óbudán, kéthetente hétfőn 10:30-tól. Az első részben a gyerekek mondókáznak és hangszereket próbálnak ki, utána az anyukák beszélgetőkörben cserélnek tapasztalatot, ami sokszor legalább annyit ér, mint maga a foglalkozás. Ingyenes, adományt elfogadnak, a honlapon lehet regisztrálni. Az Életvíz Baptista Gyülekezet termében tartják.",
+            href: "https://obudabaptista.hu/baba-mama/",
+          },
         ],
       },
       {
         type: "p",
-        text: "Ebben a kategóriában jelenleg egy közösség szerepel nálunk. Budapesten ennél sokkal több működik, de a többségük kerületi szinten, zárt Facebook-csoportokban szerveződik, amiket kívülről szinte lehetetlen megtalálni.",
+        text: "Budapesten ennél sokkal több szülői közösség működik, de a többségük kerületi szinten, zárt Facebook-csoportokban vagy a művelődési házak programjai között szerveződik, amiket kívülről nehéz megtalálni. A két baba-mama klub is ilyen: érdemes a saját kerületed művelődési házának gyerekprogramjait is átnézni.",
       },
       { type: "h2", text: "Hol keress még, ha kerületi csoportot szeretnél?" },
       {
@@ -2526,7 +2546,7 @@ export const posts: BlogPost[] = [
     category: "Katolikus Közösségek",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-09-17",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -2544,6 +2564,16 @@ export const posts: BlogPost[] = [
             name: "Katolikus Közösségek",
             note: "Katolikus közösségeket összegyűjtő portál: imacsoportok, kórusok, beszélgetős és hitmélyítő közösségek Budapesten és országszerte. Gyűjtőoldalként pont azt a hiányt tölti be, amiről fent szó volt, tehát egy helyen látod, milyen típusú közösségek működnek, és hol. Innen érdemes indulni, mielőtt egyesével végigjárnád a plébániákat.",
             href: "https://kozossegek.hu/",
+          },
+          {
+            name: "Input fiatal felnőtt közösség",
+            note: "A VIII. kerületi Jézus Szíve jezsuita templom közössége 25-33 éveseknek, amely minden vasárnap a 17:30-as szentmise után, 18:45 és 20:00 között találkozik. Akkor jó választás, ha már túl vagy az egyetemen, dolgozol, és kortársakat keresel. Ugyanitt működik az egyetemistáknak szóló After8 és egy 18-35 éveseknek szóló ifjúsági kórus is.",
+            href: "https://jezusszive.jezsuita.hu/kozossegeink",
+          },
+          {
+            name: "Sant'Egidio Közösség",
+            note: "1968-ban Rómában alapított katolikus közösség budapesti csoportja a IX. kerületi, Gát utcai Kaniziusz Szent Péter-templomban. Szerdán és pénteken fél héttől imaestet tartanak, amit közös vacsora követ rászoruló vendégekkel, a fiatalabb tagok pedig idősotthonokba járnak látogatni. Ha az imádság mellett konkrét segítésben is részt vennél, ez a közösség mindkettőt egyszerre adja. Folyamatosan lehet csatlakozni.",
+            href: "https://kozossegek.hu/kozosseg/szent-egyed-kozosseg-sant-egidio-community-352",
           },
         ],
       },
