@@ -36,7 +36,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -90,6 +90,31 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
+      },
+      { type: "h2", text: "További ingyenes futóalkalmak, ha edzővel futnál" },
+      {
+        type: "p",
+        text: "A fenti hét klub mellett van néhány ingyenes alkalom, ahol edző vezeti a futást, vagy kifejezetten laza, közösségi tempóban mentek. Ezek jó kiegészítők, ha a heti futásod mellé szakmai visszajelzést is szeretnél, vagy egy másik napon is futnál társasággal.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            note: "2021 óta működő ingyenes futóközösség edzőkkel: kedden és csütörtökön 18:00-kor a Városligetben futnak (2 km-es kör, 200 m-es pálya, résztávok), kéthetente szombaton pedig terepfutás van a Hármashatár-hegyen. Szükség esetén lassabb és gyorsabb csoportra bontanak, így teljesen kezdőként is beállhatsz.",
+            href: "/klub/garmin-running-club",
+          },
+          {
+            name: "Óbudai közösségi futóedzés",
+            note: "Az Óbudai Sport ingyenes edzése minden kedden 19:00 és 20:30 között a III. kerületi TVE pályán: bemelegítés, futóiskola, résztávok és kiegészítő erősítés. Jó választás, ha versenyre készülsz, és edzői szemmel szeretnéd fejleszteni a futásodat.",
+            href: "/klub/obudai-futoedzes",
+          },
+          {
+            name: "Runanas",
+            note: "2025-ben indult, ingyenes közösségi futóklub csütörtök esténként, a végén közös kávéval, azzal a mottóval, hogy mindenkit megvárnak. A találkozási pont változik, a havi programot Instagramon teszik közzé.",
+            href: "/klub/runanas",
+          },
+        ],
       },
       { type: "h2", text: "Miért nőnek most ennyire a futóklubok?" },
       {
@@ -1451,7 +1476,7 @@ export const posts: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-13",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1538,6 +1563,16 @@ export const posts: BlogPost[] = [
             name: "Latinfo",
             note: "Latin táncos események gyűjtőoldala Budapesten: salsa, bachata és egyéb social dance alkalmak egy helyen. Az eseménynaptár szabadon böngészhető, és mivel a legtöbb social dance estre egyszerűen be lehet sétálni, a részvételhez sem kell előre jelentkezni.",
             href: "https://latinfo.hu/events/",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "Csütörtök esténként a XIII. kerületi Visegrádi utcában, ahova se regisztráció, se fiók nem kell: egyszerűen bemész, és a játékmesterek leültetnek egy asztalhoz. Az esetleges elmaradásokat a Facebook-oldalukon jelzik, de azt fiók nélkül is meg tudod nézni.",
+            href: "/klub/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Gyémánt Út angol nyelvű meditáció",
+            note: "Csütörtökönként 19 órakor a Rózsák terén, előzetes jelentkezés nélkül. Újonnan érkezőknek érdemes 18:30-ra menni egy rövid bevezetőre, az időpontokat a központ saját honlapján is látod.",
+            href: "/klub/gyemant-ut-angol-meditacio",
           },
         ],
       },
@@ -3318,7 +3353,7 @@ export const posts: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3351,6 +3386,16 @@ export const posts: BlogPost[] = [
             name: "Toastmasters Magyarország",
             note: "Strukturált, kiszámítható formátum, ahol előre tudod, mi fog történni, és vendégként meghallgatóként is be lehet ülni egy alkalomra.",
             href: "https://toastmasters.hu/klubok/",
+          },
+          {
+            name: "Input fiatal felnőtt közösség",
+            note: "Kifejezetten 25-33 éveseknek szól, tehát pont azt a korosztályt gyűjti, amelyik egyetem után, dolgozva szokott elszigetelődni. Minden vasárnap este találkoznak a VIII. kerületi Jézus Szíve jezsuita templomban, a 17:30-as mise után. Ingyenes, magyar nyelvű.",
+            href: "/klub/input-fiatal-felnott-kozosseg",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "Mindenki a saját könyvét olvassa egy órán át, és csak utána beszélgettek, így nem kell rögtön az első percben társalognod. Havonta többször tartanak alkalmat könyvtárakban, magyarul és angolul is, ingyenesen.",
+            href: "/klub/budapest-silent-book-club",
           },
         ],
       },
@@ -3781,7 +3826,7 @@ export const posts: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3812,18 +3857,23 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Társasjáték",
-            note: "Teljesen időjárásfüggetlen, mindig beltéri helyszíneken zajlik, és rendszerint heti vagy annál sűrűbb alkalmai vannak.",
+            note: "Teljesen időjárásfüggetlen, mindig beltéri helyszíneken zajlik, és rendszerint heti vagy annál sűrűbb alkalmai vannak. Csütörtökönként például az Andúril Társasjáték Klub, keddenként a Casual Board Games and Beers vár ingyenesen.",
             href: "/klubok/tarsasjatek",
           },
           {
             name: "Könyvklub",
-            note: "Havi rendszerességű, de pont emiatt jó kiegészítő: ha a heti kültéri programod elmarad, a könyvklub egy stabil, mindig beltéri fix pont marad.",
+            note: "Havi rendszerességű, de pont emiatt jó kiegészítő: ha a heti kültéri programod elmarad, a könyvklub egy stabil, mindig beltéri fix pont marad. A Budapest Silent Book Club havonta többször, könyvtárakban tart ingyenes alkalmat.",
             href: "/klubok/konyvklub",
           },
           {
             name: "Nyilvános beszéd",
             note: "Strukturált, beltéri alkalmak, amik sosem függenek az időjárástól.",
             href: "/klubok/nyilvanos-beszed",
+          },
+          {
+            name: "Jóga / Wellness",
+            note: "Ha mozogni szeretnél, de nem a hidegben: a H13 Kultpont ingyenes heti jóga- és tai chi alkalmai fedett helyen, fix időpontban vannak a VIII. kerületben. Előre regisztrálni kell, mert korlátozott a létszám.",
+            href: "/klubok/joga-wellness",
           },
         ],
       },
@@ -3857,6 +3907,309 @@ export const posts: BlogPost[] = [
             a: "Nem feltétlenül. Sok futóklub és túracsoport egész télen aktív marad, csak a legextrémebb napokon marad el az alkalom. Ha viszont a program maga (szabadtéri jóga, séta) kifejezetten az időjárásra épül, reálisabb, ha egy beltéri közösséget iktatsz be erre a néhány hónapra.",
           },
         ],
+      },
+    ],
+  },
+  {
+    slug: "ingyenes-heti-kozossegi-programok-budapesten",
+    title: "Ingyenes heti közösségi programok Budapesten: hétfőtől vasárnapig",
+    metaTitle: "Ingyenes heti közösségi programok Budapesten",
+    description:
+      "Napról napra összegyűjtöttük azokat a budapesti közösségi alkalmakat, amelyek ingyenesek, minden héten ugyanakkor ismétlődnek, és kezdőként, egyedül is mehetsz rájuk.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    body: [
+      {
+        type: "p",
+        text: "Egy közösségbe nem az első alkalommal kerülsz be, hanem a sokadikkal. Egy amerikai kutatás szerint nagyjából 50 órányi közös idő kell ahhoz, hogy egy ismerősből haver legyen, és 200 óra felett lesz valakiből közeli barát. Ehhez pedig egy olyan alkalom kell, ahova minden héten ugyanakkor visszamész.",
+      },
+      {
+        type: "p",
+        text: "Ezért ebben a listában csak olyan programok szerepelnek, amelyek ingyenesek vagy adományalapúak, hetente vagy kéthetente ugyanazon a napon vannak, és kezdőként, egyedül is mehetsz rájuk. Mindegyiket 2026 októberében ellenőriztük, de az időpontok változhatnak, ezért indulás előtt nézd meg a közösség saját oldalát.",
+      },
+      { type: "h2", text: "Hétfő" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "H13 Kultpont jóga és tai chi",
+            note: "Hétfőn és csütörtökön 18:30-tól könnyen követhető jógaóra a VIII. kerületi H13 Kultpontban, kedden 17:30-tól pedig tai chi és chi kung. Tapasztalat nem kell, de a létszám korlátozott, ezért előre regisztrálni kell, és saját matracot érdemes vinni.",
+            href: "/klub/h13-kultpont-joga-es-tai-chi",
+          },
+          {
+            name: "Cseppecskék Baba-Mama Klub",
+            note: "Kéthetente hétfőn 10:30-tól Óbudán, 0-4 éves gyerekkel vagy várandósan. A gyerekek énekelnek és hangszereket próbálnak ki, utána az anyukák beszélgetőkörben cserélnek tapasztalatot, a honlapon kell regisztrálni.",
+            href: "/klub/cseppecskek-baba-mama-klub",
+          },
+        ],
+      },
+      { type: "h2", text: "Kedd" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            note: "Kedden és csütörtökön 18:00-kor edzővel futnak a Városligetben, a 2 km-es körön vagy a 200 m-es pályán, kéthetente szombaton pedig terepfutás van. Kezdőktől a haladókig mindenkit várnak, szükség esetén lassabb és gyorsabb csoportra bontanak.",
+            href: "/klub/garmin-running-club",
+          },
+          {
+            name: "Óbudai közösségi futóedzés",
+            note: "Kedden 19:00 és 20:30 között a III. kerületi TVE pályán, edzővel, futóiskolával és kiegészítő erősítéssel. Az önkormányzat támogatja, ezért a részvétel ingyenes.",
+            href: "/klub/obudai-futoedzes",
+          },
+          {
+            name: "Mozaik Med közösségi futás",
+            note: "Keddenként a Margitszigeten, bármilyen tempóval és regisztráció nélkül. Ha egy edzővel tartott edzés túl strukturáltnak tűnik, ez a lazább belépő.",
+            href: "/klub/mozaik-med-futas",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            note: "Kedden 17 órától a VI. kerületi Beer People sörözőben, angolul és fix kezdés nélkül, tehát munka után is beeshetsz. Részvételi díj nincs, csak a saját italodat fizeted.",
+            href: "/klub/casual-board-games-and-beers",
+          },
+        ],
+      },
+      { type: "h2", text: "Szerda" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "New Balance Run Club Budapest",
+            note: "Szerdánként 18:30-kor és kéthetente szombaton 9:00-kor edzőkkel futnak, a fő bázis a Testnevelési Egyetem Csörsz utcai pályája. Minden szinten várnak, regisztráció nélkül.",
+            href: "/klub/new-balance-run-club-budapest",
+          },
+          {
+            name: "Budavári Baba-Mama Klub",
+            note: "Szerdánként 10:30-tól a Krisztina téri Márai Sándor Művelődési Házban, 0-3 éves gyerekkel. Bejelentkezés nélkül mehetsz, és a foglalkozásvezetők arra is figyelnek, hogy a szülők megismerkedjenek egymással.",
+            href: "/klub/budavari-baba-mama-klub",
+          },
+          {
+            name: "Sant'Egidio Közösség",
+            note: "Szerdán és pénteken 18:30-tól imaest a IX. kerületi Gát utcai templomban, amit közös vacsora követ rászoruló vendégekkel. Akkor jó választás, ha az imádság mellett konkrétan segítenél is.",
+            href: "/klub/sant-egidio-kozosseg-budapest",
+          },
+        ],
+      },
+      { type: "h2", text: "Csütörtök" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "Csütörtökön 18 és 23 óra között a XIII. kerületi Visegrádi utcában, közel ezer játékkal és szabálymagyarázó játékmesterekkel. Indulás előtt érdemes a Facebook-oldalukon megnézni, nem marad-e el az alkalom.",
+            href: "/klub/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Gyémánt Út angol nyelvű meditáció",
+            note: "Csütörtökön 19 órakor a VII. kerületi Rózsák terén, angolul, 30-40 perc vezetett meditációval. Újonnan érkezőknek 18:30-tól rövid bevezetőt tartanak, és senkitől nem várják, hogy bárhová belépjen.",
+            href: "/klub/gyemant-ut-angol-meditacio",
+          },
+          {
+            name: "Runanas",
+            note: "Csütörtök esténként közösségi futás, a végén közös kávéval, a mottójuk szerint mindenkit megvárnak. A helyszín változik, a havi programot Instagramon teszik közzé.",
+            href: "/klub/runanas",
+          },
+        ],
+      },
+      { type: "h2", text: "Péntek és szombat" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Szimpozion Klub",
+            note: "Minden második szombaton 19:30-tól LMBTQ+ társasági klubest a VII. kerületben, zenével, beszélgetéssel, filmvetítéssel és társasjátékkal. Belépő nincs, 1500 Ft-os adományt vagy egy kis közös ételt, italt kérnek.",
+            href: "/klub/szimpozion-klub",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "Nagyjából 1-2 hetente szombaton vagy vasárnap egész napos túra a Pilisbe, a Börzsönybe vagy a Budai-hegységbe, angol nyelvű csoporttal. Csak a tömegközlekedést fizeted, a túrákat Meetupon hirdetik.",
+            href: "/klub/gradient-hiking",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Pénteken a szerdánál említett Sant'Egidio imaest ismétlődik, szombat reggel pedig kéthetente a Garmin Running Club terepfutása és a New Balance Run Club közös futása is ingyenes.",
+      },
+      { type: "h2", text: "Vasárnap" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Heti Betevő",
+            note: "Vasárnaponként ételosztás rászorulóknak: a VII. kerületi Kisüzemben 11 órától készülnek, 13 és 15:30 között osztanak. Egy-egy vasárnapra is vállalhatsz alkalmat, a VII. kerületi csoportba e-mailben kell jelentkezni.",
+            href: "/klub/heti-betevo",
+          },
+          {
+            name: "Input fiatal felnőtt közösség",
+            note: "Vasárnap 18:45 és 20:00 között a VIII. kerületi Jézus Szíve jezsuita templomban, 25-33 éveseknek, a 17:30-as szentmise után. Jó belépő, ha egyetem után dolgozó kortársakat keresel.",
+            href: "/klub/input-fiatal-felnott-kozosseg",
+          },
+        ],
+      },
+      { type: "h2", text: "Nem egy naphoz kötött, de rendszeres" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Óbudai Nordic Walking Klub",
+            note: "Edzővezetett nordic walking hetente többször, egész évben, Óbudáról és a Hajógyári-szigetről indulva. A botokat is adják, az aktuális időpontok a honlapjukon vannak.",
+            href: "/klub/obudai-nordic-walking-klub",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "Havonta többször, magyarul és angolul, többek között a Szabó Ervin Könyvtárban. Mindenki a saját könyvét olvassa csendben, utána lehet beszélgetni, a Meetupon kell előre jelentkezni.",
+            href: "/klub/budapest-silent-book-club",
+          },
+          {
+            name: "DevBP",
+            note: "Havonta egy este angol nyelvű fejlesztői előadások, utána kötetlen beszélgetés budapesti tech cégek irodáiban. Ingyenes, de korlátozott a létszám, ezért érdemes időben jelentkezni.",
+            href: "/klub/devbp",
+          },
+        ],
+      },
+      { type: "h2", text: "Hogyan hozd ki ebből a legtöbbet?" },
+      {
+        type: "list",
+        items: [
+          "Válassz egyet, ne ötöt: egy heti fix alkalom többet ér, mint öt alkalmi",
+          "Menj el legalább háromszor, mielőtt eldöntöd, hogy neked való-e",
+          "Indulás előtt nézd meg a közösség oldalát, mert az időpont és a helyszín változhat",
+          "Ahol regisztráció kell (H13, Silent Book Club, DevBP), ott jelentkezz időben, mert hamar betelik",
+        ],
+      },
+      {
+        type: "citation",
+        text: "University of Kansas: hány óra közös idő kell ahhoz, hogy valakiből barát legyen",
+        href: "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Tényleg teljesen ingyenesek ezek a programok?",
+            a: "Igen, részvételi díj egyiknél sincs. A Szimpozion Klub adományt kér (1500 Ft vagy egy kis közös étel), a sörözőben tartott alkalomnál pedig a saját fogyasztásodat fizeted.",
+          },
+          {
+            q: "Melyik napon van a legtöbb ingyenes program?",
+            a: "Kedden és csütörtökön: ilyenkor futóedzés, társasjáték-est, jóga, tai chi és meditáció közül is választhatsz.",
+          },
+          {
+            q: "Mehetek egyedül?",
+            a: "Igen, mindegyik alkalom nyitott az egyedül érkezőkre és a kezdőkre. A strukturált programoknál, például futóedzésen, jógán vagy játékmesteres társasjátékon a legkönnyebb egyedül kezdeni.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Az összes közösséget, a fizetősöket és a nem heti rendszerességűeket is, kategória szerint a Budapesti Közösségek listájában találod.",
+      },
+    ],
+  },
+  {
+    slug: "csendes-kozossegek-introvertaltaknak-budapesten",
+    title: "Csendes közösségek introvertáltaknak Budapesten: ahol nem kell folyamatosan beszélgetni",
+    metaTitle: "Közösségek introvertáltaknak Budapesten",
+    description:
+      "Csendes olvasás, meditáció, nordic walking, társasjáték és önkéntes munka: ingyenes budapesti közösségek, ahol a tevékenység van a középpontban, nem a small talk.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    body: [
+      {
+        type: "p",
+        text: "Introvertáltként ritkán az a gond, hogy nem szeretsz emberek között lenni. Inkább az, hogy a kötetlen társalgás, a bemutatkozókör és a hangos bár gyorsan lemeríti az energiádat, és a végére már nem is élvezed az estét.",
+      },
+      {
+        type: "p",
+        text: "Az alábbi közösségekben a tevékenység adja a keretet: olvasol, meditálsz, sétálsz, játszol vagy dolgozol, és a beszélgetés mellékesen, a saját tempódban alakul. Mindegyik ingyenes, és egyedül is mehetsz.",
+      },
+      { type: "h2", text: "Hol nem kell sokat beszélni?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Silent Book Club",
+            note: "Itt a csend maga a program: mindenki a saját könyvét olvassa nagyjából egy órán át, és csak utána van lehetőség beszélgetni, ha kedved van. A bemutatkozás rövid, senki nem kérdez ki. Magyar és angol alkalmak is vannak, ingyenesen, Meetupos jelentkezéssel.",
+            href: "/klub/budapest-silent-book-club",
+          },
+          {
+            name: "Gyémánt Út angol nyelvű meditáció",
+            note: "Csütörtökönként 19 órakor 30-40 perc közös, csendes meditáció a Rózsák terén, ahol a jelenléted elég, nem kell megszólalnod. Buddhista központ, de senkitől nem várják, hogy bárhová belépjen. Ingyenes, angol nyelvű.",
+            href: "/klub/gyemant-ut-angol-meditacio",
+          },
+          {
+            name: "Óbudai Nordic Walking Klub",
+            note: "Séta közben egymás mellett haladtok, nem szemben ültök, ami sokkal kevésbé megterhelő beszélgetési helyzet. Ha nincs kedved beszélni, egyszerűen csak gyalogolsz, az edző pedig a technikára figyel. Ingyenes, a botokat is adják.",
+            href: "/klub/obudai-nordic-walking-klub",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "A játék szabályai megmondják, ki mikor és miről beszél, így nem neked kell témát találnod. A játékmesterek elmagyarázzák a szabályokat, és egy asztalnál négy-öt emberrel ülsz, nem egy tömegben. Csütörtökönként, ingyenes belépéssel.",
+            href: "/klub/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Heti Betevő",
+            note: "Vasárnaponként ételt készítesz elő és osztasz egy csapattal, vagyis van konkrét feladatod, a beszélgetés pedig munka közben magától jön. A közös cél miatt nem kell aktívan ismerkedned ahhoz, hogy a végére ismerj embereket. Egy-egy vasárnapra is jelentkezhetsz.",
+            href: "/klub/heti-betevo",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "Egy egész napos túrán bőven van idő csendben gyalogolni, és ha beszélgetsz, az is jellemzően kettesben, menet közben történik, nem egy asztal körül. A csoport önkéntes alapon szervezi a túrákat, csak a tömegközlekedést fizeted.",
+            href: "/klub/gradient-hiking",
+          },
+          {
+            name: "H13 Kultpont jóga és tai chi",
+            note: "Egy jógaórán vagy tai chi alkalmon a figyelem befelé irányul, és gyakorlás közben senki nem vár tőled beszélgetést. Ha utána mégis beszélgetnél, a kis létszám miatt erre is van mód. Ingyenes, előzetes regisztrációval.",
+            href: "/klub/h13-kultpont-joga-es-tai-chi",
+          },
+        ],
+      },
+      { type: "h2", text: "Miért könnyebb ezekben a formátumokban?" },
+      {
+        type: "p",
+        text: "A Harvard Health egyik cikke szerint az introvertáltaknak azok a közösségek valók, amelyek egy közös érdeklődés köré szerveződnek, és kiszámítható, előre rögzített időkeretben zajlanak. Ha tudod, mikor kezdődik és mikor ér véget a program, be tudod osztani az energiádat, és nem kell attól tartanod, hogy egy beszélgetésből nincs kiút.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Health: útmutató introvertáltaknak a társas kapcsolatokhoz",
+        href: "https://www.health.harvard.edu/health/an-introverts-guide-to-socializing",
+      },
+      { type: "h2", text: "Hogyan kezdj bele úgy, hogy ne merülj ki?" },
+      {
+        type: "list",
+        items: [
+          "Hetente egy alkalommal kezdj, ne próbálj egyszerre több közösségbe beszállni",
+          "Érkezz pár perccel a kezdés előtt, ne sokkal korábban, hogy ne kelljen hosszan kötetlenül várakozni",
+          "Nyugodtan indulj el a hivatalos rész után, senki nem várja el, hogy maradj",
+          "Ha egy közösség túl hangosnak bizonyul, az nem rólad szól, hanem a formátumról: próbálj ki egy csendesebbet",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Introvertáltként is lehet tartós közösségem?",
+            a: "Igen. Az introvertáltak jellemzően kevesebb, de mélyebb kapcsolatot keresnek, és egy kis létszámú, rendszeres közösség pont erre való. A lényeg, hogy olyan formátumot válassz, ami nem meríti le az energiádat.",
+          },
+          {
+            q: "Mi a különbség az introvertáltság és aközött, hogy félek egyedül elmenni?",
+            a: "Az introvertáltság az energiáról szól: a társas helyzet fáraszt, még akkor is, ha élvezed. A félelem a helyzet előtti szorongás. Ha inkább ez utóbbi a nehézség, a Hogyan csatlakozz egy közösséghez, ha félsz egyedül elmenni? posztunk segít.",
+          },
+          {
+            q: "Kell beszélnem az első alkalmon?",
+            a: "A fenti közösségek egyikén sem kötelező. A Silent Book Clubon és a meditáción kifejezetten a csend a program.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes lista kategóriák szerint böngészhető a Budapesti Közösségek oldalán.",
       },
     ],
   },

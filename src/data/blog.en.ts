@@ -19,7 +19,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -73,6 +73,31 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "If you're a total beginner, the Mozaik Med island run or Angyalföldi Futóklub are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
+      },
+      { type: "h2", text: "More free runs if you want a coach" },
+      {
+        type: "p",
+        text: "Beyond the seven clubs above, there are a few free sessions where a coach leads the run, or where the pace is deliberately relaxed and social. They're a good addition if you want technical feedback alongside your weekly run, or company on another day of the week.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            note: "A free, coach-led running community since 2021: Tuesdays and Thursdays at 18:00 in Városliget (2 km loop, 200 m track, intervals), plus a trail run on Hármashatár-hegy every other Saturday. They split into slower and faster groups when needed, so complete beginners can join too.",
+            href: "/en/club/garmin-running-club",
+          },
+          {
+            name: "Óbudai közösségi futóedzés",
+            note: "Óbudai Sport's free session every Tuesday from 19:00 to 20:30 at the TVE track in District III: warm-up, running drills, intervals and supplementary strength work. A good choice if you're training for a race and want a coach's eye on your running.",
+            href: "/en/club/obudai-futoedzes",
+          },
+          {
+            name: "Runanas",
+            note: "A free social run club started in 2025, running on Thursday evenings with coffee afterwards and a promise that nobody gets left behind. The meeting point changes and the monthly plan is posted on Instagram.",
+            href: "/en/club/runanas",
+          },
+        ],
       },
       { type: "h2", text: "Why are running clubs growing so fast right now?" },
       {
@@ -1451,7 +1476,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-13",
-    updatedAt: "2026-09-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -1538,6 +1563,16 @@ export const postsEn: BlogPost[] = [
             name: "Latinfo",
             note: "A directory of Latin dance events in Budapest: salsa, bachata and other social dance nights in one place. The event calendar is freely browsable, and since you can simply walk into most social dance nights, attending doesn't require signing up in advance either.",
             href: "https://latinfo.hu/events/",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "Thursday evenings on Visegrádi utca in District XIII, with no sign-up and no account needed: you walk in and the game masters seat you at a table. Cancellations are posted on their Facebook page, which you can view without an account.",
+            href: "/en/club/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Diamond Way English meditation",
+            note: "Thursdays at 19:00 on Rózsák tere, no advance sign-up. Newcomers should arrive at 18:30 for a short introduction, and times are listed on the centre's own website.",
+            href: "/en/club/gyemant-ut-angol-meditacio",
           },
         ],
       },
@@ -3310,7 +3345,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-02",
-    updatedAt: "2026-10-02",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3343,6 +3378,16 @@ export const postsEn: BlogPost[] = [
             name: "Toastmasters Magyarország",
             note: "A structured, predictable format where you know exactly what to expect, and you can sit in as a guest listener for a session.",
             href: "https://toastmasters.hu/klubok/",
+          },
+          {
+            name: "Input young adult community",
+            note: "Aimed specifically at ages 25-33, so it gathers exactly the age group that tends to become isolated after university, once working life takes over. They meet every Sunday evening at the Jesuit Church of the Sacred Heart in District VIII, after the 17:30 Mass. Free, in Hungarian.",
+            href: "/en/club/input-fiatal-felnott-kozosseg",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "Everyone reads their own book for an hour and only then do you chat, so there's no pressure to make conversation in the first minute. Several sessions a month in libraries, in English and Hungarian, free.",
+            href: "/en/club/budapest-silent-book-club",
           },
         ],
       },
@@ -3765,7 +3810,7 @@ export const postsEn: BlogPost[] = [
     category: null,
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-26",
     body: [
       {
         type: "p",
@@ -3796,18 +3841,23 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Board Games",
-            note: "Completely weather-independent, always held at indoor venues, and usually weekly or more frequent.",
+            note: "Completely weather-independent, always held at indoor venues, and usually weekly or more frequent. On Thursdays Andúril Társasjáték Klub, and on Tuesdays Casual Board Games and Beers, are both free.",
             href: "/en/clubs/board-games",
           },
           {
             name: "Book Club",
-            note: "Monthly rather than weekly, but that's exactly why it's a good backup: a stable, always-indoor fixed point if your weekly outdoor session falls through.",
+            note: "Monthly rather than weekly, but that's exactly why it's a good backup: a stable, always-indoor fixed point if your weekly outdoor session falls through. Budapest Silent Book Club runs free sessions in libraries several times a month.",
             href: "/en/clubs/book-club",
           },
           {
             name: "Public Speaking",
             note: "Structured, indoor sessions that never depend on the weather.",
             href: "/en/clubs/public-speaking",
+          },
+          {
+            name: "Yoga / Wellness",
+            note: "If you want to move but not in the cold: H13 Kultpont's free weekly yoga and tai chi sessions are indoors, at fixed times, in District VIII. Register in advance, since places are limited.",
+            href: "/en/clubs/yoga-wellness",
           },
         ],
       },
@@ -3841,6 +3891,309 @@ export const postsEn: BlogPost[] = [
             a: "Not necessarily. Many running clubs and hiking groups stay active all winter, only cancelling on the most extreme days. But if the activity itself depends on the weather (outdoor yoga, walks), it's more realistic to slot in an indoor community for those few months.",
           },
         ],
+      },
+    ],
+  },
+  {
+    slug: "free-weekly-community-events-in-budapest",
+    title: "Free weekly community events in Budapest, Monday to Sunday",
+    metaTitle: "Free weekly community events in Budapest",
+    description:
+      "A day-by-day list of Budapest community sessions that are free, repeat at the same time every week, and that you can join alone as a beginner.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    body: [
+      {
+        type: "p",
+        text: "You don't become part of a community on your first visit, but on your fifth or tenth. According to a US study, it takes roughly 50 hours together to go from acquaintance to casual friend, and more than 200 hours to become close friends. That only happens if there's something you go back to at the same time every week.",
+      },
+      {
+        type: "p",
+        text: "So this list only includes sessions that are free or donation-based, happen weekly or fortnightly on a fixed day, and are open to beginners arriving alone. We checked every one in October 2026, but times can change, so check the community's own page before you go.",
+      },
+      { type: "h2", text: "Monday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "H13 Kultpont yoga and tai chi",
+            note: "Easy-to-follow yoga on Mondays and Thursdays from 18:30 at H13 Kultpont in District VIII, plus tai chi and qigong on Tuesdays from 17:30. No experience needed, but places are limited, so register in advance and bring your own mat. Classes are in Hungarian.",
+            href: "/en/club/h13-kultpont-joga-es-tai-chi",
+          },
+          {
+            name: "Cseppecskék Baba-Mama Klub",
+            note: "Every other Monday from 10:30 in Óbuda, for children aged 0-4 and expecting mothers. The children sing and try out instruments, then the mothers swap experiences in a discussion circle; register on the website.",
+            href: "/en/club/cseppecskek-baba-mama-klub",
+          },
+        ],
+      },
+      { type: "h2", text: "Tuesday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            note: "Coach-led runs on Tuesdays and Thursdays at 18:00 in Városliget, on the 2 km loop or the 200 m track, plus a trail run every other Saturday. Everyone from beginners to advanced runners is welcome, with slower and faster groups when needed.",
+            href: "/en/club/garmin-running-club",
+          },
+          {
+            name: "Óbudai közösségi futóedzés",
+            note: "Tuesdays from 19:00 to 20:30 at the TVE track in District III, with a coach, running drills and supplementary strength work. The district council supports it, so it's free.",
+            href: "/en/club/obudai-futoedzes",
+          },
+          {
+            name: "Mozaik Med community run",
+            note: "Every Tuesday on Margaret Island, any pace, no sign-up. If a coached session feels too structured, this is the more relaxed way in.",
+            href: "/en/club/mozaik-med-futas",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            note: "Tuesdays from 17:00 at Beer People in District VI, in English and with no fixed start time, so you can drop in after work. No participation fee; you only pay for your own drinks.",
+            href: "/en/club/casual-board-games-and-beers",
+          },
+        ],
+      },
+      { type: "h2", text: "Wednesday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "New Balance Run Club Budapest",
+            note: "Coach-led runs on Wednesdays at 18:30 and every other Saturday at 9:00, based at the University of Sports Science track on Csörsz utca. All levels welcome, no sign-up needed.",
+            href: "/en/club/new-balance-run-club-budapest",
+          },
+          {
+            name: "Budavári Baba-Mama Klub",
+            note: "Wednesdays from 10:30 at the Márai Sándor Cultural Centre on Krisztina tér, for children aged 0-3. No booking needed, and the facilitators make a point of helping parents get to know each other.",
+            href: "/en/club/budavari-baba-mama-klub",
+          },
+          {
+            name: "Sant'Egidio Community",
+            note: "Prayer evenings on Wednesdays and Fridays from 18:30 at the Gát utca church in District IX, followed by a shared dinner with guests in need. A good fit if you'd like hands-on helping alongside prayer.",
+            href: "/en/club/sant-egidio-kozosseg-budapest",
+          },
+        ],
+      },
+      { type: "h2", text: "Thursday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "Thursdays from 18:00 to 23:00 on Visegrádi utca in District XIII, with nearly a thousand games and game masters who explain the rules. Check their Facebook page before going in case a session is cancelled.",
+            href: "/en/club/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Diamond Way English meditation",
+            note: "Thursdays at 19:00 on Rózsák tere in District VII, in English, with 30-40 minutes of guided meditation. Newcomers can arrive at 18:30 for a short introduction, and nobody is expected to join anything.",
+            href: "/en/club/gyemant-ut-angol-meditacio",
+          },
+          {
+            name: "Runanas",
+            note: "A social run every Thursday evening, with coffee afterwards, and a motto that every pace is welcome. The meeting point changes and the monthly plan is posted on Instagram.",
+            href: "/en/club/runanas",
+          },
+        ],
+      },
+      { type: "h2", text: "Friday and Saturday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Szimpozion Klub",
+            note: "An LGBTQ+ social evening every second Saturday from 19:30 in District VII, with music, conversation, film screenings and board games. No entry fee; they ask for a 1,500 Ft donation or some food or drink to share.",
+            href: "/en/club/szimpozion-klub",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "A full-day hike roughly every one to two weeks on Saturday or Sunday, to the Pilis, Börzsöny or Buda Hills, with an English-speaking group. You only pay for public transport; hikes are posted on Meetup.",
+            href: "/en/club/gradient-hiking",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "On Fridays the Sant'Egidio prayer evening mentioned under Wednesday repeats, and on alternate Saturday mornings both the Garmin Running Club trail run and the New Balance Run Club group run are free too.",
+      },
+      { type: "h2", text: "Sunday" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Heti Betevő",
+            note: "Sunday meal service for people in need: at Kisüzem in District VII they start preparing at 11:00 and serve from 13:00 to 15:30. You can sign up for individual Sundays, by email for the District VII group.",
+            href: "/en/club/heti-betevo",
+          },
+          {
+            name: "Input young adult community",
+            note: "Sundays from 18:45 to 20:00 at the Jesuit Church of the Sacred Heart in District VIII, for ages 25-33, after the 17:30 Mass. A good way in if you're past university and looking for working people your own age. It runs in Hungarian.",
+            href: "/en/club/input-fiatal-felnott-kozosseg",
+          },
+        ],
+      },
+      { type: "h2", text: "Not tied to one day, but regular" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Óbudai Nordic Walking Klub",
+            note: "Coach-led Nordic walking several times a week, all year round, from Óbuda and Hajógyári Island. They lend you the poles, and current times are on their website.",
+            href: "/en/club/obudai-nordic-walking-klub",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            note: "Several sessions a month, in English and Hungarian, including at the Szabó Ervin Library. Everyone reads their own book in silence, then you can chat; sign up on Meetup in advance.",
+            href: "/en/club/budapest-silent-book-club",
+          },
+          {
+            name: "DevBP",
+            note: "One evening a month of English-language developer talks, then informal networking at Budapest tech company offices. Free, but places are limited, so sign up early.",
+            href: "/en/club/devbp",
+          },
+        ],
+      },
+      { type: "h2", text: "How to get the most out of this" },
+      {
+        type: "list",
+        items: [
+          "Pick one, not five: one fixed weekly session is worth more than five occasional ones",
+          "Go at least three times before deciding whether it's for you",
+          "Check the community's page before you set off, as times and venues can change",
+          "Where registration is needed (H13, Silent Book Club, DevBP), sign up early, since places fill fast",
+        ],
+      },
+      {
+        type: "citation",
+        text: "University of Kansas: how many hours it takes to make a friend",
+        href: "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Are these really completely free?",
+            a: "Yes, none of them charges a participation fee. Szimpozion Klub asks for a donation (1,500 Ft or some food to share), and at the bar-based session you pay for your own drinks.",
+          },
+          {
+            q: "Which day has the most free events?",
+            a: "Tuesday and Thursday: you can choose between coached runs, a board game night, yoga, tai chi and meditation.",
+          },
+          {
+            q: "Can I go alone?",
+            a: "Yes, every session here is open to people arriving alone and to beginners. Structured formats such as a coached run, a yoga class or board games with a game master are the easiest to start alone.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "You can browse every community, including paid ones and those that don't meet weekly, by category on the Budapesti Közösségek list.",
+      },
+    ],
+  },
+  {
+    slug: "quiet-communities-for-introverts-in-budapest",
+    title: "Quiet communities for introverts in Budapest: where you don't have to keep talking",
+    metaTitle: "Communities for introverts in Budapest",
+    description:
+      "Silent reading, meditation, Nordic walking, board games and volunteering: free Budapest communities built around an activity, not small talk.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    body: [
+      {
+        type: "p",
+        text: "As an introvert, the problem is rarely that you don't like being around people. It's that open-ended small talk, the round of introductions and a loud bar drain your energy fast, until you stop enjoying the evening.",
+      },
+      {
+        type: "p",
+        text: "In the communities below, the activity sets the frame: you read, meditate, walk, play or work, and conversation happens on the side, at your own pace. All of them are free, and you can go alone.",
+      },
+      { type: "h2", text: "Where you don't have to talk much" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Silent Book Club",
+            note: "Here the silence is the programme: everyone reads their own book for about an hour, and you can chat afterwards only if you feel like it. Introductions are short and nobody quizzes you. There are English and Hungarian sessions, free, with sign-up on Meetup.",
+            href: "/en/club/budapest-silent-book-club",
+          },
+          {
+            name: "Diamond Way English meditation",
+            note: "Every Thursday at 19:00, 30-40 minutes of shared, silent meditation on Rózsák tere, where being there is enough and you don't need to say a word. It's a Buddhist centre, but nobody expects you to join anything. Free, in English.",
+            href: "/en/club/gyemant-ut-angol-meditacio",
+          },
+          {
+            name: "Óbudai Nordic Walking Klub",
+            note: "You walk side by side rather than sitting face to face, which is a far less draining setting for conversation. If you don't feel like talking, you just walk while the coach focuses on technique. Free, and they lend you the poles.",
+            href: "/en/club/obudai-nordic-walking-klub",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "The rules of the game decide who talks when and about what, so you don't have to find a topic. Game masters explain the rules, and you sit at a table with four or five people rather than in a crowd. Thursdays, free entry.",
+            href: "/en/club/anduril-tarsasjatek-klub",
+          },
+          {
+            name: "Heti Betevő",
+            note: "On Sundays you prepare and serve food with a team, so you have a concrete task, and conversation comes naturally while you work. Because of the shared goal, you don't need to actively mingle to end up knowing people. You can sign up for individual Sundays.",
+            href: "/en/club/heti-betevo",
+          },
+          {
+            name: "Gradient Hiking",
+            note: "A full-day hike leaves plenty of time to walk in silence, and when you do talk, it's usually one-on-one on the trail rather than around a table. The group runs hikes on a volunteer basis; you only pay for public transport.",
+            href: "/en/club/gradient-hiking",
+          },
+          {
+            name: "H13 Kultpont yoga and tai chi",
+            note: "In a yoga or tai chi session your attention turns inward, and nobody expects conversation while you practise. If you'd like to chat afterwards, the small group makes that easy too. Free, with registration in advance; classes are in Hungarian.",
+            href: "/en/club/h13-kultpont-joga-es-tai-chi",
+          },
+        ],
+      },
+      { type: "h2", text: "Why are these formats easier?" },
+      {
+        type: "p",
+        text: "According to a Harvard Health article, introverts do best in groups built around a shared interest that run on a predictable, set schedule. When you know exactly when something starts and ends, you can budget your energy and don't have to worry about being stuck in a conversation with no way out.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Health: an introvert's guide to socializing",
+        href: "https://www.health.harvard.edu/health/an-introverts-guide-to-socializing",
+      },
+      { type: "h2", text: "How to start without wearing yourself out" },
+      {
+        type: "list",
+        items: [
+          "Start with one session a week rather than trying several communities at once",
+          "Arrive a few minutes before the start, not much earlier, so you're not stuck in a long unstructured wait",
+          "Feel free to leave after the main part; nobody expects you to stay",
+          "If a community turns out to be too loud, that's about the format, not you: try a quieter one",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Can I build a lasting community as an introvert?",
+            a: "Yes. Introverts tend to want fewer but deeper connections, and a small, regular community is made for exactly that. The key is choosing a format that doesn't drain you.",
+          },
+          {
+            q: "What's the difference between being introverted and being scared to go alone?",
+            a: "Introversion is about energy: social situations tire you even when you enjoy them. Fear is the anxiety before the situation. If that's the bigger hurdle, our post How to join a community if you're scared to go alone? will help.",
+          },
+          {
+            q: "Do I have to talk at the first session?",
+            a: "Not at any of the communities above. At the Silent Book Club and the meditation, silence is literally the programme.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "You can browse the full list by category on Budapesti Közösségek.",
       },
     ],
   },
