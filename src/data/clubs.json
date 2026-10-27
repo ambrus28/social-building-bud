@@ -874,5 +874,19 @@
     "featured": false,
     "type": "Közösség",
     "cost": "free"
+  },
+  {
+    "id": "wemove-budapest-bais",
+    "name": "weMove Budapest (BAIS)",
+    "category": "Sport",
+    "district": "VIII. kerület",
+    "description": "A Budapest Association for International Sports (BAIS) önkéntesekből álló non-profit sportegyesület, amely főleg a Budapesten élő külföldieknek, de mindenkinek nyitottan szervez programokat, angol nyelven. Hetente több alkalom van: szerdánként 8 órakor ingyenes, 6,5 km-es laza tempójú futás a Margitszigeten, emellett tenisz, bowling, hangfürdő és nyílt estek a VIII. kerületi Víg utcai közösségi terükben. A futás ingyenes, a pályás sportokért (például a teniszért) részvételi díjat kérnek, az eseményeket Facebookon hirdetik.",
+    "description_en": "The Budapest Association for International Sports (BAIS) is a volunteer-run non-profit that organises sport and social events mainly for internationals living in Budapest, but open to everyone, in English. There are several sessions a week: a free, relaxed 6.5 km run around Margaret Island on Wednesdays at 8:00, plus tennis, bowling, sound healing and open evenings at their community space on Víg utca in District VIII. The run is free, while court sports such as tennis carry a participation fee; events are posted on Facebook.",
+    "schedule": "Hetente többször",
+    "website_url": "https://www.wemovebudapest.com/",
+    "instagram_url": "https://www.instagram.com/wemovebudapest/",
+    "image_url": "/images/clubs/sport-wemove-budapest-bais.jpg",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
