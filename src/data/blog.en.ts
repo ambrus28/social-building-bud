@@ -1799,7 +1799,7 @@ export const postsEn: BlogPost[] = [
     category: "Könyvklub",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     body: [
       {
         type: "p",
@@ -1824,7 +1824,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Unicorn Book Club",
-            note: "A non-fiction focused book club with monthly discussions in Budapest. That focus is rare, since most book clubs deal with fiction, so if you'd like to read non-fiction or professional books in company, this is where you'll find fellow readers. They have their own website, so contacting them doesn't require a social media account.",
+            note: "A monthly book club built around non-fiction and self-development books, with a guest talk and small-group discussion. It's a ticketed event, from 3,990 Ft. That focus is rare, since most book clubs deal with fiction, so if you'd like to read non-fiction or professional books in company, this is where you'll find fellow readers. They have their own website, so contacting them doesn't require a social media account.",
             href: "https://unicornbookclub.hu/",
           },
           {
@@ -1837,16 +1837,31 @@ export const postsEn: BlogPost[] = [
             note: "A club with no assigned reading: everyone brings their own book, and after a short round of introductions you read together in silence for about an hour, then chat if you like. A good entry point if a classic book club's deadline puts you off. They hold several sessions a month in English and in Hungarian, including at the central Szabó Ervin Library and the Körút Library. Free, with advance sign-up on Meetup.",
             href: "https://www.meetup.com/budapest-silent-book-club/",
           },
+          {
+            name: "Sci-fi és fantasy könyvklub csajoknak",
+            note: "A monthly book club, usually on a Saturday afternoon, discussing one sci-fi or fantasy author at a time, at rotating tea houses and cafés. It's aimed specifically at women, since the genre's fan scene is heavily male. You can come even if you haven't read the book; there's no participation fee, and you sign up on Meetup. It runs mostly in Hungarian.",
+            href: "https://www.meetup.com/scifi-es-fantasy-konyvklub-csajoknak/",
+          },
+          {
+            name: "Közkincs English Book Club",
+            note: "A monthly English-language book club on the last Wednesday of the month at 19:00, at Közkincs Library on Rákóczi út in District VIII, reading fiction and non-fiction from around the world. You don't need to have finished the book to take part. It's worth asking in advance about any participation fee.",
+            href: "https://www.meetup.com/kozkincs-english-book-club/",
+          },
+          {
+            name: "Feminista Meetup Budapest",
+            note: "A feminist community that began as a book club in 2023 and now runs as a book and film club at Közkincs Library, in English. A good fit if you'd like to talk about social issues alongside shared reading. Sessions are announced on Instagram.",
+            href: "/en/club/feminista-meetup-budapest",
+          },
         ],
       },
       {
         type: "p",
-        text: "This category is currently the smallest on our list, because most Budapest book clubs are closed circles of friends that don't advertise publicly. If you know one that's open to new members, let us know and we'll add it.",
+        text: "Many Budapest book clubs are closed circles of friends that don't advertise publicly, so the list above isn't complete. If you know one that's open to new members, let us know and we'll add it. If the silent format appeals, our What is a Silent Book Club? post explains it in detail.",
       },
       { type: "h2", text: "What if you can't find one for you?" },
       {
         type: "p",
-        text: "Start one. A book club is one of the easiest community formats to launch, since it needs no venue, gear or money. You need a café, a book, and three people.",
+        text: "Start one. A book club is one of the easiest community formats to launch, since it needs no venue, gear or money. You need a café, a book, and three people. Our How to start a book club in Budapest post has the full step-by-step guide; in short:",
       },
       {
         type: "list",
@@ -1876,7 +1891,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Does a book club cost money?",
-            a: "Participation itself is typically free. Any cost is the book itself and the coffee you order on site. You can also borrow the book from a library.",
+            a: "At most open Budapest book clubs taking part is free, though a few are ticketed, such as Unicorn Book Club. Beyond that, the cost is the book and the coffee you order on site, and you can borrow the book from a library.",
           },
           {
             q: "Is there an English-language book club in Budapest?",
@@ -4183,6 +4198,190 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "You can browse the full list by category on Budapesti Közösségek.",
+      },
+    ],
+  },
+  {
+    slug: "what-is-a-silent-book-club",
+    title: "What is a Silent Book Club? The quiet book club with no assigned reading",
+    metaTitle: "What is a Silent Book Club?",
+    description:
+      "At a Silent Book Club everyone reads their own book in silence for about an hour, then chats if they like. What the format is, how it works in Budapest, and who it suits.",
+    kind: "guide",
+    category: "Könyvklub",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    body: [
+      {
+        type: "p",
+        text: "Two things usually stand in the way of a classic book club: the deadline to finish the shared book, and having to discuss it with strangers straight away. Silent Book Club removes both. Everyone brings their own book, and for most of the evening you read together in silence.",
+      },
+      {
+        type: "p",
+        text: "The format started in 2012 and has become a worldwide movement: according to the organisers, more than 2,200 local chapters run in 70 countries, with over a million members. They call it an \"introvert happy hour\".",
+      },
+      { type: "h2", text: "How does a session work?" },
+      {
+        type: "list",
+        items: [
+          "You arrive and briefly introduce yourself: your name and what you're reading",
+          "For about an hour everyone reads their own book in silence, on paper or an e-reader",
+          "Afterwards, anyone who wants to can chat: about their books, recommendations or anything else",
+          "If you'd rather leave after the quiet part, that's completely fine",
+        ],
+      },
+      { type: "h2", text: "Where is there a silent book club in Budapest?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Silent Book Club",
+            note: "The Budapest group runs several sessions a month, in English and Hungarian, including at the central Szabó Ervin Library and the Körút Library, plus a monthly discussion book club around a shared title. It's free, but places are limited, so you need to RSVP on Meetup.",
+            href: "/en/club/budapest-silent-book-club",
+          },
+        ],
+      },
+      { type: "h2", text: "How is it different from a classic book club?" },
+      {
+        type: "table",
+        headers: ["", "Classic book club", "Silent Book Club"],
+        rows: [
+          ["Reading", "A shared, pre-assigned book", "Everyone brings their own"],
+          ["Preparation", "Finish the book before the meeting", "None, you read there"],
+          ["Conversation", "Most of the evening", "Only at the end, and optional"],
+          ["Best for", "Anyone who likes to dig deep into one book", "Anyone who wants to read in company, no pressure"],
+        ],
+      },
+      { type: "h2", text: "Who is it for?" },
+      {
+        type: "p",
+        text: "People who want to read regularly but always get distracted at home, and people who find open-ended mingling draining. Here the shared silence is the connection, and conversation comes naturally afterwards because everyone has a book to talk about. Arriving alone won't make you stand out, since for most of the session everyone is in their own book anyway.",
+      },
+      {
+        type: "citation",
+        text: "Silent Book Club: the movement's official site",
+        href: "https://silentbook.club/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Do I need to bring a book?",
+            a: "Yes, your own: any book, or an e-reader. There's no shared title, and nobody judges what you read.",
+          },
+          {
+            q: "Do I have to talk after the quiet part?",
+            a: "No. Conversation is an option, not an expectation, and you can leave after the silent reading if you prefer.",
+          },
+          {
+            q: "Does the Budapest silent book club cost anything?",
+            a: "No, it's free, but you need to RSVP on Meetup because places are limited. If the venue is a café, you pay for your own order.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "You'll find the other Budapest book clubs, including classic shared-book ones, in our Book clubs in Budapest post and on the Budapesti Közösségek list.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-start-a-book-club-in-budapest",
+    title: "How to start a book club in Budapest, step by step",
+    metaTitle: "How to start a book club in Budapest",
+    description:
+      "How many people you need, where to meet, how to pick books and what the first meeting needs: a practical guide to starting your own book club in Budapest.",
+    kind: "guide",
+    category: "Könyvklub",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    body: [
+      {
+        type: "p",
+        text: "Budapest has only a handful of public book clubs, and some of them are ticketed or fill up fast. The good news is that a book club is one of the easiest communities to start: no room, gear or money needed, just a few people, a book and a fixed date.",
+      },
+      { type: "h2", text: "1. Decide what kind of club you want" },
+      {
+        type: "list",
+        items: [
+          "Shared book or silent format: everyone reads the same title, or everyone brings their own, as at Silent Book Club",
+          "Genre: literary fiction, non-fiction, crime, sci-fi, or a mix as members suggest",
+          "Language: Hungarian, English, or a language-practice club reading in a foreign language",
+          "Who it's for: friends, colleagues, or an open club for strangers",
+        ],
+      },
+      { type: "h2", text: "2. How many people do you need?" },
+      {
+        type: "p",
+        text: "Australia Reads' guide recommends around 8-10 members: enough that there's still a conversation when a few people can't make it, but small enough that everyone gets a say. You can start with fewer: three or four committed people are plenty for a first meeting, and others follow.",
+      },
+      { type: "h2", text: "3. Where to meet in Budapest" },
+      {
+        type: "list",
+        items: [
+          "A quieter café or tea house on a weekday evening, when big tables are free: book ahead",
+          "A library: several Budapest libraries already host book clubs, so it's worth asking whether they have a community space",
+          "At home: comfortable for friends, but for strangers a public place is better for the first few meetings",
+          "Online or hybrid, if members live in different parts of the city",
+        ],
+      },
+      { type: "h2", text: "4. How often?" },
+      {
+        type: "p",
+        text: "Once a month is the most common rhythm: enough time to read an average book comfortably, and regular enough that you get to know each other within a few months. Pick a fixed pattern, such as the last Thursday of every month, so nobody has to coordinate dates every time.",
+      },
+      { type: "h2", text: "5. The first meeting" },
+      {
+        type: "list",
+        items: [
+          "Start with a short round of introductions: name, and the last book you loved",
+          "Agree the ground rules: what you'll read, how often, and that it's fine to come having read only half",
+          "Ask everyone to bring two book suggestions and pick the next one from those",
+          "Before everyone leaves, fix the next book and date",
+        ],
+      },
+      { type: "h2", text: "6. How to keep it going" },
+      {
+        type: "list",
+        items: [
+          "Rotate who leads the discussion: each time someone different brings three or four questions",
+          "Books can be borrowed from a library, so taking part doesn't have to cost anything",
+          "Criticise the book, not each other: worth saying out loud at the start",
+          "Keep a shared group chat with the next date and book always pinned",
+        ],
+      },
+      { type: "h2", text: "How to find members" },
+      {
+        type: "p",
+        text: "If you're starting an open club, the best channels are Meetup, district and interest-based Facebook groups, and Instagram. As an open, free club you can also submit it to the Budapesti Közösségek list with the List your club button, so people looking for exactly this can find you.",
+      },
+      {
+        type: "citation",
+        text: "Australia Reads: how to start and run a book club",
+        href: "https://australiareads.org.au/?p=10727",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How much does it cost to start a book club?",
+            a: "Practically nothing. If you meet in a café, everyone pays for their own order, and books can be bought or borrowed from a library.",
+          },
+          {
+            q: "What if only two or three people turn up the first time?",
+            a: "That's completely normal, and a small table often makes for a better conversation. Most clubs start small and grow because they meet regularly.",
+          },
+          {
+            q: "Who picks the book?",
+            a: "A proven approach is that everyone brings suggestions and you vote, or that a different person chooses each month. What matters is agreeing the rule up front so you don't have to debate it every time.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If you'd rather join a club that already exists, you'll find the open Budapest book clubs in our Book clubs in Budapest post and on the Budapesti Közösségek list.",
       },
     ],
   },

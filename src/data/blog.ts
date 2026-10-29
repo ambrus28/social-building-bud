@@ -1799,7 +1799,7 @@ export const posts: BlogPost[] = [
     category: "Könyvklub",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     body: [
       {
         type: "p",
@@ -1824,7 +1824,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Unicorn Book Club",
-            note: "Non-fiction fókuszú könyvklub havi rendszerességű beszélgetésekkel Budapesten. Ez a fókusz ritka, mert a könyvklubok többsége szépirodalommal foglalkozik, tehát ha ismeretterjesztő vagy szakmai könyveket olvasnál közösségben, itt találsz társakat. Saját weboldaluk van, tehát a kapcsolatfelvételhez nem kell közösségimédia-fiók.",
+            note: "Non-fiction és önfejlesztő könyvekre épülő, havi könyvklub vendégelőadással és kiscsoportos beszélgetéssel. Jegyes esemény, 3 990 Ft-tól. Ez a fókusz ritka, mert a könyvklubok többsége szépirodalommal foglalkozik, tehát ha ismeretterjesztő vagy szakmai könyveket olvasnál közösségben, itt találsz társakat. Saját weboldaluk van, tehát a kapcsolatfelvételhez nem kell közösségimédia-fiók.",
             href: "https://unicornbookclub.hu/",
           },
           {
@@ -1837,16 +1837,31 @@ export const posts: BlogPost[] = [
             note: "Olyan klub, ahol nincs kötelező olvasmány: mindenki a saját könyvét hozza, rövid bemutatkozás után nagyjából egy órát csendben olvastok együtt, utána lehet beszélgetni. Ez jó belépő, ha a klasszikus könyvklub határideje elriaszt. Havonta többször tartanak alkalmat magyarul és angolul is, többek között a Szabó Ervin Könyvtár központi épületében és a Körúti Könyvtárban. Ingyenes, a Meetupon kell előre jelentkezni.",
             href: "https://www.meetup.com/budapest-silent-book-club/",
           },
+          {
+            name: "Sci-fi és fantasy könyvklub csajoknak",
+            note: "Havonta egyszer, jellemzően szombat délután tartott könyvklub, amely egy-egy sci-fi vagy fantasy szerző műveiről beszélget, változó teaházakban és kávézókban. Kifejezetten nőknek szól, mert a műfaj rajongói között erős a férfi túlsúly. Ha nem olvastad el a könyvet, akkor is mehetsz, a részvételért nem kérnek díjat, a Meetupon kell jelentkezni.",
+            href: "https://www.meetup.com/scifi-es-fantasy-konyvklub-csajoknak/",
+          },
+          {
+            name: "Közkincs English Book Club",
+            note: "Havonta egyszer, a hónap utolsó szerdáján 19 órakor tartott angol nyelvű könyvklub a VIII. kerületi Közkincs Könyvtárban, a Rákóczi úton, szépirodalommal és non-fictionnel a világ minden tájáról. Nem kell végigolvasnod a könyvet a részvételhez. Az esetleges részvételi díjról érdemes előre rákérdezni.",
+            href: "https://www.meetup.com/kozkincs-english-book-club/",
+          },
+          {
+            name: "Feminista Meetup Budapest",
+            note: "2023-ban könyvklubként indult feminista közösség, ma könyv- és filmklubként működik a Közkincs Könyvtárban, angol nyelven. Akkor jó választás, ha a közös olvasás mellett társadalmi kérdésekről is szívesen beszélgetnél. Az alkalmakat Instagramon hirdetik.",
+            href: "/klub/feminista-meetup-budapest",
+          },
         ],
       },
       {
         type: "p",
-        text: "Ez a kategória jelenleg a legkisebb a listánkban, mert a budapesti könyvklubok többsége zárt baráti kör, és nem hirdeti magát nyilvánosan. Ha tudsz olyanról, ami nyitott új tagokra, szólj, és felvesszük.",
+        text: "A budapesti könyvklubok jelentős része zárt baráti kör, és nem hirdeti magát nyilvánosan, ezért a fenti lista nem teljes. Ha tudsz olyanról, ami nyitott új tagokra, szólj, és felvesszük. Ha a csendes formátum érdekel, a Mi az a Silent Book Club? posztunk részletesen bemutatja.",
       },
       { type: "h2", text: "Mi van, ha nem találsz magadnak valót?" },
       {
         type: "p",
-        text: "Indíts egyet. A könyvklub az egyik legkönnyebben elindítható közösségi forma, mert nem kell hozzá helyszín, felszerelés és pénz. Kell egy kávézó, egy könyv és három ember.",
+        text: "Indíts egyet. A könyvklub az egyik legkönnyebben elindítható közösségi forma, mert nem kell hozzá helyszín, felszerelés és pénz. Kell egy kávézó, egy könyv és három ember. A részletes, lépésről lépésre útmutatót a Hogyan indíts könyvklubot Budapesten? posztunkban találod, a lényeg röviden:",
       },
       {
         type: "list",
@@ -1876,7 +1891,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Kerül pénzbe egy könyvklub?",
-            a: "Maga a részvétel jellemzően ingyenes. Ami költség felmerül, az a könyv ára és a helyszínen elfogyasztott kávé. A könyvet könyvtárból is kikölcsönözheted.",
+            a: "A legtöbb nyitott budapesti könyvklubon a részvétel ingyenes, néhány viszont jegyes, például a Unicorn Book Club. Ami ezen túl felmerül, az a könyv ára és a helyszínen elfogyasztott kávé, a könyvet pedig könyvtárból is kikölcsönözheted.",
           },
           {
             q: "Van angol nyelvű könyvklub Budapesten?",
@@ -4195,6 +4210,190 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "A teljes lista kategóriák szerint böngészhető a Budapesti Közösségek oldalán.",
+      },
+    ],
+  },
+  {
+    slug: "mi-az-a-silent-book-club-csendes-konyvklub",
+    title: "Mi az a Silent Book Club? A csendes könyvklub, ahol nincs kötelező olvasmány",
+    metaTitle: "Mi az a Silent Book Club (csendes könyvklub)?",
+    description:
+      "A Silent Book Clubon mindenki a saját könyvét olvassa egy órán át csendben, utána lehet beszélgetni. Mi ez a formátum, hogyan zajlik Budapesten, és kinek való.",
+    kind: "guide",
+    category: "Könyvklub",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    body: [
+      {
+        type: "p",
+        text: "A klasszikus könyvklubnak két dolog szokott útjában állni: a határidő, hogy addigra végig kell olvasni a közös könyvet, és az, hogy rögtön beszélgetni kell vele idegenekkel. A Silent Book Club mindkettőt elveszi. Mindenki a saját könyvét hozza, és az este nagy részében együtt, csendben olvastok.",
+      },
+      {
+        type: "p",
+        text: "A formátum 2012-ben indult, és mára világmozgalom lett: a szervezők szerint több mint 2200 helyi csoport működik 70 országban, több mint egymillió taggal. Ők maguk introvert happy hournak, vagyis introvertáltak happy hourjának hívják.",
+      },
+      { type: "h2", text: "Hogyan zajlik egy alkalom?" },
+      {
+        type: "list",
+        items: [
+          "Megérkezel, és röviden bemutatkozol: elmondod a neved és hogy mit olvasol",
+          "Nagyjából egy órán át mindenki csendben olvassa a saját könyvét, papíron vagy e-könyv-olvasón",
+          "Utána, aki szeretne, beszélget: az olvasmányokról, ajánlásokról vagy bármi másról",
+          "Ha a csendes rész után indulnál, azt is nyugodtan megteheted",
+        ],
+      },
+      { type: "h2", text: "Hol van csendes könyvklub Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Silent Book Club",
+            note: "A budapesti csoport havonta több alkalmat tart, magyarul és angolul is, többek között a Szabó Ervin Könyvtár központi épületében és a Körúti Könyvtárban, emellett havi beszélgetős könyvklubot is szerveznek egy közös könyvről. A részvétel ingyenes, de a helyek száma korlátozott, ezért a Meetupon előre kell jelentkezni.",
+            href: "/klub/budapest-silent-book-club",
+          },
+        ],
+      },
+      { type: "h2", text: "Miben más, mint egy klasszikus könyvklub?" },
+      {
+        type: "table",
+        headers: ["", "Klasszikus könyvklub", "Silent Book Club"],
+        rows: [
+          ["Olvasmány", "Közös, előre kijelölt könyv", "Mindenki a sajátját hozza"],
+          ["Felkészülés", "Végig kell olvasni a találkozóig", "Nincs, ott olvasol"],
+          ["Beszélgetés", "Az este nagy része", "Csak a végén, és nem kötelező"],
+          ["Kinek jó", "Aki szeret egy könyvet mélyen kivesézni", "Aki társaságban olvasna, nyomás nélkül"],
+        ],
+      },
+      { type: "h2", text: "Kinek való?" },
+      {
+        type: "p",
+        text: "Azoknak, akik szeretnének rendszeresen olvasni, de otthon mindig közbejön valami, és azoknak, akiket a kötetlen ismerkedés hamar lemerít. Itt a közös csend adja a kapcsolódást, a beszélgetés pedig magától jön, mert mindenkinek van egy könyve, amiről mesélhet. Ha egyedül érkezel, sem leszel kívülálló, mert az alkalom nagy részében amúgy is mindenki a saját könyvében van.",
+      },
+      {
+        type: "citation",
+        text: "Silent Book Club: a mozgalom hivatalos oldala",
+        href: "https://silentbook.club/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell könyvet vinnem?",
+            a: "Igen, a sajátodat: bármilyen könyvet, akár e-könyv-olvasót is. Nincs közös olvasmány, és senki nem kéri számon, mit olvasol.",
+          },
+          {
+            q: "Kell beszélnem a csendes rész után?",
+            a: "Nem. A beszélgetés lehetőség, nem elvárás, és ha a csendes olvasás után indulnál, azt is nyugodtan megteheted.",
+          },
+          {
+            q: "Kerül pénzbe a budapesti csendes könyvklub?",
+            a: "Nem, a részvétel ingyenes, de a Meetupon előre jelentkezni kell, mert korlátozott a helyek száma. Ha a helyszín kávézó, a saját fogyasztásodat fizeted.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A többi budapesti könyvklubot, a klasszikus, közös könyves formátumúakat is, a Könyvklubok Budapesten posztunkban és a Budapesti Közösségek listájában találod.",
+      },
+    ],
+  },
+  {
+    slug: "hogyan-indits-konyvklubot-budapesten",
+    title: "Hogyan indíts könyvklubot Budapesten? Lépésről lépésre",
+    metaTitle: "Hogyan indíts könyvklubot Budapesten?",
+    description:
+      "Hány ember kell, hol találkozzatok, hogyan válasszatok könyvet, és mi kell az első alkalomhoz: gyakorlati útmutató saját könyvklub indításához Budapesten.",
+    kind: "guide",
+    category: "Könyvklub",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    body: [
+      {
+        type: "p",
+        text: "A nyilvános budapesti könyvklubok száma kicsi, és a meglévők egy része jegyes vagy hamar betelik. A jó hír, hogy a könyvklub az egyik legkönnyebben elindítható közösség: nem kell hozzá terem, felszerelés vagy pénz, csak néhány ember, egy könyv és egy fix időpont.",
+      },
+      { type: "h2", text: "1. Döntsd el, milyen klubot szeretnél" },
+      {
+        type: "list",
+        items: [
+          "Közös könyves vagy csendes formátum: mindenki ugyanazt olvassa, vagy mindenki a sajátját hozza, mint a Silent Book Clubon",
+          "Műfaj: szépirodalom, non-fiction, krimi, sci-fi, vagy vegyesen, ahogy a tagok javasolják",
+          "Nyelv: magyar, angol, vagy egy nyelvgyakorló klub, ahol idegen nyelvű könyveket olvastok",
+          "Kinek szól: baráti kör, kollégák, vagy nyitott klub ismeretleneknek",
+        ],
+      },
+      { type: "h2", text: "2. Hány ember kell?" },
+      {
+        type: "p",
+        text: "Az Australia Reads útmutatója nagyjából 8-10 tagot javasol: ennyi elég ahhoz, hogy akkor is legyen beszélgetés, ha páran nem érnek rá, de még mindenki szóhoz jut. Indulni kevesebbel is lehet: három-négy elkötelezett ember bőven elég az első alkalomhoz, a többiek jönnek utána.",
+      },
+      { type: "h2", text: "3. Hol találkozzatok Budapesten?" },
+      {
+        type: "list",
+        items: [
+          "Csendesebb kávézó vagy teaház, hétköznap este, amikor van szabad nagy asztal: foglalj előre",
+          "Könyvtár: több budapesti könyvtárban működik már könyvklub, érdemes megkérdezni, van-e közösségi terük",
+          "Otthon: baráti körnek kényelmes, ismeretleneknek viszont az első néhány alkalomra jobb egy nyilvános hely",
+          "Online vagy vegyesen, ha a tagok a város különböző pontjain laknak",
+        ],
+      },
+      { type: "h2", text: "4. Milyen gyakran?" },
+      {
+        type: "p",
+        text: "Havonta egyszer a legelterjedtebb: ennyi idő alatt egy átlagos könyv kényelmesen elolvasható, és mégis elég rendszeres ahhoz, hogy pár hónap alatt összeszokjatok. Válassz fix ritmust, például minden hónap utolsó csütörtökét, így senkinek nem kell minden alkalommal újra egyeztetnie.",
+      },
+      { type: "h2", text: "5. Az első alkalom" },
+      {
+        type: "list",
+        items: [
+          "Kezdj egy rövid bemutatkozó körrel: név, és a legutóbbi könyv, ami tetszett",
+          "Beszéljétek meg a játékszabályokat: mit olvastok, milyen gyakran, és hogy félig olvasottan is lehet jönni",
+          "Kérj mindenkit, hogy hozzon két könyvjavaslatot, és ebből válasszátok ki a következőt",
+          "A végén rögtön rögzítsétek a következő könyvet és időpontot, mielőtt mindenki hazamegy",
+        ],
+      },
+      { type: "h2", text: "6. Hogyan tartsd életben?" },
+      {
+        type: "list",
+        items: [
+          "Váltsátok a beszélgetésvezetőt: mindig más hoz három-négy kérdést a könyvről",
+          "A könyvet könyvtárból is ki lehet kölcsönözni, így nem kerül pénzbe a részvétel",
+          "A kritika a könyvnek szóljon, ne egymásnak: ezt érdemes az elején kimondani",
+          "Legyen egy közös csoportchat, ahol a következő időpont és könyv mindig ott van",
+        ],
+      },
+      { type: "h2", text: "Hogyan találj tagokat?" },
+      {
+        type: "p",
+        text: "Ha nyitott klubot indítasz, a legjobb csatornák a Meetup, a kerületi és témakörös Facebook-csoportok, valamint az Instagram. Nyitott, ingyenes klubként a Budapesti Közösségek listájára is beküldheted a klubodat az oldal Regisztráld a klubod gombjával, így azok is rátalálnak, akik pont ilyet keresnek.",
+      },
+      {
+        type: "citation",
+        text: "Australia Reads: hogyan indíts és vezess könyvklubot",
+        href: "https://australiareads.org.au/?p=10727",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mennyibe kerül egy könyvklub indítása?",
+            a: "Gyakorlatilag semmibe. Ha kávézóban találkoztok, mindenki a saját fogyasztását fizeti, a könyvet pedig meg is lehet venni, de könyvtárból is ki lehet kölcsönözni.",
+          },
+          {
+            q: "Mi van, ha az első alkalomra csak két-három ember jön el?",
+            a: "Az teljesen normális, és egy kis asztalnál sokszor jobb is a beszélgetés. A legtöbb klub kicsiben indul, és a rendszeresség miatt nő.",
+          },
+          {
+            q: "Ki válassza ki a könyvet?",
+            a: "Bevált megoldás, hogy mindenki hoz javaslatot, és szavaztok, vagy hogy havonta más választhat. A lényeg, hogy előre legyen szabály, így nem kell minden alkalommal hosszan vitatkozni róla.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha inkább egy már működő klubhoz csatlakoznál, a Könyvklubok Budapesten posztunkban és a Budapesti Közösségek listájában találod a nyitott budapesti könyvklubokat.",
       },
     ],
   },
