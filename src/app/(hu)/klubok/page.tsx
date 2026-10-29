@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 export default async function KlubokPage({
   searchParams,
 }: {
-  searchParams: Promise<{ kategoria?: string }>;
+  searchParams: Promise<{ kategoria?: string; q?: string }>;
 }) {
-  const { kategoria } = await searchParams;
+  const { kategoria, q } = await searchParams;
   const categories = getCategories();
 
   const jsonLd = {
@@ -71,25 +71,19 @@ export default async function KlubokPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <h1 style={{ fontFamily: "var(--font-display)" }} className="mb-2 text-3xl uppercase tracking-tight text-ink">
+      <h1 style={{ fontFamily: "var(--font-display)" }} className="mb-6 text-3xl tracking-tight text-ink">
         Budapesti Közösségek klubjai
       </h1>
-      <h2 className="mb-6 text-sm text-ink/60">Hogyan találod meg a neked való klubot?</h2>
-      <ul className="mb-8 list-disc space-y-1 pl-5 text-sm text-ink/60">
-        <li>Keress rá klub névre vagy a leírásban szereplő szóra</li>
-        <li>Szűrj a legördülő listából egy konkrét kategóriára</li>
-        <li>Kattints a klub Instagram- vagy weboldal-linkjére, és csatlakozz ingyen</li>
-      </ul>
-      <HomeContent clubs={clubs} categories={categories} initialCategory={kategoria} />
+      <HomeContent clubs={clubs} categories={categories} initialCategory={kategoria} initialSearch={q} />
 
       <div className="mt-16 border-t-2 border-ink/10 pt-8">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-1 text-xl uppercase tracking-tight text-ink"
+          className="mb-1 text-xl tracking-tight text-ink"
         >
           Böngészés kategória szerint
         </h2>
-        <p className="mb-5 text-sm text-ink/60">
+        <p className="mb-5 text-sm text-ink/70">
           Minden kategóriának saját oldala van, a hozzá tartozó összes budapesti
           közösséggel.
         </p>
@@ -107,7 +101,7 @@ export default async function KlubokPage({
       </div>
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="mb-4 text-xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="mb-4 text-xl tracking-tight text-ink">
           Gyakran ismételt kérdések
         </h2>
         <div className="space-y-4">

@@ -136,7 +136,7 @@ export default async function CategoryPage({ params }: Props) {
         />
       ))}
 
-      <nav aria-label="Morzsamenü" className="mb-6 text-sm text-ink/50">
+      <nav aria-label="Morzsamenü" className="mb-6 text-sm text-ink/70">
         <Link href="/" className="hover:text-pin-blue">
           Főoldal
         </Link>
@@ -150,7 +150,7 @@ export default async function CategoryPage({ params }: Props) {
 
       <h1
         style={{ fontFamily: "var(--font-display)" }}
-        className="text-3xl uppercase leading-tight tracking-tight text-ink sm:text-4xl"
+        className="text-3xl leading-tight tracking-tight text-ink sm:text-4xl"
       >
         {seo.h1}
       </h1>
@@ -182,7 +182,7 @@ export default async function CategoryPage({ params }: Props) {
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-4 text-xl uppercase tracking-tight text-ink"
+          className="mb-4 text-xl tracking-tight text-ink"
         >
           Gyakran ismételt kérdések
         </h2>
@@ -199,7 +199,7 @@ export default async function CategoryPage({ params }: Props) {
       <div className="mt-12 border-t-2 border-ink/10 pt-8">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-4 text-xl uppercase tracking-tight text-ink"
+          className="mb-4 text-xl tracking-tight text-ink"
         >
           További kategóriák
         </h2>

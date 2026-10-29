@@ -141,8 +141,8 @@ export default function ClubSubmitForm({ categories }: { categories: string[] })
           aria-disabled={!ready}
           className={
             ready
-              ? "inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
-              : "pointer-events-none inline-flex items-center rounded-full border-2 border-ink/15 bg-ink/5 px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-ink/35"
+              ? "inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
+              : "pointer-events-none inline-flex items-center rounded-full border-2 border-ink/15 bg-ink/5 px-5 py-2.5 text-sm font-bold text-ink/35"
           }
         >
           Küldés emailben
@@ -158,7 +158,7 @@ export default function ClubSubmitForm({ categories }: { categories: string[] })
         </button>
       </div>
 
-      <p className="mt-3 text-xs leading-relaxed text-ink/50">
+      <p className="mt-3 text-xs leading-relaxed text-ink/70">
         A gomb a levelezőprogramodat nyitja meg előre kitöltött üzenettel, tehát
         látod és szerkesztheted, mit küldesz. Semmilyen adatot nem tárolunk és nem
         továbbítunk. Ha nincs levelezőprogramod, másold ki a szöveget, és küldd el a{" "}

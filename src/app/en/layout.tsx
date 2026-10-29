@@ -8,18 +8,18 @@ import "../globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
 });
 
 const anton = Anton({
   variable: "--font-anton",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: "400",
 });
 
 const caveat = Caveat({
   variable: "--font-caveat",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["600", "700"],
 });
 

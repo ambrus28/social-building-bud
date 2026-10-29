@@ -8,17 +8,24 @@ import ClubCardEn from "./ClubCardEn";
 
 const PAGE_SIZE = 9;
 
+// Accent-insensitive matching, so "konyvklub" finds "Könyvklub".
+function fold(text: string): string {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
 type Props = {
   clubs: Club[];
   categories: string[];
   initialCategory?: string;
+  initialSearch?: string;
 };
 
-export default function HomeContentEn({ clubs, categories, initialCategory }: Props) {
-  const [search, setSearch] = useState("");
+export default function HomeContentEn({ clubs, categories, initialCategory, initialSearch }: Props) {
+  const [search, setSearch] = useState(initialSearch ?? "");
+  const [freeOnly, setFreeOnly] = useState(false);
   const [category, setCategory] = useState<string>(initialCategory ?? "");
   const [page, setPage] = useState(1);
-  const [appliedFilters, setAppliedFilters] = useState({ search, category });
+  const [appliedFilters, setAppliedFilters] = useState({ search, category, freeOnly });
 
   const sortedCategories = useMemo(
     () => [...categories].sort((a, b) => getCategoryEn(a).name.localeCompare(getCategoryEn(b).name)),
@@ -26,19 +33,25 @@ export default function HomeContentEn({ clubs, categories, initialCategory }: Pr
   );
 
   const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase();
+    const q = fold(search.trim());
     return clubs.filter((club) => {
       const matchesSearch =
         !q ||
-        club.name.toLowerCase().includes(q) ||
-        club.description_en.toLowerCase().includes(q);
+        fold(club.name).includes(q) ||
+        fold(club.description_en).includes(q) ||
+        fold(club.category).includes(q);
       const matchesCategory = !category || club.category === category;
-      return matchesSearch && matchesCategory;
+      const matchesCost = !freeOnly || club.cost === "free" || club.cost === "donation";
+      return matchesSearch && matchesCategory && matchesCost;
     });
-  }, [clubs, search, category]);
+  }, [clubs, search, category, freeOnly]);
 
-  if (search !== appliedFilters.search || category !== appliedFilters.category) {
-    setAppliedFilters({ search, category });
+  if (
+    search !== appliedFilters.search ||
+    category !== appliedFilters.category ||
+    freeOnly !== appliedFilters.freeOnly
+  ) {
+    setAppliedFilters({ search, category, freeOnly });
     setPage(1);
   }
 
@@ -53,11 +66,12 @@ export default function HomeContentEn({ clubs, categories, initialCategory }: Pr
     <div>
       <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
-          type="text"
+          type="search"
+          aria-label="Search clubs"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search by club name or description…"
-          className="w-full flex-1 rounded-full border-2 border-ink/15 bg-paper px-5 py-2.5 text-sm text-ink placeholder:text-ink/40 focus:border-pin-blue focus:outline-none"
+          className="w-full flex-1 rounded-full border-2 border-ink/15 bg-paper px-5 py-2.5 text-sm text-ink placeholder:text-ink/60 focus:border-pin-blue focus:outline-none"
         />
         <select
           value={category}
@@ -71,6 +85,15 @@ export default function HomeContentEn({ clubs, categories, initialCategory }: Pr
             </option>
           ))}
         </select>
+        <label className="inline-flex shrink-0 cursor-pointer items-center gap-2 text-sm text-ink/75">
+          <input
+            type="checkbox"
+            checked={freeOnly}
+            onChange={(e) => setFreeOnly(e.target.checked)}
+            className="h-4 w-4 accent-[var(--pin-blue)]"
+          />
+          Free or donation-based only
+        </label>
       </div>
 
       {category && (
@@ -85,10 +108,10 @@ export default function HomeContentEn({ clubs, categories, initialCategory }: Pr
         </div>
       )}
 
-      <p className="mb-6 text-sm text-ink/60">{filtered.length} clubs found</p>
+      <p className="mb-6 text-sm text-ink/70">{filtered.length} clubs found</p>
 
       {filtered.length === 0 ? (
-        <p className="border-2 border-dashed border-ink/20 p-10 text-center text-ink/60">
+        <p className="border-2 border-dashed border-ink/20 p-10 text-center text-ink/70">
           No club matches this filter. Try a different search or filter.
         </p>
       ) : (
@@ -117,7 +140,7 @@ export default function HomeContentEn({ clubs, categories, initialCategory }: Pr
                   className={`flex h-9 w-9 items-center justify-center border-2 text-sm font-medium transition-colors ${
                     p === currentPage
                       ? "border-ink bg-ink text-paper"
-                      : "border-ink/15 text-ink/60 hover:border-ink/40"
+                      : "border-ink/15 text-ink/70 hover:border-ink/40"
                   }`}
                 >
                   {p}

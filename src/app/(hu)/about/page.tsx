@@ -53,7 +53,7 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl uppercase tracking-tight text-ink">
+      <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl tracking-tight text-ink">
         Miért csináltam?
       </h1>
 
@@ -101,7 +101,7 @@ export default function AboutPage() {
       <h2
         id="klub-felvetele"
         style={{ fontFamily: "var(--font-display)" }}
-        className="mt-12 text-xl uppercase tracking-tight text-ink"
+        className="mt-12 text-xl tracking-tight text-ink"
       >
         Jelentsd be a klubod
       </h2>
@@ -112,7 +112,7 @@ export default function AboutPage() {
       </p>
       <ClubSubmitForm categories={categories} />
 
-      <h2 style={{ fontFamily: "var(--font-display)" }} className="mt-12 text-xl uppercase tracking-tight text-ink">
+      <h2 style={{ fontFamily: "var(--font-display)" }} className="mt-12 text-xl tracking-tight text-ink">
         Gyakori kérdések
       </h2>
       <div className="mt-4 space-y-6">
@@ -124,7 +124,7 @@ export default function AboutPage() {
         ))}
       </div>
 
-      <p className="mt-10 text-sm text-ink/50">
+      <p className="mt-10 text-sm text-ink/70">
         Jogi nyilatkozat: az oldalon szereplő tartalom közösségileg összegyűjtött információ.
         Az oldal nem áll hivatalos kapcsolatban a listázott klubokkal, és nem vállal
         felelősséget az adatok naprakészségéért: mindig ellenőrizd a klub hivatalos

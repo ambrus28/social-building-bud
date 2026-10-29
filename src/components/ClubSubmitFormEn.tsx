@@ -142,8 +142,8 @@ export default function ClubSubmitFormEn({ categories }: { categories: string[] 
           aria-disabled={!ready}
           className={
             ready
-              ? "inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
-              : "pointer-events-none inline-flex items-center rounded-full border-2 border-ink/15 bg-ink/5 px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-ink/35"
+              ? "inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
+              : "pointer-events-none inline-flex items-center rounded-full border-2 border-ink/15 bg-ink/5 px-5 py-2.5 text-sm font-bold text-ink/35"
           }
         >
           Send by email
@@ -159,7 +159,7 @@ export default function ClubSubmitFormEn({ categories }: { categories: string[] 
         </button>
       </div>
 
-      <p className="mt-3 text-xs leading-relaxed text-ink/50">
+      <p className="mt-3 text-xs leading-relaxed text-ink/70">
         The button opens your email app with a pre-filled message, so you can see
         and edit what you send. No data is stored or forwarded anywhere else. If
         you do not have an email app set up, copy the text and send it to{" "}

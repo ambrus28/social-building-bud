@@ -7,11 +7,6 @@ import { categoryHref } from "@/lib/slug";
 import ClubLinkButton from "./ClubLinkButton";
 import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
-function tiltFor(seed: string): number {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) % 100;
-  return (hash / 100) * 2.4 - 1.2;
-}
 
 export default function ClubCard({ club }: { club: Club }) {
   const logoUrl = getClubLogoUrl(club);
@@ -19,7 +14,6 @@ export default function ClubCard({ club }: { club: Club }) {
 
   return (
     <div
-      style={{ "--pin-rotation": `${tiltFor(club.id)}deg` } as React.CSSProperties}
       className="pinned relative"
     >
       <span className="pin-dot" aria-hidden="true" />
@@ -55,7 +49,7 @@ export default function ClubCard({ club }: { club: Club }) {
               {club.name}
             </Link>
           </h3>
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/55">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/70">
             <Link
               href={categoryHref(club.category)}
               className="inline-flex items-center gap-1 hover:text-pin-blue"
@@ -67,7 +61,7 @@ export default function ClubCard({ club }: { club: Club }) {
             {club.schedule && <span>🕐 {club.schedule}</span>}
             {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "hu")}</span>}
           </div>
-          <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description}</p>
+          <p className="line-clamp-2 flex-1 text-sm text-ink/70">{club.description}</p>
           <div className="flex flex-wrap items-center gap-1.5 pt-1">
             {club.instagram_url && (
               <ClubLinkButton href={club.instagram_url} clubName={club.name} linkType="instagram" />

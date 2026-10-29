@@ -14,7 +14,7 @@ export default function RelatedPosts({ posts, title, hrefPrefix, className = "" 
     <section className={className}>
       <h2
         style={{ fontFamily: "var(--font-display)" }}
-        className="mb-5 text-xl uppercase tracking-tight text-ink"
+        className="mb-5 text-xl tracking-tight text-ink"
       >
         {title}
       </h2>
@@ -31,7 +31,7 @@ export default function RelatedPosts({ posts, title, hrefPrefix, className = "" 
               >
                 {post.title}
               </span>
-              <span className="mt-2 line-clamp-3 block text-sm text-ink/60">{post.description}</span>
+              <span className="mt-2 line-clamp-3 block text-sm text-ink/70">{post.description}</span>
             </Link>
           </li>
         ))}

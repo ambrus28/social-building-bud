@@ -43,3 +43,20 @@ export function getDistricts(): string[] {
     new Set(clubs.map((club) => club.district).filter((d): d is string => Boolean(d)))
   ).sort((a, b) => a.localeCompare(b, "hu"));
 }
+
+export function getClubCount(category: string): number {
+  return clubs.filter((club) => club.category === category).length;
+}
+
+// Most-visited categories first (GA4, Aug-Oct 2026), the rest by club count.
+const POPULAR_FIRST = ["Sport", "Túra / Természetjárás", "Női közösség", "Könyvklub", "Nyelvcsere / Networking", "Társasjáték"];
+
+export function getCategoriesByPopularity(): string[] {
+  const rank = (c: string) => {
+    const i = POPULAR_FIRST.indexOf(c);
+    return i === -1 ? POPULAR_FIRST.length : i;
+  };
+  return getCategories().sort(
+    (a, b) => rank(a) - rank(b) || getClubCount(b) - getClubCount(a) || a.localeCompare(b, "hu")
+  );
+}

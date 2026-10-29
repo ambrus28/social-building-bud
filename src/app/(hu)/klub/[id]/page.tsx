@@ -141,7 +141,7 @@ export default async function ClubPage({ params }: Props) {
         />
       ))}
 
-      <nav aria-label="Morzsamenü" className="mb-6 text-sm text-ink/50">
+      <nav aria-label="Morzsamenü" className="mb-6 text-sm text-ink/70">
         <Link href="/" className="hover:text-pin-blue">
           Főoldal
         </Link>
@@ -170,12 +170,12 @@ export default async function ClubPage({ params }: Props) {
         <div className="p-6 sm:p-8">
           <h1
             style={{ fontFamily: "var(--font-display)" }}
-            className="text-3xl uppercase leading-tight tracking-tight text-ink sm:text-4xl"
+            className="text-3xl leading-tight tracking-tight text-ink sm:text-4xl"
           >
             {club.name}
           </h1>
 
-          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink/60">
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink/70">
             <Link
               href={categoryHref(club.category)}
               className="rounded-full bg-accent-soft px-3 py-1 font-medium text-pin-blue"
@@ -201,7 +201,7 @@ export default async function ClubPage({ params }: Props) {
             <div className="mt-8">
               <h2
                 style={{ fontFamily: "var(--font-display)" }}
-                className="mb-3 text-lg uppercase tracking-tight text-ink"
+                className="mb-3 text-lg tracking-tight text-ink"
               >
                 Csatlakozás
               </h2>
@@ -229,7 +229,7 @@ export default async function ClubPage({ params }: Props) {
       <section className="mt-12 max-w-2xl">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-4 text-xl uppercase tracking-tight text-ink"
+          className="mb-4 text-xl tracking-tight text-ink"
         >
           Gyakran ismételt kérdések
         </h2>
@@ -247,11 +247,11 @@ export default async function ClubPage({ params }: Props) {
         <section className="mt-12 border-t-2 border-ink/10 pt-8">
           <h2
             style={{ fontFamily: "var(--font-display)" }}
-            className="mb-1 text-xl uppercase tracking-tight text-ink"
+            className="mb-1 text-xl tracking-tight text-ink"
           >
             Hasonló közösségek
           </h2>
-          <p className="mb-6 text-sm text-ink/60">
+          <p className="mb-6 text-sm text-ink/70">
             További közösségek a {club.category} kategóriából.
           </p>
           <ol className="grid list-none grid-cols-1 gap-5 lg:grid-cols-2">

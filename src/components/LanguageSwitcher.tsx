@@ -69,9 +69,19 @@ export default function LanguageSwitcher() {
   return (
     <Link
       href={href}
-      className="hidden shrink-0 items-center gap-1 whitespace-nowrap rounded-full border-2 border-ink/15 px-3 py-1.5 text-xs font-semibold text-ink/70 transition-colors hover:border-pin-blue hover:text-pin-blue sm:inline-flex sm:px-4 sm:py-2 sm:text-sm"
+      className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border-2 border-ink/15 px-3 py-1.5 text-xs font-semibold text-ink/75 transition-colors hover:border-pin-blue hover:text-pin-blue sm:px-4 sm:py-2 sm:text-sm"
     >
-      {isEn ? "🇭🇺 Magyar" : "🇬🇧 English"}
+      {isEn ? (
+        <>
+          🇭🇺 <span className="sm:hidden">HU</span>
+          <span className="hidden sm:inline">Magyar</span>
+        </>
+      ) : (
+        <>
+          🇬🇧 <span className="sm:hidden">EN</span>
+          <span className="hidden sm:inline">English</span>
+        </>
+      )}
     </Link>
   );
 }

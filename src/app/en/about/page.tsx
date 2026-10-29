@@ -53,7 +53,7 @@ export default function AboutPageEn() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl uppercase tracking-tight text-ink">
+      <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl tracking-tight text-ink">
         Why I made this
       </h1>
 
@@ -102,7 +102,7 @@ export default function AboutPageEn() {
       <h2
         id="list-your-club"
         style={{ fontFamily: "var(--font-display)" }}
-        className="mt-12 text-xl uppercase tracking-tight text-ink"
+        className="mt-12 text-xl tracking-tight text-ink"
       >
         List your club
       </h2>
@@ -113,7 +113,7 @@ export default function AboutPageEn() {
       </p>
       <ClubSubmitFormEn categories={categories} />
 
-      <h2 style={{ fontFamily: "var(--font-display)" }} className="mt-12 text-xl uppercase tracking-tight text-ink">
+      <h2 style={{ fontFamily: "var(--font-display)" }} className="mt-12 text-xl tracking-tight text-ink">
         Frequently asked questions
       </h2>
       <div className="mt-4 space-y-6">
@@ -125,7 +125,7 @@ export default function AboutPageEn() {
         ))}
       </div>
 
-      <p className="mt-10 text-sm text-ink/50">
+      <p className="mt-10 text-sm text-ink/70">
         Disclaimer: the content on this site is community-sourced information.
         The site has no official relationship with the listed clubs, and does
         not guarantee the data is up to date. Always check the official

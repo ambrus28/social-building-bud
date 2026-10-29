@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 export default async function ClubsPageEn({
   searchParams,
 }: {
-  searchParams: Promise<{ category?: string }>;
+  searchParams: Promise<{ category?: string; q?: string }>;
 }) {
-  const { category } = await searchParams;
+  const { category, q } = await searchParams;
   const initialCategory = category ? getHuCategoryByEnSlug(category) : undefined;
   const categories = getCategories();
   const sortedCategories = [...categories].sort((a, b) =>
@@ -75,25 +75,19 @@ export default async function ClubsPageEn({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <h1 style={{ fontFamily: "var(--font-display)" }} className="mb-2 text-3xl uppercase tracking-tight text-ink">
+      <h1 style={{ fontFamily: "var(--font-display)" }} className="mb-6 text-3xl tracking-tight text-ink">
         Budapesti Közösségek clubs
       </h1>
-      <h2 className="mb-6 text-sm text-ink/60">How do you find the right club for you?</h2>
-      <ul className="mb-8 list-disc space-y-1 pl-5 text-sm text-ink/60">
-        <li>Search by club name or a word from its description</li>
-        <li>Filter by a specific category from the dropdown</li>
-        <li>Click the club Instagram or website link, and join for free</li>
-      </ul>
-      <HomeContentEn clubs={clubs} categories={categories} initialCategory={initialCategory} />
+      <HomeContentEn clubs={clubs} categories={categories} initialCategory={initialCategory} initialSearch={q} />
 
       <div className="mt-16 border-t-2 border-ink/10 pt-8">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-1 text-xl uppercase tracking-tight text-ink"
+          className="mb-1 text-xl tracking-tight text-ink"
         >
           Browse by category
         </h2>
-        <p className="mb-5 text-sm text-ink/60">
+        <p className="mb-5 text-sm text-ink/70">
           Every category has its own page with all the Budapest communities in it.
         </p>
         <div className="flex flex-wrap gap-2">
@@ -110,7 +104,7 @@ export default async function ClubsPageEn({
       </div>
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="mb-4 text-xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="mb-4 text-xl tracking-tight text-ink">
           Frequently asked questions
         </h2>
         <div className="space-y-4">

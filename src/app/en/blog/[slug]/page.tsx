@@ -99,7 +99,7 @@ export default async function BlogPostPageEn({
 
       <div className="mt-4">
         <span
-          className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide ${
+          className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold ${
             post.kind === "listicle" ? "bg-cta/10 text-cta" : "bg-accent-soft text-pin-blue"
           }`}
         >
@@ -113,12 +113,12 @@ export default async function BlogPostPageEn({
 
       <h1
         style={{ fontFamily: "var(--font-display)" }}
-        className="mb-3 mt-3 text-3xl uppercase leading-tight tracking-tight text-ink"
+        className="mb-3 mt-3 text-3xl leading-tight tracking-tight text-ink"
       >
         {post.title}
       </h1>
       <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
-      <p className="mb-6 text-sm text-ink/50">
+      <p className="mb-6 text-sm text-ink/70">
         {post.publishedAt === post.updatedAt ? (
           <>Published: {new Date(post.publishedAt).toLocaleDateString("en-GB")}</>
         ) : (
@@ -136,7 +136,7 @@ export default async function BlogPostPageEn({
       <div className="mt-10 border-t-2 border-ink/10 pt-6">
         <Link
           href={categoryEn ? `/en/clubs/${categoryEn.slug}` : "/en/clubs"}
-          className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
+          className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
         >
           {categoryEn ? `Browse ${categoryEn.name} clubs` : "Browse clubs"} →
         </Link>

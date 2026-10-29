@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CategoryBrowseEn from "@/components/CategoryBrowseEn";
 import HeroPhotos from "@/components/HeroPhotos";
-import { clubs, getCategories } from "@/data/clubs";
+import { clubs, getCategoriesByPopularity } from "@/data/clubs";
+import { categoryHrefEn, getCategoryEn } from "@/lib/categoriesEn";
 import RelatedPosts from "@/components/RelatedPosts";
 import { postsEn } from "@/data/blog.en";
 import { pickBySlugs } from "@/lib/relatedPosts";
@@ -11,7 +12,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/en", languages: { hu: "/", en: "/en" } },
 };
 
-const STAT_ROTATIONS = [-3, 2, -1.5];
+const WEEKLY = [
+  { day: "Tuesday", club: "Garmin Running Club", where: "18:00, Városliget, coach-led", href: "/en/club/garmin-running-club", tilt: -2 },
+  { day: "Thursday", club: "Andúril Társasjáték Klub", where: "From 18:00, District XIII, Visegrádi utca", href: "/en/club/anduril-tarsasjatek-klub", tilt: 1.5 },
+  { day: "Sunday", club: "Heti Betevő", where: "Volunteer meal service, District VII", href: "/en/club/heti-betevo", tilt: -1 },
+];
 
 const STEPS = [
   "Pick a category, or search for a specific activity.",
@@ -37,12 +42,7 @@ const FAQ = [
 const FEATURED_SLUGS = ["free-weekly-community-events-in-budapest", "8-communities-in-budapest-you-can-join-alone", "book-clubs-in-budapest", "best-running-clubs-budapest", "hiking-clubs-in-budapest-for-beginners", "quiet-communities-for-introverts-in-budapest"];
 
 export default function HomeEn() {
-  const categories = getCategories();
-  const stats = [
-    { value: `${clubs.length}`, label: "communities listed" },
-    { value: `${categories.length}`, label: "different categories" },
-    { value: "100%", label: "free, forever" },
-  ];
+  const popular = getCategoriesByPopularity();
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -72,7 +72,7 @@ export default function HomeEn() {
 
             <h1
               style={{ fontFamily: "var(--font-display)" }}
-              className="text-5xl uppercase leading-[1.05] tracking-tight text-ink sm:text-7xl"
+              className="text-5xl uppercase leading-[1.12] tracking-tight text-ink sm:text-7xl"
             >
               Budapest Communities
               <br />
@@ -82,22 +82,44 @@ export default function HomeEn() {
               Hand-picked, real Budapest community clubs. I hope you find your
               new community among them too.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
-              <Link
-                href="/en/clubs"
-                className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-6 py-3 text-sm font-bold uppercase tracking-wide text-paper shadow-lg transition-colors hover:border-cta-hover hover:bg-cta-hover"
+            <form action="/en/clubs" method="get" role="search" className="mx-auto mt-8 flex max-w-xl gap-2 lg:mx-0">
+              <label htmlFor="hero-search" className="sr-only">
+                Search clubs
+              </label>
+              <input
+                id="hero-search"
+                name="q"
+                type="search"
+                placeholder="e.g. running, book club"
+                className="min-w-0 flex-1 rounded-full border-2 border-ink/15 bg-paper px-5 py-3 text-base text-ink placeholder:text-ink/60 focus:border-pin-blue focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="shrink-0 rounded-full border-2 border-cta bg-cta px-5 py-3 text-sm font-bold text-paper shadow-md transition-colors hover:border-cta-hover hover:bg-cta-hover"
               >
-                Browse clubs
+                Search
+              </button>
+            </form>
+            <ul className="mx-auto mt-4 flex max-w-xl flex-wrap justify-center gap-2 lg:mx-0 lg:justify-start">
+              {popular.slice(0, 6).map((c) => (
+                <li key={c}>
+                  <Link
+                    href={categoryHrefEn(c)}
+                    className="inline-block rounded-full bg-paper px-3 py-1.5 text-sm text-ink/75 shadow-sm transition-colors hover:text-pin-blue"
+                  >
+                    {getCategoryEn(c).name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-5 text-sm text-ink/70">
+              <Link href="/en/clubs" className="font-semibold text-pin-blue underline-offset-4 hover:underline">
+                See all {clubs.length} clubs
               </Link>
-              <a
-                href="/en/about"
-                className="inline-flex items-center rounded-full border-2 border-dashed border-ink/40 bg-transparent px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:border-ink"
-              >
-                List your club
+              <span className="px-2" aria-hidden="true">/</span>
+              <a href="/en/about" className="underline-offset-4 hover:underline">
+                Run a club? List it for free
               </a>
-            </div>
-            <p className="mt-3 text-sm text-ink/50">
-              Free, no bureaucracy: just send an email and I take care of the rest.
             </p>
           </div>
 
@@ -117,22 +139,40 @@ export default function HomeEn() {
         </svg>
       </section>
 
-      <div className="mx-auto -mt-6 flex max-w-4xl flex-wrap justify-center gap-6 px-6 sm:gap-10">
-        {stats.map((stat, i) => (
-          <div
-            key={stat.label}
-            style={{ transform: `rotate(${STAT_ROTATIONS[i]}deg)` }}
-            className="tape-corner relative bg-paper px-6 py-4 text-center shadow-md"
+      <section className="mx-auto max-w-6xl px-6 pt-14">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
+          Every week, free
+        </h2>
+        <p className="mt-1 text-ink/70">Three fixed sessions you can join alone, no experience needed.</p>
+        <ul className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+          {WEEKLY.map((note) => (
+            <li key={note.href}>
+              <Link
+                href={note.href}
+                style={{ "--pin-rotation": `${note.tilt}deg` } as React.CSSProperties}
+                className="pinned relative block rounded-sm bg-paper px-5 pb-5 pt-6 shadow-md transition-shadow hover:shadow-lg"
+              >
+                <span className="pin-dot" aria-hidden="true" />
+                <span style={{ fontFamily: "var(--font-handwritten)" }} className="block text-3xl font-bold text-cta">
+                  {note.day}
+                </span>
+                <span className="mt-1 block font-semibold text-ink">{note.club}</span>
+                <span className="mt-1 block text-sm text-ink/70">{note.where}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-6 text-sm">
+          <Link
+            href="/en/blog/free-weekly-community-events-in-budapest"
+            className="font-semibold text-pin-blue underline-offset-4 hover:underline"
           >
-            <p style={{ fontFamily: "var(--font-display)" }} className="text-3xl text-cta">
-              {stat.value}
-            </p>
-            <p className="mt-1 text-xs uppercase tracking-wide text-ink/60">{stat.label}</p>
-          </div>
-        ))}
-      </div>
+            The full list of free weekly events
+          </Link>
+        </p>
+      </section>
 
-      <CategoryBrowseEn categories={categories} />
+      <CategoryBrowseEn categories={popular} />
 
       <RelatedPosts
         posts={pickBySlugs(postsEn, FEATURED_SLUGS)}
@@ -142,7 +182,7 @@ export default function HomeEn() {
       />
 
       <section className="mx-auto max-w-6xl px-6 py-16">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
           How does it work?
         </h2>
         <ol className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -161,7 +201,7 @@ export default function HomeEn() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 pb-16">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
           Frequently asked questions
         </h2>
         <div className="mt-6 space-y-6">

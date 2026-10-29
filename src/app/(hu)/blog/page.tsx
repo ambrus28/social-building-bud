@@ -17,34 +17,28 @@ export const metadata: Metadata = {
 // Reverse first so same-day posts keep newest-added first after the stable date sort.
 const newestFirst = [...posts].reverse().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
-function tiltFor(seed: string): number {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) % 100;
-  return (hash / 100) * 2.4 - 1.2;
-}
 
 export default function BlogIndexPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
       <h1
         style={{ fontFamily: "var(--font-display)" }}
-        className="mb-2 text-3xl uppercase tracking-tight text-ink"
+        className="mb-2 text-3xl tracking-tight text-ink"
       >
         Budapesti Közösségek blog
       </h1>
-      <p className="mb-10 max-w-xl text-ink/60">{DESCRIPTION}</p>
+      <p className="mb-10 max-w-xl text-ink/70">{DESCRIPTION}</p>
 
       <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2">
         {newestFirst.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            style={{ "--pin-rotation": `${tiltFor(post.slug)}deg` } as React.CSSProperties}
             className="pinned group relative block rounded-2xl bg-paper p-6 pt-8 shadow-sm transition-shadow hover:shadow-md"
           >
             <span className="pin-dot" aria-hidden="true" />
             <span
-              className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide ${
+              className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold ${
                 post.kind === "listicle" ? "bg-cta/10 text-cta" : "bg-accent-soft text-pin-blue"
               }`}
             >
@@ -57,13 +51,13 @@ export default function BlogIndexPage() {
 
             <h2
               style={{ fontFamily: "var(--font-display)" }}
-              className="mt-3 text-xl uppercase leading-tight tracking-tight text-ink group-hover:text-pin-blue"
+              className="mt-3 text-xl leading-tight tracking-tight text-ink group-hover:text-pin-blue"
             >
               {post.title}
             </h2>
             <p className="mt-2 text-sm text-ink/70">{post.description}</p>
 
-            <p className="mt-4 text-xs text-ink/45">
+            <p className="mt-4 text-xs text-ink/70">
               {post.publishedAt === post.updatedAt ? (
                 <>Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")}</>
               ) : (

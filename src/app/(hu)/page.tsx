@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CategoryBrowse from "@/components/CategoryBrowse";
 import HeroPhotos from "@/components/HeroPhotos";
-import { clubs, getCategories } from "@/data/clubs";
+import { clubs, getCategoriesByPopularity } from "@/data/clubs";
+import { categoryHref } from "@/lib/slug";
 import RelatedPosts from "@/components/RelatedPosts";
 import { posts } from "@/data/blog";
 import { pickBySlugs } from "@/lib/relatedPosts";
@@ -11,7 +12,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/", languages: { hu: "/", en: "/en" } },
 };
 
-const STAT_ROTATIONS = [-3, 2, -1.5];
+const WEEKLY = [
+  { day: "Kedd", club: "Garmin Running Club", where: "18:00, Városliget, edzővel", href: "/klub/garmin-running-club", tilt: -2 },
+  { day: "Csütörtök", club: "Andúril Társasjáték Klub", where: "18:00-tól, XIII. kerület, Visegrádi utca", href: "/klub/anduril-tarsasjatek-klub", tilt: 1.5 },
+  { day: "Vasárnap", club: "Heti Betevő", where: "Önkéntes ételosztás, VII. kerület", href: "/klub/heti-betevo", tilt: -1 },
+];
 
 const STEPS = [
   "Válassz egy kategóriát, vagy keress rá egy konkrét tevékenységre.",
@@ -37,12 +42,7 @@ const FAQ = [
 const FEATURED_SLUGS = ["ingyenes-heti-kozossegi-programok-budapesten", "8-kozosseg-ahova-egyedul-is-mehetsz", "konyvklubok-budapesten", "legjobb-futoklubok-budapesten", "turaklubok-budapesten-kezdoknek", "csendes-kozossegek-introvertaltaknak-budapesten"];
 
 export default function Home() {
-  const categories = getCategories();
-  const stats = [
-    { value: `${clubs.length}`, label: "közösség a listán" },
-    { value: `${categories.length}`, label: "különböző kategória" },
-    { value: "100%", label: "ingyenes, örökre" },
-  ];
+  const popular = getCategoriesByPopularity();
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -72,7 +72,7 @@ export default function Home() {
 
             <h1
               style={{ fontFamily: "var(--font-display)" }}
-              className="text-5xl uppercase leading-[1.05] tracking-tight text-ink sm:text-7xl"
+              className="text-5xl uppercase leading-[1.12] tracking-tight text-ink sm:text-7xl"
             >
               Budapesti Közösségek
               <br />
@@ -82,22 +82,44 @@ export default function Home() {
               Kézzel válogatott, valódi budapesti közösségi klubok. Remélem, te is
               megtalálod köztük az új közösséged.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
-              <Link
-                href="/klubok"
-                className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-6 py-3 text-sm font-bold uppercase tracking-wide text-paper shadow-lg transition-colors hover:border-cta-hover hover:bg-cta-hover"
+            <form action="/klubok" method="get" role="search" className="mx-auto mt-8 flex max-w-xl gap-2 lg:mx-0">
+              <label htmlFor="hero-search" className="sr-only">
+                Keresés a klubok között
+              </label>
+              <input
+                id="hero-search"
+                name="q"
+                type="search"
+                placeholder="Pl. futás, könyvklub"
+                className="min-w-0 flex-1 rounded-full border-2 border-ink/15 bg-paper px-5 py-3 text-base text-ink placeholder:text-ink/60 focus:border-pin-blue focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="shrink-0 rounded-full border-2 border-cta bg-cta px-5 py-3 text-sm font-bold text-paper shadow-md transition-colors hover:border-cta-hover hover:bg-cta-hover"
               >
-                Böngéssz klubok között
+                Keresés
+              </button>
+            </form>
+            <ul className="mx-auto mt-4 flex max-w-xl flex-wrap justify-center gap-2 lg:mx-0 lg:justify-start">
+              {popular.slice(0, 6).map((c) => (
+                <li key={c}>
+                  <Link
+                    href={categoryHref(c)}
+                    className="inline-block rounded-full bg-paper px-3 py-1.5 text-sm text-ink/75 shadow-sm transition-colors hover:text-pin-blue"
+                  >
+                    {c}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-5 text-sm text-ink/70">
+              <Link href="/klubok" className="font-semibold text-pin-blue underline-offset-4 hover:underline">
+                Mind a {clubs.length} klub megnézése
               </Link>
-              <a
-                href="/about"
-                className="inline-flex items-center rounded-full border-2 border-dashed border-ink/40 bg-transparent px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:border-ink"
-              >
-                Regisztráld a klubod
+              <span className="px-2" aria-hidden="true">/</span>
+              <a href="/about" className="underline-offset-4 hover:underline">
+                Van klubod? Küldd be ingyen
               </a>
-            </div>
-            <p className="mt-3 text-sm text-ink/50">
-              Ingyenes, nincs bürokrácia: csak küldj egy emailt, a többit elintézem.
             </p>
           </div>
 
@@ -117,22 +139,40 @@ export default function Home() {
         </svg>
       </section>
 
-      <div className="mx-auto -mt-6 flex max-w-4xl flex-wrap justify-center gap-6 px-6 sm:gap-10">
-        {stats.map((stat, i) => (
-          <div
-            key={stat.label}
-            style={{ transform: `rotate(${STAT_ROTATIONS[i]}deg)` }}
-            className="tape-corner relative bg-paper px-6 py-4 text-center shadow-md"
+      <section className="mx-auto max-w-6xl px-6 pt-14">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
+          Minden héten, ingyen
+        </h2>
+        <p className="mt-1 text-ink/70">Három fix alkalom, ahova egyedül, előzetes tudás nélkül is mehetsz.</p>
+        <ul className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+          {WEEKLY.map((note) => (
+            <li key={note.href}>
+              <Link
+                href={note.href}
+                style={{ "--pin-rotation": `${note.tilt}deg` } as React.CSSProperties}
+                className="pinned relative block rounded-sm bg-paper px-5 pb-5 pt-6 shadow-md transition-shadow hover:shadow-lg"
+              >
+                <span className="pin-dot" aria-hidden="true" />
+                <span style={{ fontFamily: "var(--font-handwritten)" }} className="block text-3xl font-bold text-cta">
+                  {note.day}
+                </span>
+                <span className="mt-1 block font-semibold text-ink">{note.club}</span>
+                <span className="mt-1 block text-sm text-ink/70">{note.where}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-6 text-sm">
+          <Link
+            href="/blog/ingyenes-heti-kozossegi-programok-budapesten"
+            className="font-semibold text-pin-blue underline-offset-4 hover:underline"
           >
-            <p style={{ fontFamily: "var(--font-display)" }} className="text-3xl text-cta">
-              {stat.value}
-            </p>
-            <p className="mt-1 text-xs uppercase tracking-wide text-ink/60">{stat.label}</p>
-          </div>
-        ))}
-      </div>
+            A teljes heti ingyenes programlista
+          </Link>
+        </p>
+      </section>
 
-      <CategoryBrowse categories={categories} />
+      <CategoryBrowse categories={popular} />
 
       <RelatedPosts
         posts={pickBySlugs(posts, FEATURED_SLUGS)}
@@ -142,7 +182,7 @@ export default function Home() {
       />
 
       <section className="mx-auto max-w-6xl px-6 py-16">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
           Hogyan működik?
         </h2>
         <ol className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -161,7 +201,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 pb-16">
-        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl tracking-tight text-ink">
           Gyakran ismételt kérdések
         </h2>
         <div className="mt-6 space-y-6">

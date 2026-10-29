@@ -145,7 +145,7 @@ export default async function ClubPageEn({ params }: Props) {
         />
       ))}
 
-      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink/50">
+      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink/70">
         <Link href="/en" className="hover:text-pin-blue">
           Home
         </Link>
@@ -174,12 +174,12 @@ export default async function ClubPageEn({ params }: Props) {
         <div className="p-6 sm:p-8">
           <h1
             style={{ fontFamily: "var(--font-display)" }}
-            className="text-3xl uppercase leading-tight tracking-tight text-ink sm:text-4xl"
+            className="text-3xl leading-tight tracking-tight text-ink sm:text-4xl"
           >
             {club.name}
           </h1>
 
-          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink/60">
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink/70">
             <Link
               href={categoryHrefEn(club.category)}
               className="rounded-full bg-accent-soft px-3 py-1 font-medium text-pin-blue"
@@ -206,7 +206,7 @@ export default async function ClubPageEn({ params }: Props) {
             <div className="mt-8">
               <h2
                 style={{ fontFamily: "var(--font-display)" }}
-                className="mb-3 text-lg uppercase tracking-tight text-ink"
+                className="mb-3 text-lg tracking-tight text-ink"
               >
                 How to join
               </h2>
@@ -234,7 +234,7 @@ export default async function ClubPageEn({ params }: Props) {
       <section className="mt-12 max-w-2xl">
         <h2
           style={{ fontFamily: "var(--font-display)" }}
-          className="mb-4 text-xl uppercase tracking-tight text-ink"
+          className="mb-4 text-xl tracking-tight text-ink"
         >
           Frequently asked questions
         </h2>
@@ -252,11 +252,11 @@ export default async function ClubPageEn({ params }: Props) {
         <section className="mt-12 border-t-2 border-ink/10 pt-8">
           <h2
             style={{ fontFamily: "var(--font-display)" }}
-            className="mb-1 text-xl uppercase tracking-tight text-ink"
+            className="mb-1 text-xl tracking-tight text-ink"
           >
             Similar communities
           </h2>
-          <p className="mb-6 text-sm text-ink/60">
+          <p className="mb-6 text-sm text-ink/70">
             More communities in the {categoryEn.name} category.
           </p>
           <ol className="grid list-none grid-cols-1 gap-5 lg:grid-cols-2">

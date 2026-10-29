@@ -19,7 +19,7 @@ export default function BlogBody({
             <h2
               key={i}
               style={{ fontFamily: "var(--font-display)" }}
-              className="!mt-10 text-xl uppercase tracking-tight text-ink"
+              className="!mt-10 text-xl tracking-tight text-ink"
             >
               {block.text}
             </h2>
@@ -93,7 +93,7 @@ export default function BlogBody({
                       <th
                         key={h}
                         style={{ fontFamily: "var(--font-display)" }}
-                        className="px-4 py-3 text-left text-xs uppercase tracking-wide text-ink"
+                        className="px-4 py-3 text-left text-xs text-ink"
                       >
                         {h}
                       </th>
