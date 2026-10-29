@@ -3,6 +3,9 @@ import Link from "next/link";
 import CategoryBrowse from "@/components/CategoryBrowse";
 import HeroPhotos from "@/components/HeroPhotos";
 import { clubs, getCategories } from "@/data/clubs";
+import RelatedPosts from "@/components/RelatedPosts";
+import { posts } from "@/data/blog";
+import { pickBySlugs } from "@/lib/relatedPosts";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/", languages: { hu: "/", en: "/en" } },
@@ -30,6 +33,8 @@ const FAQ = [
     a: "A legtöbb itt listázott klub ingyenes. Ha egy adott klubnak mégis van díja, azt a klub saját oldalán tünteti fel, nem itt.",
   },
 ];
+
+const FEATURED_SLUGS = ["ingyenes-heti-kozossegi-programok-budapesten", "8-kozosseg-ahova-egyedul-is-mehetsz", "konyvklubok-budapesten", "legjobb-futoklubok-budapesten", "turaklubok-budapesten-kezdoknek", "csendes-kozossegek-introvertaltaknak-budapesten"];
 
 export default function Home() {
   const categories = getCategories();
@@ -128,6 +133,13 @@ export default function Home() {
       </div>
 
       <CategoryBrowse categories={categories} />
+
+      <RelatedPosts
+        posts={pickBySlugs(posts, FEATURED_SLUGS)}
+        title="Népszerű útmutatók"
+        hrefPrefix="/blog"
+        className="mx-auto max-w-6xl px-6 pt-16"
+      />
 
       <section className="mx-auto max-w-6xl px-6 py-16">
         <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">

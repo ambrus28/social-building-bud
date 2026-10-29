@@ -36,6 +36,7 @@ const SCHEDULE_EN: Record<string, string> = {
   "Szerda este, hétvégén reggel": "Wednesday evenings, weekend mornings",
   "Szombatonként": "Saturdays",
   "Tavasztól őszig": "Spring to autumn",
+  "Hetente, változó programokkal": "Weekly, with varied events",
 };
 
 export function getScheduleEn(schedule: string | null | undefined): string | null {

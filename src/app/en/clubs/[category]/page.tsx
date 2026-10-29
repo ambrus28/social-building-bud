@@ -5,6 +5,9 @@ import ClubCardEn from "@/components/ClubCardEn";
 import { clubs, getCategories } from "@/data/clubs";
 import { getCategorySeoEn } from "@/lib/categorySeoEn";
 import { categoryHrefEn, getAllCategoriesEn, getCategoryEn, getHuCategoryByEnSlug } from "@/lib/categoriesEn";
+import RelatedPosts from "@/components/RelatedPosts";
+import { postsEn } from "@/data/blog.en";
+import { newestInCategory } from "@/lib/relatedPosts";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -168,6 +171,13 @@ export default async function CategoryPageEn({ params }: Props) {
           </li>
         ))}
       </ol>
+
+      <RelatedPosts
+        posts={newestInCategory(postsEn, huCategory)}
+        title="Related guides"
+        hrefPrefix="/en/blog"
+        className="mt-16 border-t-2 border-ink/10 pt-8"
+      />
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
         <h2

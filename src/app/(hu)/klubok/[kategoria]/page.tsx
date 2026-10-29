@@ -6,6 +6,9 @@ import { clubs, getCategories } from "@/data/clubs";
 import { getCategorySeo } from "@/lib/categorySeo";
 import { categoryHref, categorySlug, getCategoryBySlug } from "@/lib/slug";
 import { getCategoryEn } from "@/lib/categoriesEn";
+import RelatedPosts from "@/components/RelatedPosts";
+import { posts } from "@/data/blog";
+import { newestInCategory } from "@/lib/relatedPosts";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -168,6 +171,13 @@ export default async function CategoryPage({ params }: Props) {
           </li>
         ))}
       </ol>
+
+      <RelatedPosts
+        posts={newestInCategory(posts, category)}
+        title="Kapcsolódó útmutatók"
+        hrefPrefix="/blog"
+        className="mt-16 border-t-2 border-ink/10 pt-8"
+      />
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
         <h2

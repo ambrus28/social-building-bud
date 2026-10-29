@@ -3,6 +3,9 @@ import Link from "next/link";
 import CategoryBrowseEn from "@/components/CategoryBrowseEn";
 import HeroPhotos from "@/components/HeroPhotos";
 import { clubs, getCategories } from "@/data/clubs";
+import RelatedPosts from "@/components/RelatedPosts";
+import { postsEn } from "@/data/blog.en";
+import { pickBySlugs } from "@/lib/relatedPosts";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/en", languages: { hu: "/", en: "/en" } },
@@ -30,6 +33,8 @@ const FAQ = [
     a: "Most clubs listed here are free. If a specific club does charge a fee, it states this on its own page, not here.",
   },
 ];
+
+const FEATURED_SLUGS = ["free-weekly-community-events-in-budapest", "8-communities-in-budapest-you-can-join-alone", "book-clubs-in-budapest", "best-running-clubs-budapest", "hiking-clubs-in-budapest-for-beginners", "quiet-communities-for-introverts-in-budapest"];
 
 export default function HomeEn() {
   const categories = getCategories();
@@ -128,6 +133,13 @@ export default function HomeEn() {
       </div>
 
       <CategoryBrowseEn categories={categories} />
+
+      <RelatedPosts
+        posts={pickBySlugs(postsEn, FEATURED_SLUGS)}
+        title="Popular guides"
+        hrefPrefix="/en/blog"
+        className="mx-auto max-w-6xl px-6 pt-16"
+      />
 
       <section className="mx-auto max-w-6xl px-6 py-16">
         <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
