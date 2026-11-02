@@ -21,10 +21,9 @@ type Props = {
 
 export default function HomeContent({ clubs, categories, initialCategory, initialSearch }: Props) {
   const [search, setSearch] = useState(initialSearch ?? "");
-  const [freeOnly, setFreeOnly] = useState(false);
   const [category, setCategory] = useState<string>(initialCategory ?? "");
   const [page, setPage] = useState(1);
-  const [appliedFilters, setAppliedFilters] = useState({ search, category, freeOnly });
+  const [appliedFilters, setAppliedFilters] = useState({ search, category });
 
   const filtered = useMemo(() => {
     const q = fold(search.trim());
@@ -35,17 +34,12 @@ export default function HomeContent({ clubs, categories, initialCategory, initia
         fold(club.description).includes(q) ||
         fold(club.category).includes(q);
       const matchesCategory = !category || club.category === category;
-      const matchesCost = !freeOnly || club.cost === "free" || club.cost === "donation";
-      return matchesSearch && matchesCategory && matchesCost;
+      return matchesSearch && matchesCategory;
     });
-  }, [clubs, search, category, freeOnly]);
+  }, [clubs, search, category]);
 
-  if (
-    search !== appliedFilters.search ||
-    category !== appliedFilters.category ||
-    freeOnly !== appliedFilters.freeOnly
-  ) {
-    setAppliedFilters({ search, category, freeOnly });
+  if (search !== appliedFilters.search || category !== appliedFilters.category) {
+    setAppliedFilters({ search, category });
     setPage(1);
   }
 
@@ -79,15 +73,6 @@ export default function HomeContent({ clubs, categories, initialCategory, initia
             </option>
           ))}
         </select>
-        <label className="inline-flex shrink-0 cursor-pointer items-center gap-2 text-sm text-ink/75">
-          <input
-            type="checkbox"
-            checked={freeOnly}
-            onChange={(e) => setFreeOnly(e.target.checked)}
-            className="h-4 w-4 accent-[var(--pin-blue)]"
-          />
-          Csak ingyenes vagy adományalapú
-        </label>
       </div>
 
       {category && (

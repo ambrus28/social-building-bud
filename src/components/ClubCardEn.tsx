@@ -7,7 +7,6 @@ import { getClubLogoUrl } from "@/lib/clubImage";
 import { getScheduleEn } from "@/lib/scheduleEn";
 import ClubLinkButtonEn from "./ClubLinkButtonEn";
 import { getDistrictEn } from "@/lib/districtEn";
-import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
 
 export default function ClubCardEn({ club }: { club: Club }) {
@@ -63,7 +62,6 @@ export default function ClubCardEn({ club }: { club: Club }) {
             </Link>
             {club.district && <span>📍 {getDistrictEn(club.district)}</span>}
             {scheduleEn && <span>🕐 {scheduleEn}</span>}
-            {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "en")}</span>}
           </div>
           <p className="line-clamp-2 flex-1 text-sm text-ink/70">{club.description_en}</p>
           <div className="flex flex-wrap items-center gap-1.5 pt-1">

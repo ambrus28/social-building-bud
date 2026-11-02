@@ -5,7 +5,6 @@ import { getCategoryDotClass } from "@/lib/categoryColors";
 import { getClubLogoUrl } from "@/lib/clubImage";
 import { categoryHref } from "@/lib/slug";
 import ClubLinkButton from "./ClubLinkButton";
-import { costBadgeClass, getCostLabel } from "@/lib/cost";
 
 
 export default function ClubCard({ club }: { club: Club }) {
@@ -59,7 +58,6 @@ export default function ClubCard({ club }: { club: Club }) {
             </Link>
             {club.district && <span>📍 {club.district}</span>}
             {club.schedule && <span>🕐 {club.schedule}</span>}
-            {club.cost && <span className={costBadgeClass(club.cost)}>{getCostLabel(club.cost, "hu")}</span>}
           </div>
           <p className="line-clamp-2 flex-1 text-sm text-ink/70">{club.description}</p>
           <div className="flex flex-wrap items-center gap-1.5 pt-1">
