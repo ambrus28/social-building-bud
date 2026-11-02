@@ -1139,7 +1139,7 @@ export const postsEn: BlogPost[] = [
   {
     slug: "budapest-community-directories-for-expats-compared",
     title: "Budapest community-finding sites for expats, compared",
-    metaTitle: "Community-finding platforms in Budapest for expats",
+    metaTitle: "Expats in Budapest Facebook group alternatives, compared",
     description:
       "Meetup, Facebook, InterNations or Instagram? A rundown of what you'll find on each platform if you just moved to Budapest and want an English-speaking community.",
     kind: "listicle",
@@ -4526,6 +4526,205 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "For specific places, see our Language exchange and networking communities in Budapest post and the language exchange category on the Budapesti Közösségek list.",
+      },
+    ],
+  },
+  {
+    slug: "how-long-does-it-take-to-make-friends",
+    title: "How long does it take to make a friend? What research says, and how to use it in Budapest",
+    metaTitle: "How long does it take to make friends? 50, 90, 200 hours",
+    description:
+      "Research suggests about 50 hours together to become casual friends and over 200 for a close friend. Here's how to use regular community meetups in Budapest to get there.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "Lots of people go to a social event, have a great chat with someone, and never see them again. That's not a personal failing: a single nice conversation rarely turns into a friendship on its own. It takes time and repetition, and research puts fairly concrete numbers on it.",
+      },
+      { type: "h2", text: "How many hours does a friendship take?" },
+      {
+        type: "p",
+        text: "In 2018, Jeffrey Hall, a communication researcher at the University of Kansas, looked at how much time together it takes to reach each level of friendship. He found that it takes roughly 50 hours to go from acquaintance to casual friend, about 90 hours to become friends, and more than 200 hours before someone feels like a close friend. Time spent working together counts for much less than time spent hanging out, talking and playing.",
+      },
+      {
+        type: "citation",
+        text: "University of Kansas: study reveals the number of hours it takes to make a friend",
+        href: "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+      },
+      {
+        type: "table",
+        headers: ["Level", "Roughly this much time together", "With a two-hour weekly meetup"],
+        rows: [
+          ["Casual friend", "about 50 hours", "around six months"],
+          ["Friend", "about 90 hours", "roughly a year"],
+          ["Close friend", "200+ hours", "several years, or several shared activities"],
+        ],
+      },
+      {
+        type: "p",
+        text: "The table is only a rough estimate, since a coffee or a hike outside the regular meetup speeds things up a lot. The point still stands: friendship isn't decided in one evening, it comes from spending time with the same people again and again.",
+      },
+      { type: "h2", text: "Why a weekly club beats a big one-off event" },
+      {
+        type: "list",
+        items: [
+          "You see the same people again, so you don't start from zero every time",
+          "There's a shared topic: running, a game or a book carries the conversation",
+          "Because it's regular, nobody has to organise the next meeting, it's already there",
+          "At a big one-off event you talk briefly to many people; at a small club you talk to fewer, but more deeply",
+        ],
+      },
+      { type: "h2", text: "Weekly communities where the hours add up" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            href: "/en/club/garmin-running-club",
+            note: "Coached group training in Városliget on Tuesday and Thursday evenings. Two sessions a week add up quickly.",
+          },
+          {
+            name: "Andúril Board Game Club",
+            href: "/en/club/anduril-tarsasjatek-klub",
+            note: "Every Thursday evening in District XIII, with game masters. Conversation flows naturally during a longer game.",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            href: "/en/club/casual-board-games-and-beers",
+            note: "A relaxed, English-language board game night every Tuesday in District VI; turn up whenever you can.",
+          },
+          {
+            name: "Heti Betevő",
+            href: "/en/club/heti-betevo",
+            note: "Volunteer food distribution every Sunday. Working towards a shared goal often brings people together faster than a casual evening.",
+          },
+        ],
+      },
+      { type: "h2", text: "How to move past being acquaintances" },
+      {
+        type: "list",
+        items: [
+          "Go regularly for at least two or three months: after the first few times people start to recognise you",
+          "Arrive a few minutes early or stay afterwards, since the best conversations often happen before and after",
+          "Remember names and a detail or two people mentioned, and ask about it next time",
+          "Take the initiative: a simple 'shall we grab a coffee after?' is far less awkward than you'd think",
+          "If you click with someone, invite them to something else too; time outside the club speeds friendship up the most",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How long does it take to make friends in a new community?",
+            a: "According to Jeffrey Hall's research, about 50 hours together for a casual friendship and around 90 for a friendship. With one or two meetups a week that can mean a few months to a year, but time spent together outside the meetup speeds it up a lot.",
+          },
+          {
+            q: "Why didn't I become friends with someone I had a great chat with at an event?",
+            a: "Because one conversation is only a few minutes or hours out of the dozens needed. Without a next time, the connection stalls. That's why regularly meeting communities work better than one-off events.",
+          },
+          {
+            q: "Does quantity or quality matter more?",
+            a: "Both. Hours matter, but Hall's research suggests that relaxing, talking and playing together add far more than just sitting next to each other at work.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If you're not sure which community suits you, our post on where to meet people in Budapest helps you choose, and the full list is on the Budapesti Közösségek clubs page.",
+      },
+    ],
+  },
+  {
+    slug: "friendship-apps-and-dinners-with-strangers-in-budapest",
+    title: "Friendship apps and dinners with strangers in Budapest: what actually works?",
+    metaTitle: "Friendship apps in Budapest: Timeleft, Bumble For Friends, Meetup",
+    description:
+      "Timeleft dinners, Bumble For Friends, Meetup and friendship evenings: what each is good for in Budapest, and how to turn a first meeting into a lasting friendship.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "In recent years more and more apps and services are built for making friends rather than dating. Several of them work in Budapest: in some an algorithm seats you at dinner with strangers, in others you swipe through profiles like on a dating app, only looking for friends. Here's what each is good for.",
+      },
+      { type: "h2", text: "The best-known options" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Timeleft",
+            href: "https://timeleft.com/budapest/",
+            note: "The app matches four to six strangers by personality and books a table at a restaurant it picks. In Budapest there are dinners on Wednesday and Friday at 8 pm and coffee meetups on Saturday afternoons. You book through the app.",
+          },
+          {
+            name: "Bumble For Friends",
+            href: "https://bumble.com/bff",
+            note: "Bumble's separate friend-finding app: you browse profiles and can message each other when the interest is mutual. Good if you prefer to get to know someone one-on-one by message first.",
+          },
+          {
+            name: "Meetup",
+            href: "https://www.meetup.com/find/hu--budapest/",
+            note: "Not a friendship app but a home for groups: hikes, language exchange, board games, tech. Regularly meeting groups turn into lasting friendships more easily than a one-off dinner.",
+          },
+          {
+            name: "Havervagy",
+            href: "/en/club/havervagy",
+            note: "Hungarian-language friendship evenings at small tables, with conversation partners rotating every 25-30 minutes, so you meet lots of people in one night.",
+          },
+        ],
+      },
+      { type: "h2", text: "Which format should you choose?" },
+      {
+        type: "table",
+        headers: ["Format", "Upside", "Downside"],
+        rows: [
+          ["Dinner with strangers", "Everything is organised, you just show up", "A new group every time, you rarely meet the same people again"],
+          ["Friendship app", "You can see who you're meeting in advance", "Lots of messaging, many meetups never happen"],
+          ["Friendship evening", "Many people in one night", "Short conversations, following up is on you"],
+          ["Weekly hobby club", "The same people again and again, a shared topic", "Slower start, it takes a few sessions to settle in"],
+        ],
+      },
+      { type: "h2", text: "How to get the most out of it" },
+      {
+        type: "p",
+        text: "Apps and one-off events help with the first step: they get you out and sit you at a table with strangers. Friendship, though, depends on meeting again. Research suggests it takes about 50 hours together for someone to become a casual friend, and a single dinner can't provide that.",
+      },
+      {
+        type: "list",
+        items: [
+          "If you clicked with someone, ask for their contact that same day and suggest a concrete next plan",
+          "Use the app as a way in, but also pick a weekly club where you'll see the same faces",
+          "Don't judge a format by one evening: one awkward table doesn't mean it isn't for you",
+          "Make first meetings in public places and tell someone where you're going, especially with apps",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Is Timeleft available in Budapest?",
+            a: "Yes, Timeleft runs dinners in Budapest, typically on Wednesday and Friday at 8 pm, plus coffee meetups on Saturday afternoons. Current dates and booking are in the app.",
+          },
+          {
+            q: "What's the best app to make friends in Budapest?",
+            a: "It depends on what you want. If you don't want to organise anything, a Timeleft dinner is the easiest. If you'd rather message first, Bumble For Friends. If you want a lasting circle, a regularly meeting club on Meetup or on the Budapesti Közösségek list is the safest bet.",
+          },
+          {
+            q: "Isn't it awkward to have dinner with strangers?",
+            a: "The first few minutes can feel unusual, but everyone came for the same reason, so it loosens up quickly. If you're unsure, start with a shorter coffee meetup or a club where an activity, such as a board game or a run, carries the conversation.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If you'd rather find a community that meets regularly, browse the Budapesti Közösségek list by category, and read our post on how long it takes to make friends to see why sticking with it pays off.",
       },
     ],
   },

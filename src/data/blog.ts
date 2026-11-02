@@ -4541,6 +4541,205 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "hogyan-lesz-az-ismerosbol-barat",
+    title: "Hogyan lesz az ismerősből barát? Mennyi idő kell hozzá, és mit tehetsz érte",
+    metaTitle: "Hogyan lesz az ismerősből barát? Ezt mondja a kutatás",
+    description:
+      "Egy kutatás szerint nagyjából 50 óra közös idő kell egy laza barátsághoz és több mint 200 egy közeli barátsághoz. Így használd ki a rendszeres közösségi alkalmakat.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "Sokan elmennek egy közösségi eseményre, jól elbeszélgetnek valakivel, aztán soha többé nem találkoznak. Nem velük van a baj: egy kellemes beszélgetésből ritkán lesz magától barátság. Ahhoz idő és ismétlődés kell, és erre a kutatások elég konkrét számokat adnak.",
+      },
+      { type: "h2", text: "Hány óra kell egy barátsághoz?" },
+      {
+        type: "p",
+        text: "Jeffrey Hall, a Kansasi Egyetem kommunikációkutatója 2018-ban azt vizsgálta, mennyi közösen töltött idő kell a barátság egyes szintjeihez. Az eredménye szerint nagyjából 50 óra kell ahhoz, hogy egy ismerősből laza barát legyen, körülbelül 90 óra a barátsághoz, és több mint 200 óra ahhoz, hogy valakit közeli barátodnak érezz. A munkában együtt töltött idő ebbe sokkal kevésbé számít bele, mint a közös lazítás, beszélgetés, játék.",
+      },
+      {
+        type: "citation",
+        text: "University of Kansas: kutatás arról, hány óra kell egy barátsághoz (angolul)",
+        href: "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+      },
+      {
+        type: "table",
+        headers: ["Szint", "Nagyjából ennyi közös idő", "Heti kétórás alkalmakkal"],
+        rows: [
+          ["Laza barát", "kb. 50 óra", "fél év körül"],
+          ["Barát", "kb. 90 óra", "nagyjából egy év"],
+          ["Közeli barát", "200 óra felett", "több év, vagy több közös program"],
+        ],
+      },
+      {
+        type: "p",
+        text: "A táblázat persze csak durva becslés, hiszen egy jó beszélgetés a programon kívül, egy közös kávé vagy kirándulás sokat gyorsít. A lényeg mégis az, hogy a barátság nem egy estén múlik, hanem azon, hogy újra és újra ugyanazokkal az emberekkel töltesz időt.",
+      },
+      { type: "h2", text: "Miért jobb egy heti klub, mint egy nagy esemény?" },
+      {
+        type: "list",
+        items: [
+          "Ugyanazokkal az emberekkel találkozol újra, így nem kell minden alkalommal elölről kezdeni",
+          "Van közös téma: a futás, a játék vagy a könyv elviszi a beszélgetés terhét",
+          "A rendszeresség miatt nem kell külön szervezni a következő találkozót, az magától megvan",
+          "Egy nagy, egyszeri eseményen sok emberrel beszélsz röviden, egy kis klubban kevesebbel, de mélyebben",
+        ],
+      },
+      { type: "h2", text: "Heti közösségek, ahol gyűlhetnek az órák" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Garmin Running Club",
+            href: "/klub/garmin-running-club",
+            note: "Kedden és csütörtökön este közös edzés a Városligetben, edzőkkel. Heti két alkalom gyorsan összeadja az órákat.",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            href: "/klub/anduril-tarsasjatek-klub",
+            note: "Minden csütörtökön este a XIII. kerületben, játékmesterekkel. Egy hosszabb társasjáték alatt magától megy a beszélgetés.",
+          },
+          {
+            name: "Casual Board Games and Beers",
+            href: "/klub/casual-board-games-and-beers",
+            note: "Laza, angol nyelvű társasjáték-est minden kedden a VI. kerületben, akkor érkezel, amikor tudsz.",
+          },
+          {
+            name: "Heti Betevő",
+            href: "/klub/heti-betevo",
+            note: "Önkéntes ételosztás minden vasárnap. A közös munka egy cél érdekében sokszor gyorsabban összehoz, mint egy kötetlen est.",
+          },
+        ],
+      },
+      { type: "h2", text: "Hogyan lépj tovább az ismeretségen?" },
+      {
+        type: "list",
+        items: [
+          "Járj rendszeresen, legalább két-három hónapig: az első néhány alkalom után kezdenek felismerni",
+          "Érkezz pár perccel korábban, vagy maradj ott utána: a legjobb beszélgetések sokszor a program előtt és után vannak",
+          "Jegyezd meg a neveket és egy-két részletet, amit mondtak, és legközelebb kérdezz rá",
+          "Te is kezdeményezz: egy egyszerű 'megyünk utána egy kávéra?' sokkal ritkábban kínos, mint gondolnád",
+          "Ha valakivel jól megy, hívd el valami másra is, mert a programon kívül töltött idő gyorsítja a legjobban a barátságot",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mennyi idő alatt lehet barátot szerezni egy új közösségben?",
+            a: "Jeffrey Hall kutatása szerint nagyjából 50 óra közös idő kell egy laza barátsághoz és körülbelül 90 egy barátsághoz. Heti egy-két alkalommal ez néhány hónaptól egy évig terjedhet, de a programon kívüli közös idő sokat gyorsít rajta.",
+          },
+          {
+            q: "Miért nem lesz barátság abból, akivel egy eseményen jól elbeszélgettem?",
+            a: "Mert egy beszélgetés még csak néhány perc vagy óra a szükséges sok tízből. Ha nincs következő alkalom, a kapcsolat megáll. Ezért működnek jobban a rendszeresen találkozó közösségek, mint az egyszeri események.",
+          },
+          {
+            q: "Mi számít jobban: a mennyiség vagy a minőség?",
+            a: "Mindkettő. Az órák számítanak, de Hall kutatása szerint a közös lazítás, a beszélgetés és a játék sokkal többet ad hozzá, mint az, ha csak egy irodában ültök egymás mellett.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha még nem tudod, melyik közösség illik hozzád, a Hol tudok ismerkedni Budapesten? posztunk segít választani, a teljes listát pedig a Budapesti Közösségek klubjai között találod.",
+      },
+    ],
+  },
+  {
+    slug: "baratkozos-appok-es-vacsorak-idegenekkel-budapesten",
+    title: "Barátkozós appok és vacsorák idegenekkel Budapesten: mi működik?",
+    metaTitle: "Barátkozós appok Budapesten: Timeleft, Bumble For Friends, Meetup",
+    description:
+      "Timeleft-vacsorák, Bumble For Friends, Meetup és barátkozós estek: mire jók a barátkereső appok és programok Budapesten, és hogyan lesz belőlük tartós ismeretség.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "Az utóbbi években egyre több app és szolgáltatás kifejezetten barátkozásra épül, nem randizásra. Budapesten is elérhető több ilyen: van, ahol egy algoritmus ültet le idegenekkel vacsorázni, és van, ahol a társkeresőkhöz hasonlóan lapozod a profilokat, csak barátokat keresel. Megnéztük, melyik mire jó.",
+      },
+      { type: "h2", text: "A legismertebb lehetőségek" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Timeleft",
+            href: "https://timeleft.com/budapest/",
+            note: "Az app személyiség alapján párosít négy-hat idegent, és egy általa választott étterembe ültet le titeket. Budapesten szerdán és pénteken este 8-kor vannak vacsorák, szombat délután kávés találkozók. Az alkalmakat az appban kell lefoglalni.",
+          },
+          {
+            name: "Bumble For Friends",
+            href: "https://bumble.com/bff",
+            note: "A Bumble külön barátkereső appja: profilokat lapozol, és ha kölcsönös az érdeklődés, írhattok egymásnak. Annak jó, aki szívesebben ismerkedik előbb üzenetben, egy-egy emberrel.",
+          },
+          {
+            name: "Meetup",
+            href: "https://www.meetup.com/find/hu--budapest/",
+            note: "Nem app az ismerkedésre, hanem csoportokra: túrák, nyelvcsere, társasjáték, tech. A rendszeresen találkozó csoportokból könnyebben lesz tartós ismeretség, mint egy egyszeri vacsorából.",
+          },
+          {
+            name: "Havervagy",
+            href: "/klub/havervagy",
+            note: "Magyar barátkozós estek kis asztaloknál, ahol 25-30 percenként cserélődnek a beszélgetőtársak, így egy este alatt sok emberrel beszélhetsz.",
+          },
+        ],
+      },
+      { type: "h2", text: "Melyik formát válaszd?" },
+      {
+        type: "table",
+        headers: ["Forma", "Előnye", "Hátránya"],
+        rows: [
+          ["Vacsora idegenekkel", "Minden meg van szervezve, csak meg kell jelenni", "Minden alkalommal új társaság, ritkán találkozol újra ugyanazokkal"],
+          ["Barátkereső app", "Előre megnézheted, kivel találkozol", "Sok üzenetváltás, sok találkozó elmarad"],
+          ["Barátkozós est", "Sok ember egy este alatt", "Rövid beszélgetések, a folytatás rajtad múlik"],
+          ["Heti hobbiklub", "Ugyanazok az emberek újra és újra, közös téma", "Lassabban indul, néhány alkalom kell, mire beilleszkedsz"],
+        ],
+      },
+      { type: "h2", text: "Hogyan hozd ki belőle a legtöbbet?" },
+      {
+        type: "p",
+        text: "Az appok és az egyszeri események az első lépésben segítenek: kimozdítanak, és ismeretlenekkel ültetnek egy asztalhoz. A barátság viszont az ismétlődő találkozásokon múlik. Egy kutatás szerint nagyjából 50 óra közös idő kell ahhoz, hogy valakiből laza barát legyen, ezt egyetlen vacsora nem adja meg.",
+      },
+      {
+        type: "list",
+        items: [
+          "Ha valakivel jól elbeszélgettél, még aznap kérd el az elérhetőségét, és javasolj konkrét következő programot",
+          "Használd az appot belépőnek, de mellette válassz egy heti klubot is, ahol ugyanazokkal találkozol",
+          "Ne értékeld egyetlen alkalom alapján: egy rossz asztaltársaság még nem jelenti, hogy a forma nem neked való",
+          "Az első találkozó legyen nyilvános helyen, és mondd el valakinek, hova mész, ez appoknál különösen fontos",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Van Budapesten Timeleft?",
+            a: "Igen, a Timeleft Budapesten is szervez vacsorákat, jellemzően szerdán és pénteken este 8-kor, valamint szombat délutáni kávés találkozókat. Az aktuális időpontokat és a foglalást az appban találod.",
+          },
+          {
+            q: "Melyik a legjobb barátkereső app Budapesten?",
+            a: "Attól függ, mit keresel. Ha nem akarsz szervezni, a Timeleft-vacsora a legegyszerűbb. Ha előbb üzenetben ismerkednél, a Bumble For Friends. Ha tartós társaságot keresel, a Meetupon vagy a Budapesti Közösségek listáján egy rendszeresen találkozó klub a legbiztosabb.",
+          },
+          {
+            q: "Nem kínos idegenekkel vacsorázni?",
+            a: "Az első percek sokszor szokatlanok, de mindenki ugyanazért jött, ezért gyorsan oldódik a hangulat. Ha bizonytalan vagy, kezdd egy rövidebb kávés találkozóval vagy egy olyan klubbal, ahol egy közös tevékenység, például társasjáték vagy futás vezeti a beszélgetést.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha inkább egy rendszeresen találkozó közösséget keresnél, a Budapesti Közösségek listáján kategóriák szerint böngészhetsz, a Hogyan lesz az ismerősből barát? posztunkban pedig azt is megnézheted, miért éri meg kitartani.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
