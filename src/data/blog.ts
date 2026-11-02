@@ -1615,7 +1615,7 @@ export const posts: BlogPost[] = [
     category: "Túra / Természetjárás",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-02",
     body: [
       {
         type: "p",
@@ -1675,6 +1675,33 @@ export const posts: BlogPost[] = [
         type: "citation",
         text: "Természetjáró: a Magyar Természetjáró Szövetség túraútvonal-adatbázisa",
         href: "https://www.termeszetjaro.hu/",
+      },
+      { type: "h2", text: "Egyesület vagy laza csoport?" },
+      {
+        type: "p",
+        text: "A budapesti túraközösségek két nagy csoportba sorolhatók. Az egyik a természetjáró egyesületek köre: ezek többnyire a Magyar Természetjáró Szövetség tagszervezetei, rendszeres túranaptárral, képzett túravezetőkkel, és sokszor évtizedes múlttal. A másik a laza, online szerveződő csoportoké, például a Meetupon vagy Facebookon, ahol nincs tagság, csak egy-egy túrára jelentkezel.",
+      },
+      {
+        type: "list",
+        items: [
+          "Egyesület: kiszámítható programok, tapasztalt vezetők, idősebb és vegyes korosztály, néha éves tagdíj, ami kedvezményeket is ad",
+          "Laza csoport: kötöttség nélkül kipróbálható, jellemzően fiatalabb, sokszor angol nyelvű társaság, de a programok jobban függenek a szervezőtől",
+          "Kezdőként a laza csoport alacsonyabb belépési küszöböt jelent, ha viszont rendszeresen túráznál, egy egyesület hosszabb távon stabilabb közösség",
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha egyesületet keresel a közeledben, az MTSZ tagszervezeti térképén kerület és település szerint böngészhetsz. Jó kipróbálási alkalom a Kéktúrázás Napja is: ilyenkor az ország sok pontján indulnak ingyenes, vezetett túrák az Országos Kéktúra szakaszain, 2026-ban körülbelül 3800-an regisztráltak a 143 vezetett szakaszra.",
+      },
+      {
+        type: "citation",
+        text: "Magyar Természetjáró Szövetség: tagszervezetek térképe",
+        href: "https://www.mtsz.org/tagszervezetek",
+      },
+      {
+        type: "citation",
+        text: "MTSZ: egy nap alatt 50 ezer kilométert gyalogoltak a Kéktúrázás Napjának résztvevői",
+        href: "https://www.mtsz.org/hir/egy-nap-alatt-50-ezer-km-t-gyalogoltak-a-kekturazas-napjanak-resztvevoi",
       },
       {
         type: "faq",
@@ -4394,6 +4421,123 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "Ha inkább egy már működő klubhoz csatlakoznál, a Könyvklubok Budapesten posztunkban és a Budapesti Közösségek listájában találod a nyitott budapesti könyvklubokat.",
+      },
+    ],
+  },
+  {
+    slug: "hogyan-mukodik-a-nyelvcsere-budapesten",
+    title: "Hogyan működik a nyelvcsere Budapesten? Tandempartner, nyelvcsere-estek, tippek",
+    metaTitle: "Nyelvcsere Budapesten: így működik, és hol gyakorolhatsz",
+    description:
+      "Mi a különbség a tandempartner és a nyelvcsere-est között, hogyan találsz partnert, és mire figyelj az első alkalmon: gyakorlati útmutató a budapesti nyelvcseréhez.",
+    kind: "guide",
+    category: "Nyelvcsere / Networking",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "A nyelvcsere lényege egyszerű: te segítesz valakinek a magyarban vagy egy másik nyelvben, amit jól beszélsz, ő pedig neked abban a nyelvben, amit tanulsz. Nem kell hozzá tanár, tankönyv vagy tandíj, csak egy partner vagy egy asztal, ahol mások is gyakorolni jöttek. Budapesten két fő formája van, és mindkettőnek más az előnye.",
+      },
+      { type: "h2", text: "Tandempartner vagy nyelvcsere-est?" },
+      {
+        type: "table",
+        headers: ["", "Tandempartner", "Nyelvcsere-est, ismerkedős est"],
+        rows: [
+          ["Hányan vagytok?", "Ketten", "Tíz-ötven ember, kisebb asztaloknál"],
+          ["Milyen gyakran?", "Ahogy megbeszélitek, jellemzően hetente", "Fix időpontban, hetente vagy havonta"],
+          ["Mire jó?", "Célzott gyakorlás, javítás, saját tempó", "Beszédbátorság, sokféle akcentus, új ismerősök"],
+          ["Mennyi szervezés kell?", "Partnert kell találni és időpontot egyeztetni", "Szinte semmi, csak el kell menni"],
+          ["Kinek ajánljuk?", "Akinek konkrét célja van, például nyelvvizsga vagy munka", "Akinek elsősorban társaság és beszédgyakorlás kell"],
+        ],
+      },
+      { type: "h2", text: "Hogyan működik egy jó tandem?" },
+      {
+        type: "p",
+        text: "A Münsteri Egyetem nyelvi központjának tandem-útmutatója két alapelvet emel ki: a kölcsönösséget és az önállóságot. Kölcsönösség, mert mindkettőtöknek ugyanannyit kell kapnia a közös időből. Önállóság, mert mindenki maga dönti el, mit és hogyan akar gyakorolni, a partner nem tanár, hanem segítő.",
+      },
+      {
+        type: "list",
+        items: [
+          "Osszátok fel fele-fele arányban az időt: egy óra esetén fél óra az egyik nyelv, fél óra a másik",
+          "Az elején mondd meg, mennyi javítást kérsz: van, aki minden hibát hallani akar, van, aki csak a gyakoriakat",
+          "Hozz témát: egy cikk, egy sorozatrész vagy a heted is elég ahhoz, hogy ne akadjon el a beszélgetés",
+          "Válasszatok fix időpontot és helyet, mert a rendszeresség többet ér, mint a hosszú alkalmak",
+          "Ha nem működik a kémia, nyugodtan keress új partnert, ez teljesen bevett dolog",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Universität Münster, Sprachenzentrum: tippek tandemhez (angolul)",
+        href: "https://www.uni-muenster.de/Sprachenzentrum/en/tandem/tipps.html",
+      },
+      { type: "h2", text: "Hol találsz tandempartnert Budapesten?" },
+      {
+        type: "list",
+        items: [
+          "Nyelvcsere-oldalak és appok, például a My Language Exchange, ahol nyelv és város szerint kereshetsz partnert",
+          "Nyelvcsere-estek és ismerkedős estek: sokan itt találják meg a későbbi tandempartnerüket",
+          "Egyetemek: a budapesti egyetemeken sok cserediák keres magyar partnert, érdemes figyelni a hallgatói csoportokat",
+          "Expat Facebook-csoportok, ahol rendszeresen jelennek meg tandemkereső posztok",
+        ],
+      },
+      { type: "h2", text: "Közösségek, ahol rögtön gyakorolhatsz" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "International Socializing in Budapest",
+            href: "/klub/international-socializing-budapest",
+            note: "Minden szombaton 20 órától angol nyelvű ismerkedős est a VIII. kerületi Kovász Kultúrbárban. Több ezer tagú Meetup-csoport, jó belépő, ha nemzetközi társaságban gyakorolnád az angolt.",
+          },
+          {
+            name: "Kerek Perec Magyar Klub",
+            href: "/klub/kerek-perec-hungarian-club",
+            note: "Nyelvtanárok által indított magyar nyelvklub külföldieknek, játékos gyakorlással és közös kirándulásokkal. Ha magyarként segítenél valakinek, vagy külföldi ismerősöd magyart tanul, ez jó irány.",
+          },
+          {
+            name: "unplugged club Budapest",
+            href: "/klub/unplugged-club-budapest",
+            note: "Telefonmentes közösség helyieknek és expatoknak, hetente változó programokkal. Nem klasszikus nyelvcsere, de vegyes társaságban, angolul zajlik.",
+          },
+          {
+            name: "Havervagy",
+            href: "/klub/havervagy",
+            note: "Barátkozós estek kis asztaloknál, ahol 25-30 percenként cserélődnek a beszélgetőtársak. Magyarul zajlik, ezért haladó magyartanulóknak is jó gyakorlóterep.",
+          },
+        ],
+      },
+      { type: "h2", text: "Tippek az első nyelvcsere-estre" },
+      {
+        type: "list",
+        items: [
+          "Menj korán, amikor még kevesen vannak: kisebb társaságban könnyebb megszólalni",
+          "Készíts két-három bemutatkozó mondatot abban a nyelvben, amit gyakorolsz",
+          "Ne ragadj le egy asztalnál, a nyelvcsere-esteken teljesen természetes továbbmenni",
+          "Ha valakivel jól megy a beszélgetés, kérd el az elérhetőségét: egy állandó tandempartner sokat gyorsít",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell fizetni a nyelvcseréért?",
+            a: "A tandem ingyenes, hiszen kölcsönös segítségről van szó. A nyelvcsere-esteken jellemzően a fogyasztásodat fizeted, egyes klubok kis részvételi díjat kérnek.",
+          },
+          {
+            q: "Milyen szinten érdemes elkezdeni?",
+            a: "Alapszinttől már érdemes. Kezdőként a tandem jobb, mert a partnered alkalmazkodik a tempódhoz, egy nyüzsgő esten pedig inkább a hallásértést gyakorlod.",
+          },
+          {
+            q: "Lehet nyelvcserén magyart tanulni Budapesten?",
+            a: "Igen, a magyart tanuló külföldiek kifejezetten keresik a magyar partnereket. A Kerek Perec Magyar Klub kifejezetten erre épül, tandempartnert pedig nyelvcsere-oldalakon és egyetemi csoportokban is találsz.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha konkrét helyeket keresel, a Nyelvcsere és networking közösségek Budapesten posztunkban és a Budapesti Közösségek nyelvcsere kategóriájában találod a nyitott budapesti alkalmakat.",
       },
     ],
   },

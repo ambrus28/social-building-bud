@@ -57,6 +57,20 @@
     "type": "Közösség"
   },
   {
+    "id": "kerek-perec-hungarian-club",
+    "name": "Kerek Perec Magyar Klub",
+    "category": "Nyelvcsere / Networking",
+    "district": null,
+    "description": "Nyelvtanárok által alapított magyar nyelvklub külföldieknek, akik játékosan, társaságban gyakorolnák a magyart. Kezdőtől haladóig mindenki jöhet, a beszélgetős esteken túl közös programok is vannak, például túra, kirándulás a Gyermekvasúttal vagy piknik a Margitszigeten. Az alkalmakat a Meetupon hirdetik, a részvételért kis hozzájárulást kérnek. Magyarként is jó hely, ha szívesen segítenél valakinek a nyelvtanulásban.",
+    "description_en": "A Hungarian language club founded by language teachers for foreigners who want to practise Hungarian in a playful, social way. Everyone from beginner to advanced is welcome, and besides the conversation evenings there are outings such as hikes, a trip on the Children's Railway or a picnic on Margaret Island. Events are posted on Meetup and there is a small participation fee. A good fit if you live in Budapest and want to finally speak some Hungarian.",
+    "schedule": "Havonta többször",
+    "website_url": "https://www.meetup.com/kerek-perec-magyar-klub/",
+    "instagram_url": null,
+    "image_url": "/images/clubs/nyelvcsere-networking-kerek-perec-hungarian-club.jpg",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
     "id": "unicorn-book-club",
     "name": "Unicorn Book Club",
     "category": "Könyvklub",

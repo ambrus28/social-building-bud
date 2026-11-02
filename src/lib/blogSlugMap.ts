@@ -50,6 +50,7 @@ const HU_TO_EN: Record<string, string> = {
   "csendes-kozossegek-introvertaltaknak-budapesten": "quiet-communities-for-introverts-in-budapest",
   "mi-az-a-silent-book-club-csendes-konyvklub": "what-is-a-silent-book-club",
   "hogyan-indits-konyvklubot-budapesten": "how-to-start-a-book-club-in-budapest",
+  "hogyan-mukodik-a-nyelvcsere-budapesten": "how-language-exchange-works-in-budapest",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(

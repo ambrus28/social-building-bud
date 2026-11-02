@@ -22,9 +22,9 @@ const SEO: Record<string, CategorySeo> = {
   },
   "Nyelvcsere / Networking": {
     h1: "Nyelvcsere és networking közösségek Budapesten",
-    title: "Nyelvcsere és networking közösségek Budapesten",
+    title: "Nyelvcsere Budapesten: heti estek és ismerkedős közösségek",
     description:
-      "Nyelvcsere estek és ismerkedős közösségek Budapesten helyieknek, expatoknak és utazóknak. Ingyenes lista, regisztráció nélkül.",
+      "Hol gyakorolhatsz nyelvet Budapesten? Heti nyelvcsere- és ismerkedős estek, magyar nyelvklub külföldieknek, időpontokkal, helyszínekkel és linkekkel.",
     intro: [
       "A nyelvcsere alkalmak azért működnek jól első közösségként, mert ott mindenki azzal a szándékkal érkezik, hogy ismeretlenekkel beszélgessen. Nem kell csoportba beépülni, mert a formátum maga oldja fel a helyzetet.",
       "Az itt listázott közösségek jellemzően heti rendszerességgel találkoznak, és nincs szükség előzetes jelentkezésre. Nyelvtudástól függetlenül lehet menni: a legtöbb helyen külön asztalok vannak a különböző nyelvekhez és szintekhez. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",

@@ -18,9 +18,9 @@ const SEO_EN: Record<string, CategorySeoEn> = {
   },
   "Nyelvcsere / Networking": {
     h1: "Language exchange and networking communities in Budapest",
-    title: "Language exchange and networking in Budapest",
+    title: "Language exchange in Budapest: weekly events and meetups",
     description:
-      "Language exchange evenings and social meetups in Budapest for locals, expats and travelers. Free to browse, no sign-up required.",
+      "Where to practise languages in Budapest: weekly language exchange nights, a Hungarian conversation club and social meetups for expats. Times, venues and links.",
     intro: [
       "Language exchange events work well as a first community because everyone shows up with the same intention: talking to strangers. You don't need to break into an existing group, the format itself does that work for you.",
       "The communities listed here typically meet weekly and don't require advance registration. You can show up regardless of your language level, since most venues set up separate tables for different languages and levels. This list is hand-curated and kept up to date by Budapesti Közösségek.",

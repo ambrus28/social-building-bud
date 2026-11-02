@@ -1615,7 +1615,7 @@ export const postsEn: BlogPost[] = [
     category: "Túra / Természetjárás",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-02",
     body: [
       {
         type: "p",
@@ -1675,6 +1675,33 @@ export const postsEn: BlogPost[] = [
         type: "citation",
         text: "Természetjáró (Hungarian, Hungarian Hiking Association's trail database)",
         href: "https://www.termeszetjaro.hu/",
+      },
+      { type: "h2", text: "Hiking association or casual group?" },
+      {
+        type: "p",
+        text: "Budapest hiking communities fall into two broad groups. One is the hiking associations: mostly member organisations of the Hungarian Hiking Association (MTSZ), with a regular hike calendar, trained hike leaders and often decades of history. The other is casual groups organised online, for example on Meetup or Facebook, where there is no membership and you simply sign up for a given hike.",
+      },
+      {
+        type: "list",
+        items: [
+          "Association: predictable programmes, experienced leaders, an older and more mixed crowd, sometimes an annual fee that also brings discounts; usually in Hungarian",
+          "Casual group: try it with no commitment, typically a younger and often English-speaking crowd, but programmes depend more on the organiser",
+          "As a beginner a casual group is the lower threshold; if you want to hike regularly, an association is the more stable community in the long run",
+        ],
+      },
+      {
+        type: "p",
+        text: "To find an association near you, the MTSZ member organisation map lets you browse by district and town. Kéktúrázás Napja (National Blue Trail Day) is also a good way to try it: free guided hikes start on sections of the National Blue Trail across the country, and in 2026 about 3,800 people registered for 143 guided sections.",
+      },
+      {
+        type: "citation",
+        text: "Hungarian Hiking Association: member organisation map (Hungarian)",
+        href: "https://www.mtsz.org/tagszervezetek",
+      },
+      {
+        type: "citation",
+        text: "MTSZ: Kéktúrázás Napja participants walked 50,000 km in one day (Hungarian)",
+        href: "https://www.mtsz.org/hir/egy-nap-alatt-50-ezer-km-t-gyalogoltak-a-kekturazas-napjanak-resztvevoi",
       },
       {
         type: "faq",
@@ -4382,6 +4409,123 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "If you'd rather join a club that already exists, you'll find the open Budapest book clubs in our Book clubs in Budapest post and on the Budapesti Közösségek list.",
+      },
+    ],
+  },
+  {
+    slug: "how-language-exchange-works-in-budapest",
+    title: "Language exchange in Budapest: how it works and where to practise",
+    metaTitle: "Language exchange in Budapest: how it works, where to go",
+    description:
+      "Tandem partner or language exchange night? How to find a partner in Budapest, how to split the time, and what to expect at your first event.",
+    kind: "guide",
+    category: "Nyelvcsere / Networking",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    body: [
+      {
+        type: "p",
+        text: "Language exchange is simple: you help someone with a language you speak well, and they help you with the one you are learning. No teacher, textbook or fees, just a partner or a table where others came to practise too. In Budapest it comes in two main forms, and each has its own strengths.",
+      },
+      { type: "h2", text: "Tandem partner or language exchange night?" },
+      {
+        type: "table",
+        headers: ["", "Tandem partner", "Language exchange or social night"],
+        rows: [
+          ["How many people?", "Two of you", "Ten to fifty people at smaller tables"],
+          ["How often?", "Whenever you agree, usually weekly", "Fixed time, weekly or monthly"],
+          ["Good for", "Focused practice, corrections, your own pace", "Speaking confidence, different accents, new friends"],
+          ["Effort needed", "Finding a partner and agreeing on times", "Almost none, you just show up"],
+          ["Best for", "People with a concrete goal, like an exam or work", "People who mainly want company and conversation"],
+        ],
+      },
+      { type: "h2", text: "What makes a good tandem?" },
+      {
+        type: "p",
+        text: "The tandem guide from the University of Münster's language centre highlights two principles: reciprocity and autonomy. Reciprocity, because both of you should get the same amount out of the time together. Autonomy, because each person decides what and how they want to practise; your partner is a helper, not a teacher.",
+      },
+      {
+        type: "list",
+        items: [
+          "Split the time evenly: in an hour, half an hour for each language",
+          "Say up front how much correcting you want, every mistake or only the recurring ones",
+          "Bring a topic: an article, an episode of a series or your week is enough to keep things going",
+          "Pick a fixed time and place, since regular short sessions beat occasional long ones",
+          "If the chemistry isn't there, it's completely normal to look for a new partner",
+        ],
+      },
+      {
+        type: "citation",
+        text: "University of Münster language centre: tips for tandem learning",
+        href: "https://www.uni-muenster.de/Sprachenzentrum/en/tandem/tipps.html",
+      },
+      { type: "h2", text: "Where to find a tandem partner in Budapest" },
+      {
+        type: "list",
+        items: [
+          "Language exchange sites and apps such as My Language Exchange, where you can search by language and city",
+          "Language exchange and social nights, where many people meet their future tandem partner",
+          "Universities: plenty of Hungarian students want an English, German or Spanish partner, so watch the student groups",
+          "Expat Facebook groups, where tandem requests come up regularly",
+        ],
+      },
+      { type: "h2", text: "Communities where you can practise right away" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "International Socializing in Budapest",
+            href: "/en/club/international-socializing-budapest",
+            note: "An English-language social night every Saturday from 20:00 at Kovász Kultúrbár in District VIII. A Meetup group with thousands of members, an easy first step into an international crowd.",
+          },
+          {
+            name: "Kerek Perec Hungarian Club",
+            href: "/en/club/kerek-perec-hungarian-club",
+            note: "A Hungarian language club started by language teachers, with playful practice and group outings. The best fit on this list if you live in Budapest and want to actually speak Hungarian.",
+          },
+          {
+            name: "unplugged club Budapest",
+            href: "/en/club/unplugged-club-budapest",
+            note: "A phone-free community for locals and expats with changing weekly events. Not a classic language exchange, but mixed company, in English.",
+          },
+          {
+            name: "Havervagy",
+            href: "/en/club/havervagy",
+            note: "Friendship evenings at small tables where conversation partners rotate every 25-30 minutes. Held in Hungarian, so good practice for advanced learners.",
+          },
+        ],
+      },
+      { type: "h2", text: "Tips for your first language exchange night" },
+      {
+        type: "list",
+        items: [
+          "Arrive early while it's still quiet: it's easier to start talking in a small group",
+          "Prepare two or three sentences to introduce yourself in the language you're practising",
+          "Don't get stuck at one table, moving on is completely normal at these events",
+          "If a conversation goes well, swap contacts: a regular tandem partner speeds things up a lot",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Does language exchange cost money in Budapest?",
+            a: "A tandem is free, since it's mutual help. At language exchange nights you usually just pay for your drinks, and some clubs ask for a small participation fee.",
+          },
+          {
+            q: "What level do I need?",
+            a: "It's worth starting from a basic level. As a beginner a tandem works better because your partner adapts to your pace; at a busy event you'll mostly practise listening.",
+          },
+          {
+            q: "Can I practise Hungarian through language exchange in Budapest?",
+            a: "Yes. Many Hungarians are looking for English or other native speakers, so offering your language in return works well. The Kerek Perec Hungarian Club is built specifically around practising Hungarian.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "For specific places, see our Language exchange and networking communities in Budapest post and the language exchange category on the Budapesti Közösségek list.",
       },
     ],
   },
