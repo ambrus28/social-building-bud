@@ -19,7 +19,7 @@ export const postsEn: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-02",
     body: [
       {
         type: "p",
@@ -64,7 +64,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Mozaik Med community run",
-            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island, any pace welcome. It isn't every week, so check their calendar, and since 2026 you need to register in advance on Aktív Budapest, but there's no skill requirement.",
+            note: "A free community run open to everyone, every Tuesday from 18:00. Runs happen in several pace groups, so beginners and experienced runners are equally welcome, with no skill requirement. The meeting point is usually on Margaret Island, but depending on the programme some sessions are held elsewhere. All details are on their social media pages.",
             href: "https://mozaikmed.hu/",
           },
         ],
@@ -304,7 +304,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island (per their calendar, with advance registration), any pace welcome. Most participants arrive alone too, so nobody stands out for it.",
+            note: "A free community run every Tuesday from 18:00, usually on Margaret Island, in several pace groups. Most participants arrive alone too, so nobody stands out for it.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -792,7 +792,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island, any pace welcome. Sessions follow their calendar and need advance registration.",
+            note: "A free community run every Tuesday from 18:00, usually on Margaret Island, in several pace groups, so anyone can join regardless of pace. Check their social pages for the current location.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1010,7 +1010,7 @@ export const postsEn: BlogPost[] = [
         type: "table",
         headers: ["Club", "Sport", "Cost", "Sign-up required"],
         rows: [
-          ["Mozaik Med community run", "Running", "Free", "Yes, online"],
+          ["Mozaik Med community run", "Running", "Free", "Details on their social pages"],
           ["Run Crew Budapest", "Running", "Free", "No"],
           ["Bridget Runners Budapest", "Running, for women", "Free", "Yes, on Strava"],
           ["Bikás Park Streetball", "Basketball", "Free", "No"],
@@ -1026,7 +1026,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island. Their description specifically highlights that you can join at any pace, so there's no situation where you fall behind and have to catch up. You need to register in advance on Aktív Budapest, but beyond that there are no conditions.",
+            note: "A free community run every Tuesday from 18:00, usually on Margaret Island. They run in several pace groups, so there's no situation where you fall behind and have to catch up. No skill requirement; details are on their social pages.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1276,7 +1276,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med community run",
-            note: "A free community run led by sports doctors on Tuesday evenings on Margaret Island. There's no skill requirement and anyone can join regardless of pace; you just register in advance on Aktív Budapest, which makes it exactly the kind of session you can go to the very first time.",
+            note: "A free community run every Tuesday from 18:00, usually on Margaret Island. No skill requirement and several pace groups, so beginners and experienced runners alike can join: exactly the kind of session you can go to the very first time.",
             href: "https://www.instagram.com/mozaikmed/",
           },
           {
@@ -3977,7 +3977,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Mozaik Med community run",
-            note: "Tuesday evenings, though not every week, on Margaret Island, led by sports doctors and at any pace. Free, but since 2026 you need to register in advance on Aktív Budapest; current dates are in their calendar.",
+            note: "Every Tuesday from 18:00, usually on Margaret Island, in several pace groups for beginners and experienced runners. Free; current location and details are on their social pages.",
             href: "/en/club/mozaik-med-futas",
           },
           {

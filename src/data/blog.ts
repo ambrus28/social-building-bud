@@ -36,7 +36,7 @@ export const posts: BlogPost[] = [
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-20",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-02",
     body: [
       {
         type: "p",
@@ -81,7 +81,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten, bármilyen futótempóval. Nem minden héten van, ezért nézd meg a naptárukat, és 2026 óta előre regisztrálni kell az Aktív Budapest oldalán, de szintfeltétel nincs.",
+            note: "Ingyenes, mindenki számára ajánlott közösségi futás Budapesten, minden kedden 18:00 órától. A futások több tempócsoportban zajlanak, így kezdőket és tapasztalt futókat egyaránt szeretettel várnak, szintfeltétel nélkül. A találkozó helyszíne általában a Margitszigeten van, de az aktuális programtól függően más helyszíneken is szerveznek edzéseket. A közösségi oldalakon minden részletet megtalálsz.",
             href: "https://mozaikmed.hu/",
           },
         ],
@@ -321,7 +321,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten (naptár szerint, előzetes regisztrációval), bármilyen futótempóval. A résztvevők nagy része maga is egyedül érkezik, így senki nem lóg ki a sorból.",
+            note: "Ingyenes közösségi futás minden kedden 18:00-tól, általában a Margitszigeten, több tempócsoportban. A résztvevők nagy része maga is egyedül érkezik, így senki nem lóg ki a sorból.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -796,7 +796,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül. Az alkalmak naptár szerint vannak, és előre regisztrálni kell.",
+            note: "Ingyenes közösségi futás minden kedden 18:00-tól, általában a Margitszigeten, több tempócsoportban, így bárki csatlakozhat futótempótól függetlenül. Az aktuális helyszínt a közösségi oldalaikon nézd meg.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1014,7 +1014,7 @@ export const posts: BlogPost[] = [
         type: "table",
         headers: ["Klub", "Sportág", "Költség", "Előzetes jelentkezés"],
         rows: [
-          ["Mozaik Med közösségi futás", "Futás", "Ingyenes", "Igen, online"],
+          ["Mozaik Med közösségi futás", "Futás", "Ingyenes", "Részletek a közösségi oldalukon"],
           ["Run Crew Budapest", "Futás", "Ingyenes", "Nem kell"],
           ["Bridget Runners Budapest", "Futás, nőknek", "Ingyenes", "Igen, Straván"],
           ["Bikás Park Streetball", "Kosárlabda", "Ingyenes", "Nem kell"],
@@ -1030,7 +1030,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten. A leírásuk külön kiemeli, hogy bármilyen futótempóval csatlakozhatsz, tehát nincs az a helyzet, hogy lemaradsz és utánad kell jönni. Előre regisztrálni kell az Aktív Budapest oldalán, de ezen túl nincs semmilyen feltétel.",
+            note: "Ingyenes közösségi futás minden kedden 18:00-tól, általában a Margitszigeten. Több tempócsoportban futnak, tehát nincs az a helyzet, hogy lemaradsz és utánad kell jönni. Szintfeltétel nincs, a részleteket a közösségi oldalaikon találod.",
             href: "https://mozaikmed.hu/",
           },
           {
@@ -1276,7 +1276,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, sportorvosok vezette közösségi futás kedd esténként a Margitszigeten. Szintfeltétel nincs, bárki csatlakozhat futótempótól függetlenül, csak előre regisztrálni kell az Aktív Budapest oldalán, tehát tipikusan az a fajta alkalom, ahova az első alkalommal is nyugodtan mehetsz.",
+            note: "Ingyenes közösségi futás minden kedden 18:00-tól, általában a Margitszigeten. Szintfeltétel nincs, több tempócsoportban futnak, így kezdők és tapasztaltak is jöhetnek: tipikusan az a fajta alkalom, ahova az első alkalommal is nyugodtan mehetsz.",
             href: "https://www.instagram.com/mozaikmed/",
           },
           {
@@ -3989,7 +3989,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Mozaik Med közösségi futás",
-            note: "Kedd esténként, de nem minden héten, a Margitszigeten, sportorvosok vezetésével és bármilyen tempóval. Ingyenes, de 2026 óta előre regisztrálni kell az Aktív Budapest oldalán, az aktuális dátumokat a naptárukban látod.",
+            note: "Minden kedden 18:00-tól, általában a Margitszigeten, több tempócsoportban, kezdőknek és tapasztaltaknak is. Ingyenes, az aktuális helyszínt és a részleteket a közösségi oldalaikon látod.",
             href: "/klub/mozaik-med-futas",
           },
           {

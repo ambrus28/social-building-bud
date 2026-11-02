@@ -31,6 +31,7 @@ const SCHEDULE_EN: Record<string, string> = {
   "Havonta, utolsó péntek": "Monthly, last Friday",
   "Hétfő és kedd este, szombat reggel": "Monday and Tuesday evenings, Saturday mornings",
   "Kedd este, naptár szerint": "Tuesday evenings, per calendar",
+  "Minden kedden 18:00": "Every Tuesday, 18:00",
   "Szerda este": "Wednesday evenings",
   "Szerda este és vasárnap délelőtt": "Wednesday evenings and Sunday mornings",
   "Szerda este, hétvégén reggel": "Wednesday evenings, weekend mornings",
