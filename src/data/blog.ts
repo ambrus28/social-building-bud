@@ -31,7 +31,7 @@ export const posts: BlogPost[] = [
     slug: "legjobb-futoklubok-budapesten",
     title: "7 legjobb futóklub Budapesten kezdőknek és haladóknak",
     description:
-      "Női futóklub, kávézós futás, edzői vezetésű márkaklub, kerületi közösség és ingyenes szigeti futóest: hét valódi budapesti futóklub, amelyhez bárki csatlakozhat, és miért épp most nőnek ennyire.",
+      "Női futóklub, kávézós futás, edzői vezetésű márkaklub, belvárosi amatőr futóközösség és ingyenes szigeti futóest: hét valódi budapesti futóklub, amelyhez bárki csatlakozhat, és miért épp most nőnek ennyire.",
     kind: "listicle",
     category: "Sport",
     author: DEFAULT_AUTHOR,
@@ -60,9 +60,9 @@ export const posts: BlogPost[] = [
             href: "https://www.instagram.com/runnershighbud/",
           },
           {
-            name: "Angyalföldi Futóklub",
-            note: "Kerületi futóklub a XIII. kerületben, kezdőknek és haladóknak egyaránt. A kerületi jelleg miatt sokan a szomszédságból csatlakoznak, ezért a hangulat kevésbé formális, mint egy nagyvárosi futóegyesületnél.",
-            href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
+            name: "Pace & Pour",
+            note: "Heti rendszerességű, közösségi futóklub Budapest belvárosában, kifejezetten amatőr futóknak és kocogóknak. Minden tempót szívesen látnak, és ahogy ők fogalmaznak, az edzés legjobb része a közös kávé és beszélgetés utána. A Strava-csoportnak közel 180 tagja van, a közös futások részleteit ott és az Instagramjukon teszik közzé.",
+            href: "https://www.strava.com/clubs/PacePour",
           },
           {
             name: "Running Latte Club",
@@ -89,7 +89,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyik futóklubot válaszd?" },
       {
         type: "p",
-        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
+        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy a Pace & Pour a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
       },
       { type: "h2", text: "További ingyenes futóalkalmak, ha edzővel futnál" },
       {

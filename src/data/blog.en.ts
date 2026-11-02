@@ -14,7 +14,7 @@ export const postsEn: BlogPost[] = [
     slug: "best-running-clubs-budapest",
     title: "7 best running clubs in Budapest for beginners and experienced runners",
     description:
-      "A women-only run club, a run-then-coffee crew, a coach-led brand club, a neighborhood club, and a free island run: seven real Budapest running clubs anyone can join, and why they are booming right now.",
+      "A women-only run club, a run-then-coffee crew, a coach-led brand club, a downtown club for amateur runners, and a free island run: seven real Budapest running clubs anyone can join, and why they are booming right now.",
     kind: "listicle",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -43,9 +43,9 @@ export const postsEn: BlogPost[] = [
             href: "https://www.instagram.com/runnershighbud/",
           },
           {
-            name: "Angyalföldi Futóklub",
-            note: "A neighborhood running club in District XIII, for beginners and experienced runners alike. Being neighborhood-based means many people join from nearby, which gives it a less formal feel than a big-city running association.",
-            href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
+            name: "Pace & Pour",
+            note: "A weekly social running club in central Budapest, made for amateur runners and casual joggers. Every pace is welcome, and in their own words the best part of a workout is the social hour that follows. The Strava group has close to 180 members, and run details are posted there and on their Instagram.",
+            href: "https://www.strava.com/clubs/PacePour",
           },
           {
             name: "Running Latte Club",
@@ -72,7 +72,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which running club should you pick?" },
       {
         type: "p",
-        text: "If you're a total beginner, the Mozaik Med island run or Angyalföldi Futóklub are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
+        text: "If you're a total beginner, the Mozaik Med island run or Pace & Pour are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
       },
       { type: "h2", text: "More free runs if you want a coach" },
       {
