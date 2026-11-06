@@ -12,9 +12,9 @@ export type CategorySeo = {
 const SEO: Record<string, CategorySeo> = {
   Sport: {
     h1: "Sportközösségek és sportklubok Budapesten",
-    title: "Sportközösségek Budapesten",
+    title: "Sportklubok Budapesten: futóklubok és hobbicsapatok listája",
     description:
-      "Futóklubok, kerékpáros csapatok, tenisz, kosárlabda és pickleball közösségek Budapesten. Ingyenes lista, ahol a legtöbb csapat kezdőket is szívesen lát.",
+      "Budapesti sportklubok listája: futóklubok, hobbi foci, kerékpár, pickleball és tenisz. Kezdőket is fogadó közösségek időpontokkal és linkekkel, regisztráció nélkül.",
     intro: [
       "Budapesten a sportközösségek nagy része nem egyesület, hanem baráti társaság, ami hetente egyszer ugyanott találkozik. Pont ezért nehéz rájuk találni: nincs honlapjuk, csak egy Instagram-oldaluk, és jellemzően nem hirdetik magukat sehol.",
       "Az itt szereplő csapatok mind valódi, aktív közösségek, és a többségük nyitott arra, hogy egyedül állj be. Ha még sosem csináltad, a futóklubok és a szabadtéri kosárlabda a legkönnyebb belépő, mert ott senki nem várja el, hogy előre bejelentkezz. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
@@ -102,9 +102,9 @@ const SEO: Record<string, CategorySeo> = {
   },
   Tánc: {
     h1: "Táncos közösségek és social dance Budapesten",
-    title: "Táncos közösségek Budapesten",
+    title: "Latin tánc és social dance Budapesten: salsa, bachata, kizomba",
     description:
-      "Salsa, bachata és egyéb social dance alkalmak Budapesten, kezdőknek is. Ingyenes lista táncos közösségekről.",
+      "Hol táncolhatsz Budapesten? Salsa-, bachata-, kizomba- és zoukbulik, gyakorlások és táncórák, kezdőknek is, a Latinfo naptárától a női táncórákig.",
     intro: [
       "A social dance formátum lényege, hogy nem párban kell érkezni: a helyszínen cserélgetitek a partnereket, és pont ez teszi közösséggé. Egyedül menni nemhogy furcsa, hanem a szokásos.",
       "A legtöbb esemény előtt van kezdő órakezdés, ahol az alaplépéseket megtanítják, tehát előzetes tudás nélkül is be lehet esni. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",

@@ -537,9 +537,9 @@ export const postsEn: BlogPost[] = [
   {
     slug: "yoga-meditation-communities-budapest-for-beginners",
     title: "Yoga and meditation in Budapest for beginners: 4 communities you can start with zero experience",
-    metaTitle: "Yoga in Budapest for beginners: 4 communities to start with",
+    metaTitle: "Beginner yoga classes in Budapest: outdoor yoga, tai chi, meditation",
     description:
-      "Looking for yoga in Budapest as a beginner? Outdoor yoga on Margaret Island, indoor yoga and tai chi, and meditation groups: four real communities that welcome zero experience.",
+      "Yoga classes in Budapest for complete beginners: outdoor yoga on Margaret Island, yoga and tai chi at H13 Kultpont, and English-speaking meditation groups. Four real communities.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
@@ -2952,9 +2952,9 @@ export const postsEn: BlogPost[] = [
   {
     slug: "love-sports-but-no-one-to-do-it-with",
     title: "Love sports but have no one to do it with? Find the option that fits you",
-    metaTitle: "Love sports but no one to do it with? 4 options",
+    metaTitle: "Struggling to stay consistent with sport? 4 kinds of groups that help",
     description:
-      "Not all sporting company is the same kind. We walk through four distinct paths, and which one fits you if you enjoy moving but struggle to stay motivated alone.",
+      "Which sports community keeps you consistent if you lose motivation alone? Four options in Budapest, from running clubs to team sports, and who each one suits.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -3501,9 +3501,9 @@ export const postsEn: BlogPost[] = [
   {
     slug: "is-there-outdoor-bouldering-in-budapest",
     title: "Bouldering in Budapest: real outdoor rock and the best indoor gyms",
-    metaTitle: "Bouldering in Budapest: outdoor spots and indoor gyms",
+    metaTitle: "Bouldering in Budapest: 5 indoor gyms and real outdoor rock",
     description:
-      "Budapest is mostly known for its indoor bouldering gyms, but the Buda Hills have real, natural limestone bouldering spots too. We cover where, why there's no free community built around it, and which indoor gym to try instead.",
+      "Where to boulder in Budapest: Mountex, Monkey Boulder, Fless, Spider Club and Boulder Academy indoors, plus natural limestone boulders in the Buda Hills such as the Oroszlán-sziklák.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,

@@ -8,9 +8,9 @@ export type CategorySeoEn = {
 const SEO_EN: Record<string, CategorySeoEn> = {
   Sport: {
     h1: "Sports communities and clubs in Budapest",
-    title: "Sports communities in Budapest",
+    title: "Sports clubs in Budapest: running clubs and casual teams",
     description:
-      "Running clubs, cycling groups, tennis, basketball and pickleball communities in Budapest. A free list where most groups happily welcome beginners.",
+      "A list of Budapest sports clubs: running clubs, casual football, cycling, pickleball and tennis. Beginner-friendly groups with times and links, no sign-up needed.",
     intro: [
       "Most sports communities in Budapest aren't formal clubs, they're groups of friends who meet at the same spot once a week. That's exactly why they're hard to find: no website, just an Instagram account, and they rarely advertise anywhere.",
       "Every group listed here is real and active, and most are open to you showing up alone. If you've never done this before, running clubs and outdoor basketball are the easiest way in, because nobody expects you to sign up ahead of time. This list is hand-curated and kept up to date by Budapesti Közösségek.",
@@ -98,9 +98,9 @@ const SEO_EN: Record<string, CategorySeoEn> = {
   },
   Tánc: {
     h1: "Social dance communities in Budapest",
-    title: "Dance communities in Budapest",
+    title: "Latin and social dance in Budapest: salsa, bachata, kizomba",
     description:
-      "Salsa, bachata and other social dance nights in Budapest, open to beginners. A free list of dance communities.",
+      "Where to dance in Budapest: salsa, bachata, kizomba and zouk parties, practice nights and classes for beginners, from the Latinfo calendar to women-only classes.",
     intro: [
       "The whole point of social dance is that you're not supposed to arrive as a couple: you rotate partners on the floor, and that's exactly what makes it a community rather than a date night. Showing up alone isn't awkward, it's the norm.",
       "Most events start with a beginner lesson covering the basic steps, so you can walk in with zero prior experience. This list is hand-curated and kept up to date by Budapesti Közösségek.",
