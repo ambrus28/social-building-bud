@@ -52,9 +52,9 @@ const SEO: Record<string, CategorySeo> = {
   },
   Társasjáték: {
     h1: "Társasjáték-klubok és játékestek Budapesten",
-    title: "Társasjáték-klubok Budapesten",
+    title: "Társasjáték-estek Budapesten: heti klubok és játékestek",
     description:
-      "Társasjáték-esték és klubnapok Budapesten, magyarul és angolul, kezdőknek is. Ingyenes lista, a legtöbb helyen nincs tagdíj.",
+      "Hol lehet társasjátékozni Budapesten? Heti társasjáték-estek keddtől péntekig, magyarul és angolul, kezdőknek is, időpontokkal és helyszínekkel.",
     intro: [
       "A társasjáték-esték azért kivételesen jó belépők, mert a játék adja a struktúrát: nem neked kell beszélgetést kezdeményezned, elég leülnöd egy asztalhoz. Egy kör alatt óhatatlanul megismersz három-négy embert.",
       "Az itt szereplő közösségek nagy része ingyenes vagy csak a helyszín fogyasztását kéri, és szinte mindenhol van, aki elmagyarázza a szabályokat. Saját játékot nem kell vinni. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
@@ -132,7 +132,7 @@ const SEO: Record<string, CategorySeo> = {
   },
   "Önkéntesség / Közösségi akció": {
     h1: "Önkéntes közösségek és közösségi akciók Budapesten",
-    title: "Önkéntes közösségek Budapesten",
+    title: "Önkéntesség Budapesten: közösségek és egyszeri akciók",
     description:
       "Önkéntes kezdeményezések és jótékonysági akciók Budapesten, ahol egy alkalomra is be lehet állni. Ingyenes lista.",
     intro: [

@@ -48,9 +48,9 @@ const SEO_EN: Record<string, CategorySeoEn> = {
   },
   Társasjáték: {
     h1: "Board game clubs and game nights in Budapest",
-    title: "Board game clubs in Budapest",
+    title: "Board game nights in Budapest: weekly clubs and meetups",
     description:
-      "Board game nights and regular meetups in Budapest, in Hungarian and English, open to beginners. Free to join, most charge no membership fee.",
+      "Where to play board games in Budapest: weekly game nights from Tuesday to Friday, in English and Hungarian, beginners welcome. Times, venues and links.",
     intro: [
       "Board game nights are an unusually good entry point because the game itself gives you the structure, so you don't have to start a conversation, you just have to sit at a table. One round in, you've met three or four people without trying.",
       "Most communities here are free or just expect you to buy something at the venue, and there's almost always someone happy to explain the rules. You don't need to bring your own game. This list is hand-curated and kept up to date by Budapesti Közösségek.",
@@ -128,7 +128,7 @@ const SEO_EN: Record<string, CategorySeoEn> = {
   },
   "Önkéntesség / Közösségi akció": {
     h1: "Volunteer communities and initiatives in Budapest",
-    title: "Volunteer communities in Budapest",
+    title: "Volunteering in Budapest: communities and one-off actions",
     description:
       "Volunteer initiatives and charity actions in Budapest that you can join for a single occasion. A free list.",
     intro: [

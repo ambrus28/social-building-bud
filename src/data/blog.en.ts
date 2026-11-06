@@ -443,14 +443,14 @@ export const postsEn: BlogPost[] = [
   {
     slug: "board-game-communities-budapest",
     title: "5 board game communities in Budapest you can join for free",
-    metaTitle: "5 free board game communities in Budapest",
+    metaTitle: "Board game nights in Budapest: 5 free groups, day by day",
     description:
       "English- and Hungarian-language board game nights where you can try everything from modern classics to strategy games among new people.",
     kind: "listicle",
     category: "Társasjáték",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     body: [
       {
         type: "p",
@@ -486,6 +486,22 @@ export const postsEn: BlogPost[] = [
           },
         ],
       },
+      { type: "h2", text: "Which day can you play board games in Budapest?" },
+      {
+        type: "table",
+        headers: ["Day", "Community", "Venue", "Language"],
+        rows: [
+          ["Tuesday, from 17:00", "Casual Board Games and Beers", "Beer People, District VI", "English"],
+          ["Wednesday, from 18:00", "Board Games in English", "Vault 51, District VI", "English"],
+          ["Thursday, 18:00-23:00", "Andúril Board Game Club", "Visegrádi utca, District XIII", "Hungarian"],
+          ["Last Friday of the month, from 18:00", "TIA Game Cave", "Bokréta utca, District IX", "Hungarian"],
+          ["Varies", "Budapest Board Game Nights", "Various board game bars", "English"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Times are taken from each club's own listings, so check their page before you go in case something changes or is cancelled. TIA Game Cave asks you to sign up online in advance; for the others you can usually just turn up.",
+      },
       { type: "h2", text: "Which one should you pick if you've never been to a board game community?" },
       {
         type: "p",
@@ -494,6 +510,14 @@ export const postsEn: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "Where can I play board games for free in Budapest?",
+            a: "None of the five communities here charge an entry fee: Casual Board Games and Beers on Tuesdays, Board Games in English on Wednesdays, Andúril Board Game Club on Thursdays and TIA Game Cave on the last Friday of the month. In bars you just pay for your own drinks.",
+          },
+          {
+            q: "Which day is board game night in Budapest?",
+            a: "There's something on most weekdays: English-language nights on Tuesday and Wednesday in District VI, Andúril's Hungarian club night on Thursday in District XIII, and TIA Game Cave once a month on a Friday in District IX.",
+          },
           {
             q: "Do I need to bring my own board game?",
             a: "Not necessary, most sessions have games provided by the organizers or the venue. If you have a favorite, you can of course bring it, but it's not expected.",
@@ -2374,14 +2398,14 @@ export const postsEn: BlogPost[] = [
   {
     slug: "volunteer-opportunities-in-budapest",
     title: "Volunteer opportunities in Budapest you can join for a single occasion",
-    metaTitle: "Volunteer opportunities in Budapest",
+    metaTitle: "Volunteering in Budapest: where to help, even just once",
     description:
       "Where you can help out in Budapest with no commitment, what to know before your first action, and why it's one of the easiest ways to meet people.",
     kind: "guide",
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     body: [
       {
         type: "p",
@@ -2415,6 +2439,21 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "All three of these are on our club list too, since each is free and open to one-off participation. Budapest has far more volunteering options than this, but most don't present themselves as a community; they run as occasional calls for help that are hard to keep track of.",
+      },
+      { type: "h2", text: "Which day can you help, and where?" },
+      {
+        type: "table",
+        headers: ["When", "Initiative", "What you do", "How to sign up"],
+        rows: [
+          ["Twice a week", "Budapest Bike Maffia", "Making and delivering food parcels by bike", "Via their current actions on their website"],
+          ["Wednesday and Friday evenings", "Sant'Egidio Community", "Shared dinner with guests in need", "You can join any time"],
+          ["Every Sunday", "Heti Betevő", "Cooking and handing out hot meals in Districts VII and VIII", "By email or in their Facebook group"],
+          ["Occasional shifts", "Hungarian Food Bank", "Warehouse sorting, packing, food rescue", "Online form"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Sant'Egidio's Budapest group meets at the Kaniziusz Szent Péter church on Gát utca: on Wednesdays and Fridays from 18:30 there is an evening prayer followed by a shared dinner with guests in need. It is a Catholic community, but you don't need to be religious to help at the dinners. Together, these four initiatives cover almost the whole week.",
       },
       { type: "h2", text: "What types of volunteer work exist?" },
       {
@@ -2452,6 +2491,14 @@ export const postsEn: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "Where can I volunteer on weekends in Budapest?",
+            a: "On Sundays with Heti Betevő, who cook from 11:00 in District VII and hand out hot meals between 13:00 and 15:30. On weekday evenings you can also help at Sant'Egidio's shared dinners or join Budapest Bike Maffia's weekly actions.",
+          },
+          {
+            q: "Can I volunteer just once in Budapest?",
+            a: "Yes. With Heti Betevő you can sign up for individual Sundays, Bike Maffia lets you join a single action without membership, and the Food Bank also takes sign-ups for one-off warehouse shifts.",
+          },
           {
             q: "Do I have to commit long term?",
             a: "No. You can join a large share of Budapest's actions for a single occasion. If you don't come back afterward, that's not a problem for anyone.",

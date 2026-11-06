@@ -460,14 +460,14 @@ export const posts: BlogPost[] = [
   {
     slug: "tarsasjatek-kozossegek-budapesten",
     title: "5 társasjáték-közösség Budapesten, ahova ingyen csatlakozhatsz",
-    metaTitle: "5 ingyenes társasjáték-közösség Budapesten",
+    metaTitle: "Társasjáték-estek Budapesten: 5 ingyenes közösség, napokra bontva",
     description:
       "Angol nyelvű és magyar társasjáték-esték, ahol modern klasszikusoktól a stratégiai játékokig mindent kipróbálhatsz új emberek társaságában.",
     kind: "listicle",
     category: "Társasjáték",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     body: [
       {
         type: "p",
@@ -503,6 +503,22 @@ export const posts: BlogPost[] = [
           },
         ],
       },
+      { type: "h2", text: "Melyik napon hol társasozhatsz Budapesten?" },
+      {
+        type: "table",
+        headers: ["Nap", "Közösség", "Helyszín", "Nyelv"],
+        rows: [
+          ["Kedd, 17:00-tól", "Casual Board Games and Beers", "Beer People, VI. kerület", "Angol"],
+          ["Szerda, 18:00-tól", "Board Games in English", "Vault 51, VI. kerület", "Angol"],
+          ["Csütörtök, 18:00-23:00", "Andúril Társasjáték Klub", "Visegrádi utca, XIII. kerület", "Magyar"],
+          ["Hónap utolsó péntekje, 18:00-tól", "TIA Game Cave", "Bokréta utca, IX. kerület", "Magyar"],
+          ["Változó", "Budapest Board Game Nights", "Változó társasjáték-bárok", "Angol"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Az időpontok a klubok saját hirdetései alapján szerepelnek, indulás előtt érdemes a közösség oldalán megnézni, nincs-e változás vagy elmaradás. A TIA Game Cave-re előzetesen online kell jelentkezni, a többi estére jellemzően elég megjelenni.",
+      },
       { type: "h2", text: "Melyiket válaszd, ha még sosem jártál társasjáték-közösségben?" },
       {
         type: "p",
@@ -520,6 +536,14 @@ export const posts: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "Hol lehet ingyen társasjátékozni Budapesten?",
+            a: "Az itt felsorolt öt közösségnél nincs belépődíj: kedden a Casual Board Games and Beers, szerdán a Board Games in English, csütörtökön az Andúril Társasjáték Klub, a hónap utolsó péntekjén a TIA Game Cave vár. A bárokban a saját fogyasztásodat fizeted.",
+          },
+          {
+            q: "Melyik napon van társasjáték-est Budapesten?",
+            a: "Szinte minden hétköznap van valahol: kedden és szerdán angol nyelvű esték a VI. kerületben, csütörtökön az Andúril magyar nyelvű klubestje a XIII. kerületben, havonta egyszer pénteken a TIA Game Cave a IX. kerületben.",
+          },
           {
             q: "Kell-e saját társasjátékot vinnem magammal?",
             a: "Nem szükséges, a legtöbb alkalmon a szervezők vagy a helyszín biztosítja a játékokat. Ha van kedvenced, természetesen elviheted, de nem elvárás.",
@@ -2374,14 +2398,14 @@ export const posts: BlogPost[] = [
   {
     slug: "onkentes-lehetosegek-budapesten",
     title: "Önkéntes lehetőségek Budapesten, ahol egy alkalomra is beállhatsz",
-    metaTitle: "Önkéntes lehetőségek Budapesten",
+    metaTitle: "Önkéntesség Budapesten: hol segíthetsz akár egy alkalomra?",
     description:
       "Hol segíthetsz Budapesten elköteleződés nélkül, mit kell tudni az első akció előtt, és miért a legkönnyebb így embereket megismerni.",
     kind: "guide",
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     body: [
       {
         type: "p",
@@ -2397,7 +2421,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Budapest Bike Maffia",
-            note: "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral. A formátum lényege, hogy egy akcióra is beállhatsz, nem kell tagnak lenned vagy előre elköteleződnöd. Kerékpár kell hozzá, de nem versenytempó: a lényeg a szállítás, nem a sebesség. Az aktuális akciókat a saját oldalukon és Instagramon hirdetik.",
+            note: "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral. A formátum lényege, hogy egy akcióra is beállhatsz, nem kell tagnak lenned vagy előre elköteleződnöd. Kerékpár kell hozzá, de nem versenytempó: a lényeg a szállítás, nem a sebesség. A Vitamin Kommandó akcióiban hetente kétszer készítenek és visznek ki ételcsomagokat rászorulóknak, az aktuális akciókat a saját oldalukon és Instagramon hirdetik.",
             href: "https://bikemaffia.com/",
           },
           {
@@ -2415,6 +2439,21 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "Ez a három kezdeményezés a klublistánkban is szerepel, mert mindhárom ingyenes, és eseti részvételre is nyitott. Budapesten persze ennél sokkal több önkéntes lehetőség van, de a többség nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
+      },
+      { type: "h2", text: "Melyik napon hol segíthetsz?" },
+      {
+        type: "table",
+        headers: ["Mikor", "Kezdeményezés", "Mit csinálsz", "Hogyan jelentkezel"],
+        rows: [
+          ["Hetente kétszer", "Budapest Bike Maffia", "Ételcsomag készítése és kiszállítása kerékpárral", "Az aktuális akcióknál, a honlapjukon"],
+          ["Szerda és péntek este", "Sant'Egidio Közösség", "Közös vacsora rászoruló vendégekkel", "Folyamatosan lehet csatlakozni"],
+          ["Minden vasárnap", "Heti Betevő", "Főzés és meleg étel osztása a VII. és VIII. kerületben", "E-mailben vagy Facebook-csoportban"],
+          ["Eseti műszakok", "Magyar Élelmiszerbank", "Raktári válogatás, dobozolás, ételmentés", "Online űrlapon"],
+        ],
+      },
+      {
+        type: "p",
+        text: "A Sant'Egidio budapesti csoportja a Gát utcai Kaniziusz Szent Péter-templomban gyűlik: szerdán és pénteken fél héttől imaestet tartanak, amit közös vacsora követ rászoruló vendégekkel. Katolikus közösség, de a vacsorákon való segítséghez nem kell vallásosnak lenned. Ha hétközben és hétvégén is szeretnél segíteni, ez a négy kezdeményezés együtt szinte az egész hetet lefedi.",
       },
       { type: "h2", text: "Milyen típusú önkéntes munkák léteznek?" },
       {
@@ -2452,6 +2491,14 @@ export const posts: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "Hol lehet hétvégén önkénteskedni Budapesten?",
+            a: "Vasárnaponként a Heti Betevőnél, ahol a VII. kerületben 11 órától főznek és 13 és 15:30 között osztanak meleg ételt. Hétköznap este a Sant'Egidio közös vacsoráin és a Budapest Bike Maffia heti akcióiban is beállhatsz.",
+          },
+          {
+            q: "Lehet egyszeri önkéntes munkát vállalni Budapesten?",
+            a: "Igen. A Heti Betevőnél vasárnaponként, egyenként vállalhatsz alkalmat, a Bike Maffiánál egy-egy akcióra is beállhatsz tagság nélkül, az Élelmiszerbanknál pedig eseti raktári műszakokra is lehet jelentkezni.",
+          },
           {
             q: "Kell hosszú távra elköteleződnöm?",
             a: "Nem. A budapesti akciók jelentős részéhez egyetlen alkalomra is be lehet állni. Ha utána nem mész többet, azzal senkinek nem okozol problémát.",
