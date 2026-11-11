@@ -14,7 +14,7 @@ export const postsEn: BlogPost[] = [
     slug: "best-running-clubs-budapest",
     title: "7 best running clubs in Budapest for beginners and experienced runners",
     description:
-      "A women-only run club, a run-then-coffee crew, a coach-led brand club, a downtown club for amateur runners, and a free island run: seven real Budapest running clubs anyone can join, and why they are booming right now.",
+      "A women-only run club, a run-then-coffee crew, a coach-led brand club, a downtown club for amateur runners, and a free island run: seven Budapest running clubs anyone can join, and why they are booming right now.",
     kind: "listicle",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -23,7 +23,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "If you're looking for a running club in Budapest, let's be honest, you're rarely joining for a personal best. It's more that running together is exercise and company at once. You don't need to be competitive to enjoy it: most Budapest running communities deliberately favor a mixed-pace, chatty tempo over performance. All seven clubs below are real, active Budapest communities you can join for free, no club membership or prior running experience required.",
+        text: "If you're looking for a running club in Budapest, most people don't join for a personal best. Running together gives you exercise and company at once. You don't need to be competitive to enjoy it: most Budapest running communities deliberately favor a mixed-pace, chatty tempo over performance. All seven clubs below are active Budapest communities you can join for free, no club membership or prior running experience required.",
       },
       {
         type: "p",
@@ -159,7 +159,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "The first time is always the hardest: walking into a room, or standing next to a running group, where you don't know anyone. It's completely normal to be scared of that, and it's exactly why most of the communities listed here were designed to be beginner-friendly in the first place. The organizers know exactly what it feels like to show up for the first time, because they once did too. A few small things make a real difference in taking the edge off that first visit.",
+        text: "The first time is always the hardest: walking into a room, or standing next to a running group, where you don't know anyone. It's completely normal to be scared of that, and it's exactly why most of the communities listed here were designed to be beginner-friendly in the first place. The organizers know exactly what it feels like to show up for the first time, because they once did too. A few small things make that first visit easier.",
       },
       { type: "h2", text: "Pick a community with a recurring, fixed session" },
       {
@@ -214,7 +214,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "If you're still not sure where to start, browse the full Budapesti Közösségek list by category, and pick an activity you'd genuinely enjoy doing anyway.",
+        text: "If you're still not sure where to start, browse the full Budapesti Közösségek list by category, and pick an activity you'd enjoy doing anyway.",
       },
     ],
   },
@@ -232,14 +232,14 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in real, live conversation. These three communities are all active, and all built around the same idea: bringing new people together, whether through a shared language or simply shared openness.",
+        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in live conversation. All three communities below are active, and each brings new people together, either around a language or simply around meeting people.",
       },
       {
         type: "clublist",
         items: [
           {
             name: "International Socializing in Budapest",
-            note: "A weekly Saturday evening meetup for locals, expats and travelers to practice languages and meet people. The focus is less on structured language learning and more on a relaxed, international social experience.",
+            note: "A weekly Saturday evening meetup for locals, expats and travelers to practice languages and meet people. It's a relaxed, international social evening without structured language lessons.",
             href: "https://www.meetup.com/international-socializing-in-budapest/",
           },
           {
@@ -288,7 +288,7 @@ export const postsEn: BlogPost[] = [
     title: "8 communities in Budapest you can join alone, and still not be alone",
     metaTitle: "8 Budapest communities you can join solo",
     description:
-      "Running, book clubs, board games, yoga and hiking: eight real Budapest communities you can confidently join by yourself.",
+      "Running, book clubs, board games, yoga and hiking: eight Budapest communities you can confidently join by yourself.",
     kind: "listicle",
     category: null,
     author: DEFAULT_AUTHOR_EN,
@@ -359,7 +359,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "What's the least demanding way in if I've never been to a community like this?",
-            a: "The Mozaik Med island run or TIA Game Cave are the least demanding starting points, because there's no expected prior knowledge and the atmosphere is genuinely relaxed.",
+            a: "The Mozaik Med island run or TIA Game Cave are the least demanding starting points, because there's no expected prior knowledge and the atmosphere is relaxed.",
           },
           {
             q: "How outgoing or extroverted do I need to be for these communities?",
@@ -386,7 +386,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Loneliness isn't just an unpleasant feeling, it's a measurable health risk. A 2023 World Health Organization report identified social isolation and loneliness as a global public health problem, on a comparable scale to smoking or physical inactivity. That means regular community participation isn't a luxury or a leisure activity, it's an investment with a measurable payoff for long-term health.",
+        text: "Loneliness is unpleasant, and it is also a measurable health risk. A 2023 World Health Organization report identified social isolation and loneliness as a global public health problem, on a comparable scale to smoking or physical inactivity. Regular community participation therefore has a measurable payoff for long-term health.",
       },
       {
         type: "citation",
@@ -396,22 +396,22 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What does the research actually say?" },
       {
         type: "p",
-        text: "Regular, genuine social connection reduces the risk of anxiety and depression, improves sleep quality, and has a measurable effect on physical health over the long run. The key isn't the number of connections, but their regularity and quality: a weekly recurring community session is worth more than rare, large one-off events, because regularity is what allows a surface-level acquaintance to turn into a real connection.",
+        text: "Regular social connection reduces the risk of anxiety and depression, improves sleep quality, and has a measurable effect on physical health over the long run. Regularity and quality count for more than the number of connections: a weekly recurring community session is worth more than rare, large one-off events, because meeting again and again is how a surface-level acquaintance turns into a friendship.",
       },
       { type: "h2", text: "Why is this harder as an adult than as a kid?" },
       {
         type: "p",
-        text: "As a child or a university student, friendships form almost automatically: shared school, shared dorm, a shared schedule ensures regular contact. As an adult with a job, that structure disappears, which is why you need to deliberately seek out the places (clubs, communities, recurring programs) that replace what used to happen by chance.",
+        text: "As a child or a university student, friendships form almost automatically: a shared school, dorm and schedule keep you in regular contact. As an adult with a job, that structure disappears, which is why you need to deliberately seek out the places (clubs, communities, recurring programs) that replace what used to happen by chance.",
       },
       { type: "h2", text: "How much community is enough: does quality or quantity matter?" },
       {
         type: "p",
-        text: "You don't need to join a dozen communities to feel the difference. Research shows that even one or two regularly attended communities measurably reduce feelings of loneliness, as long as attendance is genuinely regular, not just occasional. One weekly recurring running club has far more protective value than four different, rarely attended groups, because regularity is what turns surface-level acquaintance into an actual connection.",
+        text: "You don't need to join a dozen communities to feel the difference. Research shows that even one or two regularly attended communities measurably reduce feelings of loneliness, as long as you attend them regularly. One weekly running club you actually go to has far more protective value than four different groups you rarely visit.",
       },
       { type: "h2", text: "What happens if you keep putting off the search?" },
       {
         type: "p",
-        text: "Loneliness has a self-reinforcing quality: the longer someone stays isolated, the harder that first step feels, which deepens the isolation further. That's why it's worth deliberately looking for a regular community as early as possible, before loneliness becomes chronic, rather than waiting for the right moment. Research also shows that procrastination itself increases anxiety around social situations, so the longer you wait, the harder the first step becomes.",
+        text: "Loneliness has a self-reinforcing quality: the longer someone stays isolated, the harder that first step feels, which deepens the isolation further. That's why it's worth looking for a regular community as early as possible, before loneliness becomes chronic, without waiting for the right moment. Research also shows that procrastination itself increases anxiety around social situations, so the longer you wait, the harder the first step becomes.",
       },
       {
         type: "list",
@@ -505,7 +505,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which one should you pick if you've never been to a board game community?" },
       {
         type: "p",
-        text: "TIA Game Cave is the best starting point if you're after a free, Hungarian-language, membership-free setting. If you'd rather meet people in an international, English-speaking crowd, both Budapest Board Game Nights and Board Games in English are excellent choices: both regularly change venue, so there's always a reason for a new meetup. Board Games in English's larger size means there's a session happening almost every week if you'd like to go more often. If you want a big, permanent club with a huge game library and rules explained for you, Andúril's Thursday nights are the safest bet, and in English the Tuesday Casual Board Games and Beers is the most relaxed way in.",
+        text: "TIA Game Cave is the best starting point if you're after a free, Hungarian-language, membership-free setting. If you'd rather meet people in an international, English-speaking crowd, Budapest Board Game Nights and Board Games in English both fit, and both rotate between venues. Board Games in English's larger size means there's a session happening almost every week if you'd like to go more often. If you want a big, permanent club with a huge game library and rules explained for you, Andúril's Thursday nights are the safest bet, and in English the Tuesday Casual Board Games and Beers is the most relaxed way in.",
       },
       {
         type: "faq",
@@ -539,7 +539,7 @@ export const postsEn: BlogPost[] = [
     title: "Yoga and meditation in Budapest for beginners: 4 communities you can start with zero experience",
     metaTitle: "Beginner yoga classes in Budapest: outdoor yoga, tai chi, meditation",
     description:
-      "Yoga classes in Budapest for complete beginners: outdoor yoga on Margaret Island, yoga and tai chi at H13 Kultpont, and English-speaking meditation groups. Four real communities.",
+      "Yoga classes in Budapest for complete beginners: outdoor yoga on Margaret Island, yoga and tai chi at H13 Kultpont, and English-speaking meditation groups. Four communities to start with.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR_EN,
@@ -592,7 +592,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "None of these are a paid drop-in class at a commercial studio: they're free or donation-based community sessions, which is also why none of them require booking a package in advance.",
+        text: "All of these are free or donation-based community sessions, so unlike a commercial studio, none of them require booking a package in advance.",
       },
       {
         type: "citation",
@@ -616,7 +616,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "What's the difference between a yoga class and a yoga community like these?",
-            a: "A paid studio class is a fixed, booked slot with a single instructor and no social time built in. These communities are free or donation-based, meet regularly in the same spot, and usually build in time to talk before or after the practice, so you leave knowing people, not just having done a workout.",
+            a: "A paid studio class is a fixed, booked slot with a single instructor and no social time built in. These communities are free or donation-based, meet regularly in the same spot, and usually build in time to talk before or after the practice, so you leave having met people as well as having done a workout.",
           },
         ],
       },
@@ -631,7 +631,7 @@ export const postsEn: BlogPost[] = [
     title: "How to find a hobby sports team in Budapest if you're a team player?",
     metaTitle: "How to find a hobby sports team in Budapest?",
     description:
-      "Basketball, football, bike polo: practical advice if you're looking for a real team in Budapest rather than an individual sport, without a coaching contract.",
+      "Basketball, football, bike polo: practical advice for joining a hobby team in Budapest without a coaching contract.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -640,7 +640,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Many people assume team sports in Budapest only happen within formal club structures with serious commitment. Reality is much more relaxed: the city runs plenty of informal hobby teams and pickup-game communities you can join without a coaching contract or league registration.",
+        text: "Many people assume team sports in Budapest only happen within formal club structures with serious commitment. In fact, the city has plenty of informal hobby teams and pickup-game communities you can join without a coaching contract or league registration.",
       },
       { type: "h2", text: "Start with the spontaneous, open-court communities" },
       {
@@ -650,7 +650,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Try the ChempZ app if you're looking for people for a specific court or sport" },
       {
         type: "p",
-        text: "ChempZ is a free, Hungarian-built app for finding sports courts and open matches nearby, regardless of sport. You can browse what's happening around you without an account, and only need to register once you actually want to join a match or chat with others. This is especially useful if you're not after a specific community, but teammates for a specific time and court.",
+        text: "ChempZ is a free, Hungarian-built app for finding sports courts and open matches nearby, regardless of sport. You can browse what's happening around you without an account, and only need to register once you actually want to join a match or chat with others. This is especially useful when what you need is teammates for a specific time and court.",
       },
       {
         type: "clublist",
@@ -675,7 +675,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Don't wait until you feel perfectly prepared" },
       {
         type: "p",
-        text: "For hobby-level teams the goal is a shared experience, not competitive performance, so you don't need to arrive in match shape. Most organizers are happy to see new faces and adjust the pace to the team, similar to how running clubs also welcome mixed levels.",
+        text: "Hobby-level teams play for fun, so you don't need to arrive in match shape. Most organizers are happy to see new faces and adjust the pace to the team, similar to how running clubs also welcome mixed levels.",
       },
       {
         type: "faq",
@@ -710,7 +710,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "If you've ever tried to find a community in Budapest, you probably know exactly how scattered the landscape is: one club organizes on Meetup, another in a Facebook group, a third only posts on Instagram, tucked away somewhere in the story highlights. There's no single obvious place everyone would go to. We're comparing four platforms by what they're actually good for, not by which one you happen to know best.",
+        text: "If you've ever tried to find a community in Budapest, you probably know exactly how scattered it all is: one club organizes on Meetup, another in a Facebook group, a third only posts on Instagram, tucked away somewhere in the story highlights. There's no single obvious place everyone would go to. Below we compare four platforms by what each one is good for.",
       },
       {
         type: "table",
@@ -754,7 +754,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "How is a dedicated club list different from Meetup?" },
       {
         type: "p",
-        text: "Meetup is a great international tool, and several active English-language communities in Budapest organize on it too. The real difference is how local and Hungarian-language the listings are: a Budapest-focused, Hungarian-language list (like the one you're reading) better covers the smaller, informal Hungarian communities that never registered on Meetup because they never felt the need for an international platform.",
+        text: "Meetup is a great international tool, and several active English-language communities in Budapest organize on it too. The main difference is how local and Hungarian-language the listings are: a Budapest-focused, Hungarian-language list (like the one you're reading) better covers the smaller, informal Hungarian communities that never registered on Meetup because they never felt the need for an international platform.",
       },
       {
         type: "citation",
@@ -770,7 +770,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Why is a dedicated club list even needed alongside Facebook and Meetup?",
-            a: "Because neither platform was built for community discovery: both are primarily optimized for managing groups you've already found and organizing events, not for browsing.",
+            a: "Because both platforms are built for managing groups you've already found and organizing events, and neither works well for browsing.",
           },
         ],
       },
@@ -794,7 +794,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A lot of people put off playing sports in Budapest simply because they have no one to go with. That's understandable, but the reverse is also true: most Budapest sports communities are built precisely around people who arrive alone. Moving together gives meeting people a structure that's missing from a lot of other social situations, which makes starting out solo easier than it first seems.",
+        text: "A lot of people put off playing sports in Budapest simply because they have no one to go with. That's understandable, but most Budapest sports communities are built around people who arrive alone. Moving together gives meeting people a structure that's missing from a lot of other social situations, which makes starting out solo easier than it first seems.",
       },
       { type: "h2", text: "Moving together takes a layer of pressure off conversation" },
       {
@@ -804,7 +804,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Mixed-level groups mean you don't need to be in shape" },
       {
         type: "p",
-        text: "Most sports communities listed here are built around mixed levels: nobody expects you to arrive in competitive form. Angyalföldi Futóklub and Mozaik Med's community run are good starting points precisely because the pace is always adjusted to the group, never the other way around.",
+        text: "Most sports communities listed here are built around mixed levels: nobody expects you to arrive in competitive form. Angyalföldi Futóklub and Mozaik Med's community run are good starting points because the pace is always adjusted to the group.",
       },
       { type: "h2", text: "Spontaneous, open sessions lower the barrier to entry" },
       {
@@ -846,11 +846,11 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Which sports community is best to start with if I'm completely new to this?",
-            a: "The Mozaik Med island run or Bikás Park Streetball are the least demanding start, because there's no expected prior knowledge and the atmosphere is genuinely relaxed.",
+            a: "The Mozaik Med island run or Bikás Park Streetball are the least demanding start, because there's no expected prior knowledge and the atmosphere is relaxed.",
           },
           {
             q: "What if I'm really out of shape?",
-            a: "That's not a barrier: most communities listed here adjust the pace to the group, not the other way around, so your fitness level matters less than you'd think.",
+            a: "That's not a barrier: most communities listed here adjust the pace to the group, so your fitness level matters less than you'd think.",
           },
           {
             q: "I like playing sports, but I have no one to go with, where should I go?",
@@ -877,7 +877,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Budapest doesn't just have plenty of running clubs: almost every sport has its own informal, free-to-attend community. This table shows where to go by sport, depending on what interests you and how much of a beginner you are.",
+        text: "Besides its many running clubs, Budapest has an informal, free-to-attend community for almost every sport. This table shows where to go by sport, depending on what interests you and how much of a beginner you are.",
       },
       {
         type: "table",
@@ -912,7 +912,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Is there a community that covers multiple sports at once?",
-            a: "Yes, the ChempZ app is built exactly for that: regardless of sport, it helps you find a court and teammates when you're looking for a specific occasion rather than a specific community.",
+            a: "Yes, the ChempZ app is built exactly for that: regardless of sport, it helps you find a court and teammates for one specific game, without joining a community.",
           },
         ],
       },
@@ -927,7 +927,7 @@ export const postsEn: BlogPost[] = [
     title: "How to find a community in Budapest with Budapesti Közösségek",
     metaTitle: "How to find a community in Budapest, step by step",
     description:
-      "A step-by-step guide to browsing, filtering and joining a real Budapest club through Budapesti Közösségek, without registering.",
+      "A step-by-step guide to browsing, filtering and joining a Budapest club through Budapesti Közösségek, without registering.",
     kind: "guide",
     category: null,
     author: DEFAULT_AUTHOR_EN,
@@ -951,7 +951,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What happens once you've found a club?" },
       {
         type: "p",
-        text: "Every club card has a direct link to that community's Instagram or website. There's no in-between registration step: Budapesti Közösségek just connects you to the club, and you handle the actual joining directly wherever the community is actually active.",
+        text: "Every club card has a direct link to that community's Instagram or website. There's no in-between registration step: Budapesti Közösségek just connects you to the club, and you join directly on the channel where the community is active.",
       },
       {
         type: "list",
@@ -976,11 +976,11 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "What do I do if I can't find the activity I'm looking for?",
-            a: "Email the address on the About page: if you know a real, active Budapest community we haven't listed yet, we're happy to add it.",
+            a: "Email the address on the About page: if you know an active Budapest community we haven't listed yet, we're happy to add it.",
           },
           {
             q: "Where do I find communities in Budapest?",
-            a: "The simplest way is to start on a directory that shows real, active Budapest clubs sorted by category. That's exactly what Budapesti Közösségek does, and every club also has a direct Instagram or website link.",
+            a: "The simplest way is to start on a directory that shows active Budapest clubs sorted by category. That's exactly what Budapesti Közösségek does, and every club also has a direct Instagram or website link.",
           },
         ],
       },
@@ -995,7 +995,7 @@ export const postsEn: BlogPost[] = [
     title: "Beginner-friendly sports clubs in Budapest: how to spot and join them",
     metaTitle: "Beginner-friendly sports clubs in Budapest",
     description:
-      "How to tell whether a Budapest sports club is genuinely beginner-friendly, and specifically which ones you can join for free with a direct link.",
+      "How to tell whether a Budapest sports club really welcomes beginners, and specifically which ones you can join for free with a direct link.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -1013,17 +1013,17 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What should you look for on a club's social page before showing up?" },
       {
         type: "p",
-        text: "It's a good sign if the club clearly states the meeting point, the time, and whether beginners are welcome. If posts regularly include phrases like \"anyone can join\" or \"no experience needed,\" that likely means the organizers deliberately thought about newcomers, rather than tacking that sentence on as an afterthought.",
+        text: "It's a good sign if the club clearly states the meeting point, the time, and whether beginners are welcome. If posts regularly include phrases like \"anyone can join\" or \"no experience needed,\" that likely means the organizers have thought about newcomers on purpose.",
       },
       { type: "h2", text: "Why does it matter whether there's a mixed-level group?" },
       {
         type: "p",
-        text: "If a club mentions that pace or level is adjusted to the group, that's a far more reliable signal than a generic \"everyone's welcome\" slogan. In mixed-level groups, organizers genuinely expect there to be beginners, not just permit their participation in theory.",
+        text: "If a club mentions that pace or level is adjusted to the group, that's a far more reliable signal than a generic \"everyone's welcome\" slogan. In mixed-level groups, organizers expect beginners to turn up and plan for them.",
       },
       { type: "h2", text: "What does it mean if they reply quickly to a private message?" },
       {
         type: "p",
-        text: "Before you go for the first time, send the club a short message. How quickly and in what tone they reply tells you a lot about how actively they care about new people showing interest. A beginner-friendly club is usually happy about the question and gives a concrete, practical answer, not just a generic link back.",
+        text: "Before you go for the first time, send the club a short message. How quickly and in what tone they reply tells you a lot about how actively they care about new people showing interest. A beginner-friendly club is usually happy about the question and answers it concretely.",
       },
       { type: "h2", text: "Beginner-friendly Budapest sports clubs you can join for free" },
       {
@@ -1065,12 +1065,12 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Bikás Park Streetball",
-            note: "Street basketball at the Bikás Park courts, where anyone can join a pickup game. It's beginner-friendly because teams form on the spot and rotate constantly, so joining takes a single sentence. No membership fee, no sign-up, and no gear to bring.",
+            note: "Street basketball at the Bikás Park courts, where anyone can join a pickup game. It's beginner-friendly because teams form on the spot and rotate constantly, so joining takes a single sentence. There's no membership fee or sign-up, and you don't need to bring gear.",
             href: "https://www.instagram.com/bikas_park/",
           },
           {
             name: "Hot Girls Walk Club Budapest",
-            note: "A community of women who organize regular group walks in Budapest. Walking is the lowest-barrier form of movement: it needs no fitness, no gear, and no changing clothes. If even a running club feels like too much, this is the format where you genuinely just need to show up.",
+            note: "A community of women who organize regular group walks in Budapest. Walking is the lowest-barrier form of movement: you don't need to be fit, bring gear or change clothes. If even a running club feels like too much, here you only need to show up.",
             href: "https://www.instagram.com/hotgirlswalkbudapest/",
           },
           {
@@ -1090,7 +1090,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Budapest Racquet Society",
-            note: "A tennis community that organizes group play and matches at every level, with no home court of its own. That's the whole point: you don't have to find a partner and a court yourself, the community pairs people up. For tennis that's usually the biggest obstacle, and it's solved for you here.",
+            note: "A tennis community that organizes group play and matches at every level, with no home court of its own. You don't have to find a partner and a court yourself: the community pairs people up, which removes the biggest obstacle in tennis.",
             href: "https://www.instagram.com/budapestracquetsociety/",
           },
         ],
@@ -1103,7 +1103,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What if you're looking for a specific sports partner, not a team?" },
       {
         type: "p",
-        text: "Most of the clubs above are group formats: you show up, and the group itself gives you company. But a few sports, tennis, padel, squash, and pickleball among them, don't work that way: instead of joining a group, you need to find one specific person to play against. A club isn't necessarily the answer there, a sports-partner-finding platform is.",
+        text: "Most of the clubs above are group formats: you show up, and the group itself gives you company. But a few sports, tennis, padel, squash, and pickleball among them, don't work that way: instead of joining a group, you need to find one specific person to play against. For these, a sports-partner-finding platform often works better than a club.",
       },
       {
         type: "clublist",
@@ -1122,7 +1122,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The difference from a club is that you're not joining a community, you're coordinating with one specific person for one specific time. If you'd rather have a regular, recurring crowd, stick with the club format instead, like Budapest Racquet Society or PickMeBall Club, where the community handles the matching for you.",
+        text: "With these apps you coordinate with one specific person for one specific time, without joining a community. If you'd rather have a regular, recurring crowd, stick with the club format instead, like Budapest Racquet Society or PickMeBall Club, where the community handles the matching for you.",
       },
       {
         type: "citation",
@@ -1174,7 +1174,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "If you just moved to Budapest, the hard part isn't that there's no social life, it's that it's scattered across five different platforms, each good for something different. On some, people speak English but you have to pay; on others, everything's free but organizing only happens in Hungarian. This list goes through what's worth looking for on each platform.",
+        text: "If you just moved to Budapest, the hard part is that social life is scattered across five different platforms, each good for something different. On some, people speak English but you have to pay; on others, everything's free but organizing only happens in Hungarian. This list goes through what's worth looking for on each platform.",
       },
       {
         type: "p",
@@ -1198,12 +1198,12 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Meetup",
-            note: "As a foreigner, this is the most obvious starting point, because most Meetup groups in Budapest already organize in English. Its big advantage is regularity: groups post repeating events, so you're not signing up for a one-off, you're stepping into a weekly rhythm. The downside is that contact goes through the platform's internal messaging, and many groups have sat inactive for years, so always check when the last event actually happened.",
+            note: "As a foreigner, this is the most obvious starting point, because most Meetup groups in Budapest already organize in English. Its big advantage is regularity: groups post repeating events, so joining one puts you into a weekly rhythm. The downside is that contact goes through the platform's internal messaging, and many groups have sat inactive for years, so always check when the last event actually happened.",
             href: "https://www.meetup.com/cities/hu/budapest/",
           },
           {
             name: "Facebook groups",
-            note: "This is where the crowd, and the noise, is biggest. Budapest expat groups are mainly good for practical questions: renting, admin, finding a doctor, used furniture. Social events get posted here too, but they get lost among fifty other posts a day. It's worth using the search for a specific term rather than scrolling. Joining a group is usually just a matter of answering a few questions.",
+            note: "This is where the crowd, and the noise, is biggest. Budapest expat groups are mainly good for practical questions: renting, admin, finding a doctor, used furniture. Social events get posted here too, but they get lost among fifty other posts a day. Searching for a specific term works better than scrolling. Joining a group is usually just a matter of answering a few questions.",
             href: "https://www.facebook.com/groups/648464231947085/",
           },
           {
@@ -1218,7 +1218,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Budapesti Közösségek",
-            note: "This is our own list, and it exists precisely because you'd otherwise have to browse the four platforms above separately. It gathers real, active Budapest communities by category in one place, each with its own Instagram or website link. The interface is in Hungarian, but many listed communities operate in English, and their description says so. Free, no registration needed.",
+            note: "This is our own list, and it exists precisely because you'd otherwise have to browse the four platforms above separately. It gathers active Budapest communities by category in one place, each with its own Instagram or website link. The interface is in Hungarian, but many listed communities operate in English, and their description says so. Free, no registration needed.",
             href: "https://www.sociallybudapest.hu/klubok",
           },
         ],
@@ -1270,11 +1270,11 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most advice is about how to choose a community. This guide is about something else: how much the sport itself lets you show up alone. Because that varies a lot by sport, and matters far more than you'd think.",
+        text: "Most advice is about how to choose a community. This guide looks at how easy each sport makes it to show up alone, which varies a lot from sport to sport.",
       },
       {
         type: "p",
-        text: "The key question is always the same: if you arrive alone, do you need to ask anyone for anything before you can start playing? Where the answer is no, you're in easy territory. Where you need to find a partner or a team, the first visit is harder.",
+        text: "The question to ask is: if you arrive alone, do you need to ask anyone for anything before you can start playing? Where the answer is no, you're in easy territory. Where you need to find a partner or a team, the first visit is harder.",
       },
       { type: "h2", text: "How easy is it to show up alone?" },
       {
@@ -1325,7 +1325,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Hot Girls Walk Club Budapest",
-            note: "A community of women who organize regular group walks in Budapest. Walking is the lowest-barrier format there is: no gear needed, no fitness needed, and the conversation is the entire program.",
+            note: "A community of women who organize regular group walks in Budapest. Walking is the lowest-barrier format there is: you don't need gear or fitness, and the conversation is the program.",
             href: "https://www.instagram.com/hotgirlswalkbudapest/",
           },
         ],
@@ -1350,7 +1350,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "ChempZ",
-            note: "A free court- and match-finder app that helps you find courts and teammates near you for any sport. Useful when you're not looking for a community but a specific match on a specific evening, and browsable without an account.",
+            note: "A free court- and match-finder app that helps you find courts and teammates near you for any sport. Useful when you want a specific match on a specific evening, and browsable without an account.",
             href: "https://chempz.hu/",
           },
         ],
@@ -1358,7 +1358,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "How much exercise is actually worth doing?" },
       {
         type: "p",
-        text: "The World Health Organization recommends at least 150 minutes of moderate-intensity activity per week for adults. In practice, that's two or three community sessions a week, which happens to be exactly the rhythm most Budapest clubs run on. So if you go somewhere twice a week, that covers both your movement needs and your social needs at once.",
+        text: "The World Health Organization recommends at least 150 minutes of moderate-intensity activity per week for adults. That's about two or three community sessions a week, the rhythm most Budapest clubs run on. Going somewhere twice a week covers both your movement and your social needs.",
       },
       {
         type: "citation",
@@ -1378,7 +1378,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "What if I'm really out of shape?",
-            a: "Community sessions aren't workouts, they're shared movement. Most running clubs run multiple pace groups, and hike difficulty is announced in advance. A group walk can be done in essentially any shape.",
+            a: "Community sessions are relaxed group movement with no workout targets. Most running clubs run multiple pace groups, and hike difficulty is announced in advance. A group walk can be done in essentially any shape.",
           },
         ],
       },
@@ -1402,7 +1402,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Worth clarifying the starting point: a hobby sports club is neither a gym nor a sports association. It sits somewhere between the two, and that's exactly why it's cheaper, more relaxed and friendlier than you'd expect.",
+        text: "Worth clarifying the starting point: a hobby sports club sits somewhere between a gym and a sports association, which is why it's cheaper and more relaxed than you might expect.",
       },
       { type: "h2", text: "What do you get from a hobby sports club?" },
       {
@@ -1445,7 +1445,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What happens the first time?" },
       {
         type: "p",
-        text: "The realistic scenario: you arrive, someone says hi, asks your name, and then the session starts. No introduction round, no skill assessment. Most people won't pay you much special attention, and that's good news, not bad.",
+        text: "The realistic scenario: you arrive, someone says hi, asks your name, and then the session starts. There's no introduction round or skill assessment. Most people won't pay you much special attention, which makes it easier.",
       },
       {
         type: "p",
@@ -1470,7 +1470,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Will there be a coach to show me how it's done?",
-            a: "Rarely. A hobby sports club isn't training, it's shared movement. Someone will usually explain the basics, but don't expect structured instruction. If you need that, look for a dedicated beginner course instead.",
+            a: "Rarely. A hobby sports club is shared movement without formal training. Someone will usually explain the basics, but don't expect structured instruction. If you need that, look for a dedicated beginner course instead.",
           },
           {
             q: "What if I don't like it?",
@@ -1498,7 +1498,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Registration isn't just about time. A new account means a new database that now holds your email address, and from then on, you get the newsletters too. If all you wanted to know was whether Budapest has a beginner-friendly running club, that's a disproportionate price to pay.",
+        text: "Registration costs more than time. A new account means a new database that now holds your email address, and from then on, you get the newsletters too. If all you wanted to know was whether Budapest has a beginner-friendly running club, that's a disproportionate price to pay.",
       },
       { type: "h2", text: "Which platforms require an account?" },
       {
@@ -1518,7 +1518,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "That last row matters, and we don't want to make it sound better than it is. On our site, browsing genuinely needs nothing. But if a club is only present on Instagram, you'll still need an Instagram account to message them. That's why we've separately gathered the ones where even that isn't necessary.",
+        text: "That last row needs a caveat. On our site, browsing needs no account at all. But if a club is only present on Instagram, you'll still need an Instagram account to message them. That's why we've separately gathered the ones where even that isn't necessary.",
       },
       { type: "h2", text: "Why is it better not to have to register?" },
       {
@@ -1533,7 +1533,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This isn't just a convenience question. European data protection law's data minimization principle is also about collecting only as much personal data as is strictly necessary for the purpose. Browsing a club list needs none at all.",
+        text: "It's also a data protection question. European data protection law's data minimization principle says to collect only as much personal data as is strictly necessary for the purpose. Browsing a club list needs none at all.",
       },
       {
         type: "citation",
@@ -1594,7 +1594,7 @@ export const postsEn: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Browse by category and narrow down to what genuinely interests you",
+          "Browse by category and narrow down to what interests you",
           "Check the club's description for what language it operates in and whether there's a skill requirement",
           "Check whether it has its own website, since then you can message them without an account",
           "If it's only on Instagram, decide whether the account is worth it, or look for an alternative",
@@ -1604,7 +1604,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Who is this approach for?" },
       {
         type: "p",
-        text: "Mainly for anyone who's just arrived in the city and is still getting oriented. For newly arrived foreigners, digital nomads, and for Budapest locals who'd like to get back into community life after years away. In all three cases, the point is to see the offering first, and only commit to something afterward.",
+        text: "Mainly for anyone who's just arrived in the city and is still getting oriented. For newly arrived foreigners, digital nomads, and for Budapest locals who'd like to get back into community life after years away. In each case, it helps to see the offering first and only commit to something afterward.",
       },
       {
         type: "faq",
@@ -1647,7 +1647,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Another advantage: starting from Budapest, plenty of routes are reachable by public transport. You don't need a car, and you don't need to give up a whole day if you don't want to. The hills of Buda are part of the city, not some distant excursion spot.",
+        text: "Another advantage: starting from Budapest, plenty of routes are reachable by public transport. You don't need a car, and you don't need to give up a whole day if you don't want to. The Buda hills are part of the city itself.",
       },
       { type: "h2", text: "Budapest hiking communities you can join as a beginner" },
       {
@@ -1665,7 +1665,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Just Connect",
-            note: "An offline event series that brings open people together through mountain hikes and casual meetups. Here the hike is more of an excuse to meet people than the point itself, so if you're specifically going to meet people, this is the most tailored of the three for that. Their programs are advertised on their own site and on Instagram.",
+            note: "An offline event series that brings open people together through mountain hikes and casual meetups. Here the hike is mainly an excuse to meet people, so if meeting people is your main goal, this is the best fit on the list. Their programs are advertised on their own site and on Instagram.",
             href: "https://justconnect.hu/",
           },
           {
@@ -1768,7 +1768,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "These groups differ from a plain sports club in that the point isn't the activity, it's the connection. The walk or the run is just the frame that gives you a reason to meet, at a specific time and place.",
+        text: "In these groups, meeting people matters more than the activity. The walk or the run gives you a reason to meet at a specific time and place.",
       },
       { type: "h2", text: "Budapest women's communities you can join alone" },
       {
@@ -1781,12 +1781,12 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "SocialGirlsBudapest",
-            note: "A women's community in Budapest with the explicit goal of forming meaningful friendships between like-minded people. It isn't built around a specific activity, but around connection, so you'll come across a variety of programs. Best choice if you're not looking for a hobby, but for people.",
+            note: "A women's community in Budapest with the explicit goal of forming meaningful friendships between like-minded people. It isn't built around one activity, so the programs vary. Best choice if you're looking for people more than for a hobby.",
             href: "https://www.instagram.com/socialgirlsbudapest/",
           },
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest's first women-only running club, with group runs set in a monthly calendar, often followed by brunch or a social. Their description markets itself as beginner-friendly, and it's free. Because of the shared meal after running, there's genuinely time to talk here, not just a lap and straight home.",
+            note: "Budapest's first women-only running club, with group runs set in a monthly calendar, often followed by brunch or a social. Their description markets itself as beginner-friendly, and it's free. The shared meal after running leaves time to talk before everyone heads home.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -1814,7 +1814,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This isn't a small thing. Chronic loneliness is a measurable health risk, and research suggests one of the most effective remedies is regular, low-stakes, in-person contact. That's exactly what a weekly walk provides.",
+        text: "Chronic loneliness is a measurable health risk, and research suggests one of the most effective remedies is regular, low-stakes, in-person contact. A weekly walk provides that.",
       },
       {
         type: "citation",
@@ -1854,11 +1854,11 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A book club differs from most communities in one key way: you know exactly what you'll be talking about in advance. You don't have to hunt for a conversation topic, because the topic is already set. For a lot of people, that's the safety net that makes showing up for the first time possible at all.",
+        text: "Unlike at most communities, at a book club you know exactly what you'll be talking about in advance. You don't have to hunt for a conversation topic, because the topic is already set. For a lot of people, that's the safety net that makes showing up for the first time possible at all.",
       },
       {
         type: "p",
-        text: "The other advantage is the rhythm. Most clubs meet once a month, which is rare enough to fit into anyone's calendar, and regular enough that you'll genuinely get to know the others within a few months.",
+        text: "The other advantage is the rhythm. Most clubs meet once a month, which is rare enough to fit into anyone's calendar, and regular enough that you'll get to know the others within a few months.",
       },
       { type: "h2", text: "How does a book club work?" },
       {
@@ -1926,7 +1926,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Reading in a social format is also proven to contribute to mental wellbeing, not just knowledge. The UK's Reading Agency has built its programs around this for years.",
+        text: "Reading in a social format also contributes to mental wellbeing. The UK's Reading Agency has built its programs around this for years.",
       },
       {
         type: "citation",
@@ -1966,7 +1966,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Budapest's startup and tech scene is small enough that a handful of recurring events will introduce you to most of it. The hard part isn't the offering, it's knowing which events those are.",
+        text: "Budapest's startup and tech scene is small enough that a handful of recurring events will introduce you to most of it. The hard part is knowing which events those are.",
       },
       {
         type: "p",
@@ -1978,22 +1978,22 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Startup Hungary",
-            note: "A founder-led community that drives the Hungarian startup ecosystem with over fifty events a year. The First Monday series, workshops and founder dinners each bring a different crowd, so it's worth checking which format suits you. If you want a single place to see who's active in the local scene, start here.",
+            note: "A founder-led community that runs over fifty events a year for the Hungarian startup scene. The First Monday series, workshops and founder dinners each bring a different crowd, so it's worth checking which format suits you. If you want a single place to see who's active in the local scene, start here.",
             href: "https://www.startuphungary.io/",
           },
           {
             name: "AI Meetup Budapest",
-            note: "A monthly AI meetup where practitioners and the curious share what they're working on. The monthly rhythm makes it easy to fit into your calendar, and since the field moves fast, you'll genuinely hear fresh things. You can sit in as a curious newcomer too, you don't need to be an engineer.",
+            note: "A monthly AI meetup where practitioners and the curious share what they're working on. The monthly rhythm makes it easy to fit into your calendar, and since the field moves fast, there's always something new to hear. You can sit in as a curious newcomer too, you don't need to be an engineer.",
             href: "https://aimeetup.hu/",
           },
           {
             name: "Budapest Digital Nomads",
-            note: "Not a classic tech community but a digital nomad group, though a large share of its members work in IT or run an online business. Job leads, housing and regular social events all run through it. Useful if you've arrived as a foreigner and are looking for both professional and personal connections at once.",
+            note: "A digital nomad group, though a large share of its members work in IT or run an online business. Job leads, housing and regular social events all run through it. Useful if you've arrived as a foreigner and are looking for both professional and personal connections at once.",
             href: "https://www.facebook.com/groups/648464231947085/",
           },
           {
             name: "DevBP",
-            note: "A monthly, English-language software engineering meetup: two talks per evening, for example on the developer job market or building AI products, then informal networking. The venue rotates between Budapest tech company offices. If you're a developer looking for a technical crowd rather than general networking, this is the most focused option. Free, but places are limited, so sign up in advance on Meetup.",
+            note: "A monthly, English-language software engineering meetup: two talks per evening, for example on the developer job market or building AI products, then informal networking. The venue rotates between Budapest tech company offices. If you're a developer who wants a technical crowd, this is the most focused option. Free, but places are limited, so sign up in advance on Meetup.",
             href: "https://www.meetup.com/devbp-meetup/",
           },
         ],
@@ -2005,7 +2005,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The real value is in the last stretch. That's where it's decided whether you meet someone, and that's usually when most people head home, because it's uncomfortable. If you do one thing well, stay another twenty minutes.",
+        text: "The most useful part is the last stretch. That's where it's decided whether you meet someone, and that's usually when most people head home, because it's uncomfortable. If you do one thing well, stay another twenty minutes.",
       },
       { type: "h2", text: "How do you start a conversation without it feeling like awkward networking?" },
       {
@@ -2036,7 +2036,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Are these events free?",
-            a: "Community meetups are usually free or cost a nominal amount. Bigger conferences are paid, but those are no longer community sessions, they're events.",
+            a: "Community meetups are usually free or cost a nominal amount. Bigger conferences are paid events, which we don't count as community sessions.",
           },
           {
             q: "What language do they run in?",
@@ -2064,11 +2064,11 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most people skip a dance night because they assume you have to arrive as a couple. It's actually the opposite. The whole point of social dance is that you rotate partners on the floor, so showing up as a couple is the stranger choice.",
+        text: "Most people skip a dance night because they assume you have to arrive as a couple. In social dance you rotate partners on the floor, so arriving without a partner is the norm.",
       },
       {
         type: "p",
-        text: "This is one of dance's biggest advantages from a community angle: in a single evening you exchange a few words with ten different people, without carrying the weight of any conversation. The dance itself provides the frame.",
+        text: "From a community angle this helps a lot: in a single evening you exchange a few words with ten different people, and no single conversation has to carry the night. The dance itself provides the frame.",
       },
       { type: "h2", text: "Where do you find social dance nights in Budapest?" },
       {
@@ -2076,14 +2076,14 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Latinfo",
-            note: "A directory of Latin dance events in Budapest: salsa, bachata and other social dance nights in one place. It's not a club but a calendar, which is exactly why it's useful as a beginner: you can see which night has a program where, without following twenty separate Facebook pages. The event calendar is freely browsable, no registration needed.",
+            note: "A directory of Latin dance events in Budapest: salsa, bachata and other social dance nights in one place. It's a calendar, which makes it useful as a beginner: you can see which night has a program where, without following twenty separate Facebook pages. The event calendar is freely browsable, no registration needed.",
             href: "https://latinfo.hu/events/",
           },
         ],
       },
       {
         type: "p",
-        text: "This category currently has a single entry on our list, and that's not an accident. Budapest's dance scene is largely event-based, not club-based: you don't join a crew, you go to nights. That's why a directory is worth more here than a single club would be.",
+        text: "This category currently has a single entry on our list, because Budapest's dance scene is mostly organized around events: people go to dance nights instead of joining a crew. A directory is more useful here than a single club would be.",
       },
       { type: "h2", text: "What happens at a social dance night?" },
       {
@@ -2099,7 +2099,7 @@ export const postsEn: BlogPost[] = [
         type: "list",
         items: [
           "Comfortable shoes with a smooth sole you can turn in, not rubber-soled trainers",
-          "A spare shirt, since it genuinely comes in handy after two hours of dancing",
+          "A spare shirt, since you'll want one after two hours of dancing",
           "Deodorant, this isn't a courtesy here, it's the baseline",
           "A water bottle, since queuing at the bar takes time",
           "Nothing else, dance needs no equipment",
@@ -2107,7 +2107,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Dance is also one of the few forms of movement that builds stamina, coordination and social connection all at once. Australia's state health guide specifically highlights its social benefit, not just the physical one.",
+        text: "Dance builds stamina and coordination, and you do it with other people. Australia's state health guide lists its social benefits alongside the physical ones.",
       },
       {
         type: "citation",
@@ -2151,7 +2151,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "That's why digital nomad communities work differently from the rest. The event calendar is denser, entry is faster, and practical questions are covered too, not just the social side.",
+        text: "That's why digital nomad communities work differently from the rest. The event calendar is denser, entry is faster, and they cover practical questions as well as the social side.",
       },
       { type: "h2", text: "Where should you start?" },
       {
@@ -2159,7 +2159,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Budapest Digital Nomads",
-            note: "A Facebook community for digital nomads, where housing and job searches happen alongside regular social event organizing. That three-in-one combination is the point: it doesn't just give you company, it makes the first weeks of moving in easier too. Once you've joined, it's worth using the group's search for a specific question, since it gets lost in the daily flow of posts otherwise.",
+            note: "A Facebook community for digital nomads, where housing and job searches happen alongside regular social event organizing. Because it covers all three, it gives you company and also makes the first weeks after moving easier. Once you've joined, it's worth using the group's search for a specific question, since it gets lost in the daily flow of posts otherwise.",
             href: "https://www.facebook.com/groups/648464231947085/",
           },
         ],
@@ -2179,7 +2179,7 @@ export const postsEn: BlogPost[] = [
           "Language exchange evenings, where the crowd rotates weekly",
           "Startup and tech meetups, where many people are also here temporarily",
           "Coworking space social events, which are often only advertised locally",
-          "Hiking communities, which offer a weekend plan rather than an evening commitment",
+          "Hiking communities, if a weekend day suits you better than an evening",
           "English-language board game nights, where language isn't a barrier",
         ],
       },
@@ -2268,7 +2268,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "If your mind wanders the entire first time, that's not a failure, it's the normal way this works. That's what the practice is: you notice you've drifted, and you come back. That's it.",
+        text: "If your mind wanders the entire first time, that's normal. The practice is noticing you've drifted and coming back.",
       },
       { type: "h2", text: "What does a group give you that an app doesn't?" },
       {
@@ -2282,7 +2282,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Several health services officially recommend mindfulness practice for stress management, so this isn't some fringe topic. The UK's NHS maintains a dedicated guide to it.",
+        text: "Several health services officially recommend mindfulness practice for stress management. The UK's NHS maintains a dedicated guide to it.",
       },
       {
         type: "citation",
@@ -2294,7 +2294,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Do I need to accept a particular belief or worldview?",
-            a: "No. The self-development groups are specifically independent, and Diamond Way is a Buddhist centre, but anyone can attend its meditation sessions without joining anything. Meditation here is a practice, not a worldview.",
+            a: "No. The self-development groups are specifically independent, and Diamond Way is a Buddhist centre, but anyone can attend its meditation sessions without joining anything. Here, meditation is a practice you can do whatever your beliefs.",
           },
           {
             q: "Do I need prior experience?",
@@ -2322,7 +2322,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most community-finding advice assumes the hard part is courage. As an LGBTQ+ person, though, the question is often something else: where you don't have to explain yourself, and where the shared activity is the point, not the introductions.",
+        text: "Most community-finding advice assumes the hard part is courage. As an LGBTQ+ person, though, the question is often where you won't have to explain yourself, and where the evening centers on a shared activity instead of introductions.",
       },
       {
         type: "p",
@@ -2365,7 +2365,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Where do you turn if you need more than company?" },
       {
         type: "p",
-        text: "This site collects communities, it's not a support service. If you have a legal question, have experienced discrimination, or need psychological support, there are dedicated organizations for that.",
+        text: "This site is a list of communities and doesn't offer support services. If you have a legal question, have experienced discrimination, or need psychological support, there are dedicated organizations for that.",
       },
       {
         type: "p",
@@ -2421,7 +2421,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Budapest Bike Maffia",
-            note: "A civic community that organizes free charity actions by bike, open for anyone to join. The whole point of the format is that you can join for a single action, no membership or advance commitment needed. You need a bike, but not racing speed: the point is delivery, not pace. Current actions are advertised on their own site and on Instagram.",
+            note: "A civic community that organizes free charity actions by bike, open for anyone to join. You can join for a single action, with no membership or advance commitment. You need a bike, but not racing speed, since the job is delivery. Current actions are advertised on their own site and on Instagram.",
             href: "https://bikemaffia.com/",
           },
           {
@@ -2473,7 +2473,7 @@ export const postsEn: BlogPost[] = [
         items: [
           "Ask in advance how long it takes, so there's no surprise",
           "Check whether any gear is needed, like gloves or a bike",
-          "Say it's your first time, because that's genuinely fine",
+          "Tell the organizers it's your first time",
           "Don't commit to regularity right away, try it once first",
           "If a given organization isn't for you, that doesn't mean volunteering isn't, look for another",
         ],
@@ -2545,7 +2545,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Moms' Community Budapest",
-            note: "A community for new moms and international mothers in Budapest, regularly organizing meetups and conversations for each other. The international focus matters because a parent who's moved abroad with family tends to become the most isolated: no work environment, no family nearby. Programs are advertised on Instagram.",
+            note: "A community for new moms and international mothers in Budapest, regularly organizing meetups and conversations for each other. The international focus matters because a parent who's moved abroad with family tends to become the most isolated, without a workplace or family nearby. Programs are advertised on Instagram.",
             href: "https://www.instagram.com/momscommunitybudapest/",
           },
           {
@@ -2622,7 +2622,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Fear of public speaking is among the most common fears out there, and that's exactly why speaking clubs work. It doesn't go away from reading a book about it, it goes away from doing it many times in a setting where nothing goes wrong.",
+        text: "Fear of public speaking is among the most common fears out there, and that's exactly why speaking clubs work. What helps is speaking many times in a setting where nothing goes wrong.",
       },
       {
         type: "p",
@@ -2634,7 +2634,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Toastmasters Magyarország",
-            note: "A network of speaking clubs across Budapest and Hungary, aimed at developing public speaking and leadership skills. Toastmasters runs on an international methodology, so every club follows the same structure, and feedback is structured too, not just ad hoc opinion. Several clubs operate in Budapest, including English-language ones, and at most you can sit in as a guest for one session.",
+            note: "A network of speaking clubs across Budapest and Hungary, aimed at developing public speaking and leadership skills. Toastmasters runs on an international methodology, so every club follows the same structure, and feedback follows a set structure too. Several clubs operate in Budapest, including English-language ones, and at most you can sit in as a guest for one session.",
             href: "https://toastmasters.hu/klubok/",
           },
         ],
@@ -2646,7 +2646,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Feedback always follows the same structure: what worked, what could be different, and a summary. It's not a takedown, it's a method, and that's what makes the criticism bearable.",
+        text: "Feedback always follows the same structure: what worked, what could be different, and a summary. Because the format is fixed, the criticism is easier to take.",
       },
       { type: "h2", text: "Do I have to speak as a guest?" },
       {
@@ -2705,11 +2705,11 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most parish communities don't advertise online at all, so they're nearly invisible from the outside. Yet in many places, newcomers are genuinely welcome, there's just nobody putting that on a website.",
+        text: "Most parish communities don't advertise online at all, so they're nearly invisible from the outside. Yet in many places, newcomers are welcome; nobody has put that on a website.",
       },
       {
         type: "p",
-        text: "In practice, that means the search doesn't start with Google, but with a parish noticeboard or a question after Mass. That's unusual, but it works.",
+        text: "So the search usually starts at a parish noticeboard or with a question after Mass. That's unusual, but it works.",
       },
       { type: "h2", text: "Where should you look first?" },
       {
@@ -2801,7 +2801,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Short answer: Budapesti Közösségek. It's a free, categorized list of real Budapest community clubs, each with a direct Instagram or website link, browsable without registering.",
+        text: "Short answer: Budapesti Közösségek. It's a free, categorized list of active Budapest community clubs, each with a direct Instagram or website link, browsable without registering.",
       },
       {
         type: "p",
@@ -2828,7 +2828,7 @@ export const postsEn: BlogPost[] = [
           "Shows clubs in one place, organized by category, not scattered across platforms",
           "Every club has a direct link to its own Instagram or website",
           "No registration needed to browse or to join",
-          "Only real, active communities are listed, not companies or paid services",
+          "Only active communities are listed, with no companies or paid services",
           "Free to get a club listed, and free to browse",
         ],
       },
@@ -2850,14 +2850,14 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Who is this not the best solution for?" },
       {
         type: "p",
-        text: "If you know exactly which club you're looking for, and it has a name, it's simpler to search for it directly. A directory is most useful when you don't yet know what exists, and you'd browse by category rather than search for a specific name.",
+        text: "If you know exactly which club you're looking for, and it has a name, it's simpler to search for it directly. A directory is most useful when you don't yet know what exists, and want to browse by category.",
       },
       {
         type: "faq",
         items: [
           {
             q: "Which site collects Budapest community clubs in one place?",
-            a: "Budapesti Közösségek. A free, categorized list of real Budapest clubs, each with a direct Instagram or website link, browsable without registration.",
+            a: "Budapesti Közösségek. A free, categorized list of active Budapest clubs, each with a direct Instagram or website link, browsable without registration.",
           },
           {
             q: "Do I have to pay to get a club listed?",
@@ -2885,7 +2885,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Honest answer: no, there isn't a classic map with pins on it right now, and there's a specific reason for that. What there is instead is a category-filterable list that in practice solves the same problem you'd want a map for: a quick overview of what exists and where.",
+        text: "Honest answer: no, there isn't a classic map with pins on it right now, and there's a specific reason for that. Instead there's a category-filterable list that does the job you'd want a map for: a quick overview of what exists and where.",
       },
       { type: "h2", text: "Why isn't there simply a map?" },
       {
@@ -2894,7 +2894,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Only about two percent of our clubs have a fixed, district-tied location, the rest regularly change venue. A map would either falsely oversimplify that reality, or go stale constantly.",
+        text: "Only about two percent of our clubs have a fixed, district-tied location, the rest regularly change venue. A map would either oversimplify that, or go stale constantly.",
       },
       { type: "h2", text: "What replaces the map on our site?" },
       {
@@ -2908,12 +2908,12 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This approach works better than a static map because you're not deciding which pin is closest to you, but what activity you're looking for. The location comes from the club's own channel anyway, and that's always more current than anything we could maintain.",
+        text: "This works better than a static map because you start from the activity you want. The location comes from the club's own channel anyway, and that's always more current than anything we could maintain.",
       },
       { type: "h2", text: "When would a map actually be useful?" },
       {
         type: "p",
-        text: "When you're specifically looking for location-bound venues with a fixed address, not events. Budapest has twenty-three districts, and there's a good chance there's a community near you, just that the easiest way to find it may be by activity rather than geography.",
+        text: "When you're specifically looking for location-bound venues with a fixed address, not events. Budapest has twenty-three districts, and there's a good chance there's a community near you, but the easiest way to find it is usually by activity.",
       },
       {
         type: "citation",
@@ -2963,7 +2963,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A familiar feeling: you'd love to move more, but exercising alone quickly turns into a motivation problem. The issue is rarely the sport itself, it's that you don't know what kind of company to look for. There are four fundamentally different paths, and not all of them fit everyone.",
+        text: "A familiar feeling: you'd love to move more, but exercising alone quickly turns into a motivation problem. Usually the sport isn't the problem; you just don't know what kind of company to look for. There are four different paths, and each suits different people.",
       },
       { type: "h2", text: "Which path fits your type?" },
       {
@@ -2971,7 +2971,7 @@ export const postsEn: BlogPost[] = [
         items: [
           "If you like predictable, weekly structure: join a fixed-time hobby sports club where the same crowd shows up every time.",
           "If your schedule is more flexible and you don't want to commit to one team: pick a gym class format that you can drop into session by session.",
-          "If you're more competitive and want a single partner rather than a whole team: look for a sports-partner group or app where you coordinate with one person directly.",
+          "If you're more competitive and only need one partner: look for a sports-partner group or app where you coordinate with one person directly.",
           "If you're still not sure which sport you want: go to a free, one-off community event before committing to anything.",
         ],
       },
@@ -3003,7 +3003,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "A sports partner: when you don't need a whole team" },
       {
         type: "p",
-        text: "Some people don't need a big group, just one reliable sports partner they can coordinate with regularly. Communities built specifically around pairing people up, rather than group events, work best here.",
+        text: "Some people don't need a big group, just one reliable sports partner they can coordinate with regularly. Communities built around pairing people up work best here.",
       },
       {
         type: "clublist",
@@ -3062,7 +3062,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "The question is rarely whether a community that fits you exists in Budapest, it almost certainly does. The real problem is where and how to search, because most smaller communities have neither a website nor any advertising. This guide walks through where to look, step by step, and what to watch for so you don't land on a long-dead group.",
+        text: "A community that fits you almost certainly exists in Budapest. The problem is where and how to search, because most smaller communities have neither a website nor any advertising. This guide walks through where to look, step by step, and what to watch for so you don't land on a long-dead group.",
       },
       { type: "h2", text: "1. Define exactly what you're looking for" },
       {
@@ -3077,12 +3077,12 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "3. Check the larger platforms too" },
       {
         type: "p",
-        text: "Facebook groups and Meetup are useful when you're looking for something more organized and recurring, though you'll run into inactive groups more often here. Member count alone never tells the full story, it's always the date of the last event that tells you whether a community is still alive.",
+        text: "Facebook groups and Meetup are useful when you're looking for something more organized and recurring, though you'll run into inactive groups more often here. Member count tells you little; check the date of the last event to see whether a community is still active.",
       },
       { type: "h2", text: "4. Use a directory if you want to scan several categories at once" },
       {
         type: "p",
-        text: "If you're not after one specific group but want an overview of what exists in Budapest by category, a hand-curated directory is faster than searching platform by platform. That's exactly why Budapesti Közösségek collects real, active clubs in one place, browsable by category.",
+        text: "If you're not after one specific group but want an overview of what exists in Budapest by category, a hand-curated directory is faster than searching platform by platform. Budapesti Közösségek collects active clubs in one place, browsable by category.",
       },
       { type: "h2", text: "5. Don't skip offline channels" },
       {
@@ -3128,7 +3128,7 @@ export const postsEn: BlogPost[] = [
     title: "Best Budapest club directory sites for newcomers: a first-month roadmap",
     metaTitle: "Budapest club directories for newcomers: first month",
     description:
-      "Not a platform comparison, a timeline: what to do in week one, week two, and by the end of your first month if you just moved to Budapest and want to find a community.",
+      "A timeline: what to do in week one, week two, and by the end of your first month if you just moved to Budapest and want to find a community.",
     kind: "guide",
     category: null,
     author: DEFAULT_AUTHOR_EN,
@@ -3137,7 +3137,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most guides tell you which platform to check. This one is about something else: in what order and when to act if you just arrived in Budapest and want to reach a regular community within four weeks.",
+        text: "Most guides tell you which platform to check. This one covers in what order and when to act if you just arrived in Budapest and want to reach a regular community within four weeks.",
       },
       { type: "h2", text: "Week 1: map out what interests you" },
       {
@@ -3152,12 +3152,12 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Week 3: show up to your first session" },
       {
         type: "p",
-        text: "Pick the community with the lowest barrier to entry first: free, no equipment needed, and recurring rather than a one-off event. If the first session doesn't click, that's fine, it's part of the process.",
+        text: "Pick the community with the lowest barrier to entry first: free, with no equipment needed, and held regularly. If the first session doesn't click, that's fine, it's part of the process.",
       },
       { type: "h2", text: "Week 4: narrow down, and lock in one fixed slot" },
       {
         type: "p",
-        text: "By the end of the month, you'll typically have one or two communities that stood out from the rest. This is the point to build one of them into your weekly routine as a fixed slot, because that routine is what turns familiar faces into actual friendships.",
+        text: "By the end of the month, you'll typically have one or two communities that stood out from the rest. Now is the time to build one of them into your weekly routine as a fixed slot, because that routine is what turns familiar faces into actual friendships.",
       },
       {
         type: "table",
@@ -3198,7 +3198,7 @@ export const postsEn: BlogPost[] = [
     title: "How do beginner sports clubs in Budapest actually work? Cost, sign-up, trial sessions",
     metaTitle: "How do beginner sports clubs in Budapest work?",
     description:
-      "Not which club to pick, but what to actually expect: whether you need to pay, how a trial session works, and what gear to bring the first time.",
+      "What to expect: whether you need to pay, how a trial session works, and what gear to bring the first time.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -3207,12 +3207,12 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Most of the anxiety about a first session doesn't come from the sport itself, it comes from not knowing what to expect in practice. Do you need to pay? Do you need to sign up in advance? What should you bring? This guide covers the logistics, not which club to choose.",
+        text: "Most of the anxiety about a first session comes from not knowing what will happen. Do you need to pay? Do you need to sign up in advance? What should you bring? This guide covers the logistics, not which club to choose.",
       },
       { type: "h2", text: "Do you need to pay to join?" },
       {
         type: "p",
-        text: "Most Budapest hobby sports clubs are free, especially ones organized as informal, friend-group communities (running, street basketball, hiking). Where there is a cost, it typically comes from court or venue rental (padel, tennis, pickleball), and it's split among participants on the spot rather than charged as membership.",
+        text: "Most Budapest hobby sports clubs are free, especially ones organized as informal, friend-group communities (running, street basketball, hiking). Where there is a cost, it typically comes from court or venue rental (padel, tennis, pickleball), and it's split among participants on the spot, with no membership charge.",
       },
       { type: "h2", text: "How does a trial session actually work?" },
       {
@@ -3283,13 +3283,13 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Why this is harder than it looks" },
       {
         type: "p",
-        text: "During university, friendship came almost for free: you shared physical space with the same people daily, whether you planned it or not. Once you're working, you have to deliberately create that space yourself, and that takes a different kind of effort than you're used to. It's not harder because you're doing something wrong, it's harder because the system that used to do the work for you is gone.",
+        text: "During university, friendship came almost for free: you shared physical space with the same people daily, whether you planned it or not. Once you're working, you have to deliberately create that space yourself, and that takes a different kind of effort than you're used to. It feels harder because the setup that used to do this for you is gone.",
       },
       { type: "h2", text: "What should you look for as a fresh graduate?" },
       {
         type: "list",
         items: [
-          "A weekly, recurring session rather than a one-off event, since that best replaces the repeated contact university gave you",
+          "A weekly, recurring session, since that best replaces the repeated contact university gave you",
           "A community with a mixed age range and background, not just other recent graduates, so you build a wider network faster",
           "A low cost and time commitment while you're still adjusting to your new work routine",
         ],
@@ -3304,7 +3304,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Havervagy",
-            note: "Built specifically for people looking for a new friend group, organized around meeting people rather than one specific activity.",
+            note: "Built specifically for people looking for a new friend group, organized around meeting people, with no single set activity.",
             href: "https://www.instagram.com/havervagy/",
           },
         ],
@@ -3352,7 +3352,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "If you quit your job, moved back from abroad, or went through some other major transition, you're facing a double challenge: your old friend group has since scattered or moved on to a different rhythm, and your schedule no longer matches a typical work routine. While everyone else works nine to five, you might have free weekday mornings, and oddly enough, that can work in your favor rather than against you.",
+        text: "If you quit your job, moved back from abroad, or went through some other major transition, you're facing a double challenge: your old friend group has since scattered or moved on to a different rhythm, and your schedule no longer matches a typical work routine. While everyone else works nine to five, you might have free weekday mornings, and that can work in your favor.",
       },
       { type: "h2", text: "Make use of your weekday free time" },
       {
@@ -3437,7 +3437,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Where's the barrier to entry lowest?" },
       {
         type: "p",
-        text: "The easiest entry points are communities where the format itself does the work: you don't need to know anyone, you don't need to start a conversation, you just need to show up.",
+        text: "The easiest entry points are communities where the format itself does the work: you don't need to know anyone or start a conversation, only to show up.",
       },
       {
         type: "clublist",
@@ -3472,7 +3472,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Give it at least three sessions" },
       {
         type: "p",
-        text: "Past 30, the first session rarely produces an instant, deep friendship, and that's not on you. In most adult communities, the first real, name-level acquaintances form on the second or third visit. If the first session doesn't feel special, that doesn't mean you picked the wrong place.",
+        text: "Past 30, the first session rarely produces an instant, deep friendship, and that's not on you. In most adult communities, the first name-level acquaintances form on the second or third visit. If the first session doesn't feel special, that doesn't mean you picked the wrong place.",
       },
       {
         type: "citation",
@@ -3488,7 +3488,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "What if I feel out of place age-wise at a given session?",
-            a: "Most communities listed here have a genuinely mixed age range, and it's the activity itself that connects people, not age. If a specific session does skew noticeably toward one age group, it's worth trying another community around the same theme.",
+            a: "Most communities listed here have a mixed age range, and people connect over the activity itself. If a specific session does skew noticeably toward one age group, it's worth trying another community around the same theme.",
           },
           {
             q: "How long should I realistically expect before a first real friendship?",
@@ -3512,7 +3512,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "The short answer is yes: Budapest isn't just about indoor bouldering gyms, the Buda Hills have several real, natural limestone spots you can boulder on year-round. The longer answer is that there's no free, casual community built around them, and there's a specific regulatory reason for that.",
+        text: "The short answer is yes: besides the indoor bouldering gyms, the Buda Hills have several natural limestone spots you can boulder on year-round. The longer answer is that there's no free, casual community built around them, and there's a specific regulatory reason for that.",
       },
       { type: "h2", text: "Where are the real outdoor bouldering spots?" },
       {
@@ -3542,7 +3542,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Why isn't there a free, casual community for this?" },
       {
         type: "p",
-        text: "This has a specific cause, it's not just a gap that happened by chance. Accessing Hungary's official outdoor climbing sites, including the ones above, typically requires membership in MHSSZ (the Hungarian Mountaineering and Sport Climbing Association) and the climbing permit tied to it. In practice, that permit is only available through paid club membership, which is why Budapest's climbing groups are almost without exception fee-based associations, not the kind of free, Instagram-run crew you'd find around running or hiking.",
+        text: "There's a specific reason. Accessing Hungary's official outdoor climbing sites, including the ones above, typically requires membership in MHSSZ (the Hungarian Mountaineering and Sport Climbing Association) and the climbing permit tied to it. That permit is effectively only available through paid club membership, which is why Budapest's climbing groups are almost without exception fee-based associations, not the kind of free, Instagram-run crew you'd find around running or hiking.",
       },
       { type: "h2", text: "What if you want to try it anyway?" },
       {
@@ -3594,7 +3594,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Is outdoor bouldering free in Budapest?",
-            a: "The rock itself is free, but the official access permit from MHSSZ requires paid club membership. In practice, it's not free if you want to go through official channels.",
+            a: "The rock itself is free, but the official access permit from MHSSZ requires paid club membership. So going through official channels costs money.",
           },
           {
             q: "Can I go to Oroszlán-sziklák or Francia-bánya alone as a beginner?",
@@ -3602,7 +3602,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Is there any free Budapest community I can join for this?",
-            a: "We haven't found a free, membership-fee-free community specifically dedicated to this. If that changes and a genuine free group shows up, we'll update this article and our club list too.",
+            a: "We haven't found a free, membership-fee-free community specifically dedicated to this. If that changes and a free group shows up, we'll update this article and our club list too.",
           },
         ],
       },
@@ -3613,7 +3613,7 @@ export const postsEn: BlogPost[] = [
     title: "Is there casual football in Budapest that anyone can join?",
     metaTitle: "Is there casual football in Budapest?",
     description:
-      "Football in Budapest is organized differently from running or board games: there's no genuinely free, just-show-up club. There is a free platform for one-off matches though, and women's football has beginner-friendly options of its own, which we cover too.",
+      "Football in Budapest is organized differently from running or board games: there's no free, just-show-up club. There is a free platform for one-off matches though, and women's football has beginner-friendly options of its own, which we cover too.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR_EN,
@@ -3622,7 +3622,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "The short answer is not the way you're used to from running or board games. We didn't find a single active, free, casual community where you can just show up to a match. Football in Budapest is structured fundamentally differently, and there's a reason for that.",
+        text: "The short answer is not the way you're used to from running or board games. We didn't find a single active, free, casual community where you can just show up to a match. Football in Budapest is organized differently, for a specific reason.",
       },
       { type: "h2", text: "Why is this different from running or hiking?" },
       {
@@ -3635,17 +3635,17 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             name: "Grundfoci.hu",
-            note: "A marketplace for amateur football teams in and around Budapest: teams looking for players, players looking for a team. Not a community you walk into, but a database where you send an application to a team near you.",
+            note: "A marketplace for amateur football teams in and around Budapest: teams looking for players, players looking for a team. It works as a database: you send an application to a team near you.",
             href: "http://www.grundfoci.hu/",
           },
           {
             name: "Pestifoci.hu",
-            note: "An amateur football news and team-listing site where you can browse which Budapest teams are looking for players. Just as team-based as Grundfoci, not built around casual, one-off participation.",
+            note: "An amateur football news and team-listing site where you can browse which Budapest teams are looking for players. Like Grundfoci, it's team-based, with no casual one-off participation.",
             href: "https://pestifoci.hu/index.php/csapatlista",
           },
           {
             name: "Amazon Foci SE",
-            note: "A women's and girls' futsal community running since 2015, with a free trial session for your first time. This is the closest thing to the format you'd expect from other sports, but after the trial it's club membership, not casual drop-in play.",
+            note: "A women's and girls' futsal community running since 2015, with a free trial session for your first time. This is the closest thing to the drop-in format of other sports, but after the trial you need a club membership.",
             href: "https://amazonfoci.hu/",
           },
         ],
@@ -3673,7 +3673,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What if you just want to play casually, without a team?" },
       {
         type: "p",
-        text: "Casual one-off matches get posted all the time across Budapest Facebook groups and pages (\"need two more for Friday's five-a-side\"), but they're scattered across different pages with no single place to track them. There's one platform, though, that solves exactly this problem in one spot.",
+        text: "Casual one-off matches get posted all the time across Budapest Facebook groups and pages (\"need two more for Friday's five-a-side\"), but they're scattered across different pages with no single place to track them. One platform, though, collects them in one place.",
       },
       {
         type: "clublist",
@@ -3687,7 +3687,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The difference from a club is that you're not joining a standing community, you're finding new people for one specific match each time. If you're after a fixed, recurring team instead, Grundfoci's or Pestifoci's team listings fit that purpose better.",
+        text: "Here you find new people for one specific match each time, without joining a standing community. If you're after a fixed, recurring team instead, Grundfoci's or Pestifoci's team listings fit that purpose better.",
       },
       {
         type: "citation",
@@ -3713,7 +3713,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "If this changes and a genuine, free, open casual football community shows up in Budapest, we'll update this article and our club list too.",
+        text: "If this changes and a free, open casual football community shows up in Budapest, we'll update this article and our club list too.",
       },
     ],
   },
@@ -3731,7 +3731,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "\"Where can I meet people in Budapest\" often stalls right at the start, because you don't know what to pick. You don't need to decide on a specific activity first: it's enough to know what format makes you feel the least self-conscious around others. This guide builds on that, your style of meeting people, not the activity itself.",
+        text: "\"Where can I meet people in Budapest\" often stalls right at the start, because you don't know what to pick. You don't need to decide on a specific activity first: it's enough to know what format makes you feel the least self-conscious around others. This guide starts from your style of meeting people.",
       },
       { type: "h2", text: "If you'd rather meet people while moving" },
       {
@@ -3761,7 +3761,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "If you'd rather meet people sitting down, talking" },
       {
         type: "p",
-        text: "Some people find movement the distracting part, and feel much more at ease around a table, where the conversation itself is the point, not a side effect of something else.",
+        text: "Some people find movement the distracting part, and feel much more at ease around a table, where the conversation is the main activity.",
       },
       {
         type: "clublist",
@@ -3806,7 +3806,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "If you're looking for a community that fits a specific life situation" },
       {
         type: "p",
-        text: "Sometimes it's not the activity that matters, it's being around people in a similar life situation to yours. In these categories, that shared situation is itself the basis for meeting people.",
+        text: "Sometimes what matters most is being around people in a similar life situation to yours. In these categories, that shared situation is itself the basis for meeting people.",
       },
       {
         type: "clublist",
@@ -3844,7 +3844,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Catholic Communities",
-            note: "Prayer groups, choirs, and discussion-based communities, many of which genuinely welcome newcomers.",
+            note: "Prayer groups, choirs, and discussion-based communities, many of which welcome newcomers.",
             href: "/en/clubs/catholic-communities",
           },
         ],
@@ -3852,7 +3852,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What if none of these categories immediately click?" },
       {
         type: "p",
-        text: "That doesn't mean there's no format for you, just that you don't yet know exactly what you're looking for. In that case, start with whichever session has the lowest barrier to entry, no cost, no gear, no sign-up required, and move on from there if the first group doesn't feel right.",
+        text: "That doesn't mean there's no format for you, just that you don't yet know exactly what you're looking for. In that case, start with whichever session has the lowest barrier to entry, one that's free and needs no gear or sign-up, and move on from there if the first group doesn't feel right.",
       },
       {
         type: "citation",
@@ -3892,12 +3892,12 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "If your community is outdoors, autumn and winter will keep putting this question in front of you: go anyway in the rain, or skip it? The real problem isn't the one missed session, it's that skipped sessions easily turn into a streak, and that regularity is what makes it a community in the first place.",
+        text: "If your community is outdoors, autumn and winter will keep putting this question in front of you: go anyway in the rain, or skip it? One missed session is fine, but skipped sessions easily turn into a streak, and regular attendance is what makes it a community.",
       },
       { type: "h2", text: "Which outdoor communities hold up better in bad weather?" },
       {
         type: "p",
-        text: "Running clubs are typically the most resilient: in light rain or cold, most groups keep going, and only call it off in genuinely extreme weather (icing, thunderstorms). Hiking is more sensitive, because terrain matters too, not just comfort, a muddy, slippery trail carries a different risk than a city sidewalk. Outdoor yoga and casual walking groups are the most weather-sensitive of all, because the outdoor experience itself is the whole point, which is hard to replicate in the rain.",
+        text: "Running clubs are typically the most resilient: in light rain or cold, most groups keep going, and only call it off in extreme weather (icing, thunderstorms). Hiking is more sensitive, because the terrain matters as well as comfort: a muddy, slippery trail carries a different risk than a city sidewalk. Outdoor yoga and casual walking groups are the most weather-sensitive of all, because being outdoors is what they're for, and that's hard to enjoy in the rain.",
       },
       {
         type: "table",
@@ -3924,7 +3924,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Book Club",
-            note: "Monthly rather than weekly, but that's exactly why it's a good backup: a stable, always-indoor fixed point if your weekly outdoor session falls through. Budapest Silent Book Club runs free sessions in libraries several times a month.",
+            note: "Not weekly, but still a good backup: an always-indoor fixed point if your weekly outdoor session falls through. Budapest Silent Book Club runs free sessions in libraries several times a month.",
             href: "/en/clubs/book-club",
           },
           {
@@ -3986,7 +3986,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "You don't become part of a community on your first visit, but on your fifth or tenth. According to a US study, it takes roughly 50 hours together to go from acquaintance to casual friend, and more than 200 hours to become close friends. That only happens if there's something you go back to at the same time every week.",
+        text: "It usually takes five or ten visits to become part of a community. According to a US study, it takes roughly 50 hours together to go from acquaintance to casual friend, and more than 200 hours to become close friends. That only happens if there's something you go back to at the same time every week.",
       },
       {
         type: "p",
@@ -4137,7 +4137,7 @@ export const postsEn: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Pick one, not five: one fixed weekly session is worth more than five occasional ones",
+          "Pick one: a fixed weekly session is worth more than five occasional ones",
           "Go at least three times before deciding whether it's for you",
           "Check the community's page before you set off, as times and venues can change",
           "Where registration is needed (H13, Silent Book Club, DevBP), sign up early, since places fill fast",
@@ -4185,7 +4185,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "As an introvert, the problem is rarely that you don't like being around people. It's that open-ended small talk, the round of introductions and a loud bar drain your energy fast, until you stop enjoying the evening.",
+        text: "As an introvert, you may well like being around people, while open-ended small talk, the round of introductions and a loud bar drain your energy fast, until you stop enjoying the evening.",
       },
       {
         type: "p",
@@ -4207,12 +4207,12 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Óbudai Nordic Walking Klub",
-            note: "You walk side by side rather than sitting face to face, which is a far less draining setting for conversation. If you don't feel like talking, you just walk while the coach focuses on technique. Free, and they lend you the poles.",
+            note: "You walk side by side, which is a far less draining setting for conversation than sitting face to face. If you don't feel like talking, you just walk while the coach focuses on technique. Free, and they lend you the poles.",
             href: "/en/club/obudai-nordic-walking-klub",
           },
           {
             name: "Andúril Társasjáték Klub",
-            note: "The rules of the game decide who talks when and about what, so you don't have to find a topic. Game masters explain the rules, and you sit at a table with four or five people rather than in a crowd. Thursdays, free entry.",
+            note: "The rules of the game decide who talks when and about what, so you don't have to find a topic. Game masters explain the rules, and you sit at a table with four or five people. Thursdays, free entry.",
             href: "/en/club/anduril-tarsasjatek-klub",
           },
           {
@@ -4222,7 +4222,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Gradient Hiking",
-            note: "A full-day hike leaves plenty of time to walk in silence, and when you do talk, it's usually one-on-one on the trail rather than around a table. The group runs hikes on a volunteer basis; you only pay for public transport.",
+            note: "A full-day hike leaves plenty of time to walk in silence, and when you do talk, it's usually one-on-one on the trail. The group runs hikes on a volunteer basis; you only pay for public transport.",
             href: "/en/club/gradient-hiking",
           },
           {
@@ -4246,7 +4246,7 @@ export const postsEn: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Start with one session a week rather than trying several communities at once",
+          "Start with one session a week, in one community",
           "Arrive a few minutes before the start, not much earlier, so you're not stuck in a long unstructured wait",
           "Feel free to leave after the main part; nobody expects you to stay",
           "If a community turns out to be too loud, that's about the format, not you: try a quieter one",
@@ -4257,7 +4257,7 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Can I build a lasting community as an introvert?",
-            a: "Yes. Introverts tend to want fewer but deeper connections, and a small, regular community is made for exactly that. The key is choosing a format that doesn't drain you.",
+            a: "Yes. Introverts tend to want fewer but deeper connections, and a small, regular community is made for exactly that. Choose a format that doesn't drain you.",
           },
           {
             q: "What's the difference between being introverted and being scared to go alone?",
@@ -4293,7 +4293,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The format started in 2012 and has become a worldwide movement: according to the organisers, more than 2,200 local chapters run in 70 countries, with over a million members. They call it an \"introvert happy hour\".",
+        text: "The format started in 2012 and has spread worldwide: according to the organisers, more than 2,200 local chapters run in 70 countries, with over a million members. They call it an \"introvert happy hour\".",
       },
       { type: "h2", text: "How does a session work?" },
       {
@@ -4346,7 +4346,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "Do I have to talk after the quiet part?",
-            a: "No. Conversation is an option, not an expectation, and you can leave after the silent reading if you prefer.",
+            a: "No. Conversation is optional, and you can leave after the silent reading if you prefer.",
           },
           {
             q: "Does the Budapest silent book club cost anything?",
