@@ -27,7 +27,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Budapest running clubs have taken off visibly lately: according to a September HVG article, running clubs are increasingly becoming social spaces where the kilometers are followed by coffee, conversation and friendship. We updated this list with one more club and the latest on Running Latte Club.",
+        text: "Budapest running clubs have taken off visibly lately: according to a September HVG article, running clubs are increasingly becoming social spaces where the kilometers are followed by coffee and conversation. We updated this list with one more club and the latest on Running Latte Club.",
       },
       {
         type: "clublist",
@@ -49,7 +49,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Running Latte Club",
-            note: "Not a community tied to a clubhouse, but a friendly meeting point: it always pairs the group run with coffee afterward. According to HVG it built an international community of several thousand people in Budapest within a few years, and with the Latte Race 2027 event it is now building a whole running festival around it. Runner’s Mag reports that the club has been free from the start and will stay that way. Ideal if the social side matters to you at least as much as the movement.",
+            note: "A friendly crew without a clubhouse that always pairs the group run with coffee afterward. According to HVG it built an international community of several thousand people in Budapest within a few years, and with the Latte Race 2027 event it is now building a whole running festival around it. Runner's Mag reports that the club has been free from the start and will stay that way. Ideal if the social side matters to you at least as much as the movement.",
             href: "https://www.instagram.com/runninglatteclub/",
           },
           {
@@ -72,7 +72,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Which running club should you pick?" },
       {
         type: "p",
-        text: "If you're a total beginner, the Mozaik Med island run or Pace & Pour are the least demanding way in, because there's no expected pace and the vibe is genuinely relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
+        text: "If you're a total beginner, the Mozaik Med island run or Pace & Pour are the least demanding way in, because there's no expected pace and the vibe is relaxed. If the community experience matters more to you than performance, Running Latte Club or Run Crew Budapest are a good fit for their coffee-shop, friendly tone. And if you'd specifically like to run with other women, Bridget Runners Budapest is the best starting point, since the whole community is built around that. If you want coaching and a predictable weekly rhythm, New Balance Run Club Budapest is the most structured of the seven.",
       },
       { type: "h2", text: "More free runs if you want a coach" },
       {
@@ -102,11 +102,11 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Why are running clubs growing so fast right now?" },
       {
         type: "p",
-        text: "According to a September HVG article, we no longer necessarily run to get faster, thinner or fitter, sometimes we run to finally meet someone. Running clubs are increasingly becoming social spaces where the kilometers are followed by coffee, conversation and friendship. A February series in Runner’s Mag Hungary shows the same pattern through Running Latte Club, Run Crew and Mozaik Med: all three build on real connections between runners, not just on training.",
+        text: "According to a September HVG article, many people now run partly to finally meet someone. Running clubs are increasingly becoming social spaces where the kilometers are followed by coffee and conversation. A February series in Runner's Mag Hungary shows the same pattern through Running Latte Club, Run Crew and Mozaik Med: all three build on friendships between runners as well as training.",
       },
       {
         type: "p",
-        text: "In practice, this means that at most clubs the run is the frame, not the goal. That is why they work well for beginners and for people arriving alone: the emphasis is on having someone to meet, not on who is faster.",
+        text: "At most clubs the run is just the frame, so it's easy to fit in as a beginner or if you arrive alone: nobody is timing who is faster.",
       },
       {
         type: "citation",
@@ -115,7 +115,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "citation",
-        text: "Runner’s Mag Hungary (in Hungarian): three Budapest running clubs rewriting the picture of community running",
+        text: "Runner's Mag Hungary (in Hungarian): three Budapest running clubs rewriting the picture of community running",
         href: "https://runnersmag.hu/kozossegi-futasok-budapest-runninglatte-runcrew-mozaikmed/",
       },
       {
@@ -2431,7 +2431,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             name: "Hungarian Food Bank Association (Magyar Élelmiszerbank Egyesület)",
-            note: "A large, established organization rather than a casual community: according to its own site it has operated for 21 years and runs the country's largest donation warehouse. As a volunteer you can help with warehouse work, office administration, transport, labeling, boxing or rescuing prepared food. Both individuals and company teams can sign up. Sign-up goes through their site, and it's worth asking there about the exact time commitment and current openings, since these can change. The site is in Hungarian.",
+            note: "A large, established organization: according to its own site it has operated for 21 years and runs the country's largest donation warehouse. As a volunteer you can help with warehouse work, office administration, transport, labeling, boxing or rescuing prepared food. Both individuals and company teams can sign up. Sign-up goes through their site, and it's worth asking there about the exact time commitment and current openings, since these can change. The site is in Hungarian.",
             href: "https://www.elelmiszerbank.hu/onkentesseg/",
           },
         ],
@@ -2481,7 +2481,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "Does it actually help, or does it just sound good?" },
       {
         type: "p",
-        text: "It measurably helps. A large analysis combining several studies found lower rates of depression and better overall wellbeing among volunteers compared to non-volunteers. The effect isn't just a feeling.",
+        text: "It measurably helps. A large analysis combining several studies found lower rates of depression and better overall wellbeing among volunteers compared to non-volunteers.",
       },
       {
         type: "citation",
@@ -4473,7 +4473,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Language exchange is simple: you help someone with a language you speak well, and they help you with the one you are learning. No teacher, textbook or fees, just a partner or a table where others came to practise too. In Budapest it comes in two main forms, and each has its own strengths.",
+        text: "Language exchange is simple: you help someone with a language you speak well, and they help you with the one you are learning. You don't need a teacher or fees: a partner is enough, or a table where others came to practise too. In Budapest it comes in two main forms, and each has its own strengths.",
       },
       { type: "h2", text: "Tandem partner or language exchange night?" },
       {
@@ -4490,7 +4490,7 @@ export const postsEn: BlogPost[] = [
       { type: "h2", text: "What makes a good tandem?" },
       {
         type: "p",
-        text: "The tandem guide from the University of Münster's language centre highlights two principles: reciprocity and autonomy. Reciprocity, because both of you should get the same amount out of the time together. Autonomy, because each person decides what and how they want to practise; your partner is a helper, not a teacher.",
+        text: "The tandem guide from the University of Münster's language centre names two principles: reciprocity and autonomy. Reciprocity, because both of you should get the same amount out of the time together. Autonomy, because each person decides what and how they want to practise; your partner helps but doesn't teach.",
       },
       {
         type: "list",
@@ -4534,7 +4534,7 @@ export const postsEn: BlogPost[] = [
           {
             name: "unplugged club Budapest",
             href: "/en/club/unplugged-club-budapest",
-            note: "A phone-free community for locals and expats with changing weekly events. Not a classic language exchange, but mixed company, in English.",
+            note: "A phone-free community for locals and expats with changing weekly events. Events run in English with a mixed crowd, without language exchange tables.",
           },
           {
             name: "Havervagy",
@@ -4590,7 +4590,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Lots of people go to a social event, have a great chat with someone, and never see them again. That's not a personal failing: a single nice conversation rarely turns into a friendship on its own. It takes time and repetition, and research puts fairly concrete numbers on it.",
+        text: "Lots of people go to a social event, have a great chat with someone, and never see them again. That's normal: a single nice conversation rarely turns into a friendship on its own. It takes time and repetition, and research puts fairly concrete numbers on it.",
       },
       { type: "h2", text: "How many hours does a friendship take?" },
       {
@@ -4613,7 +4613,7 @@ export const postsEn: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The table is only a rough estimate, since a coffee or a hike outside the regular meetup speeds things up a lot. The point still stands: friendship isn't decided in one evening, it comes from spending time with the same people again and again.",
+        text: "The table is only a rough estimate, since a coffee or a hike outside the regular meetup speeds things up a lot. One evening is still too little: you need to see the same people many times.",
       },
       { type: "h2", text: "Why a weekly club beats a big one-off event" },
       {
@@ -4699,7 +4699,7 @@ export const postsEn: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "In recent years more and more apps and services are built for making friends rather than dating. Several of them work in Budapest: in some an algorithm seats you at dinner with strangers, in others you swipe through profiles like on a dating app, only looking for friends. Here's what each is good for.",
+        text: "In recent years more and more apps and services are built for making friends. Several of them work in Budapest: in some an algorithm seats you at dinner with strangers, in others you swipe through profiles like on a dating app, only looking for friends. Here's what each is good for.",
       },
       { type: "h2", text: "The best-known options" },
       {
@@ -4718,7 +4718,7 @@ export const postsEn: BlogPost[] = [
           {
             name: "Meetup",
             href: "https://www.meetup.com/find/hu--budapest/",
-            note: "Not a friendship app but a home for groups: hikes, language exchange, board games, tech. Regularly meeting groups turn into lasting friendships more easily than a one-off dinner.",
+            note: "A site for groups: hikes, language exchange, board games, tech. Regularly meeting groups turn into lasting friendships more easily than a one-off dinner.",
           },
           {
             name: "Havervagy",

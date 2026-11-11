@@ -44,7 +44,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A budapesti futóklubok az utóbbi időben látványosan felfutottak: a HVG szeptemberi cikke szerint a futóklubok egyre inkább közösségi terekké válnak, ahol a kilométerek után kávé, beszélgetés és barátság következik. Ezt a listát ezért frissítettük egy újabb klubbal, és a Running Latte Club mostani fejleményeivel.",
+        text: "A budapesti futóklubok az utóbbi időben látványosan felfutottak: a HVG szeptemberi cikke szerint a futóklubok egyre inkább közösségi terekké válnak, ahol a kilométerek után kávé és beszélgetés következik. Ezt a listát ezért frissítettük egy újabb klubbal, és a Running Latte Club mostani fejleményeivel.",
       },
       {
         type: "clublist",
@@ -66,7 +66,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Running Latte Club",
-            note: "Nem hagyományos klubhelyiséghez kötött közösség, hanem baráti találkozópont: a közös futást mindig kávézással köti össze. A HVG szerint néhány év alatt több ezer fős nemzetközi közösséget épített Budapesten, és a Latte Race 2027 nevű eseménnyel most egy egész futófesztivált építenek köré. A Runner’s Mag interjúja szerint a klub a kezdetektől ingyenes, és ez a jövőben sem változik. Ideális, ha a társasági rész legalább annyira fontos neked, mint maga a mozgás.",
+            note: "Klubhelyiség nélküli baráti társaság, a közös futást mindig kávézással köti össze. A HVG szerint néhány év alatt több ezer fős nemzetközi közösséget épített Budapesten, és a Latte Race 2027 nevű eseménnyel most egy egész futófesztivált építenek köré. A Runner's Mag interjúja szerint a klub a kezdetektől ingyenes, és ez a jövőben sem változik. Ideális, ha a társasági rész legalább annyira fontos neked, mint maga a mozgás.",
             href: "https://www.instagram.com/runninglatteclub/",
           },
           {
@@ -89,7 +89,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyik futóklubot válaszd?" },
       {
         type: "p",
-        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy a Pace & Pour a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
+        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy a Pace & Pour a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és laza a hangulat. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség. Ha edzői vezetést és kiszámítható heti ritmust szeretnél, a New Balance Run Club Budapest a legstrukturáltabb a hét közül.",
       },
       { type: "h2", text: "További ingyenes futóalkalmak, ha edzővel futnál" },
       {
@@ -119,11 +119,11 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Miért nőnek most ennyire a futóklubok?" },
       {
         type: "p",
-        text: "A HVG szeptemberi cikke szerint ma már nem feltétlenül azért futunk, hogy gyorsabbak vagy fittebbek legyünk, hanem néha azért, hogy végre találkozzunk valakivel. A futóklubok egyre inkább közösségi terekké válnak, ahol a futás után kávé, beszélgetés és barátság következik. A Runner’s Mag februári cikksorozata ugyanezt a mintát mutatja a Running Latte Club, a Run Crew és a Mozaik Med példáján: mindhárom a valódi kapcsolatok kialakulására épít, nem csak az edzésre.",
+        text: "A HVG szeptemberi cikke szerint sokan ma már azért is futnak, hogy végre találkozzanak valakivel. A futóklubok egyre inkább közösségi terekké válnak, ahol a futás után kávé és beszélgetés következik. A Runner's Mag februári cikksorozata ugyanezt a mintát mutatja a Running Latte Club, a Run Crew és a Mozaik Med példáján: mindhárom klub az edzés mellett a barátkozásra is épít.",
       },
       {
         type: "p",
-        text: "Ez a gyakorlatban azt jelenti, hogy a legtöbb klubnál a futás a keret, nem a cél. Ezért működnek jól kezdőknek és egyedül érkezőknek is: a hangsúly azon van, hogy legyen kivel találkozni, nem azon, hogy ki a gyorsabb.",
+        text: "A legtöbb klubnál a futás csak keret, ezért kezdőként és egyedül érkezőként is könnyű beilleszkedni: senki nem méri, ki a gyorsabb.",
       },
       {
         type: "citation",
@@ -132,7 +132,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "citation",
-        text: "Runner’s Mag Hungary: három futóklub Budapesten, akik újraírják a közösségi futásról alkotott képet",
+        text: "Runner's Mag Hungary: három futóklub Budapesten, akik újraírják a közösségi futásról alkotott képet",
         href: "https://runnersmag.hu/kozossegi-futasok-budapest-runninglatte-runcrew-mozaikmed/",
       },
       {
@@ -2431,7 +2431,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Magyar Élelmiszerbank Egyesület",
-            note: "Nagy, bejáratott szervezet, nem laza közösség: az oldaluk szerint 21 éve működik, és az ország legnagyobb adományraktárát üzemelteti. Önkéntesként többféle feladatban segíthetsz, például raktári munkában, irodai adminisztrációban, fuvarozásban, címkézésben, dobozolásban vagy készételmentésben. Magánemberként és vállalati csapattal is lehet jelentkezni. A jelentkezés az oldalukon keresztül megy, a pontos időigényt és az aktuális lehetőségeket érdemes ott megkérdezni, mert ezek változhatnak.",
+            note: "Nagy, bejáratott szervezet: az oldaluk szerint 21 éve működik, és az ország legnagyobb adományraktárát üzemelteti. Önkéntesként többféle feladatban segíthetsz, például raktári munkában, irodai adminisztrációban, fuvarozásban, címkézésben, dobozolásban vagy készételmentésben. Magánemberként és vállalati csapattal is lehet jelentkezni. A jelentkezés az oldalukon keresztül megy, a pontos időigényt és az aktuális lehetőségeket érdemes ott megkérdezni, mert ezek változhatnak.",
             href: "https://www.elelmiszerbank.hu/onkentesseg/",
           },
         ],
@@ -2481,7 +2481,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Tényleg jót tesz, vagy csak jól hangzik?" },
       {
         type: "p",
-        text: "Mérhetően jót tesz. Egy nagy, több tanulmányt összesítő elemzés szerint az önkéntesek körében alacsonyabb a depresszió aránya és jobb az általános jóllét, mint a nem önkénteskedőknél. A hatás nem csak érzés kérdése.",
+        text: "Mérhetően jót tesz. Egy nagy, több tanulmányt összesítő elemzés szerint az önkéntesek körében alacsonyabb a depresszió aránya és jobb az általános jóllét, mint a nem önkénteskedőknél.",
       },
       {
         type: "citation",
@@ -4485,7 +4485,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A nyelvcsere lényege egyszerű: te segítesz valakinek a magyarban vagy egy másik nyelvben, amit jól beszélsz, ő pedig neked abban a nyelvben, amit tanulsz. Nem kell hozzá tanár, tankönyv vagy tandíj, csak egy partner vagy egy asztal, ahol mások is gyakorolni jöttek. Budapesten két fő formája van, és mindkettőnek más az előnye.",
+        text: "A nyelvcsere lényege egyszerű: te segítesz valakinek a magyarban vagy egy másik nyelvben, amit jól beszélsz, ő pedig neked abban a nyelvben, amit tanulsz. Tanár és tandíj nem kell hozzá: elég egy partner, vagy egy asztal, ahol mások is gyakorolni jöttek. Budapesten két fő formája van, és mindkettőnek más az előnye.",
       },
       { type: "h2", text: "Tandempartner vagy nyelvcsere-est?" },
       {
@@ -4502,7 +4502,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Hogyan működik egy jó tandem?" },
       {
         type: "p",
-        text: "A Münsteri Egyetem nyelvi központjának tandem-útmutatója két alapelvet emel ki: a kölcsönösséget és az önállóságot. Kölcsönösség, mert mindkettőtöknek ugyanannyit kell kapnia a közös időből. Önállóság, mert mindenki maga dönti el, mit és hogyan akar gyakorolni, a partner nem tanár, hanem segítő.",
+        text: "A Münsteri Egyetem nyelvi központjának tandem-útmutatója két alapelvet emel ki: a kölcsönösséget és az önállóságot. Kölcsönösség, mert mindkettőtöknek ugyanannyit kell kapnia a közös időből. Önállóság, mert mindenki maga dönti el, mit és hogyan akar gyakorolni, a partner segít, de nem tanít.",
       },
       {
         type: "list",
@@ -4546,7 +4546,7 @@ export const posts: BlogPost[] = [
           {
             name: "unplugged club Budapest",
             href: "/klub/unplugged-club-budapest",
-            note: "Telefonmentes közösség helyieknek és expatoknak, hetente változó programokkal. Nem klasszikus nyelvcsere, de vegyes társaságban, angolul zajlik.",
+            note: "Telefonmentes közösség helyieknek és expatoknak, hetente változó programokkal. A programok angolul, vegyes társaságban zajlanak, nyelvcsere-asztalok nélkül.",
           },
           {
             name: "Havervagy",
@@ -4602,7 +4602,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Sokan elmennek egy közösségi eseményre, jól elbeszélgetnek valakivel, aztán soha többé nem találkoznak. Nem velük van a baj: egy kellemes beszélgetésből ritkán lesz magától barátság. Ahhoz idő és ismétlődés kell, és erre a kutatások elég konkrét számokat adnak.",
+        text: "Sokan elmennek egy közösségi eseményre, jól elbeszélgetnek valakivel, aztán soha többé nem találkoznak. Ez teljesen átlagos: egy kellemes beszélgetésből ritkán lesz magától barátság. Ahhoz idő és ismétlődés kell, és erre a kutatások elég konkrét számokat adnak.",
       },
       { type: "h2", text: "Hány óra kell egy barátsághoz?" },
       {
@@ -4625,7 +4625,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A táblázat persze csak durva becslés, hiszen egy jó beszélgetés a programon kívül, egy közös kávé vagy kirándulás sokat gyorsít. A lényeg mégis az, hogy a barátság nem egy estén múlik, hanem azon, hogy újra és újra ugyanazokkal az emberekkel töltesz időt.",
+        text: "A táblázat persze csak durva becslés, hiszen egy jó beszélgetés a programon kívül, egy közös kávé vagy kirándulás sokat gyorsít. Egy este viszont mindenképp kevés: ugyanazokkal az emberekkel sokszor kell találkozni.",
       },
       { type: "h2", text: "Miért jobb egy heti klub, mint egy nagy esemény?" },
       {
@@ -4711,7 +4711,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Az utóbbi években egyre több app és szolgáltatás kifejezetten barátkozásra épül, nem randizásra. Budapesten is elérhető több ilyen: van, ahol egy algoritmus ültet le idegenekkel vacsorázni, és van, ahol a társkeresőkhöz hasonlóan lapozod a profilokat, csak barátokat keresel. Megnéztük, melyik mire jó.",
+        text: "Az utóbbi években egyre több app és szolgáltatás kifejezetten barátkozásra épül. Budapesten is elérhető több ilyen: van, ahol egy algoritmus ültet le idegenekkel vacsorázni, és van, ahol a társkeresőkhöz hasonlóan lapozod a profilokat, csak barátokat keresel. Megnéztük, melyik mire jó.",
       },
       { type: "h2", text: "A legismertebb lehetőségek" },
       {
@@ -4730,7 +4730,7 @@ export const posts: BlogPost[] = [
           {
             name: "Meetup",
             href: "https://www.meetup.com/find/hu--budapest/",
-            note: "Nem app az ismerkedésre, hanem csoportokra: túrák, nyelvcsere, társasjáték, tech. A rendszeresen találkozó csoportokból könnyebben lesz tartós ismeretség, mint egy egyszeri vacsorából.",
+            note: "Csoportoknak szóló oldal: túrák, nyelvcsere, társasjáték, tech. A rendszeresen találkozó csoportokból könnyebben lesz tartós ismeretség, mint egy egyszeri vacsorából.",
           },
           {
             name: "Havervagy",
