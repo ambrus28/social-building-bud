@@ -56,6 +56,7 @@ const SEO: Record<string, CategorySeo> = {
     description:
       "Hol lehet társasjátékozni Budapesten? Heti társasjáték-estek keddtől péntekig, magyarul és angolul, kezdőknek is, időpontokkal és helyszínekkel.",
     intro: [
+      "Melyik este van társasjáték Budapesten? Kedden 17 órától a Beer People sörözőben (VI. kerület, Lázár utca, angolul), szerdán 18 órától a Vault 51 Gamer Barban (VI. kerület, Ó utca 51., angolul), csütörtökön 18 és 23 óra között az Andúril klubban (XIII. kerület, Visegrádi utca, magyarul), és minden hónap utolsó péntekén 18 órától a Tia Game Cave-ben (IX. kerület, online jelentkezéssel).",
       "A társasjáték-esték azért kivételesen jó belépők, mert a játék adja a struktúrát: nem neked kell beszélgetést kezdeményezned, elég leülnöd egy asztalhoz. Egy kör alatt óhatatlanul megismersz három-négy embert.",
       "Az itt szereplő közösségek nagy része ingyenes vagy csak a helyszín fogyasztását kéri, és szinte mindenhol van, aki elmagyarázza a szabályokat. Saját játékot nem kell vinni. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
     ],
@@ -82,10 +83,11 @@ const SEO: Record<string, CategorySeo> = {
   },
   "Meditáció / Spiritualitás": {
     h1: "Meditációs és önismereti közösségek Budapesten",
-    title: "Meditációs és önismereti közösségek Budapesten",
+    title: "Meditáció Budapesten: csoportok kezdőknek",
     description:
-      "Meditációs csoportok és önismereti közösségek Budapesten, vallástól és szervezettől függetlenül. Ingyenes lista.",
+      "Hol meditálhatsz Budapesten? Vezetett meditáció a VII. kerületben minden este, emellett nyílt önismereti csoportok, vallási elköteleződés nélkül.",
     intro: [
+      "Hol tudok meditálni Budapesten, ha még sosem csináltam? A Gyémánt Út Buddhista Központ vezetett meditációja a VII. kerületi Rózsák terén van: angolul csütörtökön 19 órakor, magyarul minden este 19 órakor. Az angol alkalmon rövid bevezető után 30-40 percig meditáltok együtt, az újonnan érkezőknek 18:30-tól rövid ismertetőt tartanak.",
       "Ezen az oldalon a jelenleg aktív, nyitott budapesti meditációs és önismereti közösségeket gyűjtöttük össze, azoknak, akik egy konkrét csoportot keresnek, nem elméleti háttéranyagot.",
       "A formátumok eltérőek, a rövid csoportos üléstől a természetben tartott egész napos programokig. Előzetes gyakorlat sehol nem feltétel. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
     ],

@@ -11,6 +11,8 @@ export type Club = {
   district: string | null;
   description: string;
   description_en: string;
+  /** Egyedi <title> a klubhoz, ha az automatikus cím nem a keresett kifejezést mondja. */
+  seo_title?: string | null;
   /**
    * Mikor találkoznak, szabad szövegként, például "keddenként 18:00, Margitsziget".
    * Szándékosan nem strukturált: a klubok maguk küldik be, és úgyis változik.

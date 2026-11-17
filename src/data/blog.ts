@@ -2219,15 +2219,19 @@ export const posts: BlogPost[] = [
   {
     slug: "meditacio-kozossegek-budapesten",
     title: "Meditációs közösségek Budapesten kezdőknek",
-    metaTitle: "Meditációs közösségek Budapesten",
+    metaTitle: "Meditáció Budapesten: hol kezdd, kezdőknek",
     description:
-      "Meditációs és önismereti csoportok Budapesten, ahol nulla tapasztalattal és vallási elköteleződés nélkül is elkezdheted.",
+      "Hol meditálhatsz Budapesten, ha még sosem csináltad? Vezetett meditáció a VII. kerületben minden este, vallási elköteleződés nélkül, nulla tapasztalattal is.",
     kind: "guide",
     category: "Meditáció / Spiritualitás",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-17",
     body: [
+      {
+        type: "p",
+        text: "Hol tudok meditálni Budapesten, ha még sosem csináltam? A Gyémánt Út Buddhista Központ vezetett meditációján a VII. kerületi Rózsák terén: angolul csütörtökön 19 órakor, magyarul minden este 19 órakor. Az angol alkalmon rövid bevezető után 30-40 percig meditáltok együtt, az újonnan érkezőknek 18:30-tól rövid ismertetőt tartanak.",
+      },
       {
         type: "p",
         text: "Sokan azért nem próbálnak ki egy meditációs csoportot, mert attól tartanak, hogy valamilyen szervezethez kell csatlakozniuk, vagy hogy hitbeli elvárás lesz. Ez a félelem érthető, és pont ezért hangsúlyozza a legtöbb budapesti csoport, hogy független.",
@@ -3987,15 +3991,19 @@ export const posts: BlogPost[] = [
   {
     slug: "ingyenes-heti-kozossegi-programok-budapesten",
     title: "Ingyenes heti közösségi programok Budapesten: hétfőtől vasárnapig",
-    metaTitle: "Ingyenes heti közösségi programok Budapesten",
+    metaTitle: "Ingyenes programok Budapesten: heti közösségi alkalmak",
     description:
-      "Napról napra összegyűjtöttük azokat a budapesti közösségi alkalmakat, amelyek ingyenesek, minden héten ugyanakkor ismétlődnek, és kezdőként, egyedül is mehetsz rájuk.",
+      "Milyen ingyenes programok vannak Budapesten hetente? Napról napra összegyűjtöttük a közösségi alkalmakat, amelyek minden héten ugyanakkor ismétlődnek, és egyedül is mehetsz rájuk.",
     kind: "listicle",
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-17",
     body: [
+      {
+        type: "p",
+        text: "Milyen ingyenes programok vannak Budapesten hetente? Itt csak olyanok szerepelnek, amelyek ingyenesek vagy adományalapúak, minden héten vagy kéthetente ugyanazon a napon vannak, és egyedül, kezdőként is mehetsz rájuk. Például kedd esténként a Casual Board Games and Beers a VI. kerületben, csütörtökön 18 és 23 óra között az Andúril társasjáték-klub a XIII. kerületben. A teljes hét napokra bontva lejjebb következik.",
+      },
       {
         type: "p",
         text: "Egy közösségben általában csak a sokadik alkalom után érzed magad otthon. Egy amerikai kutatás szerint nagyjából 50 órányi közös idő kell ahhoz, hogy egy ismerősből haver legyen, és 200 óra felett lesz valakiből közeli barát. Ehhez pedig egy olyan alkalom kell, ahova minden héten ugyanakkor visszamész.",

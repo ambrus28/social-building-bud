@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     `${club.name} - Budapest`,
     club.name,
   ];
-  const title = candidates.find((c) => c.length <= 60) ?? club.name;
+  const title = club.seo_title ?? candidates.find((c) => c.length <= 60) ?? club.name;
 
   const description = `${club.description} Nézd meg, hogyan csatlakozhatsz a ${club.name} közösséghez Budapesten.`;
   const url = `/klub/${club.id}`;
