@@ -3731,19 +3731,19 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "szeretnek-ismerkedni-budapesten-melyik-forma-illik-hozzad",
-    title: "Hol tudok ismerkedni Budapesten? Melyik közösségi forma illik hozzád?",
-    metaTitle: "Hol tudok ismerkedni Budapesten?",
+    title: "Hol találhatsz új társaságot Budapesten? Melyik közösségi forma illik hozzád?",
+    metaTitle: "Új társaság Budapesten: hol ismerkedhetsz?",
     description:
-      "Nem kell előre tudnod, milyen tevékenységet keresel. Ez az útmutató az ismerkedési stílusod alapján mutatja meg, melyik budapesti közösségi kategóriával érdemes kezdened.",
+      "Társaságot keresel Budapesten? Az ismerkedési stílusod alapján mutatjuk meg, melyik budapesti közösségi kategóriával érdemes kezdened, előzetes tapasztalat nélkül.",
     kind: "guide",
     category: null,
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-11-19",
     body: [
       {
         type: "p",
-        text: "A 'hol tudok ismerkedni Budapesten' kérdés gyakran megakad ott, hogy nem tudod, mivel kezdd. Nem kell előre eldöntened, melyik konkrét tevékenység a tiéd: elég, ha azt tudod, milyen formában érzed magad a legkevésbé feszélyezve mások között. Ez az útmutató ezért az ismerkedési stílusodból indul ki.",
+        text: "A 'hol találok új társaságot Budapesten' kérdés gyakran megakad ott, hogy nem tudod, mivel kezdd. Nem kell előre eldöntened, melyik konkrét tevékenység a tiéd: elég, ha azt tudod, milyen formában érzed magad a legkevésbé feszélyezve mások között. Ez az útmutató ezért az ismerkedési stílusodból indul ki.",
       },
       { type: "h2", text: "Ha mozgás közben ismerkednél a legszívesebben" },
       {
