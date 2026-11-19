@@ -492,7 +492,7 @@ export const postsEn: BlogPost[] = [
         headers: ["Day", "Community", "Venue", "Language"],
         rows: [
           ["Tuesday, from 17:00", "Casual Board Games and Beers", "Beer People, District VI", "English"],
-          ["Wednesday, from 18:00", "Board Games in English", "Vault 51, District VI", "English"],
+          ["Several times a week, usually from 18:00", "Board Games in English", "Changing venues, see Meetup", "English"],
           ["Thursday, 18:00-23:00", "Andúril Board Game Club", "Visegrádi utca, District XIII", "Hungarian"],
           ["Last Friday of the month, from 18:00", "TIA Game Cave", "Bokréta utca, District IX", "Hungarian"],
           ["Varies", "Budapest Board Game Nights", "Various board game bars", "English"],
@@ -512,11 +512,11 @@ export const postsEn: BlogPost[] = [
         items: [
           {
             q: "Where can I play board games for free in Budapest?",
-            a: "None of the five communities here charge an entry fee: Casual Board Games and Beers on Tuesdays, Board Games in English on Wednesdays, Andúril Board Game Club on Thursdays and TIA Game Cave on the last Friday of the month. In bars you just pay for your own drinks.",
+            a: "None of the five communities here charge an entry fee: Casual Board Games and Beers on Tuesdays, Board Games in English several times a week at changing venues, Andúril Board Game Club on Thursdays and TIA Game Cave on the last Friday of the month. In bars you just pay for your own drinks.",
           },
           {
             q: "Which day is board game night in Budapest?",
-            a: "There's something on most weekdays: English-language nights on Tuesday and Wednesday in District VI, Andúril's Hungarian club night on Thursday in District XIII, and TIA Game Cave once a month on a Friday in District IX.",
+            a: "There's something on most weekdays: an English-language night on Tuesday in District VI, Board Games in English several times a week at changing venues, Andúril's Hungarian club night on Thursday in District XIII, and TIA Game Cave once a month on a Friday in District IX.",
           },
           {
             q: "Do I need to bring my own board game?",

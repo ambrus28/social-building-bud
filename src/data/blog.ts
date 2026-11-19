@@ -509,7 +509,7 @@ export const posts: BlogPost[] = [
         headers: ["Nap", "Közösség", "Helyszín", "Nyelv"],
         rows: [
           ["Kedd, 17:00-tól", "Casual Board Games and Beers", "Beer People, VI. kerület", "Angol"],
-          ["Szerda, 18:00-tól", "Board Games in English", "Vault 51, VI. kerület", "Angol"],
+          ["Hetente többször, jellemzően 18:00-tól", "Board Games in English", "Változó helyszínek, lásd a Meetupot", "Angol"],
           ["Csütörtök, 18:00-23:00", "Andúril Társasjáték Klub", "Visegrádi utca, XIII. kerület", "Magyar"],
           ["Hónap utolsó péntekje, 18:00-tól", "TIA Game Cave", "Bokréta utca, IX. kerület", "Magyar"],
           ["Változó", "Budapest Board Game Nights", "Változó társasjáték-bárok", "Angol"],
@@ -538,11 +538,11 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Hol lehet ingyen társasjátékozni Budapesten?",
-            a: "Az itt felsorolt öt közösségnél nincs belépődíj: kedden a Casual Board Games and Beers, szerdán a Board Games in English, csütörtökön az Andúril Társasjáték Klub, a hónap utolsó péntekjén a TIA Game Cave vár. A bárokban a saját fogyasztásodat fizeted.",
+            a: "Az itt felsorolt öt közösségnél nincs belépődíj: kedden a Casual Board Games and Beers, hetente többször, változó helyszínen a Board Games in English, csütörtökön az Andúril Társasjáték Klub, a hónap utolsó péntekjén a TIA Game Cave vár. A bárokban a saját fogyasztásodat fizeted.",
           },
           {
             q: "Melyik napon van társasjáték-est Budapesten?",
-            a: "Szinte minden hétköznap van valahol: kedden és szerdán angol nyelvű esték a VI. kerületben, csütörtökön az Andúril magyar nyelvű klubestje a XIII. kerületben, havonta egyszer pénteken a TIA Game Cave a IX. kerületben.",
+            a: "Szinte minden hétköznap van valahol: kedden angol nyelvű est a VI. kerületben, hetente többször a Board Games in English változó helyszíneken, csütörtökön az Andúril magyar nyelvű klubestje a XIII. kerületben, havonta egyszer pénteken a TIA Game Cave a IX. kerületben.",
           },
           {
             q: "Kell-e saját társasjátékot vinnem magammal?",
