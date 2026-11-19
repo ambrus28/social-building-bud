@@ -56,7 +56,7 @@ const SEO: Record<string, CategorySeo> = {
     description:
       "Hol lehet társasjátékozni Budapesten? Heti társasjáték-estek keddtől péntekig, magyarul és angolul, kezdőknek is, időpontokkal és helyszínekkel.",
     intro: [
-      "Melyik este van társasjáték Budapesten? Kedden 17 órától a Beer People sörözőben (VI. kerület, Lázár utca, angolul), szerdán 18 órától a Vault 51 Gamer Barban (VI. kerület, Ó utca 51., angolul), csütörtökön 18 és 23 óra között az Andúril klubban (XIII. kerület, Visegrádi utca, magyarul), és minden hónap utolsó péntekén 18 órától a Tia Game Cave-ben (IX. kerület, online jelentkezéssel).",
+      "Melyik este van társasjáték Budapesten? Kedden 17 órától a Beer People sörözőben (VI. kerület, Lázár utca, angolul), a Board Games in English hetente többször, jellemzően 18 órától, változó helyszíneken (az aktuális időpontot a Meetup-oldalukon találod, angolul), csütörtökön 18 és 23 óra között az Andúril klubban (XIII. kerület, Visegrádi utca, magyarul), és minden hónap utolsó péntekén 18 órától a Tia Game Cave-ben (IX. kerület, online jelentkezéssel).",
       "A társasjáték-esték azért kivételesen jó belépők, mert a játék adja a struktúrát: nem neked kell beszélgetést kezdeményezned, elég leülnöd egy asztalhoz. Egy kör alatt óhatatlanul megismersz három-négy embert.",
       "Az itt szereplő közösségek nagy része ingyenes vagy csak a helyszín fogyasztását kéri, és szinte mindenhol van, aki elmagyarázza a szabályokat. Saját játékot nem kell vinni. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
     ],

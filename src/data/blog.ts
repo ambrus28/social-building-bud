@@ -4795,6 +4795,132 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "egyedul-vagy-es-partnert-keresel-igy-ismerkedj-budapesten",
+    title: "Egyedül vagy, és partnert keresel? Így ismerkedj Budapesten randiappok nélkül",
+    metaTitle: "Partnert keresel? Ismerkedj Budapesten appok nélkül",
+    description:
+      "Egyedül vagy, és szívesen megismernél valakit? Közösségek Budapesten, ahol ismétlődő alkalmakon, beszélgetve találkozhatsz másokkal. Őszintén, ígéretek nélkül.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    body: [
+      {
+        type: "p",
+        text: "Ha egyedül vagy, és szívesen megismernél valakit, a legtöbb tanács randiappot ajánl. Ez az útmutató a másik utat mutatja: olyan budapesti közösségeket, ahol ugyanazok az emberek hetente vagy havonta találkoznak, és a beszélgetés a program része. Ezek nem randi-események, és ezt a lista sem állítja, de a rendszeres, közös időtöltés az, ahol sokan természetesen kerülnek közel egymáshoz.",
+      },
+      { type: "h2", text: "Őszintén: ezek nem randi-események" },
+      {
+        type: "p",
+        text: "Egyik itt szereplő közösség sem mondja magáról, hogy szinglik találkozóhelye, és nem tudjuk, ki milyen céllal jár oda. Az, hogy valaki partnert is talál közöttük, mellékes lehetőség, nem ígéret. Amit ténylegesen kapsz: ismétlődő alkalmakat, kötetlen beszélgetést, és azt, hogy az ismerkedésnek nem kell egyetlen estén eldőlnie.",
+      },
+      { type: "h2", text: "Miért érdemes közös program köré építeni az ismerkedést?" },
+      {
+        type: "p",
+        text: "Az amerikai Stanford Egyetem How Couples Meet and Stay Together (HCMST) kutatása évek óta követi, hogyan ismerkednek meg a párok, és a barátokon, közös ismerősökön keresztüli találkozást is külön kategóriaként vizsgálja. A tanulság itt egyszerű: sokan nem célzott keresés közben, hanem közös környezetben találkoznak, ezért érdemes olyan helyre járni, ahol többször is találkozol ugyanazokkal.",
+      },
+      {
+        type: "citation",
+        text: "How Couples Meet and Stay Together (Stanford HCMST)",
+        href: "https://purl.stanford.edu/ns183dp7831",
+      },
+      { type: "h2", text: "Ha a beszélgetés a program része" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "International Socializing Budapest",
+            note: "Minden szombaton 20 órától ismerkedős est a VIII. kerületi Kovász Kultúrbárban (Krúdy utca 8.), helyieknek, expatoknak és utazóknak, ahol nyelveket is gyakorolhatsz. A Meetup-csoportnak több mint 4000 tagja van, a közönség jellemzően húszas-harmincas. A listán ez az egyetlen közösség, amely kifejezetten az ismerkedésről szól.",
+            href: "/klub/international-socializing-budapest",
+          },
+          {
+            name: "Unplugged Club Budapest",
+            note: "Offline közösség helyieknek és expatoknak, ahol a telefon a zsebben marad. A programok változnak (futás, filmest beszélgetéssel, tag rugby, reggeli), a cél pedig az, hogy közös élményeken át mélyebb beszélgetések és ismeretségek jöjjenek létre. A következő alkalmakat a Meetupon találod.",
+            href: "/klub/unplugged-club-budapest",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha játék közben ismerkednél" },
+      {
+        type: "p",
+        text: "Az asztal köré ülve nem neked kell beszélgetést indítanod, a játék ad témát és struktúrát. Ez különösen jó, ha nem szereted az ismerkedős estéket.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Casual Board Games and Beers",
+            note: "Kedden 17 órától a VI. kerületi Beer Peopleben (Lázár utca 7.), angolul, fix kezdési idő nélkül: akkor jössz, amikor tudsz. Catan, Carcassonne, kártya- és kockajátékok is vannak.",
+            href: "/klub/casual-board-games-and-beers",
+          },
+          {
+            name: "Board Games in English",
+            note: "Nemzetközi, angol nyelvű társasjáték-közösség, amely hetente többször, jellemzően 18 órától játszik, változó helyszíneken. Az aktuális időpontot és helyszínt a Meetup-oldalukon találod, indulás előtt mindig nézd meg.",
+            href: "/klub/board-games-in-english",
+          },
+          {
+            name: "Andúril Társasjáték Klub",
+            note: "Csütörtökönként 18 és 23 óra között a XIII. kerületi Visegrádi utcában, havonta egyszer szombaton is. Játékmesterek magyarázzák el a szabályokat, magyar közönséggel, így kezdőként is beülhetsz egy asztalhoz.",
+            href: "/klub/anduril-tarsasjatek-klub",
+          },
+        ],
+      },
+      { type: "h2", text: "Ha mozgás vagy tánc közben ismerkednél" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Latinfo naptár",
+            note: "A budapesti latin táncélet eseményei egy helyen: salsa, bachata, kizomba és zouk bulik, gyakorlások és táncórák, minden héten több alkalommal. Social dance alkalmakon nem párban kell érkezni, a partnerváltás maga a közösségi forma.",
+            href: "/klub/latinfo",
+          },
+          {
+            name: "Running Latte Club",
+            note: "Szerda esténként és hétvégén reggel futnak, egy-egy közös futáson 80-120 ember, a végén kávéval. Sokan és laza hangulatban, ezért könnyű beszélgetésbe elegyedni.",
+            href: "/klub/running-latte-club",
+          },
+        ],
+      },
+      { type: "h2", text: "LMBTQ+ közösségek" },
+      {
+        type: "p",
+        text: "Ha nem a többségi ismerkedési terekben érzed otthon magad, két közösséget érdemes külön megnézni. A Szimpozion Klub 2002 óta működő LMBTQ+ társasági klub, amely minden második szombaton 19:30-tól tart klubestet beszélgetéssel, zenével és társasjátékkal. Nyáron és ünnepeken szünetel, a helyszínt a saját oldalukon nézd meg. A Dykes on Hikes Budapest leszbikus túraközösség, amely rendszeres kirándulásokat szervez Budapest környékén.",
+      },
+      { type: "h2", text: "Hogyan használd ezt a listát?" },
+      {
+        type: "list",
+        items: [
+          "Menj el háromszor ugyanarra az alkalomra, mielőtt eldöntöd, hogy neked való-e. Az első este csak a terepet ismered meg.",
+          "Próbálj ki két különböző formát, például egy beszélgetős estet és egy játékestet.",
+          "Ne a partnerkeresés legyen az egyetlen cél. Aki jól érzi magát egy közösségben, a beszélgetésekben is nyitottabb, és ha nem jön ki belőle párkapcsolat, legalább új ismerőseid lesznek.",
+          "Indulás előtt nézd meg a közösség saját oldalát, mert az időpontok és a helyszínek változhatnak.",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Hol ismerkedhetek Budapesten, ha egyedül vagyok?",
+            a: "Olyan alkalmakon, amelyek rendszeresen ismétlődnek: ismerkedős estén (például szombatonként az International Socializing Budapest), társasjáték-esteken keddtől csütörtökig, vagy táncos estéken a Latinfo naptárából.",
+          },
+          {
+            q: "Van olyan klub Budapesten, ahová szinglik járnak?",
+            a: "A listán egyik közösség sem szinglik találkozójaként működik. Az International Socializing Budapest kifejezetten ismerkedős est, jellemzően húszas-harmincas közönséggel, de ez nem randi-esemény.",
+          },
+          {
+            q: "Egyedül is elmehetek ezekre az alkalmakra?",
+            a: "Igen, ez a formájuk lényege, és a legtöbbnél senki nem vár tőled előzetes tapasztalatot. A pontos feltételeket mindig a közösség saját oldalán nézd meg.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha inkább barátokat és rendszeres társaságot keresnél, nézd meg a Hol találhatsz új társaságot Budapesten? posztunkat is, a Hogyan lesz az ismerősből barát? pedig azt mutatja meg, miért éri meg kitartani.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
