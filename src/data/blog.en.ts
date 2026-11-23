@@ -4775,4 +4775,217 @@ export const postsEn: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "christmas-volunteering-in-budapest",
+    title: "Christmas volunteering in Budapest: December drives and one-off shifts",
+    metaTitle: "Christmas volunteering in Budapest 2026: where to help in December",
+    description:
+      "Shoebox gifts, donation coupons, food handouts and an animal shelter: December volunteering and donation options in Budapest, with deadlines and how to sign up.",
+    kind: "guide",
+    category: "Önkéntesség / Közösségi akció",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    body: [
+      {
+        type: "p",
+        text: "Lots of people want to help in December, but some of the big national drives already happen in November. In 2026 the Hungarian Food Bank's collection ran from 13 to 15 November and the Red Cross winter collection on 6 and 7 November. This post lists what you can still join in December, most of it for a single occasion.",
+      },
+      { type: "h2", text: "December drives with deadlines" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Shoebox appeal (Baptista Szeretetszolgálat)",
+            href: "https://www.ciposdoboz.hu/gyujtopontok/",
+            note: "You pack a shoebox gift for a child aged 0-18 and drop it at a collection point, with no sign-up needed. According to the FAQ, the last day is 19 December. In Budapest, for example, the Millenáris AdományPark (District II, Kis Rókus utca 16-20, building C) takes boxes from 1 to 20 December, weekdays from 13:00.",
+          },
+          {
+            name: "Szeretet éhség campaign (Hungarian Interchurch Aid)",
+            href: "https://segelyszervezet.hu/kampanyok/szeretet-ehseg/",
+            note: "The organisation's 31st Advent campaign. From 16 November to 31 December you can buy 300 forint donation coupons at Tesco checkouts, and you can also give through the 1353 donation line or online. They also have a donation point at the Advent Bazilika market on Szent István tér.",
+          },
+          {
+            name: "Animals' Santa day (Rex Állatsziget)",
+            href: "https://allatsziget.hu/programok/allatok-mikulasa-az-allatszigeten/",
+            note: "On Saturday 5 December the Rex animal shelter holds a family event with Santa at 11:00 and crafts. They collect dog and cat food and cat litter for the shelter animals.",
+          },
+          {
+            name: "Csillagszóró (Hungarian Maltese Charity Service)",
+            href: "https://www.maltai.hu/",
+            note: "You put together a named gift for a child in one of the 113 disadvantaged villages the charity supports, based on the child's wish. Details and sign-up are on the Maltese Charity's site, in Hungarian.",
+          },
+        ],
+      },
+      { type: "h2", text: "Places where you can help once in December" },
+      {
+        type: "p",
+        text: "These communities work all year, December included. More people sign up in December, so message them a week or two in advance.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Heti Betevő",
+            href: "/en/club/heti-betevo",
+            note: "Hot meals are cooked and handed out every Sunday. At Kisüzem in District VII cooking starts around 11:00 and the handout runs from 13:00 to 15:30. Sign up for this one at onkentesek@hetibetevo.hu; for Gólya in District VIII, sign up through their Facebook group.",
+          },
+          {
+            name: "Budapest Bike Maffia: Vitamin Kommandó",
+            href: "/en/club/budapest-bike-maffia",
+            note: "Every Tuesday and Thursday from 18:00 volunteers make sandwiches and deliver them by bike to people in need, starting from Budapest School in District XIII (Pozsonyi út 10). You can join for one evening, but places fill up, so sign up about two weeks ahead.",
+          },
+          {
+            name: "Hungarian Food Bank",
+            href: "/en/club/magyar-elelmiszerbank",
+            note: "Beyond the November drive, you can sign up for one-off warehouse shifts (sorting, packing) at their District XVII warehouse or for rescuing food after events, using the form on their site. They contact you with current openings.",
+          },
+          {
+            name: "Rex Kutyaotthon",
+            href: "https://rex.hu/hu/onkentesseg/onkenteseknek/onkentes-jelentkezes/",
+            note: "Volunteers can walk dogs at the shelter, with walking slots published in a calendar. You can sign up from age 16, with parental consent under 18.",
+          },
+        ],
+      },
+      { type: "h2", text: "Christmas meals for people in need" },
+      {
+        type: "p",
+        text: "The Ételt az Életért Foundation, linked to the Hare Krishna community, has held a Christmas meal in Népliget park for many years. In 2025 it was the 35th edition: from 24 to 26 December about ten thousand people were served, with help from many volunteers. The 2026 dates have not been announced yet.",
+      },
+      {
+        type: "p",
+        text: "The Sant'Egidio Community holds Christmas lunches with the poor around the world, and the Budapest group counts it among its main events of the year. They meet at the Kaniziusz Szent Péter church in District IX. If you'd like to help, ask them in person at one of their Wednesday or Friday evening gatherings.",
+      },
+      {
+        type: "citation",
+        text: "Economx (Hungarian): Christmas meal in Népliget, 2025",
+        href: "https://www.economx.hu/befektetes/2025/12/23/nyugdijas-karacsony-etelosztas-raszorulo-821398/",
+      },
+      { type: "h2", text: "Tips for December" },
+      {
+        type: "list",
+        items: [
+          "Sign up early: more people volunteer in December, so popular slots fill weeks ahead",
+          "If a date is full, ask when the next free slot is: Heti Betevő cooks every Sunday in January too",
+          "Dress in layers for holiday events, since food handouts are often outdoors",
+          "If you're short on time, a shoebox or a donation coupon helps without any shift",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Where can I volunteer at Christmas in Budapest?",
+            a: "In December you can help on Sundays with Heti Betevő, on Tuesday and Thursday evenings with Bike Maffia's Vitamin Kommandó, in one-off shifts at the Food Bank, or at the Rex dog shelter. The Christmas meal in Népliget ran from 24 to 26 December in 2025.",
+          },
+          {
+            q: "What is the deadline for the shoebox appeal?",
+            a: "According to the appeal's FAQ, 19 December. The Millenáris AdományPark collection point in Budapest takes boxes from 1 to 20 December, weekdays from 13:00.",
+          },
+          {
+            q: "Can I volunteer just once?",
+            a: "Yes. You can sign up for a single Sunday with Heti Betevő, a single evening with Bike Maffia, or a one-off warehouse shift with the Food Bank, without membership.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "For options that run all year, see our Volunteer opportunities in Budapest post and the volunteering category on the Budapesti Közösségek list.",
+      },
+    ],
+  },
+  {
+    slug: "alone-for-the-holidays-in-budapest",
+    title: "Alone for the holidays in Budapest? Community events in December",
+    metaTitle: "Christmas alone in Budapest: December community events",
+    description:
+      "Spending Christmas in Budapest on your own? Announced December club meetups, Christmas market hours on 24-26 and 31 December, and where you can help out.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    body: [
+      {
+        type: "p",
+        text: "Plenty of people spend the holidays in Budapest on their own: expats who don't fly home, students, or anyone for whom it worked out that way this year. Some communities pause at the end of December, but a few have already listed events over the holidays. We collected them from the organisers' own pages.",
+      },
+      { type: "h2", text: "Announced December events" },
+      {
+        type: "table",
+        headers: ["When", "What", "Where", "Language"],
+        rows: [
+          ["Friday 4 December, 18:00", "Budapest Silent Book Club, December Hungarian session", "Venue on Meetup", "Hungarian"],
+          ["Sunday 6 December, 13:00", "unplugged club: group entry to the PENNY Santa Run", "Kinizsi utca, District IX", "English"],
+          ["Until 18 December, Wed and Fri 20:00", "Timeleft: dinner with strangers", "Restaurant picked by the app", "English"],
+          ["Every Tuesday 17:00, incl. 22 and 29 December", "Casual Board Games and Beers", "Beer People, District VI", "English"],
+          ["Every Saturday 20:00, incl. 26 December", "International Socializing in Budapest", "Kovász Kultúrbár, District VIII", "English"],
+        ],
+      },
+      {
+        type: "p",
+        text: "The 26 December and late-December Meetup events are recurring listings, and organisers may still change them before the holidays. Check the event page before you go.",
+      },
+      { type: "h2", text: "Christmas days: what's open?" },
+      {
+        type: "p",
+        text: "The two big Christmas markets in the city centre stay open over the holidays and make an easy meeting point if you just want a mulled wine with someone. The Vörösmarty tér market is open from 10:00 to 14:00 on 24 December and from 11:00 to 18:00 on 25 and 26 December. The Advent Bazilika market on Szent István tér is open from 11:00 to 15:00 on 24 December and from 11:00 to 20:00 on 25 and 26 December.",
+      },
+      {
+        type: "p",
+        text: "St Columba's Church of Scotland in District VI (Vörösmarty utca 51) holds an English-language service every Sunday at 11:00.",
+      },
+      { type: "h2", text: "New Year's Eve" },
+      {
+        type: "p",
+        text: "On 31 December both markets stay open until 3:00. According to the Vörösmarty tér market's own site, there's a New Year's Eve party on the square until dawn, so you can arrive alone and still be among people.",
+      },
+      {
+        type: "citation",
+        text: "Vörösmarty Classic Xmas: opening hours (Hungarian)",
+        href: "https://vorosmartyclassicxmas.hu/nyitvatartas",
+      },
+      {
+        type: "citation",
+        text: "Advent Bazilika: opening hours (Hungarian)",
+        href: "http://adventbazilika.hu/",
+      },
+      { type: "h2", text: "If you'd rather help out" },
+      {
+        type: "p",
+        text: "Volunteering is a good option if you don't want to spend the holidays alone: there's a shared task and it's easy to start talking. Heti Betevő cooks and hands out food every Sunday, and the Christmas meal in Népliget relies on many volunteers every year. We collected the details in our Christmas volunteering in Budapest post.",
+      },
+      { type: "h2", text: "Tips if you're alone for the holidays" },
+      {
+        type: "list",
+        items: [
+          "Put the events between 24 and 31 December in your calendar in advance",
+          "Join the clubs' group chats, such as International Socializing's WhatsApp group, since spontaneous plans often come up there over the holidays",
+          "Message the organiser if you're coming alone; most are happy to introduce you to someone",
+          "If you got on well with someone in December, invite them to the next meetup in January",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What can I do alone at Christmas in Budapest?",
+            a: "On Saturday 26 December International Socializing in Budapest has a social evening listed on Meetup at Kovász Kultúrbár, and the Christmas markets are open on the morning of 24 December and during the day on 25 and 26 December. If you'd like to help, Christmas volunteering also puts you in good company.",
+          },
+          {
+            q: "Are the Christmas markets open on 24 December?",
+            a: "Yes, with shorter hours: the Vörösmarty tér market from 10:00 to 14:00, the Advent Bazilika from 11:00 to 15:00.",
+          },
+          {
+            q: "Where is there an English-language church service in Budapest?",
+            a: "St Columba's Church of Scotland (District VI, Vörösmarty utca 51) holds an English-language service every Sunday at 11:00.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "From January the clubs return to their usual rhythm. You'll find the full list by category on the Budapesti Közösségek site.",
+      },
+    ],
+  },
 ];

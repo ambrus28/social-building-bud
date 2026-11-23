@@ -53,6 +53,8 @@ const HU_TO_EN: Record<string, string> = {
   "hogyan-mukodik-a-nyelvcsere-budapesten": "how-language-exchange-works-in-budapest",
   "hogyan-lesz-az-ismerosbol-barat": "how-long-does-it-take-to-make-friends",
   "baratkozos-appok-es-vacsorak-idegenekkel-budapesten": "friendship-apps-and-dinners-with-strangers-in-budapest",
+  "karacsonyi-onkentesseg-budapesten": "christmas-volunteering-in-budapest",
+  "egyedul-az-unnepekre-budapesten": "alone-for-the-holidays-in-budapest",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(

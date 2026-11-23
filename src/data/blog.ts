@@ -4921,6 +4921,219 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "karacsonyi-onkentesseg-budapesten",
+    title: "Karácsonyi önkéntesség Budapesten: decemberi akciók és alkalmak, ahova egyszer is beállhatsz",
+    metaTitle: "Karácsonyi önkéntesség Budapesten 2026: hol segíthetsz decemberben?",
+    description:
+      "Cipősdoboz-akció, adománykupon, ételosztás és állatmenhely: decemberi önkéntes és adományozási lehetőségek Budapesten, határidőkkel és jelentkezési módokkal.",
+    kind: "guide",
+    category: "Önkéntesség / Közösségi akció",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    body: [
+      {
+        type: "p",
+        text: "Decemberben sokan szeretnének segíteni, a nagy országos gyűjtések egy része viszont már novemberben lezajlik. Az Élelmiszerbank tartós élelmiszer-gyűjtése 2026-ban november 13. és 15. között volt, a Vöröskereszt téli gyűjtése november 6-án és 7-én. Ebben a posztban azokat a lehetőségeket gyűjtöttük össze, amelyekbe decemberben is be lehet kapcsolódni, többségükbe egyetlen alkalomra is.",
+      },
+      { type: "h2", text: "Decemberi akciók határidővel" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Cipősdoboz-akció (Baptista Szeretetszolgálat)",
+            href: "https://www.ciposdoboz.hu/gyujtopontok/",
+            note: "Egy cipősdobozba csomagolt ajándékot készítesz egy 0-18 éves gyereknek, és leadod egy gyűjtőponton. Előzetes jelentkezés nem kell. A GYIK szerint legkésőbb december 19-ig lehet leadni. Budapesten például a Millenáris AdományParkban (II. kerület, Kis Rókus utca 16-20., C épület) december 1. és 20. között, hétköznap 13 órától.",
+          },
+          {
+            name: "Szeretet éhség kampány (Ökumenikus Segélyszervezet)",
+            href: "https://segelyszervezet.hu/kampanyok/szeretet-ehseg/",
+            note: "A szervezet 31. adventi kampánya. A Tesco pénztáraiban november 16. és december 31. között 300 forintos adománykupont lehet venni, emellett az 1353-as adományvonalon és online is lehet adni. A Szent István téri Advent Bazilikánál adománypontjuk is van.",
+          },
+          {
+            name: "Állatok Mikulása (Rex Állatsziget)",
+            href: "https://allatsziget.hu/programok/allatok-mikulasa-az-allatszigeten/",
+            note: "December 5-én, szombaton családi program a Rex Állatszigeten 11 órai Mikulással és kézműveskedéssel. Ilyenkor kutya- és macskaeledelt, valamint macskaalmot gyűjtenek a menhely lakóinak.",
+          },
+          {
+            name: "Csillagszóró (Magyar Máltai Szeretetszolgálat)",
+            href: "https://www.maltai.hu/",
+            note: "Névre szóló ajándékot állíthatsz össze egy gyereknek a szervezet által támogatott 113 hátrányos helyzetű település egyikéről, a gyerek kívánsága alapján. A részleteket és a jelentkezést a Máltai oldalán találod.",
+          },
+        ],
+      },
+      { type: "h2", text: "Ahova decemberben is beállhatsz egy alkalomra" },
+      {
+        type: "p",
+        text: "Ezek a közösségek egész évben dolgoznak, és december sem kivétel. Decemberben viszont többen jelentkeznek, ezért érdemes egy-két héttel korábban írni nekik.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Heti Betevő",
+            href: "/klub/heti-betevo",
+            note: "Minden vasárnap meleg ételt főznek és osztanak. A VII. kerületi Kisüzemben 11 óra körül kezdik a főzést, 13 és 15:30 között osztanak. Ide az onkentesek@hetibetevo.hu címen lehet jelentkezni, a VIII. kerületi Gólyába a Facebook-csoportjukon keresztül.",
+          },
+          {
+            name: "Budapest Bike Maffia: Vitamin Kommandó",
+            href: "/klub/budapest-bike-maffia",
+            note: "Minden kedden és csütörtökön 18 órától szendvicset készítenek és kerékpárral kiszállítják a rászorulóknak a XIII. kerületi Budapest Schoolban (Pozsonyi út 10.). Egy alkalomra is be lehet állni, de a helyek gyorsan betelnek, ezért nagyjából két héttel előre érdemes jelentkezni.",
+          },
+          {
+            name: "Magyar Élelmiszerbank Egyesület",
+            href: "/klub/magyar-elelmiszerbank",
+            note: "A novemberi gyűjtésen túl eseti raktári munkára (válogatás, dobozolás) a XVII. kerületi raktárba és rendezvények utáni ételmentésre is lehet jelentkezni az oldalukon lévő űrlapon. A jelentkezés után keresnek meg az aktuális lehetőségekkel.",
+          },
+          {
+            name: "Rex Kutyaotthon",
+            href: "https://rex.hu/hu/onkentesseg/onkenteseknek/onkentes-jelentkezes/",
+            note: "Önkéntesként kutyát sétáltathatsz a menhelyen, a sétáltatási időpontokat naptárban teszik közzé. 16 éves kortól lehet jelentkezni, 18 év alatt szülői hozzájárulással.",
+          },
+        ],
+      },
+      { type: "h2", text: "Karácsonyi ebédek rászorulóknak" },
+      {
+        type: "p",
+        text: "A Krisna-tudatú közösséghez kötődő Ételt az Életért Alapítvány évek óta karácsonyi szeretetlakomát tart a Népligetben. 2025-ben ez már a 35. alkalom volt: december 24. és 26. között nagyjából tízezer embert láttak vendégül, sok önkéntes segítségével. A 2026-os időpontot még nem hirdették meg.",
+      },
+      {
+        type: "p",
+        text: "A Sant'Egidio Közösség világszerte karácsonyi ebédet rendez szegényekkel, és a budapesti csoport is ezt tartja az év egyik fő alkalmának. A közösség a IX. kerületi Kaniziusz Szent Péter-templomban gyűlik. Ha ezen szeretnél segíteni, a szerdai vagy pénteki esti alkalmukon kérdezd meg őket a templomban.",
+      },
+      {
+        type: "citation",
+        text: "Economx: karácsonyi ételosztás a Népligetben (2025)",
+        href: "https://www.economx.hu/befektetes/2025/12/23/nyugdijas-karacsony-etelosztas-raszorulo-821398/",
+      },
+      { type: "h2", text: "Tippek decemberre" },
+      {
+        type: "list",
+        items: [
+          "Jelentkezz minél előbb: decemberben több önkéntes jelentkezik, ezért a népszerű alkalmak hetekkel előre betelnek",
+          "Ha egy időpont betelt, kérdezd meg, mikor van legközelebb hely: a Heti Betevő januárban is minden vasárnap főz",
+          "Ünnepi alkalmakra öltözz rétegesen, mert az ételosztás sokszor szabadtéren zajlik",
+          "Ha nem érsz rá, a cipősdoboz és az adománykupon idő nélkül is segít",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Hol lehet karácsonykor önkénteskedni Budapesten?",
+            a: "Decemberben vasárnaponként a Heti Betevőnél, kedden és csütörtökön a Bike Maffia Vitamin Kommandójánál, eseti műszakokban az Élelmiszerbanknál, valamint a Rex Kutyaotthonban. Az ünnepi ebédek közül a népligeti karácsonyi szeretetlakoma 2025-ben december 24. és 26. között volt.",
+          },
+          {
+            q: "Meddig lehet leadni a cipősdobozt?",
+            a: "A Cipősdoboz-akció GYIK-je szerint legkésőbb december 19-ig. A budapesti Millenáris AdományPark gyűjtőpont december 1. és 20. között fogad dobozokat, hétköznap 13 órától.",
+          },
+          {
+            q: "Lehet egyetlen alkalomra jelentkezni?",
+            a: "Igen. A Heti Betevőnél egy-egy vasárnapra, a Bike Maffiánál egy-egy estére, az Élelmiszerbanknál eseti raktári műszakra is lehet jelentkezni, tagság nélkül.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Az egész évben elérhető lehetőségeket az Önkéntes lehetőségek Budapesten posztunkban és a Budapesti Közösségek önkéntes kategóriájában találod.",
+      },
+    ],
+  },
+  {
+    slug: "egyedul-az-unnepekre-budapesten",
+    title: "Egyedül az ünnepekre Budapesten? Közösségi programok decemberben",
+    metaTitle: "Egyedül karácsonykor Budapesten: decemberi közösségi programok",
+    description:
+      "Ha az ünnepeket Budapesten töltöd egyedül: meghirdetett decemberi klubalkalmak, vásárok nyitvatartása karácsonykor és szilveszterkor, és hol tudsz segíteni.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    body: [
+      {
+        type: "p",
+        text: "Sokan töltik az ünnepeket Budapesten egyedül: külföldiek, akik nem utaznak haza, egyetemisták, vagy bárki, akinek idén így alakult. A közösségek egy része december végén szünetel, néhány alkalmat viszont már meghirdettek az ünnepek idejére is. Ezeket gyűjtöttük össze, a szervezők saját oldalai alapján.",
+      },
+      { type: "h2", text: "Meghirdetett decemberi alkalmak" },
+      {
+        type: "table",
+        headers: ["Mikor", "Mi", "Hol", "Nyelv"],
+        rows: [
+          ["December 4., péntek 18:00", "Budapest Silent Book Club, decemberi magyar könyvklub", "Helyszín a Meetupon", "Magyar"],
+          ["December 6., vasárnap 13:00", "unplugged club: közös nevezés a PENNY Mikulásfutásra", "Kinizsi utca, IX. kerület", "Angol"],
+          ["December 18-ig, szerda és péntek 20:00", "Timeleft: vacsora idegenekkel", "Az app által választott étterem", "Angol"],
+          ["Minden kedd 17:00, december 22-én és 29-én is", "Casual Board Games and Beers", "Beer People, VI. kerület", "Angol"],
+          ["Minden szombat 20:00, december 26-án is", "International Socializing in Budapest", "Kovász Kultúrbár, VIII. kerület", "Angol"],
+        ],
+      },
+      {
+        type: "p",
+        text: "A december 26-i és a december végi Meetup-alkalmak a csoportok ismétlődő eseményei, ezeket a szervezők az ünnepek előtt még módosíthatják. Indulás előtt nézd meg az eseményoldalt.",
+      },
+      { type: "h2", text: "Karácsony napjai: mi van nyitva?" },
+      {
+        type: "p",
+        text: "A két nagy belvárosi karácsonyi vásár az ünnepek alatt is nyitva tart, és jó találkozópont, ha valakivel csak egy forralt borra futnál össze. A Vörösmarty téri vásár december 24-én 10 és 14 óra között, 25-én és 26-án 11 és 18 óra között van nyitva. Az Advent Bazilika a Szent István téren december 24-én 11 és 15 óra között, 25-én és 26-án 11 és 20 óra között tart nyitva.",
+      },
+      {
+        type: "p",
+        text: "Angol nyelvű istentiszteletet minden vasárnap 11 órakor tartanak a VI. kerületi Szent Kolumba skót református templomban (Vörösmarty utca 51.).",
+      },
+      { type: "h2", text: "Szilveszter" },
+      {
+        type: "p",
+        text: "Szilveszterkor mindkét vásár hajnali 3-ig nyitva tart. A Vörösmarty téri vásár saját oldala szerint ilyenkor hajnalig tartó szilveszteri buli is van a téren, így egyedül érkezve is társaságba kerülhetsz.",
+      },
+      {
+        type: "citation",
+        text: "Vörösmarty Classic Xmas: nyitvatartás",
+        href: "https://vorosmartyclassicxmas.hu/nyitvatartas",
+      },
+      {
+        type: "citation",
+        text: "Advent Bazilika: nyitvatartás",
+        href: "http://adventbazilika.hu/",
+      },
+      { type: "h2", text: "Ha inkább segítenél" },
+      {
+        type: "p",
+        text: "Az önkénteskedés jó megoldás, ha nem szeretnéd egyedül tölteni az ünnepeket: közös a feladat, és könnyű szóba elegyedni a többiekkel. A Heti Betevő vasárnaponként főz és oszt ételt, és a népligeti karácsonyi szeretetlakomán is sok önkéntes dolgozik minden évben. A részleteket a Karácsonyi önkéntesség Budapesten posztunkban gyűjtöttük össze.",
+      },
+      { type: "h2", text: "Tippek, ha egyedül vagy az ünnepekre" },
+      {
+        type: "list",
+        items: [
+          "Írd be előre a naptáradba a december 24. és 31. közötti alkalmakat",
+          "Csatlakozz a klubok csoportchatjeihez, például az International Socializing WhatsApp-csoportjához: az ünnepek alatt sokszor ott szerveződnek spontán programok",
+          "Írj a szervezőnek, ha egyedül jönnél, mert a legtöbben szívesen bemutatnak valakinek",
+          "Ha valakivel jól elbeszélgettél decemberben, januárban hívd el egy következő alkalomra",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mit csinálhatok egyedül karácsonykor Budapesten?",
+            a: "December 26-án, szombaton az International Socializing Meetup-listáján szerepel ismerkedős est a Kovász Kultúrbárban, a karácsonyi vásárok pedig 24-én délelőtt, 25-én és 26-án napközben is nyitva vannak. Ha segítenél, a karácsonyi önkéntes alkalmak is jó társaságot jelentenek.",
+          },
+          {
+            q: "Nyitva vannak a karácsonyi vásárok december 24-én?",
+            a: "Igen, rövidített nyitvatartással: a Vörösmarty téri vásár 10 és 14 óra között, az Advent Bazilika 11 és 15 óra között.",
+          },
+          {
+            q: "Hol tartanak angol nyelvű istentiszteletet Budapesten?",
+            a: "A Szent Kolumba skót református templomban (VI. kerület, Vörösmarty utca 51.) minden vasárnap 11 órakor angol nyelvű istentisztelet van.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Januártól a klubok újra rendes ritmusban találkoznak. A teljes listát kategóriák szerint a Budapesti Közösségek oldalán találod.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
