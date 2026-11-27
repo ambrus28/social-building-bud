@@ -5305,6 +5305,105 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "angol-nyelvu-kozossegek-budapesten",
+    title: "Angol nyelvű közösségek Budapesten: hova járhatsz a hét minden napján?",
+    metaTitle: "Angol nyelvű közösségek Budapesten, napokra bontva",
+    description:
+      "Társasjáték, futás, könyvklub, meditáció, túra és ismerkedős estek angolul: budapesti közösségek expatoknak és angolt gyakorlóknak, a hét napjai szerint.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    body: [
+      {
+        type: "p",
+        text: "Budapesten több tucat közösség működik angolul, de a legtöbbjüket nehéz megtalálni, mert Facebook-csoportokban, Meetupon és Instagramon szóródnak szét. Ebben a posztban összegyűjtöttük azokat, amelyek a Budapesti Közösségek listáján szerepelnek, és rendszeresen találkoznak. Jó kiindulópont, ha most költöztél ide, vagy ha magyarként gyakorolnád az angolt társaságban.",
+      },
+      { type: "h2", text: "Melyik napon hova mehetsz?" },
+      {
+        type: "table",
+        headers: ["Nap", "Közösség", "Mi történik", "Hol"],
+        rows: [
+          ["Hétfő vagy szerda", "Board Games in English", "Társasjáték-est, 18 órától", "Változó társasjáték-bárok"],
+          ["Kedd", "Casual Board Games and Beers", "Laza társasjátékozás, 17 órától", "Beer People, VI. kerület"],
+          ["Szerda", "Budapest Ex-Pat & English Language Meetup", "Ismerkedős est sörkóstolással, 19 órától", "Beer People, VI. kerület"],
+          ["Szerda", "Running Latte Club", "Közös futás, utána kávé", "Változó helyszín"],
+          ["Csütörtök", "Gyémánt Út angol nyelvű meditáció", "Vezetett meditáció, 19 órától", "Rózsák tere, VII. kerület"],
+          ["Szombat", "International Socializing in Budapest", "Ismerkedős est, 20 órától", "Kovász Kultúrbár, VIII. kerület"],
+          ["Vasárnap", "Okūma csendes meditáció", "Teaszertartás és csendes ülés, 19 órától", "Okūma teaház, VI. kerület"],
+        ],
+      },
+      { type: "h2", text: "Havonta egyszer" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Közkincs English Book Club",
+            href: "/klub/kozkincs-english-book-club",
+            note: "Angol nyelvű könyvklub a Közkincs Könyvtárban, jellemzően a hónap utolsó szerdáján 19 órától. Nem kell végigolvasni a könyvet ahhoz, hogy csatlakozz.",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            href: "/klub/budapest-silent-book-club",
+            note: "Csendes könyvklub kötelező olvasmány nélkül: mindenki a saját könyvét hozza, és együtt olvastok, havonta több alkalommal.",
+          },
+          {
+            name: "Budapest Hikers",
+            href: "/klub/budapest-hikers",
+            note: "Nemzetközi, angol nyelvű túraközösség havonta egy szervezett túrával Budapest környékére, néha távolabbra is.",
+          },
+          {
+            name: "Startup Hungary: First Monday",
+            href: "/klub/startup-hungary",
+            note: "Havi est alapítóknak, befektetőknek és érdeklődőknek a VI. kerületi Create26-ban, 18 órától, jegyes.",
+          },
+          {
+            name: "DevBP és GDG Budapest",
+            href: "/klub/devbp",
+            note: "Ingyenes, angol nyelvű fejlesztői meetupok előadásokkal, nagyjából havonta. A GDG Budapest alkalmai többnyire a BME-n vannak.",
+          },
+        ],
+      },
+      { type: "h2", text: "Sport angolul" },
+      {
+        type: "p",
+        text: "A WeMove Budapest (BAIS) önkéntesekből álló sportegyesület, amely főleg a Budapesten élő külföldieknek szervez programokat: szerdánként reggel 8-kor ingyenes futást a Margitszigeten, emellett teniszt és bowlingot. A Running Latte Club szerdánként és hétvégén fut, utána kávézik, egy-egy alkalmon 80-120 ember vesz részt. A teljes listát a Futóklubok Budapesten posztunkban találod.",
+      },
+      { type: "h2", text: "Tippek, ha most érkeztél" },
+      {
+        type: "list",
+        items: [
+          "Válassz egy heti alkalmat, és járj el legalább háromszor egymás után: a harmadik alkalomra már ismerős arcok fogadnak",
+          "A Meetup-eseményeknél jelezd, hogy jössz, mert a szervezők ez alapján foglalnak asztalt",
+          "Ha elmész egy estére, csatlakozz a csoport chatjéhez is, sok spontán program ott szerveződik",
+          "Pár magyar szó, például a köszönés és a köszönöm, sokat segít a helyiekkel",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Hol ismerkedhetek angolul Budapesten?",
+            a: "Szerdán 19 órától a Budapest Ex-Pat & English Language Meetupon a Beer Peopleben, szombaton 20 órától az International Socializing in Budapest estjén a Kovász Kultúrbárban. Mindkettőre a Meetupon lehet jelentkezni.",
+          },
+          {
+            q: "Van angol nyelvű könyvklub Budapesten?",
+            a: "Igen, a Közkincs English Book Club havonta tart angol nyelvű könyvklubot a Közkincs Könyvtárban, a Budapest Silent Book Clubon pedig mindenki a saját könyvét olvassa.",
+          },
+          {
+            q: "Milyen sportot űzhetek angolul Budapesten?",
+            a: "Futni a Running Latte Clubbal vagy a WeMove Budapest (BAIS) szerda reggeli futásán, teniszezni és bowlingozni a WeMove-val, túrázni a Budapest Hikersszel.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Minden közösséget kategóriák szerint a Budapesti Közösségek listáján találsz, a klubok adatlapján a saját linkjükkel együtt.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

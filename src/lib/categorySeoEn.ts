@@ -114,9 +114,9 @@ const SEO_EN: Record<string, CategorySeoEn> = {
   },
   Tánc: {
     h1: "Social dance communities in Budapest",
-    title: "Latin and social dance in Budapest: salsa, bachata, kizomba",
+    title: "Social dance in Budapest: folk dance house, swing, tango, salsa",
     description:
-      "Where to dance in Budapest: salsa, bachata, kizomba and zouk parties, practice nights and classes for beginners, from the Latinfo calendar to women-only classes.",
+      "Where to dance in Budapest, even without a partner: a weekly folk dance house at Fonó, Monday swing nights, Tuesday tango milongas and salsa parties via Latinfo.",
     intro: [
       "The whole point of social dance is that you're not supposed to arrive as a couple: you rotate partners on the floor, and that's exactly what makes it a community rather than a date night. Showing up alone isn't awkward, it's the norm.",
       "Most events start with a beginner lesson covering the basic steps, so you can walk in with zero prior experience. This list is hand-curated and kept up to date by Budapesti Közösségek.",

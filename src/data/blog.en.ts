@@ -5146,4 +5146,103 @@ export const postsEn: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "english-speaking-communities-in-budapest",
+    title: "English-speaking communities in Budapest: where to go every day of the week",
+    metaTitle: "English-speaking communities in Budapest, day by day",
+    description:
+      "Board games, running, book clubs, meditation, hiking and social nights in English: Budapest communities for expats and newcomers, organised by day of the week.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    body: [
+      {
+        type: "p",
+        text: "Dozens of communities in Budapest run in English, but most are hard to find because they're scattered across Facebook groups, Meetup and Instagram. This post collects the ones on the Budapesti Közösségek list that meet regularly. It's a good starting point if you've just moved here or want to practise English in company.",
+      },
+      { type: "h2", text: "Which day can you go where?" },
+      {
+        type: "table",
+        headers: ["Day", "Community", "What happens", "Where"],
+        rows: [
+          ["Monday or Wednesday", "Board Games in English", "Board game night, from 18:00", "Rotating board game bars"],
+          ["Tuesday", "Casual Board Games and Beers", "Relaxed board games, from 17:00", "Beer People, District VI"],
+          ["Wednesday", "Budapest Ex-Pat & English Language Meetup", "Social night with beer tasting, from 19:00", "Beer People, District VI"],
+          ["Wednesday", "Running Latte Club", "Group run, then coffee", "Varies"],
+          ["Thursday", "Diamond Way English meditation", "Guided meditation, from 19:00", "Rózsák tere, District VII"],
+          ["Saturday", "International Socializing in Budapest", "Social night, from 20:00", "Kovász Kultúrbár, District VIII"],
+          ["Sunday", "Okūma silent meditation", "Tea ceremony and silent sit, from 19:00", "Okūma teahouse, District VI"],
+        ],
+      },
+      { type: "h2", text: "Once a month" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Közkincs English Book Club",
+            href: "/en/club/kozkincs-english-book-club",
+            note: "An English-language book club at Közkincs Library, usually on the last Wednesday of the month from 19:00. You don't need to have finished the book to join.",
+          },
+          {
+            name: "Budapest Silent Book Club",
+            href: "/en/club/budapest-silent-book-club",
+            note: "A silent book club with no assigned reading: everyone brings their own book and you read together, several times a month.",
+          },
+          {
+            name: "Budapest Hikers",
+            href: "/en/club/budapest-hikers",
+            note: "An international, English-speaking hiking group with one organised hike a month around Budapest and sometimes further away.",
+          },
+          {
+            name: "Startup Hungary: First Monday",
+            href: "/en/club/startup-hungary",
+            note: "A monthly evening for founders, investors and anyone curious at Create26 in District VI, from 18:00, ticketed.",
+          },
+          {
+            name: "DevBP and GDG Budapest",
+            href: "/en/club/devbp",
+            note: "Free English-language developer meetups with talks, roughly monthly. GDG Budapest events are mostly held at BME.",
+          },
+        ],
+      },
+      { type: "h2", text: "Sports in English" },
+      {
+        type: "p",
+        text: "WeMove Budapest (BAIS) is a volunteer-run sports association that organises events mainly for internationals living in Budapest: a free run on Margaret Island on Wednesdays at 8:00, plus tennis and bowling. Running Latte Club runs on Wednesdays and weekends, followed by coffee, with 80-120 people at a session. See our Best running clubs in Budapest post for the full list.",
+      },
+      { type: "h2", text: "Tips if you've just arrived" },
+      {
+        type: "list",
+        items: [
+          "Pick one weekly event and go at least three times in a row: by the third visit you'll recognise faces",
+          "RSVP on Meetup events, since organisers book tables based on the numbers",
+          "After your first evening, join the group chat too, as many spontaneous plans start there",
+          "A few Hungarian words, such as hello and thank you, go a long way with locals",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Where can I meet people in English in Budapest?",
+            a: "On Wednesdays from 19:00 at Budapest Ex-Pat & English Language Meetup at Beer People, and on Saturdays from 20:00 at International Socializing in Budapest at Kovász Kultúrbár. RSVP for both on Meetup.",
+          },
+          {
+            q: "Is there an English book club in Budapest?",
+            a: "Yes. Közkincs English Book Club meets monthly at Közkincs Library, and at the Budapest Silent Book Club everyone reads their own book.",
+          },
+          {
+            q: "Which sports can I do in English in Budapest?",
+            a: "Running with Running Latte Club or WeMove Budapest (BAIS) on Wednesday mornings, tennis and bowling with WeMove, and hiking with Budapest Hikers.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "You'll find every community by category on the Budapesti Közösségek list, with each club's own link on its page.",
+      },
+    ],
+  },
 ];

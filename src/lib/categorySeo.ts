@@ -116,9 +116,9 @@ const SEO: Record<string, CategorySeo> = {
   },
   Tánc: {
     h1: "Táncos közösségek és social dance Budapesten",
-    title: "Latin tánc és social dance Budapesten: salsa, bachata, kizomba",
+    title: "Táncos közösségek Budapesten: táncház, swing, tangó, salsa",
     description:
-      "Hol táncolhatsz Budapesten? Salsa-, bachata-, kizomba- és zoukbulik, gyakorlások és táncórák, kezdőknek is, a Latinfo naptárától a női táncórákig.",
+      "Hol táncolhatsz Budapesten partner nélkül is? Heti táncház a Fonóban, swing est hétfőnként, tangó milonga keddenként, salsa- és bachatabulik a Latinfón.",
     intro: [
       "A social dance formátum lényege, hogy nem párban kell érkezni: a helyszínen cserélgetitek a partnereket, és pont ez teszi közösséggé. Egyedül menni nemhogy furcsa, hanem a szokásos.",
       "A legtöbb esemény előtt van kezdő órakezdés, ahol az alaplépéseket megtanítják, tehát előzetes tudás nélkül is be lehet esni. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",

@@ -56,6 +56,7 @@ const HU_TO_EN: Record<string, string> = {
   "karacsonyi-onkentesseg-budapesten": "christmas-volunteering-in-budapest",
   "egyedul-az-unnepekre-budapesten": "alone-for-the-holidays-in-budapest",
   "ciposdoboz-akcio-2026-budapest": "christmas-shoebox-appeal-budapest",
+  "angol-nyelvu-kozossegek-budapesten": "english-speaking-communities-in-budapest",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(
