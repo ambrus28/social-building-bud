@@ -55,9 +55,10 @@ export default async function CategoryPage({ params }: Props) {
   const others = getCategories().filter((c) => c !== category);
 
   const faq = [
+    ...(seo.faq ?? []),
     {
       q: `Hány ${category.toLowerCase()} közösség van a listán?`,
-      a: `Jelenleg ${list.length} olyan budapesti közösség szerepel ebben a kategóriában, amelyik valóban aktív, és saját Instagram- vagy weboldallal rendelkezik.`,
+      a: `Jelenleg ${list.length} olyan budapesti közösség szerepel ebben a kategóriában, amelyik aktív, és saját Instagram- vagy weboldallal rendelkezik.`,
     },
     {
       q: `Kezdőként is csatlakozhatok egy ${category.toLowerCase()} közösséghez Budapesten?`,

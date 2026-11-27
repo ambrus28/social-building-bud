@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     `${club.name} - Budapest`,
     club.name,
   ];
-  const title = candidates.find((c) => c.length <= 60) ?? club.name;
+  const title = club.seo_title_en ?? candidates.find((c) => c.length <= 60) ?? club.name;
 
   const description = `${club.description_en} See how to join ${club.name} in Budapest.`;
   const url = `/en/club/${club.id}`;

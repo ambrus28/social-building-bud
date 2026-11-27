@@ -7,6 +7,8 @@ export type CategorySeo = {
   description: string;
   /** Bevezető bekezdések a lista fölé. */
   intro: string[];
+  /** Kategóriára szabott GYIK, az általános kérdések elé kerül. */
+  faq?: { q: string; a: string }[];
 };
 
 const SEO: Record<string, CategorySeo> = {
@@ -27,7 +29,17 @@ const SEO: Record<string, CategorySeo> = {
       "Hol gyakorolhatsz nyelvet Budapesten? Heti nyelvcsere- és ismerkedős estek, magyar nyelvklub külföldieknek, időpontokkal, helyszínekkel és linkekkel.",
     intro: [
       "A nyelvcsere alkalmak azért működnek jól első közösségként, mert ott mindenki azzal a szándékkal érkezik, hogy ismeretlenekkel beszélgessen. Nem kell csoportba beépülni, mert a formátum maga oldja fel a helyzetet.",
-      "Az itt listázott közösségek jellemzően heti rendszerességgel találkoznak, és nincs szükség előzetes jelentkezésre. Nyelvtudástól függetlenül lehet menni: a legtöbb helyen külön asztalok vannak a különböző nyelvekhez és szintekhez. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
+      "Hetente két biztos alkalom van: szerdán 19 órától a VI. kerületi Beer Peopleben, szombaton 20 órától a VIII. kerületi Kovász Kultúrbárban, mindkettő angol nyelvű ismerkedős est. Ha magyart tanulsz, a Kerek Perec Magyar Klub nyelvtanárok vezetésével gyakoroltat. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
+    ],
+    faq: [
+      {
+        q: "Hol van nyelvcsere Budapesten ezen a héten?",
+        a: "Szerdán 19 órától a Budapest Ex-Pat & English Language Meetup a Beer Peopleben (VI. kerület, Lázár utca 7.), szombaton 20 órától az International Socializing in Budapest a Kovász Kultúrbárban (VIII. kerület, Krúdy utca 8.). Mindkettőre a Meetupon lehet jelentkezni.",
+      },
+      {
+        q: "Hogyan működik egy nyelvcsere-est?",
+        a: "Megérkezel, kérsz egy italt, és leülsz vagy beállsz egy csoporthoz. A budapesti estek többsége angol nyelvű, kötetlen ismerkedés, külön nyelvasztalok nélkül. Ha célzottan gyakorolnál, keress egy tandempartnert: erről a Hogyan működik a nyelvcsere Budapesten? posztunkban írtunk.",
+      },
     ],
   },
   "Túra / Természetjárás": {
@@ -184,7 +196,7 @@ export function getCategorySeo(category: string, clubCount: number): CategorySeo
     title: `${category} közösségek Budapesten`,
     description: `${category} témájú budapesti közösségek listája. Ingyenes, regisztráció nélkül böngészhető.`,
     intro: [
-      `Ebben a kategóriában jelenleg ${plural} szerepel a listán. Mindegyik valódi, aktív budapesti közösség, saját Instagram- vagy weboldallal.`,
+      `Ebben a kategóriában jelenleg ${plural} szerepel a listán. Mindegyik aktív budapesti közösség, saját Instagram- vagy weboldallal.`,
       "A csatlakozáshoz nem kell rajtunk keresztül regisztrálni: kattints a klub saját linkjére, és vedd fel velük közvetlenül a kapcsolatot. A listát a Budapesti Közösségek állítja össze és frissíti kézzel.",
     ],
   };

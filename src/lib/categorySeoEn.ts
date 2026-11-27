@@ -3,6 +3,8 @@ export type CategorySeoEn = {
   title: string;
   description: string;
   intro: string[];
+  /** Category-specific FAQ, shown before the generic questions. */
+  faq?: { q: string; a: string }[];
 };
 
 const SEO_EN: Record<string, CategorySeoEn> = {
@@ -23,7 +25,21 @@ const SEO_EN: Record<string, CategorySeoEn> = {
       "Where to practise languages in Budapest: weekly language exchange nights, a Hungarian conversation club and social meetups for expats. Times, venues and links.",
     intro: [
       "Language exchange events work well as a first community because everyone shows up with the same intention: talking to strangers. You don't need to break into an existing group, the format itself does that work for you.",
-      "The communities listed here typically meet weekly and don't require advance registration. You can show up regardless of your language level, since most venues set up separate tables for different languages and levels. This list is hand-curated and kept up to date by Budapesti Közösségek.",
+      "There are two reliable weekly evenings: Wednesdays from 19:00 at Beer People in District VI, and Saturdays from 20:00 at Kovász Kultúrbár in District VIII, both English-language social nights. If you're learning Hungarian, Kerek Perec Hungarian Club runs practice sessions led by language teachers. This list is hand-curated and kept up to date by Budapesti Közösségek.",
+    ],
+    faq: [
+      {
+        q: "Where is there a language exchange in Budapest this week?",
+        a: "On Wednesday from 19:00, Budapest Ex-Pat & English Language Meetup at Beer People (District VI, Lázár utca 7); on Saturday from 20:00, International Socializing in Budapest at Kovász Kultúrbár (District VIII, Krúdy utca 8). RSVP for both on Meetup.",
+      },
+      {
+        q: "How does a language exchange night work?",
+        a: "You arrive, get a drink and join a group. Most Budapest evenings are informal English-language socials without separate language tables. For focused practice, find a tandem partner; we explain how in our post on how language exchange works in Budapest.",
+      },
+      {
+        q: "Can I practise Hungarian at a language exchange in Budapest?",
+        a: "Yes. Kerek Perec Hungarian Club is built around practising Hungarian with games and outings, and at the English-language evenings you'll also meet Hungarians happy to switch languages.",
+      },
     ],
   },
   "Túra / Természetjárás": {
@@ -178,7 +194,7 @@ export function getCategorySeoEn(huCategory: string, clubCount: number, enName: 
     title: `${enName} communities in Budapest`,
     description: `A list of Budapest communities focused on ${enName.toLowerCase()}. Free to browse, no sign-up required.`,
     intro: [
-      `This category currently lists ${clubCount} ${plural}. Each one is a real, active Budapest community with its own Instagram or website.`,
+      `This category currently lists ${clubCount} ${plural}. Each one is an active Budapest community with its own Instagram or website.`,
       "There's no need to register with us to join: click through to the community's own link and get in touch with them directly. This list is hand-curated and kept up to date by Budapesti Közösségek.",
     ],
   };

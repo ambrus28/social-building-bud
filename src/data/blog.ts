@@ -237,19 +237,19 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "nyelvcsere-networking-kozossegek-budapesten",
-    title: "3 közösség Budapesten, ahol nyelvet gyakorolhatsz és új embereket ismerhetsz meg",
-    metaTitle: "Nyelvcsere Budapesten: 3 közösség, ahol gyakorolhatsz",
+    title: "5 közösség Budapesten, ahol nyelvet gyakorolhatsz és új embereket ismerhetsz meg",
+    metaTitle: "Nyelvcsere Budapesten: 5 közösség heti időpontokkal",
     description:
       "Helyi és nemzetközi közösségek, ahol nyelvet gyakorolhatsz, digitális nomádokkal, expatokkal vagy egyszerűen nyitott emberekkel ismerkedhetsz Budapesten.",
     kind: "listicle",
     category: "Nyelvcsere / Networking",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-27",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
-        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet élő beszélgetésben. Az alábbi három közösség mind aktív, és mindegyik arra épül, hogy új emberekkel hozzon össze, egy közös nyelv vagy egyszerűen a nyitottság mentén.",
+        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet élő beszélgetésben. Az alábbi öt közösség mind aktív, és mindegyik arra épül, hogy új emberekkel hozzon össze, egy közös nyelv vagy egyszerűen a nyitottság mentén.",
       },
       {
         type: "clublist",
@@ -269,12 +269,22 @@ export const posts: BlogPost[] = [
             note: "Közösség nyitott, hasonló gondolkodású embereknek, akik szeretnének új barátokat találni: rendszeres közösségi buliknak és programoknak ad otthont, nyelvtől és háttértől függetlenül.",
             href: "https://www.instagram.com/havervagy/",
           },
+          {
+            name: "Budapest Ex-Pat & English Language Meetup",
+            note: "Minden szerdán 19 órától angol nyelvű ismerkedős est a VI. kerületi Beer People sörözőben (Lázár utca 7.), kézműves sörkóstolással. Helyiek és expatok vegyesen járnak, alkalmanként 10-20 fő. Ha hétköznap este gyakorolnád az angolt, ez a legegyszerűbb belépő.",
+            href: "/klub/budapest-expat-english-language-meetup",
+          },
+          {
+            name: "Kerek Perec Magyar Klub",
+            note: "Nyelvtanárok által indított magyar nyelvklub külföldieknek, játékos gyakorlással és közös kirándulásokkal. Ha külföldi ismerősöd magyart tanul, vagy magyarként segítenél valakinek, ide érdemes jönni.",
+            href: "/klub/kerek-perec-hungarian-club",
+          },
         ],
       },
       { type: "h2", text: "Melyiket válaszd, ha tényleg nyelvet gyakorolnál?" },
       {
         type: "p",
-        text: "Ha konkrétan nyelvgyakorlás a cél, az International Socializing in Budapest szombat esti alkalmai a legjobb kiindulópont, mert ott helyiek, expatok és utazók keverednek, így angolul és magyarul is könnyen szóba elegyedhetsz. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is kapcsolódnának más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától függetlenül.",
+        text: "Ha konkrétan nyelvgyakorlás a cél, az International Socializing in Budapest szombat esti és az Ex-Pat & English Language Meetup szerda esti alkalmai a legjobb kiindulópont, mert ott helyiek, expatok és utazók keverednek, így angolul és magyarul is könnyen szóba elegyedhetsz. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is kapcsolódnának más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától függetlenül.",
       },
       {
         type: "citation",
@@ -1955,14 +1965,14 @@ export const posts: BlogPost[] = [
   {
     slug: "startup-tech-kozossegek-budapesten",
     title: "Startup és tech közösségek Budapesten: hova érdemes járni?",
-    metaTitle: "Startup és tech közösségek Budapesten",
+    metaTitle: "Startup és tech meetupok Budapesten: First Monday, DevBP, AI",
     description:
       "Melyik budapesti startup és tech meetupra érdemes bemenned, mire számíts érdeklődőként, és hogyan építs kapcsolatokat kínos networking nélkül.",
     kind: "guide",
     category: "Startup / Tech",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
@@ -1998,6 +2008,28 @@ export const posts: BlogPost[] = [
           },
         ],
       },
+      { type: "h2", text: "Rendszeres tech meetupok Budapesten" },
+      {
+        type: "table",
+        headers: ["Esemény", "Milyen gyakran", "Helyszín", "Belépő"],
+        rows: [
+          ["Startup Hungary: First Monday", "Havonta, a hónap elején, 18:00", "Create26, Király utca 26., VI. kerület", "Jegyes, Lumán"],
+          ["DevBP", "Nagyjából havonta, hétköznap 17:30", "Változó tech cégirodák, V. és VI. kerület", "Ingyenes, Meetupon"],
+          ["Applied AI Budapest", "Néhány havonta, 18:00", "Puzl CowOrKing, III. kerület", "Ingyenes, Meetupon"],
+          ["GDG Budapest (Google Developer Group)", "1-2 havonta", "Változó, például BME, XI. kerület", "Ingyenes, Meetupon"],
+          ["ProductTank Budapest", "Évente 3-4 alkalom, 18:00", "Wise, Váci út 80., XIII. kerület", "Ingyenes, Meetupon"],
+          ["PyLadies Budapest", "1-2 havonta, 18:00", "Starschema, Váci út 99., XIII. kerület", "Ingyenes, Meetupon"],
+        ],
+      },
+      {
+        type: "p",
+        text: "A First Monday a neve ellenére nem mindig hétfőn és nem mindig a hónap első napjaiban van: 2026-ban például szeptember 15-én, kedden tartották. Az időpontokat a Startup Hungary Luma-naptárában teszik közzé, a jegy induló cégeknek és érdeklődőknek kedvezőbb, mint befektetőknek. A Startup Hungary december 4. és 6. között ingyenes AI hackathont is szervez a Create26-ban, ide november 30-ig lehet jelentkezni. Az Applied AI Budapest következő alkalma 2027. január 21-én lesz.",
+      },
+      {
+        type: "citation",
+        text: "Startup Hungary: események a Luma-naptárban",
+        href: "https://luma.com/startup-hungary-events",
+      },
       { type: "h2", text: "Mire számíts az első meetupon?" },
       {
         type: "p",
@@ -2030,6 +2062,14 @@ export const posts: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "Mi az a First Monday?",
+            a: "A Startup Hungary havi estje alapítóknak, befektetőknek és érdeklődőknek: általában egy beszélgetés egy ismert alapítóval vagy befektetővel, kérdésekkel, utána networking. 18 órakor kezdődik a VI. kerületi Create26-ban (Király utca 26.), angol nyelvű, és jegyet a Lumán kell venni.",
+          },
+          {
+            q: "Vannak ingyenes tech meetupok Budapesten?",
+            a: "Igen. A DevBP, az Applied AI Budapest, a GDG Budapest, a ProductTank Budapest és a PyLadies Budapest alkalmai ingyenesek, de a Meetupon előre kell jelentkezni, mert a helyek száma korlátozott.",
+          },
           {
             q: "Kell fejlesztőnek vagy alapítónak lennem, hogy bemehessek?",
             a: "Nem. A budapesti startup és tech meetupok többsége nyitott érdeklődőkre is. Senki nem kéri számon a hátteredet, és a résztvevők jelentős része maga is tanulni jött.",
@@ -4931,7 +4971,7 @@ export const posts: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-11-23",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
@@ -4944,7 +4984,7 @@ export const posts: BlogPost[] = [
           {
             name: "Cipősdoboz-akció (Baptista Szeretetszolgálat)",
             href: "https://www.ciposdoboz.hu/gyujtopontok/",
-            note: "Egy cipősdobozba csomagolt ajándékot készítesz egy 0-18 éves gyereknek, és leadod egy gyűjtőponton. Előzetes jelentkezés nem kell. A GYIK szerint legkésőbb december 19-ig lehet leadni. Budapesten például a Millenáris AdományParkban (II. kerület, Kis Rókus utca 16-20., C épület) december 1. és 20. között, hétköznap 13 órától.",
+            note: "Egy cipősdobozba csomagolt ajándékot készítesz egy 0-18 éves gyereknek, és leadod egy gyűjtőponton. Előzetes jelentkezés nem kell. A 2026-os hivatalos bejelentés szerint december 20-ig lehet leadni, a GYIK 19-et ír, így 19-ig biztos. A határidőről, a tiltott tárgyakról és a budapesti gyűjtőpontokról kerületenként külön posztban írtunk: Cipősdoboz-akció 2026 Budapesten.",
           },
           {
             name: "Szeretet éhség kampány (Ökumenikus Segélyszervezet)",
@@ -5026,7 +5066,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Meddig lehet leadni a cipősdobozt?",
-            a: "A Cipősdoboz-akció GYIK-je szerint legkésőbb december 19-ig. A budapesti Millenáris AdományPark gyűjtőpont december 1. és 20. között fogad dobozokat, hétköznap 13 órától.",
+            a: "A 2026-os hivatalos bejelentés szerint december 20-ig, a GYIK szerint december 19-ig, így 19-ig biztos. A budapesti Millenáris AdományPark december 1. és 20. között fogad dobozokat.",
           },
           {
             q: "Lehet egyetlen alkalomra jelentkezni?",
@@ -5131,6 +5171,137 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "Januártól a klubok újra rendes ritmusban találkoznak. A teljes listát kategóriák szerint a Budapesti Közösségek oldalán találod.",
+      },
+    ],
+  },
+  {
+    slug: "ciposdoboz-akcio-2026-budapest",
+    title: "Cipősdoboz-akció 2026 Budapesten: határidő, gyűjtőpontok kerületenként, mit tegyél bele",
+    metaTitle: "Cipősdoboz-akció 2026: határidő és budapesti gyűjtőpontok",
+    description:
+      "Meddig lehet leadni a cipősdobozt 2026-ban, mit szabad és mit nem szabad beletenni, hogyan csomagold, és hol vannak a gyűjtőpontok Budapesten, kerületenként.",
+    kind: "guide",
+    category: "Önkéntesség / Közösségi akció",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    body: [
+      {
+        type: "p",
+        text: "A Baptista Szeretetszolgálat Cipősdoboz-akciója 2026-ban 23. alkalommal indult, november 24-én. Egy cipősdobozba csomagolt ajándékot készítesz egy 0 és 18 év közötti gyereknek, és leadod az ország több mint négyszáz gyűjtőpontjának egyikén. Tavaly 62 450 doboz gyűlt össze. Előzetes jelentkezés nem kell.",
+      },
+      { type: "h2", text: "Meddig lehet leadni a cipősdobozt?" },
+      {
+        type: "p",
+        text: "Az idei indulásról szóló hivatalos hír és a Hogyan készüljön oldal szerint december 20-ig. A Cipősdoboz GYIK-je ugyanakkor december 19-et ír, és a főoldal visszaszámlálója is 19-én éjfélkor jár le. Ha biztosra mennél, add le 19-ig. A budapesti Millenáris AdományPark gyűjtőpont december 1. és 20. között fogad dobozokat.",
+      },
+      {
+        type: "citation",
+        text: "Cipősdoboz: Áll az ajándék, elindult az idei Cipősdoboz-akció (2026)",
+        href: "https://ciposdoboz.hu/hirek/all-az-ajandek-elindult-az-idei-ciposdoboz-akcio/",
+      },
+      { type: "h2", text: "Mit tegyél a dobozba?" },
+      {
+        type: "list",
+        items: [
+          "Mesekönyv, ifjúsági könyv vagy kifestő",
+          "Játék: társasjáték, kártya, építőjáték, baba, kisautó, labda, ugrálókötél",
+          "Tisztálkodószer, például fogkefe, fogkrém, sampon, tusfürdő, fésű vagy kézkrém, mindegyik külön zárható tasakban, hogy ne folyjon ki",
+          "Édesség: cukorka, nyalóka, csoki, keksz",
+          "Írószer és iskolaszer: füzet, toll, filctoll, zsírkréta, színes ceruza, vízfesték, radír, hegyező",
+          "Egy üdvözlőkártya vagy családi fotó pár kedves sorral; a postai vagy e-mail címedet viszont jobb nem beleírni",
+        ],
+      },
+      { type: "h2", text: "Mit ne tegyél bele?" },
+      {
+        type: "list",
+        items: [
+          "Agresszióra ösztönző játékot vagy képet, például játékfegyvert, kést vagy számítógépes játékot",
+          "Konzervet, romlandó élelmiszert vagy gyümölcsöt",
+          "Törékeny tárgyat, például tükröt vagy porcelánbabát",
+          "Gyógyszert",
+          "Törött vagy használhatatlan játékot",
+        ],
+      },
+      { type: "h2", text: "Hogyan csomagold?" },
+      {
+        type: "list",
+        items: [
+          "Használj ép, üres cipősdobozt, vagy az ajándék méretének megfelelő dobozt",
+          "Színes papírral csomagold be, lehetőleg külön a tetejét és külön az alját, mert a dobozokat biztonsági okból átnézik",
+          "Átlátszó ragasztószalaggal vagy madzaggal zárd le, hogy szállításkor ne nyíljon ki",
+          "Írd rá jól láthatóan, kinek szól, például: fiú 12 vagy lány 8",
+        ],
+      },
+      { type: "h2", text: "Gyűjtőpontok Budapesten" },
+      {
+        type: "p",
+        text: "A hivatalos listán több mint száz budapesti gyűjtőpont szerepel, a XX. kerület kivételével minden kerületben. Az alábbi táblázat egy-egy könnyen elérhető pontot mutat kerületenként, a teljes, folyamatosan frissülő lista a Cipősdoboz oldalán van. A nyitvatartást indulás előtt érdemes ott ellenőrizni.",
+      },
+      {
+        type: "table",
+        headers: ["Kerület", "Gyűjtőpont", "Cím", "Nyitva"],
+        rows: [
+          ["I.", "Márai Sándor Művelődési Ház", "Krisztina tér 1.", "H-P 9-18"],
+          ["II.", "Millenáris AdományPark", "Kis Rókus utca 16-20., C épület", "Dec. 1-20.: H-Cs 13-17, P-Szo 11-19, V 11-15"],
+          ["II.", "BKK Ügyfélközpont Széll Kálmán tér", "Metróállomás", "H-V 7-19"],
+          ["III.", "BKK Ügyfélközpont Szentlélek tér", "HÉV-megálló", "H-V 7-19"],
+          ["IV.", "Megyeri Klub", "Megyeri út 207/D", "H-Cs 8-18, P 8-17"],
+          ["V.", "Cipősdoboz Központ", "Városháza Park", "H-V 10-20"],
+          ["VI.", "Baptista Ház", "Munkácsy Mihály utca 1.", "H-P 9-18"],
+          ["VII.", "IVY Coffee", "Péterfy Sándor utca 42.", "H-P 8-18, Szo 9-17"],
+          ["VIII.", "BKK Ügyfélközpont Keleti pályaudvar", "Kerepesi út 2-4.", "H-V 7-19"],
+          ["IX.", "Budapest Park KoriPark", "Fábián Juli tér 1.", "H-Cs 16-20:30, P 16-21:30, Szo-V 10-21:30"],
+          ["X.", "Fitness 5 Kőbánya", "Liget tér 1.", "H-P 6-23, Szo-V 8-20"],
+          ["XI.", "BKK Ügyfélközpont Kelenföld", "Metró-aluljáró, őrmezői kijárat", "H-V 7-19"],
+          ["XII.", "Testnevelési Egyetem", "Alkotás utca 42-48.", "H-V 8-20"],
+          ["XIII.", "Valentina Cipőbolt", "Szent István körút 6.", "H-P 10-18, Szo 10-14"],
+          ["XIV.", "Baptista Szeretetszolgálat központi iroda", "Hungária körút 69.", "H-Cs 9-16:30, P 9-14"],
+          ["XIV.", "IKEA Örs vezér tere", "Örs vezér tere 22.", "H-Szo 10-19, V 10-18"],
+          ["XV.", "Pólus Bevásárlóközpont", "Szentmihályi út 131.", "H-V 10-20"],
+          ["XVI.", "Corvin Művelődési Ház", "Hunyadvár utca 43/c", "H-P 9-20"],
+          ["XVII.", "Fitness 5 KÖKI", "Flamingó köz 6.", "H-V 6-23"],
+          ["XVIII.", "Fitness 5 Sallai", "Cziffra György utca 15/b", "H-P 6-23, Szo-V 8-20"],
+          ["XIX.", "Lantos Johnny Fitness", "Üllői út 243.", "H-P 6-22, Szo-V 8-20"],
+          ["XXI.", "LaGuna Étterem", "Bajcsy-Zsilinszky Endre utca 47.", "H-V 11-22"],
+          ["XXII.", "Campona", "Nagytétényi út 37-43.", "H-Szo 10-20, V 10-19"],
+          ["XXIII.", "IKEA Soroksár", "Vecsési út", "H-Szo 10-19, V 10-18"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "Cipősdoboz: a gyűjtőpontok teljes listája",
+        href: "https://ciposdoboz.hu/gyujtopontok/",
+      },
+      { type: "h2", text: "Ha nincs időd dobozt készíteni" },
+      {
+        type: "p",
+        text: "A Cipősdoboz főoldalán online is lehet dobozt készíteni: kiválasztod, fiúnak vagy lánynak és melyik korosztálynak szól, majd 2000, 5000, 10 000 vagy 25 000 forintot, illetve tetszőleges összeget adsz bankkártyával. A dobozt postán is el lehet küldeni a Baptista Szeretetszolgálat Alapítvány címére: 1143 Budapest, Hungária körút 69.",
+      },
+      {
+        type: "p",
+        text: "Ha önkéntesként is segítenél, a Baptista Szeretetszolgálat önkéntes oldalán lehet regisztrálni, a Cipősdoboz-akció decemberben önkéntesek bevonásával zajlik. Más decemberi lehetőségeket a Karácsonyi önkéntesség Budapesten posztunkban gyűjtöttünk össze.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Meddig lehet leadni a cipősdobozt 2026-ban?",
+            a: "A hivatalos 2026-os bejelentés szerint december 20-ig, a GYIK szerint december 19-ig. Ha biztosra mennél, 19-ig add le. A Millenáris AdományPark december 1. és 20. között fogad dobozokat.",
+          },
+          {
+            q: "Hol adhatom le a cipősdobozt Budapesten?",
+            a: "Több mint száz budapesti gyűjtőponton, például a Városháza Parkban lévő Cipősdoboz Központban (V. kerület, minden nap 10-20), a BKK ügyfélközpontokban, az IKEA áruházakban és a Baptista Szeretetszolgálat Hungária körúti irodájában. A teljes lista a ciposdoboz.hu oldalon van.",
+          },
+          {
+            q: "Mit nem szabad a cipősdobozba tenni?",
+            a: "Játékfegyvert és más agresszióra ösztönző játékot, konzervet, romlandó ételt, gyümölcsöt, törékeny tárgyat, gyógyszert és törött játékot.",
+          },
+          {
+            q: "Lehet online cipősdobozt készíteni?",
+            a: "Igen, a ciposdoboz.hu főoldalán kiválaszthatod a gyerek nemét és korosztályát, és bankkártyával adhatsz 2000 forinttól.",
+          },
+        ],
       },
     ],
   },

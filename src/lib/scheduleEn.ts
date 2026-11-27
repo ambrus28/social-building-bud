@@ -30,6 +30,7 @@ const SCHEDULE_EN: Record<string, string> = {
   "Havi naptár szerint": "Per monthly calendar",
   "Havonta több hétvégi túra": "Several weekend hikes a month",
   "Havonta, utolsó péntek": "Monthly, last Friday",
+  "Havonta, a hónap elején": "Monthly, early in the month",
   "Hétfő és kedd este, szombat reggel": "Monday and Tuesday evenings, Saturday mornings",
   "Kedd este, naptár szerint": "Tuesday evenings, per calendar",
   "Minden kedden 18:00": "Every Tuesday, 18:00",

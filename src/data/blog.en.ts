@@ -220,19 +220,19 @@ export const postsEn: BlogPost[] = [
   },
   {
     slug: "language-exchange-networking-communities-budapest",
-    title: "3 communities in Budapest where you can practice a language and meet new people",
-    metaTitle: "Language exchange in Budapest: 3 communities to try",
+    title: "5 communities in Budapest where you can practice a language and meet new people",
+    metaTitle: "Language exchange in Budapest: 5 groups with weekly times",
     description:
       "Local and international communities where you can practice a language and meet digital nomads, expats, or just open-minded people in Budapest.",
     kind: "listicle",
     category: "Nyelvcsere / Networking",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-08-27",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
-        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in live conversation. All three communities below are active, and each brings new people together, either around a language or simply around meeting people.",
+        text: "Budapest is full of international community: foreigners, digital nomads, and locals who'd love to practice a foreign language in live conversation. All five communities below are active, and each brings new people together, either around a language or simply around meeting people.",
       },
       {
         type: "clublist",
@@ -252,12 +252,22 @@ export const postsEn: BlogPost[] = [
             note: "A community for open, like-minded people who want to make new friends: hosts regular social parties and events, regardless of language or background.",
             href: "https://www.instagram.com/havervagy/",
           },
+          {
+            name: "Budapest Ex-Pat & English Language Meetup",
+            note: "An English-language social evening every Wednesday from 19:00 at Beer People (Lázár utca 7, District VI), with craft beer tasting. Locals and expats mix, usually 10-20 people. The easiest way in if you want to practise English on a weeknight.",
+            href: "/en/club/budapest-expat-english-language-meetup",
+          },
+          {
+            name: "Kerek Perec Hungarian Club",
+            note: "A Hungarian language club for foreigners, started by language teachers, with playful practice and group outings. The place to go if you're learning Hungarian in Budapest.",
+            href: "/en/club/kerek-perec-hungarian-club",
+          },
         ],
       },
       { type: "h2", text: "Which one should you pick if you actually want to practice a language?" },
       {
         type: "p",
-        text: "If practicing a language is the actual goal, International Socializing in Budapest's Saturday evenings are the best starting point, since locals, expats and travellers mix there, so it's easy to strike up a conversation in English or Hungarian. Budapest Digital Nomads is mainly good for those who'd also like to connect professionally with other foreigners, while Havervagy is for anyone simply looking for a new circle of friends, regardless of language or profession.",
+        text: "If practicing a language is the actual goal, International Socializing in Budapest's Saturday evenings and the Ex-Pat & English Language Meetup on Wednesdays are the best starting points, since locals, expats and travellers mix there, so it's easy to strike up a conversation in English or Hungarian. Budapest Digital Nomads is mainly good for those who'd also like to connect professionally with other foreigners, while Havervagy is for anyone simply looking for a new circle of friends, regardless of language or profession.",
       },
       {
         type: "citation",
@@ -1955,14 +1965,14 @@ export const postsEn: BlogPost[] = [
   {
     slug: "startup-and-tech-communities-in-budapest",
     title: "Startup and tech communities in Budapest: where's worth going?",
-    metaTitle: "Startup and tech communities in Budapest",
+    metaTitle: "Startup and tech meetups in Budapest: First Monday, DevBP, AI",
     description:
       "Which Budapest startup and tech meetup is worth attending, what to expect as a curious newcomer, and how to network without it feeling awkward.",
     kind: "guide",
     category: "Startup / Tech",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
@@ -1998,6 +2008,28 @@ export const postsEn: BlogPost[] = [
           },
         ],
       },
+      { type: "h2", text: "Regular tech meetups in Budapest" },
+      {
+        type: "table",
+        headers: ["Event", "How often", "Venue", "Entry"],
+        rows: [
+          ["Startup Hungary: First Monday", "Monthly, early in the month, 18:00", "Create26, Király utca 26, District VI", "Ticketed, on Luma"],
+          ["DevBP", "Roughly monthly, weekdays 17:30", "Rotating tech company offices, Districts V and VI", "Free, on Meetup"],
+          ["Applied AI Budapest", "Every few months, 18:00", "Puzl CowOrKing, District III", "Free, on Meetup"],
+          ["GDG Budapest (Google Developer Group)", "Every 1-2 months", "Varies, e.g. BME, District XI", "Free, on Meetup"],
+          ["ProductTank Budapest", "3-4 times a year, 18:00", "Wise, Váci út 80, District XIII", "Free, on Meetup"],
+          ["PyLadies Budapest", "Every 1-2 months, 18:00", "Starschema, Váci út 99, District XIII", "Free, on Meetup"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Despite the name, First Monday isn't always on a Monday or in the first days of the month: in 2026 one edition was on Tuesday 15 September. Dates are published on Startup Hungary's Luma calendar, and tickets are cheaper for startups and curious visitors than for investors. Startup Hungary also runs a free AI hackathon at Create26 from 4 to 6 December, with applications open until 30 November. Applied AI Budapest meets next on 21 January 2027.",
+      },
+      {
+        type: "citation",
+        text: "Startup Hungary: events on Luma",
+        href: "https://luma.com/startup-hungary-events",
+      },
       { type: "h2", text: "What should you expect at your first meetup?" },
       {
         type: "p",
@@ -2030,6 +2062,14 @@ export const postsEn: BlogPost[] = [
       {
         type: "faq",
         items: [
+          {
+            q: "What is First Monday in Budapest?",
+            a: "Startup Hungary's monthly evening for founders, investors and anyone curious: usually a fireside chat with a well-known founder or investor, Q&A, then networking. It starts at 18:00 at Create26 (Király utca 26, District VI), runs in English, and tickets are sold on Luma.",
+          },
+          {
+            q: "Are there free tech meetups in Budapest?",
+            a: "Yes. DevBP, Applied AI Budapest, GDG Budapest, ProductTank Budapest and PyLadies Budapest are free, but you need to RSVP on Meetup because places are limited.",
+          },
           {
             q: "Do I need to be an engineer or a founder to attend?",
             a: "No. Most Budapest startup and tech meetups are open to the curious too. Nobody checks your background, and a large share of attendees are there to learn themselves.",
@@ -4785,7 +4825,7 @@ export const postsEn: BlogPost[] = [
     category: "Önkéntesség / Közösségi akció",
     author: DEFAULT_AUTHOR_EN,
     publishedAt: "2026-11-23",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-27",
     body: [
       {
         type: "p",
@@ -4798,7 +4838,7 @@ export const postsEn: BlogPost[] = [
           {
             name: "Shoebox appeal (Baptista Szeretetszolgálat)",
             href: "https://www.ciposdoboz.hu/gyujtopontok/",
-            note: "You pack a shoebox gift for a child aged 0-18 and drop it at a collection point, with no sign-up needed. According to the FAQ, the last day is 19 December. In Budapest, for example, the Millenáris AdományPark (District II, Kis Rókus utca 16-20, building C) takes boxes from 1 to 20 December, weekdays from 13:00.",
+            note: "You pack a shoebox gift for a child aged 0-18 and drop it at a collection point, with no sign-up needed. The official 2026 announcement says 20 December, the FAQ says the 19th, so the 19th is safe. We cover the deadline, what not to pack and Budapest drop-off points by district in a separate post: Christmas shoebox appeal 2026 in Budapest.",
           },
           {
             name: "Szeretet éhség campaign (Hungarian Interchurch Aid)",
@@ -4880,7 +4920,7 @@ export const postsEn: BlogPost[] = [
           },
           {
             q: "What is the deadline for the shoebox appeal?",
-            a: "According to the appeal's FAQ, 19 December. The Millenáris AdományPark collection point in Budapest takes boxes from 1 to 20 December, weekdays from 13:00.",
+            a: "The official 2026 announcement says 20 December, the FAQ says 19 December, so the 19th is safe. The Millenáris AdományPark collection point in Budapest takes boxes from 1 to 20 December.",
           },
           {
             q: "Can I volunteer just once?",
@@ -4985,6 +5025,124 @@ export const postsEn: BlogPost[] = [
       {
         type: "p",
         text: "From January the clubs return to their usual rhythm. You'll find the full list by category on the Budapesti Közösségek site.",
+      },
+    ],
+  },
+  {
+    slug: "christmas-shoebox-appeal-budapest",
+    title: "Christmas shoebox appeal 2026 in Budapest: deadline, drop-off points, what to pack",
+    metaTitle: "Shoebox appeal 2026 in Budapest: deadline and drop-off points",
+    description:
+      "How to join Hungary's Cipősdoboz Christmas shoebox appeal from Budapest in 2026: the deadline, what to pack and what not to, and drop-off points by district.",
+    kind: "guide",
+    category: "Önkéntesség / Közösségi akció",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    body: [
+      {
+        type: "p",
+        text: "The Cipősdoboz (shoebox) appeal run by the Hungarian Baptist Aid started its 23rd edition on 24 November 2026. You pack a shoebox gift for a child aged 0 to 18 and drop it at one of more than four hundred collection points across the country. Last year 62,450 boxes were collected. No sign-up is needed, and it's an easy way to take part if you live in Budapest but don't speak Hungarian.",
+      },
+      { type: "h2", text: "What is the deadline?" },
+      {
+        type: "p",
+        text: "According to the official 2026 launch announcement and the how-to page, 20 December. The FAQ says 19 December, and the countdown on the homepage also ends at midnight on the 19th. To be safe, drop your box off by the 19th. The Millenáris AdományPark collection point in Budapest takes boxes from 1 to 20 December.",
+      },
+      {
+        type: "citation",
+        text: "Cipősdoboz (Hungarian): 2026 appeal launch announcement",
+        href: "https://ciposdoboz.hu/hirek/all-az-ajandek-elindult-az-idei-ciposdoboz-akcio/",
+      },
+      { type: "h2", text: "What to pack" },
+      {
+        type: "list",
+        items: [
+          "Storybooks, books for young people or colouring books",
+          "Toys: board games, cards, building toys, dolls, toy cars, balls, skipping ropes",
+          "Toiletries such as a toothbrush, toothpaste, shampoo, shower gel, comb or hand cream, each in its own sealable bag in case it leaks",
+          "Sweets: candy, lollipops, chocolate, biscuits",
+          "Stationery and school supplies: notebooks, pens, felt-tips, crayons, coloured pencils, watercolours, erasers, sharpeners",
+          "A card or family photo with a few kind words, but leave out your postal or email address",
+        ],
+      },
+      { type: "h2", text: "What not to pack" },
+      {
+        type: "list",
+        items: [
+          "Toys or pictures that encourage aggression, such as toy guns, knives or computer games",
+          "Canned food, perishable food or fruit",
+          "Fragile items such as mirrors or porcelain dolls",
+          "Medicine",
+          "Broken or unusable toys",
+        ],
+      },
+      { type: "h2", text: "How to wrap it" },
+      {
+        type: "list",
+        items: [
+          "Use an empty shoebox in good condition, or a box that fits your gift",
+          "Wrap it in colourful paper, ideally the lid and the base separately, because boxes are opened for a safety check",
+          "Close it with clear tape or string so it stays shut in transport",
+          "Write clearly on it who it's for, in Hungarian: fiú 12 for a 12-year-old boy, lány 8 for an 8-year-old girl",
+        ],
+      },
+      { type: "h2", text: "Drop-off points in Budapest" },
+      {
+        type: "p",
+        text: "The official list has more than a hundred Budapest collection points, in every district except District XX. The table shows one easy-to-reach point per district; the full list, which is kept up to date, is on the Cipősdoboz site. Check opening hours there before you go.",
+      },
+      {
+        type: "table",
+        headers: ["District", "Collection point", "Address", "Open"],
+        rows: [
+          ["I", "Márai Sándor Művelődési Ház", "Krisztina tér 1", "Mon-Fri 9-18"],
+          ["II", "Millenáris AdományPark", "Kis Rókus utca 16-20, building C", "1-20 Dec: Mon-Thu 13-17, Fri-Sat 11-19, Sun 11-15"],
+          ["II", "BKK customer centre Széll Kálmán tér", "Metro station", "Daily 7-19"],
+          ["V", "Cipősdoboz Központ", "Városháza Park", "Daily 10-20"],
+          ["VI", "Baptista Ház", "Munkácsy Mihály utca 1", "Mon-Fri 9-18"],
+          ["VII", "IVY Coffee", "Péterfy Sándor utca 42", "Mon-Fri 8-18, Sat 9-17"],
+          ["VIII", "BKK customer centre Keleti station", "Kerepesi út 2-4", "Daily 7-19"],
+          ["IX", "Budapest Park KoriPark", "Fábián Juli tér 1", "Mon-Thu 16-20:30, Fri 16-21:30, Sat-Sun 10-21:30"],
+          ["XI", "BKK customer centre Kelenföld", "Metro underpass, Őrmező exit", "Daily 7-19"],
+          ["XII", "Hungarian University of Sports Science", "Alkotás utca 42-48", "Daily 8-20"],
+          ["XIII", "Valentina shoe shop", "Szent István körút 6", "Mon-Fri 10-18, Sat 10-14"],
+          ["XIV", "Baptist Aid head office", "Hungária körút 69", "Mon-Thu 9-16:30, Fri 9-14"],
+          ["XIV", "IKEA Örs vezér tere", "Örs vezér tere 22", "Mon-Sat 10-19, Sun 10-18"],
+          ["XXII", "Campona", "Nagytétényi út 37-43", "Mon-Sat 10-20, Sun 10-19"],
+          ["XXIII", "IKEA Soroksár", "Vecsési út", "Mon-Sat 10-19, Sun 10-18"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "Cipősdoboz (Hungarian): full list of collection points",
+        href: "https://ciposdoboz.hu/gyujtopontok/",
+      },
+      { type: "h2", text: "No time to pack a box?" },
+      {
+        type: "p",
+        text: "The Cipősdoboz homepage has an online option: choose whether the box is for a boy or a girl and the age group, then give 2,000, 5,000, 10,000 or 25,000 forints, or any amount, by card. You can also post a box to Baptista Szeretetszolgálat Alapítvány, 1143 Budapest, Hungária körút 69.",
+      },
+      {
+        type: "p",
+        text: "For other ways to help this month, see our Christmas volunteering in Budapest post.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What is the deadline for the 2026 shoebox appeal?",
+            a: "The official 2026 announcement says 20 December, the FAQ says 19 December. To be safe, drop your box off by the 19th. The Millenáris AdományPark point takes boxes from 1 to 20 December.",
+          },
+          {
+            q: "Where can I drop off a shoebox in Budapest?",
+            a: "At more than a hundred points, for example the Cipősdoboz Központ in Városháza Park (District V, daily 10-20), BKK customer centres, IKEA stores and the Baptist Aid office on Hungária körút. The full list is on ciposdoboz.hu.",
+          },
+          {
+            q: "Can I take part if I don't speak Hungarian?",
+            a: "Yes. You only need to pack the box, label it in Hungarian (fiú for boy, lány for girl, plus the age) and drop it off. No registration or conversation is needed.",
+          },
+        ],
       },
     ],
   },

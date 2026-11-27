@@ -57,6 +57,20 @@
     "type": "Közösség"
   },
   {
+    "id": "budapest-expat-english-language-meetup",
+    "name": "Budapest Ex-Pat & English Language Meetup",
+    "category": "Nyelvcsere / Networking",
+    "district": "VI. kerület",
+    "description": "Angol nyelvű ismerkedős est minden szerdán 19 órától a VI. kerületi Beer People sörözőben (Lázár utca 7.), kézműves sörkóstolással egybekötve. Expatok és angolt gyakorló helyiek járnak ide, alkalmanként 10-20 fő, a Meetup-csoportnak közel 1900 tagja van. A jelentkezés a Meetupon megy.",
+    "description_en": "An English-language social evening every Wednesday from 19:00 at Beer People (Lázár utca 7, District VI), combined with craft beer tasting. Expats and locals practising their English come along, usually 10-20 people per evening, and the Meetup group has close to 1,900 members. RSVP on Meetup.",
+    "schedule": "Szerda este",
+    "website_url": "https://www.meetup.com/budapest-intentional-communities-meetup-group/",
+    "instagram_url": null,
+    "image_url": "/images/clubs/nyelvcsere-networking-budapest-expat-english-language-meetup.jpg",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
     "id": "kerek-perec-hungarian-club",
     "name": "Kerek Perec Magyar Klub",
     "category": "Nyelvcsere / Networking",
@@ -250,15 +264,16 @@
     "seo_title": "First Monday és Startup Hungary: hogyan vegyél részt?",
     "category": "Startup / Tech",
     "district": null,
-    "description": "Vállalkozók által vezetett közösség, amely a magyar startup ökoszisztémát építi: havonta tartják a First Monday estéket befektetőkkel és alapítókkal, emellett workshopokat és alapítói programokat szerveznek. A First Monday jegyes esemény, a havi hírlevelük ingyenes.",
-    "description_en": "A founder-led community building Hungary's startup ecosystem: it runs monthly First Monday evenings with investors and founders, plus workshops and founder programmes. First Monday is a ticketed event; their monthly newsletter is free.",
-    "schedule": null,
+    "description": "Vállalkozók által vezetett közösség, amely a magyar startup ökoszisztémát építi. Havonta tartják a First Monday estéket: 18 órától beszélgetés egy ismert alapítóval vagy befektetővel, kérdések, utána networking a VI. kerületi Create26-ban (Király utca 26.). A First Monday angol nyelvű, jegyes esemény, a jegyet a Lumán kell megvenni. Emellett hackathonokat, workshopokat és alapítói programokat is szerveznek.",
+    "description_en": "A founder-led community building Hungary's startup ecosystem. Its monthly First Monday evenings start at 18:00 at Create26 (Király utca 26, District VI) with a fireside chat with a known founder or investor, Q&A and networking. First Monday is in English and ticketed, with tickets sold on Luma. They also run hackathons, workshops and founder programmes.",
+    "schedule": "Havonta, a hónap elején",
     "website_url": "https://www.startuphungary.io/",
     "instagram_url": "https://www.instagram.com/startup_hungary/",
     "image_url": "/images/clubs/startup-tech-startup-hungary-budapest.jpg",
     "featured": true,
     "type": "Közösség",
-    "cost": "paid"
+    "cost": "paid",
+    "seo_title_en": "First Monday by Startup Hungary: how to attend in Budapest"
   },
   {
     "id": "ai-meetup-budapest",
@@ -490,7 +505,8 @@
     "image_url": "/images/clubs/tura-termeszetjaras-budapest-hikers.jpg",
     "featured": false,
     "type": "Közösség",
-    "cost": "paid"
+    "cost": "paid",
+    "seo_title_en": "Budapest Hikers: monthly guided hikes in English"
   },
   {
     "id": "budapest-bike-polo",
@@ -648,7 +664,9 @@
     "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-heti-betevo.jpg",
     "featured": false,
     "type": "Közösség",
-    "cost": "free"
+    "cost": "free",
+    "seo_title": "Heti Betevő Egyesület: vasárnapi ételosztás, önkéntesség",
+    "seo_title_en": "Heti Betevő: Sunday food handouts and how to volunteer"
   },
   {
     "id": "magyar-elelmiszerbank",
@@ -663,7 +681,8 @@
     "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-magyar-elelmiszerbank.jpg",
     "featured": false,
     "type": "Közösség",
-    "cost": "free"
+    "cost": "free",
+    "seo_title": "Magyar Élelmiszerbank: önkéntes jelentkezés Budapesten"
   },
   {
     "id": "budavari-baba-mama-klub",
@@ -738,7 +757,9 @@
     "image_url": "/images/clubs/sport-garmin-running-club.jpg",
     "featured": false,
     "type": "Közösség",
-    "cost": "free"
+    "cost": "free",
+    "seo_title": "Garmin Running Club Budapest: ingyenes edzések, időpontok",
+    "seo_title_en": "Garmin Running Club Budapest: free coached runs and times"
   },
   {
     "id": "runanas",
@@ -828,7 +849,9 @@
     "image_url": "/images/clubs/startup-tech-devbp.jpg",
     "featured": false,
     "type": "Közösség",
-    "cost": "free"
+    "cost": "free",
+    "seo_title": "DevBP meetup Budapest: ingyenes fejlesztői előadások",
+    "seo_title_en": "DevBP: free software engineering meetup in Budapest"
   },
   {
     "id": "gradient-hiking",

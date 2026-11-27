@@ -57,9 +57,10 @@ export default async function CategoryPageEn({ params }: Props) {
   const othersSorted = [...others].sort((a, b) => getCategoryEn(a).name.localeCompare(getCategoryEn(b).name));
 
   const faq = [
+    ...(seo.faq ?? []),
     {
       q: `How many ${categoryEn.name.toLowerCase()} communities are on the list?`,
-      a: `There are currently ${list.length} genuinely active Budapest communities in this category, each with their own Instagram or website.`,
+      a: `There are currently ${list.length} active Budapest communities in this category, each with their own Instagram or website.`,
     },
     {
       q: `Can I join a ${categoryEn.name.toLowerCase()} community in Budapest as a beginner?`,
